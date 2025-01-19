@@ -4,7 +4,6 @@
 	"description": "Fairwater Brewery blog",
 	"type": "module",
 	"scripts": {
-		//"build": "env NODE_ENV=production npx @11ty/eleventy --pathprefix 'FairwaterBrewery-site'",
 		"build": "npx @11ty/eleventy",
 		"build-nocolor": "cross-env NODE_DISABLE_COLORS=1 npx @11ty/eleventy",
 		"build-ghpages": "npx @11ty/eleventy",
