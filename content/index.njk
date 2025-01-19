@@ -23,7 +23,7 @@ const numberOfLatestPostsToShow = 10;
 {#
 <ul>
 	{%- for entry in collections.all %}
-	<li><a href="{{ entry.url }}"><code>{{ entry.url }}</code></a></li>
+	<li><a href="{{ entry.url | url}}"><code>{{ entry.url }}</code></a></li>
 	{%- endfor %}
 </ul>
 #}

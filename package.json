@@ -1,10 +1,10 @@
 {
-	"name": "eleventy-base-blog",
-	"version": "9.0.0",
-	"description": "A starter repository for a blog web site using the Eleventy site generator.",
+	"name": "fairwater-brewery",
+	"version": "1.0.0",
+	"description": "Fairwater Brewery blog",
 	"type": "module",
 	"scripts": {
-		"build": "npx @11ty/eleventy",
+		"build": "env NODE_ENV=production npx @11ty/eleventy --pathprefix 'FairwaterBrewery-site'",
 		"build-nocolor": "cross-env NODE_DISABLE_COLORS=1 npx @11ty/eleventy",
 		"build-ghpages": "npx @11ty/eleventy --pathprefix=/eleventy-base-blog/",
 		"start": "npx @11ty/eleventy --serve --quiet",
@@ -15,12 +15,12 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/11ty/eleventy-base-blog.git"
+		"url": "git://github.com/FairwaterBrewery/FairwaterBrewery-site.git"
 	},
 	"author": {
-		"name": "Zach Leatherman",
-		"email": "zachleatherman@gmail.com",
-		"url": "https://zachleat.com/"
+		"name": "Bryan Robson",
+		"email": "bryan@fairwater-brewery.co.uk",
+		"url": "https://fairwater-brewery.co.uk/"
 	},
 	"license": "MIT",
 	"engines": {
