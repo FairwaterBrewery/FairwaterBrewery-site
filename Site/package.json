@@ -1,14 +1,21 @@
 {
-  "name": "site",
+  "name": "Fairwater Brewery",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx @11ty/eleventy",
+    "build-ghpages": "npx @11ty/eleventy --pathprefix=/eleventy-base-blog/",
+		"start": "npx @11ty/eleventy --serve --quiet",
+		"start-ghpages": "npx @11ty/eleventy --pathprefix=/eleventy-base-blog/ --serve --quiet"
   },
   "keywords": [],
-  "author": "",
+  "author": {
+		"name": "Bryan Robson",
+		"email": "bryan@fairwater-brewery.co.uk",
+		"url": "https://fairwater-brewery.co.uk/"
+	},
   "license": "ISC",
-  "description": "",
+  "description": "The website for the Fairwater Brewery",
   "dependencies": {
     "@11ty/eleventy": "^3.0.0"
   }
