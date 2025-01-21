@@ -502,7 +502,7 @@ img.sitelogo  {
 }
 
 div.banner {
-	background-image: url('/img/Hops Banner.png'); 
+	background-image: url('/img/site/Hops Banner.png'); 
 	width:920px; 
 	height:150px; 
 	border: solid; 
@@ -518,7 +518,7 @@ div.banner {
 		<header>
 			<div class="banner"></div>
 			<br>
-			<img class="sitelogo" src="/img/FBLogo.gif" alt="Fairwater Brewey Logo - a black cat pushing against a barrel">
+			<picture><source type="image/avif" srcset="/img/iEMfCWLK-4-194.avif 194w"><source type="image/webp" srcset="/img/iEMfCWLK-4-194.webp 194w"><img loading="lazy" decoding="async" src="/img/iEMfCWLK-4-194.gif" class="sitelogo" alt="Fairwater Brewey Logo - a black cat pushing against a barrel" width="194" height="139"></picture>
 			<a href="/" class="home-link">Fairwater Brewery</a>
 			<nav>
 				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
@@ -527,6 +527,7 @@ div.banner {
 					<li class="nav-item"><a href="/blog/">Archive</a></li>
 					<li class="nav-item"><a href="/recipes/">Recipes</a></li>
 					<li class="nav-item"><a href="/about/">About</a></li>
+					<li class="nav-item"><a href="/tags/">Tags</a></li>
 					<li class="nav-item"><a href="/feed/feed.xml">Feed</a></li>
 				</ul>
 			</nav>
@@ -539,13 +540,12 @@ div.banner {
 
 <ul class="post-metadata">
 	<li><time datetime="2025-01-19">19 January 2025</time></li>
+	<li><a href="/tags/housekeeping/" class="post-tag">housekeeping</a></li>
 </ul>
 
 <p>It's been a while since I mothballed the original Fairwater Brewery site, as I didn't want to pay for the hosting any more.</p>
 <p>But I never really wanted to lose the site, so finally it is making its way back to life, as a static site created by Eleventy.</p>
 <p>Actual content is to come, so far this is all about getting something up and running that looks ok, and gives me a basis to build on.</p>
-<p><a href="/recipes/bigger-oregonian.xml" target="_blank">Bigger Oregonian BeerXML file</a></p>
-<p><a href="/recipes/bigger-oregonian/">The recipe</a></p>
 <p>I doubt I'll be able to recreate the old posts, but I do still have all the data so I might at least upload all the old beer.xml recipes.</p>
 
 <ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/blog/fourthpost/">This is my fourth post</a></li>
@@ -558,7 +558,7 @@ div.banner {
 			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></em></p>
 		</footer>
 
-		<!-- This page `/blog/2025/01/19/welcome-back/` was built on 2025-01-21T16:30:52.934Z -->
+		<!-- This page `/blog/2025/01/19/welcome-back/` was built on 2025-01-21T18:32:00.929Z -->
 		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
 	</body>
 </html>
