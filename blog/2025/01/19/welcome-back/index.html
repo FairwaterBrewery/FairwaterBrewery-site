@@ -457,6 +457,63 @@ header {
 }
 .post-metadata time {
 	margin-right: 1em;
+}
+
+/* Recipe */
+.recipe ul {
+	columns: 2;
+	-webkit-columns: 2;
+	-moz-columns: 2;
+}
+
+.recipe table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.recipe th, td {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+.recipe tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+.recipe .fermentables th {
+	background-color: #d6c67c;
+	color: #555;
+	text-align: left;
+}
+
+.recipe .hops th {
+	background-color: #83d67c;
+	color: #555;
+	text-align: left;
+}
+
+.recipe p {
+	font-style: italic;
+}
+
+.prevnext {
+	width: 100%;
+	overflow: hidden; /* Clear floats */
+}
+.prev, .next {
+	padding: 10px 20px;
+	text-align: center;
+	background-color: #f1f1f1;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	text-decoration: none;
+	color: #333;
+}
+.prev {
+	float: left;
+}
+.next {
+	float: right;
 }</style>
 	</head>
 	<body>
@@ -469,6 +526,7 @@ header {
 				<ul class="nav">
 					<li class="nav-item"><a href="/">Home</a></li>
 					<li class="nav-item"><a href="/blog/">Archive</a></li>
+					<li class="nav-item"><a href="/recipes/">Recipes</a></li>
 					<li class="nav-item"><a href="/about/">About</a></li>
 					<li class="nav-item"><a href="/feed/feed.xml">Feed</a></li>
 				</ul>
@@ -487,6 +545,8 @@ header {
 <p>It's been a while since I mothballed the original Fairwater Brewery site, as I didn't want to pay for the hosting any more.</p>
 <p>But I never really wanted to lose the site, so finally it is making its way back to life, as a static site created by Eleventy.</p>
 <p>Actual content is to come, so far this is all about getting something up and running that looks ok, and gives me a basis to build on.</p>
+<p><a href="/recipes/bigger-oregonian.xml" target="_blank">Bigger Oregonian BeerXML file</a></p>
+<p><a href="/recipes/bigger-oregonian/">The recipe</a></p>
 <p>I doubt I'll be able to recreate the old posts, but I do still have all the data so I might at least upload all the old beer.xml recipes.</p>
 
 <ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/blog/fourthpost/">This is my fourth post</a></li>
@@ -499,7 +559,7 @@ header {
 			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></em></p>
 		</footer>
 
-		<!-- This page `/blog/2025/01/19/welcome-back/` was built on 2025-01-19T16:02:07.774Z -->
+		<!-- This page `/blog/2025/01/19/welcome-back/` was built on 2025-01-21T11:57:35.297Z -->
 		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
 	</body>
 </html>

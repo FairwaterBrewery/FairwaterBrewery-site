@@ -307,6 +307,63 @@ header {
 }
 .post-metadata time {
 	margin-right: 1em;
+}
+
+/* Recipe */
+.recipe ul {
+	columns: 2;
+	-webkit-columns: 2;
+	-moz-columns: 2;
+}
+
+.recipe table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.recipe th, td {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+.recipe tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+.recipe .fermentables th {
+	background-color: #d6c67c;
+	color: #555;
+	text-align: left;
+}
+
+.recipe .hops th {
+	background-color: #83d67c;
+	color: #555;
+	text-align: left;
+}
+
+.recipe p {
+	font-style: italic;
+}
+
+.prevnext {
+	width: 100%;
+	overflow: hidden; /* Clear floats */
+}
+.prev, .next {
+	padding: 10px 20px;
+	text-align: center;
+	background-color: #f1f1f1;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	text-decoration: none;
+	color: #333;
+}
+.prev {
+	float: left;
+}
+.next {
+	float: right;
 }</style>
 	</head>
 	<body>
@@ -319,6 +376,7 @@ header {
 				<ul class="nav">
 					<li class="nav-item"><a href="/">Home</a></li>
 					<li class="nav-item"><a href="/blog/">Archive</a></li>
+					<li class="nav-item"><a href="/recipes/">Recipes</a></li>
 					<li class="nav-item"><a href="/about/">About</a></li>
 					<li class="nav-item"><a href="/feed/feed.xml">Feed</a></li>
 				</ul>
@@ -361,7 +419,7 @@ This will work for both GitHub pages and Netlify:
 			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></em></p>
 		</footer>
 
-		<!-- This page `/404.html` was built on 2025-01-19T16:02:07.772Z -->
+		<!-- This page `/404.html` was built on 2025-01-21T11:57:35.294Z -->
 		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
 	</body>
 </html>

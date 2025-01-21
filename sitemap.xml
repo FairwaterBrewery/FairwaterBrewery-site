@@ -28,26 +28,36 @@
 	
 	<url>
 		<loc>https://fairwater-brewery.co.uk/about/</loc>
-		<lastmod>2025-01-19</lastmod>
+		<lastmod>2025-01-21</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://fairwater-brewery.co.uk/blog/</loc>
-		<lastmod>2025-01-19</lastmod>
+		<lastmod>2025-01-21</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://fairwater-brewery.co.uk/</loc>
-		<lastmod>2025-01-19</lastmod>
+		<lastmod>2025-01-21</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://fairwater-brewery.co.uk/recipes/</loc>
+		<lastmod>2025-01-21</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://fairwater-brewery.co.uk/recipes/bigger-oregonian/</loc>
+		<lastmod>2025-01-21</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://fairwater-brewery.co.uk/tags/</loc>
-		<lastmod>2025-01-19</lastmod>
+		<lastmod>2025-01-21</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://fairwater-brewery.co.uk/feed/feed.xml</loc>
-		<lastmod>2025-01-19</lastmod>
+		<lastmod>2025-01-21</lastmod>
 	</url>
 </urlset>
