@@ -5,7 +5,7 @@ const eleventyNavigation = {
 };
 const pagination = {
   data: "recipes",
-  size: 1
+  size: 10
 };
 ---
 <h1>Recipe list</h1>
@@ -15,8 +15,9 @@ const pagination = {
     <li><a href="/recipes/{{ item.file }}">{{ item.file }}</a></li>
     {% endfor -%}
 </ol>
-<hr>
-<div class="prevnext">
-  <div class="prev">{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">Previous</a>{% else %}Previous{% endif %}</div>
-  <div class="next">{% if pagination.href.next %}<a href="{{ pagination.href.next }}">Next</a>{% else %}Next{% endif %}</div>
-</div>
+{%- if pagination.href.previous or pagination.href.next %}
+<ul class="links-nextprev">
+	<li class="links-nextprev-prev">{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">← Previous</a>{% else %}&nbsp;{% endif %}</li>
+	<li class="links-nextprev-next">{% if pagination.href.next %}<a href="{{ pagination.href.next }}">Next →</a>{% else %}&nbsp;{% endif %}</li>
+</ul>
+{%- endif %}

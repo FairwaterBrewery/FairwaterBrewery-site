@@ -30,6 +30,7 @@ export default async function(eleventyConfig) {
 
 	// Watch images for the image pipeline.
 	eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpg,jpeg,gif}");
+	eleventyConfig.addWatchTarget("public/img/**/*.{svg,webp,png,jpg,jpeg,gif}");
 
 	// Per-page bundles, see https://github.com/11ty/eleventy-plugin-bundle
 	// Adds the {% css %} paired shortcode
@@ -110,17 +111,11 @@ export default async function(eleventyConfig) {
 
 	eleventyConfig.addPlugin(EleventyRenderPlugin);
 
-	eleventyConfig.addFilter("filter", function (arr=[], key="", value) {
+	eleventyConfig.addFilter("hopfilter", function (arr=[], key="", value) {
 		let items = arr?.filter(item => item[key][0] === value);
 		return items;
 	});
-/*
-	eleventyConfig.addDataExtension("xml", async (contents) => {
-		let results = await xml2js.parseStringPromise(contents);
-		console.log(results.RECIPES.RECIPE[0].NAME);
-		return results.RECIPES.RECIPE[0];
-	});
-*/
+
 	// Features to make your build faster (when you need them)
 
 	// If your passthrough copy gets heavy and cumbersome, add this line

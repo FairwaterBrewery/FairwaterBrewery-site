@@ -40,6 +40,11 @@
 		<a href="#skip" class="visually-hidden">Skip to main content</a>
 
 		<header>
+			<div class="banner"></div>
+			<br/>
+			<img class="sitelogo" eleventy:ignore
+			src="{{ metadata.logo | log }}"
+			alt="{{ metadata.logoAlt }}"/>
 			<a href="/" class="home-link">{{ metadata.title }}</a>
 
 			{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}

@@ -60,7 +60,7 @@ permalink: "recipes/{{ pagination.items[0].file | slugify }}/index.html"
 			<th width="20%">Amount (g)</th>
 			<th width="10%">Time (mins)</th>
 		</tr>
-        {% set mashHops = recipe.hops[0].hop | filter("use", "Mash") %}
+        {% set mashHops = recipe.hops[0].hop | hopfilter("use", "Mash") %}
         {% for hop in mashHops %} 
         <tr>
             <td>{{ hop.name }}</td>
@@ -71,7 +71,7 @@ permalink: "recipes/{{ pagination.items[0].file | slugify }}/index.html"
         </tr>
         {% endfor -%}
 
-        {% set mashHops = recipe.hops[0].hop | filter("use", "First Wort") %}
+        {% set mashHops = recipe.hops[0].hop | hopfilter("use", "First Wort") %}
         {% for hop in mashHops %} 
         <tr>
             <td>{{ hop.name }}</td>
@@ -82,7 +82,7 @@ permalink: "recipes/{{ pagination.items[0].file | slugify }}/index.html"
         </tr>
         {% endfor -%}
 
-        {% set boilHops = recipe.hops[0].hop | filter("use", "Boil") %}
+        {% set boilHops = recipe.hops[0].hop | hopfilter("use", "Boil") %}
         {% for hop in boilHops %} 
         <tr>
             <td>{{ hop.name }}</td>
@@ -93,7 +93,7 @@ permalink: "recipes/{{ pagination.items[0].file | slugify }}/index.html"
         </tr>
         {% endfor -%}
 
-        {% set mashHops = recipe.hops[0].hop | filter("use", "Aroma") %}
+        {% set mashHops = recipe.hops[0].hop | hopfilter("use", "Aroma") %}
         {% for hop in mashHops %} 
         <tr>
             <td>{{ hop.name }}</td>
@@ -104,7 +104,7 @@ permalink: "recipes/{{ pagination.items[0].file | slugify }}/index.html"
         </tr>
         {% endfor -%}
 
-        {% set mashHops = recipe.hops[0].hop | filter("use", "Dry Hop") %}
+        {% set mashHops = recipe.hops[0].hop | hopfilter("use", "Dry Hop") %}
         {% for hop in mashHops %} 
         <tr>
             <td>{{ hop.name }}</td>
