@@ -1,9 +1,9 @@
 ---js
 const eleventyNavigation = {
 	key: "About",
-	order: 3
+	order: 4
 };
 ---
-# About
+# About the brewey
 
-I am a keen amature brewer.
+I am a keen amateur brewer.

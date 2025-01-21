@@ -281,3 +281,59 @@ header {
 	margin-right: 1em;
 }
 
+/* Recipe */
+.recipe ul {
+	columns: 2;
+	-webkit-columns: 2;
+	-moz-columns: 2;
+}
+
+.recipe table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.recipe th, td {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+.recipe tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+.recipe .fermentables th {
+	background-color: #d6c67c;
+	color: #555;
+	text-align: left;
+}
+
+.recipe .hops th {
+	background-color: #83d67c;
+	color: #555;
+	text-align: left;
+}
+
+.recipe p {
+	font-style: italic;
+}
+
+.prevnext {
+	width: 100%;
+	overflow: hidden; /* Clear floats */
+}
+.prev, .next {
+	padding: 10px 20px;
+	text-align: center;
+	background-color: #f1f1f1;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	text-decoration: none;
+	color: #333;
+}
+.prev {
+	float: left;
+}
+.next {
+	float: right;
+}

@@ -3,6 +3,8 @@ import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import pluginNavigation from "@11ty/eleventy-navigation";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
+import { EleventyRenderPlugin } from "@11ty/eleventy";
+import xml2js from "xml2js";
 
 import pluginFilters from "./_config/filters.js";
 
@@ -106,6 +108,19 @@ export default async function(eleventyConfig) {
 		return (new Date()).toISOString();
 	});
 
+	eleventyConfig.addPlugin(EleventyRenderPlugin);
+
+	eleventyConfig.addFilter("filter", function (arr=[], key="", value) {
+		let items = arr?.filter(item => item[key][0] === value);
+		return items;
+	});
+/*
+	eleventyConfig.addDataExtension("xml", async (contents) => {
+		let results = await xml2js.parseStringPromise(contents);
+		console.log(results.RECIPES.RECIPE[0].NAME);
+		return results.RECIPES.RECIPE[0];
+	});
+*/
 	// Features to make your build faster (when you need them)
 
 	// If your passthrough copy gets heavy and cumbersome, add this line

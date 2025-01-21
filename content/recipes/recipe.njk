@@ -1,0 +1,128 @@
+---
+pagination:
+  data: recipes
+  size: 1
+permalink: "recipes/{{ pagination.items[0].file | slugify }}/index.html"  
+---
+
+{%- for item in pagination.items %}
+    {% set recipe = item.model.recipes.recipe[0] %}
+    <div class="recipe">
+    <h1>{{ recipe.name[0] }}</h1>
+    BeerXml file: <a href="/recipes/{{ item.file }}.xml" target="_blank">{{ item.file }}.xml</a>
+    <h3>Vital statistics:</h3>
+    <ul>
+        <li>Type: {{ recipe.type[0] }}
+        <li>Brewer: {{ recipe.brewer[0] }}
+        <li>Style: {{ recipe.style[0].name[0] }}
+        <li>Length: {{ recipe.batch_size[0] | round(1) }} litres
+        <li>Yeast: {% for yeast in recipe.yeasts[0].yeast %}  
+            {{ yeast.name }} ({{ yeast.laboratory }} {{ yeast.product_id }})
+        {% endfor -%}
+        <li>OG: {{ recipe.est_og[0] }}
+        <li>FG: {{ recipe.est_fg[0] }}
+        <li>ABV: {{ recipe.est_abv[0] }}
+        <li>Colour: {{ (recipe.est_color[0] * 1.97) | round(1) }} EBC
+        <li>Bitterness: {{ recipe.ibu[0] }}
+    </ul>
+
+    {% set totalWeight = 0.0 %}
+    {% for fermentable in recipe.fermentables[0].fermentable %} 
+        {% set thisWeight = fermentable.amount | float %}
+        {% set totalWeight = totalWeight + thisWeight %}
+    {% endfor -%}
+
+    <h3>Fermentables:</h3>
+	<table width="90%" class="fermentables">
+        <tr>
+			<th width="60%">Name</th>
+			<th width="10%">Colour (EBC)</th>
+			<th width="20%">Amount (kg)</th>
+			<th width="10%">%</th>
+		</tr>
+        {% for fermentable in recipe.fermentables[0].fermentable %} 
+        <tr>
+            <td>{{ fermentable.name }}</td>
+            <td>{{ fermentable.display_color[0] | replace("EBC", "") }}</td>
+            {% set thisWeight = fermentable.amount | float %}
+            <td>{{ thisWeight | round(4) }}</td>
+            <td>{{ (100.0 * thisWeight / totalWeight) | round(1) }}</td>
+        </tr>
+        {% endfor -%}
+    </table>
+
+    <h3>Hops:</h3>
+    <table width="90%" class="hops">
+		<tr>
+			<th width="50%">Name</th>
+			<th width="10%">Alpha</th>
+			<th width="10%">Form</th>
+			<th width="20%">Amount (g)</th>
+			<th width="10%">Time (mins)</th>
+		</tr>
+        {% set mashHops = recipe.hops[0].hop | filter("use", "Mash") %}
+        {% for hop in mashHops %} 
+        <tr>
+            <td>{{ hop.name }}</td>
+            <td>{{ hop.alpha | round(2)}}</td>
+            <td>{{ hop.form }}</td>
+            <td>{{ (hop.amount * 1000) | round(3) }}</td>
+            <td>{{ hop.use }}</td>
+        </tr>
+        {% endfor -%}
+
+        {% set mashHops = recipe.hops[0].hop | filter("use", "First Wort") %}
+        {% for hop in mashHops %} 
+        <tr>
+            <td>{{ hop.name }}</td>
+            <td>{{ hop.alpha | round(2)}}</td>
+            <td>{{ hop.form }}</td>
+            <td>{{ (hop.amount * 1000) | round(3) }}</td>
+            <td>{{ hop.use }}</td>
+        </tr>
+        {% endfor -%}
+
+        {% set boilHops = recipe.hops[0].hop | filter("use", "Boil") %}
+        {% for hop in boilHops %} 
+        <tr>
+            <td>{{ hop.name }}</td>
+            <td>{{ hop.alpha | round(2)}}</td>
+            <td>{{ hop.form }}</td>
+            <td>{{ (hop.amount * 1000) | round(3) }}</td>
+            <td>{{ hop.time | round()}}</td>
+        </tr>
+        {% endfor -%}
+
+        {% set mashHops = recipe.hops[0].hop | filter("use", "Aroma") %}
+        {% for hop in mashHops %} 
+        <tr>
+            <td>{{ hop.name }}</td>
+            <td>{{ hop.alpha | round(2)}}</td>
+            <td>{{ hop.form }}</td>
+            <td>{{ (hop.amount * 1000) | round(3) }}</td>
+            <td>Whirlpool</td>
+        </tr>
+        {% endfor -%}
+
+        {% set mashHops = recipe.hops[0].hop | filter("use", "Dry Hop") %}
+        {% for hop in mashHops %} 
+        <tr>
+            <td>{{ hop.name }}</td>
+            <td>{{ hop.alpha | round(2)}}</td>
+            <td>{{ hop.form }}</td>
+            <td>{{ (hop.amount * 1000) | round(3) }}</td>
+            <td>{{ hop.use }}</td>
+        </tr>
+        {% endfor -%}
+    </table>
+
+    <p>
+        I don't include mash schedule, water treatment, fininings 
+        (and other miscellaneous ingredients), as these are all down
+        to personal preferences, local water conditions (or the 
+        availability of RO water!), and so on.
+    </p>
+
+    </div>
+{% endfor -%}
+

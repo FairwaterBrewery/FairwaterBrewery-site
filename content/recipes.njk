@@ -1,0 +1,22 @@
+---js
+const eleventyNavigation = {
+	key: "Recipes",
+	order: 3
+};
+const pagination = {
+  data: "recipes",
+  size: 1
+};
+---
+<h1>Recipe list</h1>
+<p>Alphabetical by name</p>
+<ol>
+    {% for item in pagination.items.sort() -%}
+    <li><a href="/recipes/{{ item.file }}">{{ item.file }}</a></li>
+    {% endfor -%}
+</ol>
+<hr>
+<div class="prevnext">
+  <div class="prev">{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">Previous</a>{% else %}Previous{% endif %}</div>
+  <div class="next">{% if pagination.href.next %}<a href="{{ pagination.href.next }}">Next</a>{% else %}Next{% endif %}</div>
+</div>
