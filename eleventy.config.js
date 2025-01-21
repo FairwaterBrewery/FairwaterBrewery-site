@@ -23,6 +23,9 @@ export default async function(eleventyConfig) {
 		.addPassthroughCopy({
 			"./public/": "/"
 		})
+		.addPassthroughCopy({
+			"./content/img/": "/img/"
+		})
 		.addPassthroughCopy("./content/feed/pretty-atom-feed.xsl");
 
 	// Run Eleventy when these files change:
@@ -30,7 +33,6 @@ export default async function(eleventyConfig) {
 
 	// Watch images for the image pipeline.
 	eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpg,jpeg,gif}");
-	eleventyConfig.addWatchTarget("public/img/**/*.{svg,webp,png,jpg,jpeg,gif}");
 
 	// Per-page bundles, see https://github.com/11ty/eleventy-plugin-bundle
 	// Adds the {% css %} paired shortcode
@@ -57,7 +59,7 @@ export default async function(eleventyConfig) {
 		templateData: {
 			eleventyNavigation: {
 				key: "Feed",
-				order: 4
+				order: 100
 			}
 		},
 		collection: {
