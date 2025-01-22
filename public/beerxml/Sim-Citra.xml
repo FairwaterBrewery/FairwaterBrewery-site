@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><RECIPES>
+<RECIPE>
+ <NAME>Sim Citra</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>All Grain</TYPE>
+ <BREWER>Bryan</BREWER>
+ <ASST_BREWER></ASST_BREWER>
+ <BATCH_SIZE>25.0000000</BATCH_SIZE>
+ <BOIL_SIZE>35.0000000</BOIL_SIZE>
+ <BOIL_TIME>90.0000000</BOIL_TIME>
+ <EFFICIENCY>75.0000000</EFFICIENCY>
+ <HOPS>
+<HOP>
+ <NAME>Citra</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>U.S.</ORIGIN>
+ <ALPHA>12.0000000</ALPHA>
+ <AMOUNT>0.0200000</AMOUNT>
+ <USE>First Wort</USE>
+ <TIME>60.0000000</TIME>
+ <NOTES>Special aroma hops released in 2007.  Imparts high alpha/oil content but low cohumulone.
+Aroma: Adds interesting citrus and tropical fruit character to the beer.  
+Substitutes: Unknown</NOTES>
+ <TYPE>Both</TYPE>
+ <FORM>Leaf</FORM>
+ <BETA>4.0000000</BETA>
+ <HSI>25.0000000</HSI>
+ <DISPLAY_AMOUNT>20.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>130.00 g</INVENTORY>
+ <DISPLAY_TIME>60.0 min</DISPLAY_TIME>
+</HOP>
+<HOP>
+ <NAME>Citra</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>U.S.</ORIGIN>
+ <ALPHA>12.0000000</ALPHA>
+ <AMOUNT>0.0150000</AMOUNT>
+ <USE>Boil</USE>
+ <TIME>30.0000000</TIME>
+ <NOTES>Special aroma hops released in 2007.  Imparts high alpha/oil content but low cohumulone.
+Aroma: Adds interesting citrus and tropical fruit character to the beer.  
+Substitutes: Unknown</NOTES>
+ <TYPE>Both</TYPE>
+ <FORM>Leaf</FORM>
+ <BETA>4.0000000</BETA>
+ <HSI>25.0000000</HSI>
+ <DISPLAY_AMOUNT>15.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>130.00 g</INVENTORY>
+ <DISPLAY_TIME>30.0 min</DISPLAY_TIME>
+</HOP>
+<HOP>
+ <NAME>Citra</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>U.S.</ORIGIN>
+ <ALPHA>12.0000000</ALPHA>
+ <AMOUNT>0.0150000</AMOUNT>
+ <USE>Boil</USE>
+ <TIME>15.0000000</TIME>
+ <NOTES>Special aroma hops released in 2007.  Imparts high alpha/oil content but low cohumulone.
+Aroma: Adds interesting citrus and tropical fruit character to the beer.  
+Substitutes: Unknown</NOTES>
+ <TYPE>Both</TYPE>
+ <FORM>Leaf</FORM>
+ <BETA>4.0000000</BETA>
+ <HSI>25.0000000</HSI>
+ <DISPLAY_AMOUNT>15.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>130.00 g</INVENTORY>
+ <DISPLAY_TIME>15.0 min</DISPLAY_TIME>
+</HOP>
+<HOP>
+ <NAME>Citra</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>U.S.</ORIGIN>
+ <ALPHA>12.0000000</ALPHA>
+ <AMOUNT>0.0150000</AMOUNT>
+ <USE>Aroma</USE>
+ <TIME>60.0000000</TIME>
+ <NOTES>Special aroma hops released in 2007.  Imparts high alpha/oil content but low cohumulone.
+Aroma: Adds interesting citrus and tropical fruit character to the beer.  
+Substitutes: Unknown</NOTES>
+ <TYPE>Both</TYPE>
+ <FORM>Leaf</FORM>
+ <BETA>4.0000000</BETA>
+ <HSI>25.0000000</HSI>
+ <DISPLAY_AMOUNT>15.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>130.00 g</INVENTORY>
+ <DISPLAY_TIME>60.0 min</DISPLAY_TIME>
+</HOP>
+<HOP>
+ <NAME>Citra</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>U.S.</ORIGIN>
+ <ALPHA>12.0000000</ALPHA>
+ <AMOUNT>0.0300000</AMOUNT>
+ <USE>Dry Hop</USE>
+ <TIME>0.0000000</TIME>
+ <NOTES>Special aroma hops released in 2007.  Imparts high alpha/oil content but low cohumulone.
+Aroma: Adds interesting citrus and tropical fruit character to the beer.  
+Substitutes: Unknown</NOTES>
+ <TYPE>Both</TYPE>
+ <FORM>Leaf</FORM>
+ <BETA>4.0000000</BETA>
+ <HSI>25.0000000</HSI>
+ <DISPLAY_AMOUNT>30.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>130.00 g</INVENTORY>
+ <DISPLAY_TIME>60.0 min</DISPLAY_TIME>
+</HOP>
+</HOPS>
+
+ <FERMENTABLES>
+<FERMENTABLE>
+ <NAME>Flagon Pale Ale Malt</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>4.9999968</AMOUNT>
+ <YIELD>82.5000000</YIELD>
+ <COLOR>5.7000000</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>UK</ORIGIN>
+ <SUPPLIER>Crisp</SUPPLIER>
+ <NOTES></NOTES>
+ <COARSE_FINE_DIFF>1.5000000</COARSE_FINE_DIFF>
+ <MOISTURE>3.3000000</MOISTURE>
+ <DIASTATIC_POWER>50.0000000</DIASTATIC_POWER>
+ <PROTEIN>11.7000000</PROTEIN>
+ <MAX_IN_BATCH>100.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>TRUE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>5.00 kg</DISPLAY_AMOUNT>
+ <INVENTORY>0.82 kg</INVENTORY>
+ <POTENTIAL>1.0379500</POTENTIAL>
+ <DISPLAY_COLOR>5.7 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE></EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+<FERMENTABLE>
+ <NAME>Munich Malt</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>0.4999997</AMOUNT>
+ <YIELD>80.0000000</YIELD>
+ <COLOR>17.7300000</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>England</ORIGIN>
+ <SUPPLIER></SUPPLIER>
+ <NOTES>Malty-sweet flavor characteristic and adds a reddish amber color to the beer.
+Does not contribute signficantly to body or head retention.
+Use for: Bock, Porter, Marzen, Oktoberfest beers</NOTES>
+ <COARSE_FINE_DIFF>1.3000000</COARSE_FINE_DIFF>
+ <MOISTURE>5.0000000</MOISTURE>
+ <DIASTATIC_POWER>72.0000000</DIASTATIC_POWER>
+ <PROTEIN>11.5000000</PROTEIN>
+ <MAX_IN_BATCH>80.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>TRUE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>0.50 kg</DISPLAY_AMOUNT>
+ <INVENTORY>1.12 kg</INVENTORY>
+ <POTENTIAL>1.0368000</POTENTIAL>
+ <DISPLAY_COLOR>17.7 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE>Amber Liquid Extract</EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+<FERMENTABLE>
+ <NAME>Wheat, Torrified (Thomas Fawcett)</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>0.4999997</AMOUNT>
+ <YIELD>76.1000000</YIELD>
+ <COLOR>3.9400000</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>United Kingdom</ORIGIN>
+ <SUPPLIER>Thomas Fawcett &#38; Sons</SUPPLIER>
+ <NOTES>Unmalted wheat torrified for use in a single step infusion.  Typically used for Wits and other wheats where raw unmalted wheat is called for.</NOTES>
+ <COARSE_FINE_DIFF>1.5000000</COARSE_FINE_DIFF>
+ <MOISTURE>6.0000000</MOISTURE>
+ <DIASTATIC_POWER>0.0000000</DIASTATIC_POWER>
+ <PROTEIN>16.0000000</PROTEIN>
+ <MAX_IN_BATCH>10.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>TRUE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>0.50 kg</DISPLAY_AMOUNT>
+ <INVENTORY>0.86 kg</INVENTORY>
+ <POTENTIAL>1.0350060</POTENTIAL>
+ <DISPLAY_COLOR>3.9 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE>Wheat Liquid Extract</EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+</FERMENTABLES>
+
+ <MISCS>
+<MISC>
+ <NAME>Protafloc</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Fining</TYPE>
+ <USE>Boil</USE>
+ <AMOUNT>0.002500</AMOUNT>
+ <TIME>15.00</TIME>
+ <AMOUNT_IS_WEIGHT>TRUE</AMOUNT_IS_WEIGHT>
+ <USE_FOR></USE_FOR>
+ <NOTES>1/2 tablet in 25 litre brew</NOTES>
+ <DISPLAY_AMOUNT>2.50 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>15.0 mins</DISPLAY_TIME>
+ <BATCH_SIZE>25.00 l</BATCH_SIZE>
+</MISC>
+</MISCS>
+
+ <YEASTS>
+<YEAST>
+ <NAME>Dry English Ale</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Ale</TYPE>
+ <FORM>Liquid</FORM>
+ <AMOUNT>0.0354884</AMOUNT>
+ <AMOUNT_IS_WEIGHT>FALSE</AMOUNT_IS_WEIGHT>
+ <LABORATORY>White Labs</LABORATORY>
+ <PRODUCT_ID>WLP007</PRODUCT_ID>
+ <MIN_TEMPERATURE>18.3333333</MIN_TEMPERATURE>
+ <MAX_TEMPERATURE>21.1111111</MAX_TEMPERATURE>
+ <FLOCCULATION>High</FLOCCULATION>
+ <ATTENUATION>75.0000000</ATTENUATION>
+ <NOTES>Clean, Highly flocculant, and highly attentive yeast.  Similar to White labs English Ale yeast, but more attentive.  Suitable for high gravity ales.</NOTES>
+ <BEST_FOR>Pale Ales, Amber, ESB, Brown Ales, Strong Ales</BEST_FOR>
+ <MAX_REUSE>5</MAX_REUSE>
+ <TIMES_CULTURED>0</TIMES_CULTURED>
+ <ADD_TO_SECONDARY>FALSE</ADD_TO_SECONDARY>
+ <DISPLAY_AMOUNT>35.49 ml</DISPLAY_AMOUNT>
+ <DISP_MIN_TEMP>18.3 C</DISP_MIN_TEMP>
+ <DISP_MAX_TEMP>21.1 C</DISP_MAX_TEMP>
+ <INVENTORY>0.0 pkg</INVENTORY>
+ <CULTURE_DATE>14 Jun 2003</CULTURE_DATE>
+</YEAST>
+</YEASTS>
+
+ 
+ <STYLE>
+ <NAME>English IPA</NAME>
+ <VERSION>1</VERSION>
+ <CATEGORY>India Pale Ale (IPA)</CATEGORY>
+ <CATEGORY_NUMBER>14</CATEGORY_NUMBER>
+ <STYLE_LETTER>A</STYLE_LETTER>
+ <STYLE_GUIDE>BJCP 2008</STYLE_GUIDE>
+ <TYPE>Ale</TYPE>
+ <OG_MIN>1.0500000</OG_MIN>
+ <OG_MAX>1.0750000</OG_MAX>
+ <FG_MIN>1.0100000</FG_MIN>
+ <FG_MAX>1.0180000</FG_MAX>
+ <IBU_MIN>40.0000000</IBU_MIN>
+ <IBU_MAX>60.0000000</IBU_MAX>
+ <COLOR_MIN>15.7600000</COLOR_MIN>
+ <COLOR_MAX>27.5800000</COLOR_MAX>
+ <CARB_MIN>2.2000000</CARB_MIN>
+ <CARB_MAX>2.7000000</CARB_MAX>
+ <ABV_MAX>7.5000000</ABV_MAX>
+ <ABV_MIN>5.0000000</ABV_MIN>
+ <NOTES>A hoppy, moderately strong pale ale that features characteristics consistent with the use of English malt, hops and yeast. Has less hop character and a more pronounced malt flavor than American versions. Brewed to survive the voyage from England to India. The temperature extremes and rolling of the seas resulted in a highly attenuated beer upon arrival. English pale ales were derived from India Pale Ales. A pale ale brewed to an increased gravity and hop rate. Modern versions of English IPAs generally pale in comparison (pun intended) to their ancestors. The term &#8220;IPA&#8221; is loosely applied in commercial English beers today, and has been (incorrectly) used in beers below 4% ABV. Generally will have more finish hops and less fruitiness and/or caramel than English pale ales and bitters. Fresher versions will obviously have a more significant finishing hop character.</NOTES>
+ <PROFILE>Aroma: A moderate to moderately high hop aroma of floral, earthy or fruity nature is typical, although the intensity of hop character is usually lower than American versions. A slightly grassy dry-hop aroma is acceptable, but not required. A moderate caramel-like or toasty malt presence is common. Low to moderate fruitiness, either from esters or hops, can be present. Some versions may have a sulfury note, although this character is not mandatory.
+Appearance: Color ranges from golden amber to light copper, but most are pale to medium amber with an orange-ish tint. Should be clear, although unfiltered dry-hopped versions may be a bit hazy. Good head stand with off-white color should persist.
+Flavor: Hop flavor is medium to high, with a moderate to assertive hop bitterness. The hop flavor should be similar to the aroma (floral, earthy, fruity, and/or slightly grassy). Malt flavor should be medium-low to medium-high, but should be noticeable, pleasant, and support the hop aspect. The malt should show an English character and be somewhat bready, biscuit-like, toasty, toffee-like and/or caramelly. Despite the substantial hop character typical of these beers, sufficient malt flavor, body and complexity to support the hops will provide the best balance. Very low levels of diacetyl are acceptable, and fruitiness from the fermentation or hops adds to the overall complexity. Finish is medium to dry, and bitterness may linger into the aftertaste but should not be harsh. If high sulfate water is used, a distinctively minerally, dry finish, some sulfur flavor, and a lingering bitterness are usually present. Some clean alcohol flavor can be noted in stronger versions. Oak is inappropriate in this style.
+Mouthfeel: Smooth, medium-light to medium-bodied mouthfeel without hop-derived astringency, although moderate to medium-high carbonation can combine to render an overall dry sensation in the presence of malt sweetness. Some smooth alcohol warming can and should be sensed in stronger (but not all) versions.</PROFILE>
+ <INGREDIENTS>Pale ale malt (well-modified and suitable for single-temperature infusion mashing); English hops; English yeast that can give a fruity or sulfury/minerally profile. Refined sugar may be used in some versions. High sulfate and low carbonate water is essential to achieving a pleasant hop bitterness in authentic Burton versions, although not all examples will exhibit the strong sulfate character.</INGREDIENTS>
+ <EXAMPLES>Meantime India Pale Ale, Freeminer Trafalgar IPA, Fuller&#39;s IPA, Ridgeway Bad Elf, Summit India Pale Ale, Samuel Smith&#39;s India Ale, Hampshire Pride of Romsey IPA, Burton Bridge Empire IPA,Middle Ages ImPailed Ale, Goose Island IPA, Brooklyn East India Pale Ale</EXAMPLES>
+ <DISPLAY_OG_MIN>1.050 SG</DISPLAY_OG_MIN>
+ <DISPLAY_OG_MAX>1.075 SG</DISPLAY_OG_MAX>
+ <DISPLAY_FG_MIN>1.010 SG</DISPLAY_FG_MIN>
+ <DISPLAY_FG_MAX>1.018 SG</DISPLAY_FG_MAX>
+ <DISPLAY_COLOR_MIN>15.8 EBC</DISPLAY_COLOR_MIN>
+ <DISPLAY_COLOR_MAX>27.6 EBC</DISPLAY_COLOR_MAX>
+ <OG_RANGE>1.050-1.075 SG</OG_RANGE>
+ <FG_RANGE>1.010-1.018 SG</FG_RANGE>
+ <IBU_RANGE>40.0-60.0 IBUs</IBU_RANGE>
+ <CARB_RANGE>2.20-2.70 Vols</CARB_RANGE>
+ <COLOR_RANGE>15.8-27.6 EBC</COLOR_RANGE>
+ <ABV_RANGE>5.00-7.50 %</ABV_RANGE>
+</STYLE>
+
+ <EQUIPMENT>
+ <NAME>Pot (18.5 Gal/70 L) and Cooler (9.5 Gal/45 L)  - All Grain</NAME>
+ <VERSION>1</VERSION>
+ <BOIL_SIZE>35.0000000</BOIL_SIZE>
+ <BATCH_SIZE>25.0000000</BATCH_SIZE>
+ <TUN_VOLUME>45.0000000</TUN_VOLUME>
+ <TUN_WEIGHT>4.0823280</TUN_WEIGHT>
+ <TUN_SPECIFIC_HEAT>0.3000000</TUN_SPECIFIC_HEAT>
+ <TOP_UP_WATER>0.0000000</TOP_UP_WATER>
+ <TRUB_CHILLER_LOSS>0.0000000</TRUB_CHILLER_LOSS>
+ <EVAP_RATE>17.1428571</EVAP_RATE>
+ <BOIL_TIME>90.0000000</BOIL_TIME>
+ <CALC_BOIL_VOLUME>TRUE</CALC_BOIL_VOLUME>
+ <LAUTER_DEADSPACE>0.6000000</LAUTER_DEADSPACE>
+ <TOP_UP_KETTLE>0.0000000</TOP_UP_KETTLE>
+ <HOP_UTILIZATION>100.0000000</HOP_UTILIZATION>
+ <COOLING_LOSS_PCT>4.0000000</COOLING_LOSS_PCT>
+ <NOTES>Based on a 18.5 Gal/70 L pot with a diameter of 18 inches/45 cm and a 9.5 Gal/40 L cooler. The above assumes loose pellet hops and only clear, chilled wort transferred from the kettle using no trub management techniques. Experienced brewers should adjust &#39;Loss to Trub and Chiller&#39; and &#39;Brewhouse Efficiency&#39; accordingly to suit their trub management techniques.</NOTES>
+ <DISPLAY_BOIL_SIZE>35.00 l</DISPLAY_BOIL_SIZE>
+ <DISPLAY_BATCH_SIZE>25.00 l</DISPLAY_BATCH_SIZE>
+ <DISPLAY_TUN_VOLUME>45.00 l</DISPLAY_TUN_VOLUME>
+ <DISPLAY_TUN_WEIGHT>4.08 kg</DISPLAY_TUN_WEIGHT>
+ <DISPLAY_TOP_UP_WATER>0.00 l</DISPLAY_TOP_UP_WATER>
+ <DISPLAY_TRUB_CHILLER_LOSS>0.00 l</DISPLAY_TRUB_CHILLER_LOSS>
+ <DISPLAY_LAUTER_DEADSPACE>0.60 l</DISPLAY_LAUTER_DEADSPACE>
+ <DISPLAY_TOP_UP_KETTLE>0.00 l</DISPLAY_TOP_UP_KETTLE>
+</EQUIPMENT>
+
+ <MASH>
+ <NAME>Single Infusion, Medium Body, Batch Sparge</NAME>
+ <VERSION>1</VERSION>
+ <GRAIN_TEMP>18.0000000</GRAIN_TEMP>
+ <TUN_TEMP>20.0000000</TUN_TEMP>
+ <SPARGE_TEMP>75.5555556</SPARGE_TEMP>
+ <PH>5.4000000</PH>
+ <TUN_WEIGHT>144.0000000</TUN_WEIGHT>
+ <TUN_SPECIFIC_HEAT>0.3000000</TUN_SPECIFIC_HEAT>
+ <EQUIP_ADJUST>FALSE</EQUIP_ADJUST>
+ <NOTES>Simple single infusion mash for use with most modern well modified grains (about 95% of the time).</NOTES>
+ <DISPLAY_GRAIN_TEMP>18.0 C</DISPLAY_GRAIN_TEMP>
+ <DISPLAY_TUN_TEMP>20.0 C</DISPLAY_TUN_TEMP>
+ <DISPLAY_SPARGE_TEMP>75.6 C</DISPLAY_SPARGE_TEMP>
+ <DISPLAY_TUN_WEIGHT>4.08 kg</DISPLAY_TUN_WEIGHT>
+<MASH_STEPS>
+<MASH_STEP>
+ <NAME>Mash In</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Infusion</TYPE>
+ <INFUSE_AMOUNT>15.6480000</INFUSE_AMOUNT>
+ <STEP_TIME>90.0000000</STEP_TIME>
+ <STEP_TEMP>66.6666667</STEP_TEMP>
+ <RAMP_TIME>0.0000000</RAMP_TIME>
+ <END_TEMP>66.6666667</END_TEMP>
+ <DESCRIPTION>Add 16.25 l of water at 73.5 C</DESCRIPTION>
+ <WATER_GRAIN_RATIO>2.608 l/kg</WATER_GRAIN_RATIO>
+ <DECOCTION_AMT>0.00 l</DECOCTION_AMT>
+ <INFUSE_TEMP>73.5 C</INFUSE_TEMP>
+ <DISPLAY_STEP_TEMP>66.7 C</DISPLAY_STEP_TEMP>
+ <DISPLAY_INFUSE_AMT>16.25 l</DISPLAY_INFUSE_AMT>
+</MASH_STEP>
+</MASH_STEPS>
+
+</MASH>
+
+ <NOTES></NOTES>
+ <TASTE_NOTES></TASTE_NOTES>
+ <TASTE_RATING>30.0000000</TASTE_RATING>
+ <OG>1.0460000</OG>
+ <FG>1.0100000</FG>
+ <CARBONATION>2.3000000</CARBONATION>
+ <FERMENTATION_STAGES>2</FERMENTATION_STAGES>
+ <PRIMARY_AGE>4.0000000</PRIMARY_AGE>
+ <PRIMARY_TEMP>19.4444444</PRIMARY_TEMP>
+ <SECONDARY_AGE>10.0000000</SECONDARY_AGE>
+ <SECONDARY_TEMP>19.4444444</SECONDARY_TEMP>
+ <TERTIARY_AGE>7.0000000</TERTIARY_AGE>
+ <AGE>30.0000000</AGE>
+ <AGE_TEMP>18.3333333</AGE_TEMP>
+ <CARBONATION_USED>Bottle with 129.40 g Corn Sugar</CARBONATION_USED>
+ <FORCED_CARBONATION>TRUE</FORCED_CARBONATION>
+ <PRIMING_SUGAR_NAME>Corn Sugar</PRIMING_SUGAR_NAME>
+ <PRIMING_SUGAR_EQUIV>1.0000000</PRIMING_SUGAR_EQUIV>
+ <KEG_PRIMING_FACTOR>0.5000000</KEG_PRIMING_FACTOR>
+ <CARBONATION_TEMP>21.1111111</CARBONATION_TEMP>
+ <DISPLAY_CARB_TEMP>21.1 C</DISPLAY_CARB_TEMP>
+ <DATE>23 Mar 2014</DATE>
+ <EST_OG>1.056 SG</EST_OG>
+ <EST_FG>1.013 SG</EST_FG>
+ <EST_COLOR>10.8 EBC</EST_COLOR>
+ <IBU>58.3 IBUs</IBU>
+ <IBU_METHOD>Tinseth</IBU_METHOD>
+ <EST_ABV>5.7 %</EST_ABV>
+ <ABV>4.7 %</ABV>
+ <ACTUAL_EFFICIENCY>46.2 %</ACTUAL_EFFICIENCY>
+ <CALORIES>427.1 kcal/l</CALORIES>
+ <DISPLAY_BATCH_SIZE>25.00 l</DISPLAY_BATCH_SIZE>
+ <DISPLAY_BOIL_SIZE>35.00 l</DISPLAY_BOIL_SIZE>
+ <DISPLAY_OG>1.046 SG</DISPLAY_OG>
+ <DISPLAY_FG>1.010 SG</DISPLAY_FG>
+ <DISPLAY_PRIMARY_TEMP>19.4 C</DISPLAY_PRIMARY_TEMP>
+ <DISPLAY_SECONDARY_TEMP>19.4 C</DISPLAY_SECONDARY_TEMP>
+ <DISPLAY_TERTIARY_TEMP>18.3 C</DISPLAY_TERTIARY_TEMP>
+ <DISPLAY_AGE_TEMP>18.3 C</DISPLAY_AGE_TEMP>
+</RECIPE>
+</RECIPES>

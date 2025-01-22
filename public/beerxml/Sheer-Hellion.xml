@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><RECIPES>
+<RECIPE>
+ <NAME>Sheer Hellion</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>All Grain</TYPE>
+ <BREWER>Bryan</BREWER>
+ <ASST_BREWER></ASST_BREWER>
+ <BATCH_SIZE>21.0000000</BATCH_SIZE>
+ <BOIL_SIZE>30.8400000</BOIL_SIZE>
+ <BOIL_TIME>90.0000000</BOIL_TIME>
+ <EFFICIENCY>75.0000000</EFFICIENCY>
+ <HOPS>
+<HOP>
+ <NAME>Hallertauer Hersbrucker</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>Germany</ORIGIN>
+ <ALPHA>1.5000000</ALPHA>
+ <AMOUNT>0.0150000</AMOUNT>
+ <USE>Boil</USE>
+ <TIME>90.0000000</TIME>
+ <NOTES>Used for: German style lagers and wheat beers
+Aroma: Noble, pleasant, clean flavor
+Substitutes: Mt. Hood, Liberty, Hallertauer, Mittelfrueh
+Examples: Wheathook Wheaten Ale</NOTES>
+ <TYPE>Aroma</TYPE>
+ <FORM>Leaf</FORM>
+ <BETA>6.0000000</BETA>
+ <HSI>25.0000000</HSI>
+ <DISPLAY_AMOUNT>15.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>90.00 g</INVENTORY>
+ <DISPLAY_TIME>90.0 min</DISPLAY_TIME>
+</HOP>
+<HOP>
+ <NAME>Perle</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>Germany</ORIGIN>
+ <ALPHA>9.6000000</ALPHA>
+ <AMOUNT>0.0120000</AMOUNT>
+ <USE>Boil</USE>
+ <TIME>90.0000000</TIME>
+ <NOTES>Used for: General purpose bittering for US and German ales, lagers
+Aroma: Slightly spicy, pleasant aroma, minty
+Substitutes: Chinook, Galena, Northern Brewer
+Examples: Sierra Nevada Pale Ale, Pale Bock</NOTES>
+ <TYPE>Bittering</TYPE>
+ <FORM>Leaf</FORM>
+ <BETA>4.7500000</BETA>
+ <HSI>15.0000000</HSI>
+ <DISPLAY_AMOUNT>12.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>170.00 g</INVENTORY>
+ <DISPLAY_TIME>90.0 min</DISPLAY_TIME>
+</HOP>
+<HOP>
+ <NAME>Challenger</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>United Kingdom</ORIGIN>
+ <ALPHA>6.2000000</ALPHA>
+ <AMOUNT>0.0100000</AMOUNT>
+ <USE>Boil</USE>
+ <TIME>60.0000000</TIME>
+ <NOTES>Variant of Northern Brewers heritage
+Used for: Both aroma and bittering for ales and lagers
+Aroma: Fruity in flavor, spicy aroma, blends well
+Substitutes: N/A
+
+Gives a full-bodied rounded bitterness in copper, with crisp fruity straw like later. An excellent all round hop with good alpha and aroma properties. As the main copper hop it provides a refreshing, full bodied, rounded bitterness which provides an excellent platform for a late hop. As the late addition it can give a very crisp, fruity character which has proved very popular in many beers.</NOTES>
+ <TYPE>Aroma</TYPE>
+ <FORM>Leaf</FORM>
+ <BETA>4.0000000</BETA>
+ <HSI>25.0000000</HSI>
+ <DISPLAY_AMOUNT>10.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>80.00 g</INVENTORY>
+ <DISPLAY_TIME>60.0 min</DISPLAY_TIME>
+</HOP>
+<HOP>
+ <NAME>Hallertauer Hersbrucker</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>Germany</ORIGIN>
+ <ALPHA>1.5000000</ALPHA>
+ <AMOUNT>0.0110000</AMOUNT>
+ <USE>Boil</USE>
+ <TIME>15.0000000</TIME>
+ <NOTES>Used for: German style lagers and wheat beers
+Aroma: Noble, pleasant, clean flavor
+Substitutes: Mt. Hood, Liberty, Hallertauer, Mittelfrueh
+Examples: Wheathook Wheaten Ale</NOTES>
+ <TYPE>Aroma</TYPE>
+ <FORM>Leaf</FORM>
+ <BETA>6.0000000</BETA>
+ <HSI>25.0000000</HSI>
+ <DISPLAY_AMOUNT>11.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>90.00 g</INVENTORY>
+ <DISPLAY_TIME>15.0 min</DISPLAY_TIME>
+</HOP>
+<HOP>
+ <NAME>Perle</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>Germany</ORIGIN>
+ <ALPHA>9.6000000</ALPHA>
+ <AMOUNT>0.0110000</AMOUNT>
+ <USE>Boil</USE>
+ <TIME>15.0000000</TIME>
+ <NOTES>Used for: General purpose bittering for US and German ales, lagers
+Aroma: Slightly spicy, pleasant aroma, minty
+Substitutes: Chinook, Galena, Northern Brewer
+Examples: Sierra Nevada Pale Ale, Pale Bock</NOTES>
+ <TYPE>Bittering</TYPE>
+ <FORM>Leaf</FORM>
+ <BETA>4.7500000</BETA>
+ <HSI>15.0000000</HSI>
+ <DISPLAY_AMOUNT>11.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>170.00 g</INVENTORY>
+ <DISPLAY_TIME>15.0 min</DISPLAY_TIME>
+</HOP>
+</HOPS>
+
+ <FERMENTABLES>
+<FERMENTABLE>
+ <NAME>Lager Malt</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>3.9999974</AMOUNT>
+ <YIELD>82.5000000</YIELD>
+ <COLOR>3.9400000</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>UK</ORIGIN>
+ <SUPPLIER></SUPPLIER>
+ <NOTES>Very light lager malt used to make Pilsners, Lagers and other light beers.  May be used as a base malt.</NOTES>
+ <COARSE_FINE_DIFF>1.5000000</COARSE_FINE_DIFF>
+ <MOISTURE>4.0000000</MOISTURE>
+ <DIASTATIC_POWER>100.0000000</DIASTATIC_POWER>
+ <PROTEIN>11.0000000</PROTEIN>
+ <MAX_IN_BATCH>100.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>TRUE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>4.00 kg</DISPLAY_AMOUNT>
+ <INVENTORY>0.74 kg</INVENTORY>
+ <POTENTIAL>1.0379500</POTENTIAL>
+ <DISPLAY_COLOR>3.9 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE>Pilsner Liquid Extract</EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+<FERMENTABLE>
+ <NAME>Wheat Malt, Pale (Weyermann)</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>0.1999999</AMOUNT>
+ <YIELD>82.2300000</YIELD>
+ <COLOR>3.9400000</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>Germany</ORIGIN>
+ <SUPPLIER>Weyermann</SUPPLIER>
+ <NOTES>Pale wheat malt, used as a base malt in many wheat styles. Wheat beers, Koelsch, Alts.</NOTES>
+ <COARSE_FINE_DIFF>1.7000000</COARSE_FINE_DIFF>
+ <MOISTURE>4.5000000</MOISTURE>
+ <DIASTATIC_POWER>74.0000000</DIASTATIC_POWER>
+ <PROTEIN>11.7000000</PROTEIN>
+ <MAX_IN_BATCH>80.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>TRUE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>0.20 kg</DISPLAY_AMOUNT>
+ <INVENTORY>0.84 kg</INVENTORY>
+ <POTENTIAL>1.0378258</POTENTIAL>
+ <DISPLAY_COLOR>3.9 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE>Wheat Liquid Extract</EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+</FERMENTABLES>
+
+ <MISCS>
+<MISC>
+ <NAME>Protafloc</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Fining</TYPE>
+ <USE>Boil</USE>
+ <AMOUNT>0.002500</AMOUNT>
+ <TIME>15.00</TIME>
+ <AMOUNT_IS_WEIGHT>TRUE</AMOUNT_IS_WEIGHT>
+ <USE_FOR></USE_FOR>
+ <NOTES>1/2 tablet in 25 litre brew</NOTES>
+ <DISPLAY_AMOUNT>2.50 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>15.0 mins</DISPLAY_TIME>
+ <BATCH_SIZE>25.00 l</BATCH_SIZE>
+</MISC>
+</MISCS>
+
+ <YEASTS>
+<YEAST>
+ <NAME>Saflager Lager</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Lager</TYPE>
+ <FORM>Dry</FORM>
+ <AMOUNT>0.0502753</AMOUNT>
+ <AMOUNT_IS_WEIGHT>FALSE</AMOUNT_IS_WEIGHT>
+ <LABORATORY>DCL/Fermentis</LABORATORY>
+ <PRODUCT_ID>W-34/70</PRODUCT_ID>
+ <MIN_TEMPERATURE>8.8888889</MIN_TEMPERATURE>
+ <MAX_TEMPERATURE>15.0000000</MAX_TEMPERATURE>
+ <FLOCCULATION>High</FLOCCULATION>
+ <ATTENUATION>75.0000000</ATTENUATION>
+ <NOTES>A famous yeast strain from Weihenstephan Germany used worldwide in brewing.  Their most popular strain for lagers.</NOTES>
+ <BEST_FOR>European lagers</BEST_FOR>
+ <MAX_REUSE>5</MAX_REUSE>
+ <TIMES_CULTURED>0</TIMES_CULTURED>
+ <ADD_TO_SECONDARY>FALSE</ADD_TO_SECONDARY>
+ <DISPLAY_AMOUNT>50.28 ml</DISPLAY_AMOUNT>
+ <DISP_MIN_TEMP>8.9 C</DISP_MIN_TEMP>
+ <DISP_MAX_TEMP>15.0 C</DISP_MAX_TEMP>
+ <INVENTORY>0.0 pkg</INVENTORY>
+ <CULTURE_DATE>06 Mar 2011</CULTURE_DATE>
+</YEAST>
+</YEASTS>
+
+ 
+ <STYLE>
+ <NAME>German Pilsner</NAME>
+ <VERSION>1</VERSION>
+ <CATEGORY>Pilsner</CATEGORY>
+ <CATEGORY_NUMBER>3</CATEGORY_NUMBER>
+ <STYLE_LETTER>2</STYLE_LETTER>
+ <STYLE_GUIDE>AABC 2010</STYLE_GUIDE>
+ <TYPE>Lager</TYPE>
+ <OG_MIN>1.0440000</OG_MIN>
+ <OG_MAX>1.0500000</OG_MAX>
+ <FG_MIN>1.0080000</FG_MIN>
+ <FG_MAX>1.0130000</FG_MAX>
+ <IBU_MIN>25.0000000</IBU_MIN>
+ <IBU_MAX>45.0000000</IBU_MAX>
+ <COLOR_MIN>3.9400000</COLOR_MIN>
+ <COLOR_MAX>9.8500000</COLOR_MAX>
+ <CARB_MIN>2.4000000</CARB_MIN>
+ <CARB_MAX>2.6000000</CARB_MAX>
+ <ABV_MAX>5.2000000</ABV_MAX>
+ <ABV_MIN>4.4000000</ABV_MIN>
+ <NOTES>Straw to light gold, brilliant to very clear, with a
+creamy, long-lasting white head.
+Aroma: Typically features a light grainy Pils malt character
+(sometimes Graham cracker-like) and distinctive flowery or spicy
+noble hops. Clean, no fruity esters, no diacetyl. May have an initial
+sulfury aroma (from water and/or yeast) and a low background note
+of DMS (from pils malt).Pilsner malt, German hop varieties (especially noble
+varieties such as Hallertauer, Tettnanger and Spalt for taste and
+aroma), medium sulfate water, German lager yeast.</NOTES>
+ <PROFILE>Crisp, clean, refreshing beer that prominently
+features noble German hop bitterness accentuated by sulfates in the
+water.</PROFILE>
+ <INGREDIENTS>Pilsner malt, German hop varieties (especially noble
+varieties such as Hallertauer, Tettnanger and Spalt for taste and
+aroma), medium sulfate water, German lager yeast.</INGREDIENTS>
+ <EXAMPLES>Bitburger, Warsteiner, Trumer Pils, K&#246;nig Pilsener, Jever Pils,
+Holsten Pils, Spaten Pils, Victory Prima Pils, Brooklyn Pilsner</EXAMPLES>
+ <DISPLAY_OG_MIN>1.044 SG</DISPLAY_OG_MIN>
+ <DISPLAY_OG_MAX>1.050 SG</DISPLAY_OG_MAX>
+ <DISPLAY_FG_MIN>1.008 SG</DISPLAY_FG_MIN>
+ <DISPLAY_FG_MAX>1.013 SG</DISPLAY_FG_MAX>
+ <DISPLAY_COLOR_MIN>3.9 EBC</DISPLAY_COLOR_MIN>
+ <DISPLAY_COLOR_MAX>9.8 EBC</DISPLAY_COLOR_MAX>
+ <OG_RANGE>1.044-1.050 SG</OG_RANGE>
+ <FG_RANGE>1.008-1.013 SG</FG_RANGE>
+ <IBU_RANGE>25.0-45.0 IBUs</IBU_RANGE>
+ <CARB_RANGE>2.40-2.60 Vols</CARB_RANGE>
+ <COLOR_RANGE>3.9-9.8 EBC</COLOR_RANGE>
+ <ABV_RANGE>4.40-5.20 %</ABV_RANGE>
+</STYLE>
+
+ <EQUIPMENT>
+ <NAME>Pot (18.5 Gal/70 L) and Cooler (9.5 Gal/45 L)  - All Grain</NAME>
+ <VERSION>1</VERSION>
+ <BOIL_SIZE>30.8400000</BOIL_SIZE>
+ <BATCH_SIZE>21.0000000</BATCH_SIZE>
+ <TUN_VOLUME>45.0000000</TUN_VOLUME>
+ <TUN_WEIGHT>4.0823280</TUN_WEIGHT>
+ <TUN_SPECIFIC_HEAT>0.3000000</TUN_SPECIFIC_HEAT>
+ <TOP_UP_WATER>0.0000000</TOP_UP_WATER>
+ <TRUB_CHILLER_LOSS>0.0000000</TRUB_CHILLER_LOSS>
+ <EVAP_RATE>19.4552529</EVAP_RATE>
+ <BOIL_TIME>90.0000000</BOIL_TIME>
+ <CALC_BOIL_VOLUME>TRUE</CALC_BOIL_VOLUME>
+ <LAUTER_DEADSPACE>0.6000000</LAUTER_DEADSPACE>
+ <TOP_UP_KETTLE>0.0000000</TOP_UP_KETTLE>
+ <HOP_UTILIZATION>100.0000000</HOP_UTILIZATION>
+ <COOLING_LOSS_PCT>4.0000000</COOLING_LOSS_PCT>
+ <NOTES>Based on a 18.5 Gal/70 L pot with a diameter of 18 inches/45 cm and a 9.5 Gal/40 L cooler. The above assumes loose pellet hops and only clear, chilled wort transferred from the kettle using no trub management techniques. Experienced brewers should adjust &#39;Loss to Trub and Chiller&#39; and &#39;Brewhouse Efficiency&#39; accordingly to suit their trub management techniques.</NOTES>
+ <DISPLAY_BOIL_SIZE>30.84 l</DISPLAY_BOIL_SIZE>
+ <DISPLAY_BATCH_SIZE>21.00 l</DISPLAY_BATCH_SIZE>
+ <DISPLAY_TUN_VOLUME>45.00 l</DISPLAY_TUN_VOLUME>
+ <DISPLAY_TUN_WEIGHT>4.08 kg</DISPLAY_TUN_WEIGHT>
+ <DISPLAY_TOP_UP_WATER>0.00 l</DISPLAY_TOP_UP_WATER>
+ <DISPLAY_TRUB_CHILLER_LOSS>0.00 l</DISPLAY_TRUB_CHILLER_LOSS>
+ <DISPLAY_LAUTER_DEADSPACE>0.60 l</DISPLAY_LAUTER_DEADSPACE>
+ <DISPLAY_TOP_UP_KETTLE>0.00 l</DISPLAY_TOP_UP_KETTLE>
+</EQUIPMENT>
+
+ <MASH>
+ <NAME>Single Infusion, Medium Body, Batch Sparge</NAME>
+ <VERSION>1</VERSION>
+ <GRAIN_TEMP>18.0000000</GRAIN_TEMP>
+ <TUN_TEMP>18.0000000</TUN_TEMP>
+ <SPARGE_TEMP>75.5555556</SPARGE_TEMP>
+ <PH>5.4000000</PH>
+ <TUN_WEIGHT>144.0000000</TUN_WEIGHT>
+ <TUN_SPECIFIC_HEAT>0.3000000</TUN_SPECIFIC_HEAT>
+ <EQUIP_ADJUST>FALSE</EQUIP_ADJUST>
+ <NOTES>Simple single infusion mash for use with most modern well modified grains (about 95% of the time).</NOTES>
+ <DISPLAY_GRAIN_TEMP>18.0 C</DISPLAY_GRAIN_TEMP>
+ <DISPLAY_TUN_TEMP>18.0 C</DISPLAY_TUN_TEMP>
+ <DISPLAY_SPARGE_TEMP>75.6 C</DISPLAY_SPARGE_TEMP>
+ <DISPLAY_TUN_WEIGHT>4.08 kg</DISPLAY_TUN_WEIGHT>
+<MASH_STEPS>
+<MASH_STEP>
+ <NAME>Mash In</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Infusion</TYPE>
+ <INFUSE_AMOUNT>10.9536000</INFUSE_AMOUNT>
+ <STEP_TIME>90.0000000</STEP_TIME>
+ <STEP_TEMP>66.6666667</STEP_TEMP>
+ <RAMP_TIME>0.0000000</RAMP_TIME>
+ <END_TEMP>66.6666667</END_TEMP>
+ <DESCRIPTION>Add 11.55 l of water at 73.4 C</DESCRIPTION>
+ <WATER_GRAIN_RATIO>2.608 l/kg</WATER_GRAIN_RATIO>
+ <DECOCTION_AMT>0.00 l</DECOCTION_AMT>
+ <INFUSE_TEMP>73.4 C</INFUSE_TEMP>
+ <DISPLAY_STEP_TEMP>66.7 C</DISPLAY_STEP_TEMP>
+ <DISPLAY_INFUSE_AMT>11.55 l</DISPLAY_INFUSE_AMT>
+</MASH_STEP>
+</MASH_STEPS>
+
+</MASH>
+
+ <NOTES></NOTES>
+ <TASTE_NOTES></TASTE_NOTES>
+ <TASTE_RATING>30.0000000</TASTE_RATING>
+ <OG>1.0460000</OG>
+ <FG>1.0100000</FG>
+ <CARBONATION>2.3000000</CARBONATION>
+ <FERMENTATION_STAGES>2</FERMENTATION_STAGES>
+ <PRIMARY_AGE>4.0000000</PRIMARY_AGE>
+ <PRIMARY_TEMP>19.4444444</PRIMARY_TEMP>
+ <SECONDARY_AGE>10.0000000</SECONDARY_AGE>
+ <SECONDARY_TEMP>19.4444444</SECONDARY_TEMP>
+ <TERTIARY_AGE>7.0000000</TERTIARY_AGE>
+ <AGE>30.0000000</AGE>
+ <AGE_TEMP>18.3333333</AGE_TEMP>
+ <CARBONATION_USED>Bottle with 105.88 g Corn Sugar</CARBONATION_USED>
+ <FORCED_CARBONATION>TRUE</FORCED_CARBONATION>
+ <PRIMING_SUGAR_NAME>Corn Sugar</PRIMING_SUGAR_NAME>
+ <PRIMING_SUGAR_EQUIV>1.0000000</PRIMING_SUGAR_EQUIV>
+ <KEG_PRIMING_FACTOR>0.5000000</KEG_PRIMING_FACTOR>
+ <CARBONATION_TEMP>21.1111111</CARBONATION_TEMP>
+ <DISPLAY_CARB_TEMP>21.1 C</DISPLAY_CARB_TEMP>
+ <DATE>06 Feb 2015</DATE>
+ <EST_OG>1.047 SG</EST_OG>
+ <EST_FG>1.011 SG</EST_FG>
+ <EST_COLOR>6.7 EBC</EST_COLOR>
+ <IBU>34.6 IBUs</IBU>
+ <IBU_METHOD>Tinseth</IBU_METHOD>
+ <EST_ABV>4.8 %</EST_ABV>
+ <ABV>4.7 %</ABV>
+ <ACTUAL_EFFICIENCY>65.5 %</ACTUAL_EFFICIENCY>
+ <CALORIES>427.1 kcal/l</CALORIES>
+ <DISPLAY_BATCH_SIZE>21.00 l</DISPLAY_BATCH_SIZE>
+ <DISPLAY_BOIL_SIZE>30.84 l</DISPLAY_BOIL_SIZE>
+ <DISPLAY_OG>1.046 SG</DISPLAY_OG>
+ <DISPLAY_FG>1.010 SG</DISPLAY_FG>
+ <DISPLAY_PRIMARY_TEMP>19.4 C</DISPLAY_PRIMARY_TEMP>
+ <DISPLAY_SECONDARY_TEMP>19.4 C</DISPLAY_SECONDARY_TEMP>
+ <DISPLAY_TERTIARY_TEMP>18.3 C</DISPLAY_TERTIARY_TEMP>
+ <DISPLAY_AGE_TEMP>18.3 C</DISPLAY_AGE_TEMP>
+</RECIPE>
+</RECIPES>

@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><RECIPES>
+<RECIPE>
+ <NAME>Weiss Weiss Baby</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>All Grain</TYPE>
+ <BREWER>Bryan</BREWER>
+ <ASST_BREWER></ASST_BREWER>
+ <BATCH_SIZE>25.0000000</BATCH_SIZE>
+ <BOIL_SIZE>35.0000000</BOIL_SIZE>
+ <BOIL_TIME>90.0000000</BOIL_TIME>
+ <EFFICIENCY>75.0000000</EFFICIENCY>
+ <HOPS>
+<HOP>
+ <NAME>Tettnang</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>Germany</ORIGIN>
+ <ALPHA>4.5000000</ALPHA>
+ <AMOUNT>0.0120000</AMOUNT>
+ <USE>Boil</USE>
+ <TIME>90.0000000</TIME>
+ <NOTES>Used for: German ales, lagers and wheat beer
+Aroma: Noble, mild, fine, slightly spicy
+Substitutes: Saaz, Spalt
+Examples: Sam Adams Octoberfest, Anderson Valley ESB</NOTES>
+ <TYPE>Aroma</TYPE>
+ <FORM>Leaf</FORM>
+ <BETA>3.5000000</BETA>
+ <HSI>40.0000000</HSI>
+ <DISPLAY_AMOUNT>12.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>114.00 g</INVENTORY>
+ <DISPLAY_TIME>90.0 min</DISPLAY_TIME>
+</HOP>
+<HOP>
+ <NAME>Perle</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>Germany</ORIGIN>
+ <ALPHA>9.6000000</ALPHA>
+ <AMOUNT>0.0060000</AMOUNT>
+ <USE>Boil</USE>
+ <TIME>90.0000000</TIME>
+ <NOTES>Used for: General purpose bittering for US and German ales, lagers
+Aroma: Slightly spicy, pleasant aroma, minty
+Substitutes: Chinook, Galena, Northern Brewer
+Examples: Sierra Nevada Pale Ale, Pale Bock</NOTES>
+ <TYPE>Bittering</TYPE>
+ <FORM>Leaf</FORM>
+ <BETA>4.7500000</BETA>
+ <HSI>15.0000000</HSI>
+ <DISPLAY_AMOUNT>6.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>40.00 g</INVENTORY>
+ <DISPLAY_TIME>90.0 min</DISPLAY_TIME>
+</HOP>
+<HOP>
+ <NAME>Tettnang</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>Germany</ORIGIN>
+ <ALPHA>4.5000000</ALPHA>
+ <AMOUNT>0.0060000</AMOUNT>
+ <USE>Boil</USE>
+ <TIME>45.0000000</TIME>
+ <NOTES>Used for: German ales, lagers and wheat beer
+Aroma: Noble, mild, fine, slightly spicy
+Substitutes: Saaz, Spalt
+Examples: Sam Adams Octoberfest, Anderson Valley ESB</NOTES>
+ <TYPE>Aroma</TYPE>
+ <FORM>Leaf</FORM>
+ <BETA>3.5000000</BETA>
+ <HSI>40.0000000</HSI>
+ <DISPLAY_AMOUNT>6.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>114.00 g</INVENTORY>
+ <DISPLAY_TIME>45.0 min</DISPLAY_TIME>
+</HOP>
+<HOP>
+ <NAME>Tettnang</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>Germany</ORIGIN>
+ <ALPHA>4.5000000</ALPHA>
+ <AMOUNT>0.0060000</AMOUNT>
+ <USE>Boil</USE>
+ <TIME>15.0000000</TIME>
+ <NOTES>Used for: German ales, lagers and wheat beer
+Aroma: Noble, mild, fine, slightly spicy
+Substitutes: Saaz, Spalt
+Examples: Sam Adams Octoberfest, Anderson Valley ESB</NOTES>
+ <TYPE>Aroma</TYPE>
+ <FORM>Leaf</FORM>
+ <BETA>3.5000000</BETA>
+ <HSI>40.0000000</HSI>
+ <DISPLAY_AMOUNT>6.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>114.00 g</INVENTORY>
+ <DISPLAY_TIME>15.0 min</DISPLAY_TIME>
+</HOP>
+</HOPS>
+
+ <FERMENTABLES>
+<FERMENTABLE>
+ <NAME>Barley Hulls</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Adjunct</TYPE>
+ <AMOUNT>0.4999997</AMOUNT>
+ <YIELD>0.0000000</YIELD>
+ <COLOR>0.0000000</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>US</ORIGIN>
+ <SUPPLIER></SUPPLIER>
+ <NOTES>Hulls are introduced to improve the speed of lautering when making high gravity or high adjunct beers.
+Hulls are neutral in flavor, body and color, and are inert
+Good for wheat beers, Wits, and others that have high protein mashes.</NOTES>
+ <COARSE_FINE_DIFF>1.5000000</COARSE_FINE_DIFF>
+ <MOISTURE>4.0000000</MOISTURE>
+ <DIASTATIC_POWER>120.0000000</DIASTATIC_POWER>
+ <PROTEIN>11.7000000</PROTEIN>
+ <MAX_IN_BATCH>5.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>FALSE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>0.50 kg</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 kg</INVENTORY>
+ <POTENTIAL>1.0000000</POTENTIAL>
+ <DISPLAY_COLOR>0.0 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE></EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+<FERMENTABLE>
+ <NAME>Wheat Malt, Pale (Weyermann)</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>2.6499983</AMOUNT>
+ <YIELD>82.2300000</YIELD>
+ <COLOR>3.9400000</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>Germany</ORIGIN>
+ <SUPPLIER>Weyermann</SUPPLIER>
+ <NOTES>Pale wheat malt, used as a base malt in many wheat styles. Wheat beers, Koelsch, Alts.</NOTES>
+ <COARSE_FINE_DIFF>1.7000000</COARSE_FINE_DIFF>
+ <MOISTURE>4.5000000</MOISTURE>
+ <DIASTATIC_POWER>74.0000000</DIASTATIC_POWER>
+ <PROTEIN>11.7000000</PROTEIN>
+ <MAX_IN_BATCH>80.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>TRUE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>2.65 kg</DISPLAY_AMOUNT>
+ <INVENTORY>0.84 kg</INVENTORY>
+ <POTENTIAL>1.0378258</POTENTIAL>
+ <DISPLAY_COLOR>3.9 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE>Wheat Liquid Extract</EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+<FERMENTABLE>
+ <NAME>Pilsner (Weyermann)</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>2.1999986</AMOUNT>
+ <YIELD>82.2300000</YIELD>
+ <COLOR>3.3490000</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>Germany</ORIGIN>
+ <SUPPLIER>Weyermann</SUPPLIER>
+ <NOTES>Pilsner base malt for all pilsners, lagers.  Highly modified malt.</NOTES>
+ <COARSE_FINE_DIFF>1.2000000</COARSE_FINE_DIFF>
+ <MOISTURE>4.4000000</MOISTURE>
+ <DIASTATIC_POWER>110.0000000</DIASTATIC_POWER>
+ <PROTEIN>10.9000000</PROTEIN>
+ <MAX_IN_BATCH>100.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>TRUE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>2.20 kg</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 kg</INVENTORY>
+ <POTENTIAL>1.0378258</POTENTIAL>
+ <DISPLAY_COLOR>3.3 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE>Pilsner Liquid Extract</EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+</FERMENTABLES>
+
+ 
+ 
+ 
+ <STYLE>
+ <NAME>Weizen/Weissbier</NAME>
+ <VERSION>1</VERSION>
+ <CATEGORY>German Wheat and Rye Beer</CATEGORY>
+ <CATEGORY_NUMBER>15</CATEGORY_NUMBER>
+ <STYLE_LETTER>A</STYLE_LETTER>
+ <STYLE_GUIDE>BJCP 2008</STYLE_GUIDE>
+ <TYPE>Ale</TYPE>
+ <OG_MIN>1.0440000</OG_MIN>
+ <OG_MAX>1.0520000</OG_MAX>
+ <FG_MIN>1.0100000</FG_MIN>
+ <FG_MAX>1.0140000</FG_MAX>
+ <IBU_MIN>8.0000000</IBU_MIN>
+ <IBU_MAX>15.0000000</IBU_MAX>
+ <COLOR_MIN>3.9400000</COLOR_MIN>
+ <COLOR_MAX>15.7600000</COLOR_MAX>
+ <CARB_MIN>2.5000000</CARB_MIN>
+ <CARB_MAX>2.9000000</CARB_MAX>
+ <ABV_MAX>5.6000000</ABV_MAX>
+ <ABV_MIN>4.3000000</ABV_MIN>
+ <NOTES>A pale, spicy, fruity, refreshing wheatbased ale. A traditional wheat-based ale originating in Southern Germany that is a specialty for summer consumption, but generally produced year-round. These are refreshing, fast-maturing beers that are lightly hopped and show a unique banana-and-clove yeast character. These beers often don&#8217;t age well and are best enjoyed while young and fresh. The version &#8220;mit hefe&#8221; is served with yeast sediment stirred in; the krystal version is filtered for excellent clarity. Bottles with yeast are traditionally swirled or gently rolled prior to serving. The character of a krystal weizen is generally fruitier and less phenolic than that of the hefe-weizen.</NOTES>
+ <PROFILE>Aroma: Moderate to strong phenols (usually clove) and fruity esters (usually banana). The balance and intensity of the phenol and ester components can vary but the best examples are reasonably balanced and fairly prominent. Noble hop character ranges from low to none. A light to moderate wheat aroma (which might be perceived as bready or grainy) may be present but other malt characteristics should not. No diacetyl or DMS. Optional, but acceptable, aromatics can include a light, citrusy tartness, a light to moderate vanilla character, and/or a low bubblegum aroma. None of these optional characteristics should be high or dominant, but often can add to the complexity and balance.
+Appearance: Pale straw to very dark gold in color. A very thick, moussy, long-lasting white head is characteristic. The high protein content of wheat impairs clarity in an unfiltered beer, although the level of haze is somewhat variable. A beer &#8220;mit hefe&#8221; is also cloudy from suspended yeast sediment (which should be roused before drinking). The filtered Krystal version has no yeast and is brilliantly clear.
+Flavor: Low to moderately strong banana and clove flavor. The balance and intensity of the phenol and ester components can vary but the best examples are reasonably balanced and fairly prominent. Optionally, a very light to moderate vanilla character and/or low bubblegum notes can accentuate the banana flavor, sweetness and roundness; neither should be dominant if present. The soft, somewhat bready or grainy flavor of wheat is complementary, as is a slightly sweet Pils malt character. Hop flavor is very low to none, and hop bitterness is very low to moderately low. A tart, citrusy character from yeast and high carbonation is often present. Well rounded, flavorful palate with a relatively dry finish. No diacetyl or DMS.
+Mouthfeel: Medium-light to medium body; never heavy. Suspended yeast may increase the perception of body. The texture of wheat imparts the sensation of a fluffy, creamy fullness that may progress to a light, spritzy finish aided by high carbonation. Always effervescent.</PROFILE>
+ <INGREDIENTS>By German law, at least 50% of the grist must be malted wheat, although some versions use up to 70%; the remainder is Pilsner malt. A traditional decoction mash gives the appropriate body without cloying sweetness. Weizen ale yeasts produce the typical spicy and fruity character, although extreme fermentation temperatures can affect the balance and produce off-flavors. A small amount of noble hops are used only for bitterness.</INGREDIENTS>
+ <EXAMPLES>Weihenstephaner Hefeweissbier, Schneider Weisse Weizenhell, Paulaner Hefe-Weizen, Hacker-Pschorr Weisse, Plank Bavarian Hefeweizen, Ayinger Br&#228;u Weisse, Ettaler Weissbier Hell, Franziskaner Hefe-Weisse, Andechser Weissbier Hefetr&#252;b, Kapuziner Weissbier, Erdinger Weissbier, Penn Weizen, Barrelhouse Hocking Hills Hefe-Weizen, Eisenbahn Weizenbier</EXAMPLES>
+ <DISPLAY_OG_MIN>1.044 SG</DISPLAY_OG_MIN>
+ <DISPLAY_OG_MAX>1.052 SG</DISPLAY_OG_MAX>
+ <DISPLAY_FG_MIN>1.010 SG</DISPLAY_FG_MIN>
+ <DISPLAY_FG_MAX>1.014 SG</DISPLAY_FG_MAX>
+ <DISPLAY_COLOR_MIN>3.9 EBC</DISPLAY_COLOR_MIN>
+ <DISPLAY_COLOR_MAX>15.8 EBC</DISPLAY_COLOR_MAX>
+ <OG_RANGE>1.044-1.052 SG</OG_RANGE>
+ <FG_RANGE>1.010-1.014 SG</FG_RANGE>
+ <IBU_RANGE>8.0-15.0 IBUs</IBU_RANGE>
+ <CARB_RANGE>2.50-2.90 Vols</CARB_RANGE>
+ <COLOR_RANGE>3.9-15.8 EBC</COLOR_RANGE>
+ <ABV_RANGE>4.30-5.60 %</ABV_RANGE>
+</STYLE>
+
+ <EQUIPMENT>
+ <NAME>Pot (18.5 Gal/70 L) and Cooler (9.5 Gal/45 L)  - All Grain</NAME>
+ <VERSION>1</VERSION>
+ <BOIL_SIZE>35.0000000</BOIL_SIZE>
+ <BATCH_SIZE>25.0000000</BATCH_SIZE>
+ <TUN_VOLUME>45.0000000</TUN_VOLUME>
+ <TUN_WEIGHT>4.0823280</TUN_WEIGHT>
+ <TUN_SPECIFIC_HEAT>0.3000000</TUN_SPECIFIC_HEAT>
+ <TOP_UP_WATER>0.0000000</TOP_UP_WATER>
+ <TRUB_CHILLER_LOSS>0.0000000</TRUB_CHILLER_LOSS>
+ <EVAP_RATE>17.1428571</EVAP_RATE>
+ <BOIL_TIME>90.0000000</BOIL_TIME>
+ <CALC_BOIL_VOLUME>TRUE</CALC_BOIL_VOLUME>
+ <LAUTER_DEADSPACE>0.6000000</LAUTER_DEADSPACE>
+ <TOP_UP_KETTLE>0.0000000</TOP_UP_KETTLE>
+ <HOP_UTILIZATION>100.0000000</HOP_UTILIZATION>
+ <COOLING_LOSS_PCT>4.0000000</COOLING_LOSS_PCT>
+ <NOTES>Based on a 18.5 Gal/70 L pot with a diameter of 18 inches/45 cm and a 9.5 Gal/40 L cooler. The above assumes loose pellet hops and only clear, chilled wort transferred from the kettle using no trub management techniques. Experienced brewers should adjust &#39;Loss to Trub and Chiller&#39; and &#39;Brewhouse Efficiency&#39; accordingly to suit their trub management techniques.</NOTES>
+ <DISPLAY_BOIL_SIZE>35.00 l</DISPLAY_BOIL_SIZE>
+ <DISPLAY_BATCH_SIZE>25.00 l</DISPLAY_BATCH_SIZE>
+ <DISPLAY_TUN_VOLUME>45.00 l</DISPLAY_TUN_VOLUME>
+ <DISPLAY_TUN_WEIGHT>4.08 kg</DISPLAY_TUN_WEIGHT>
+ <DISPLAY_TOP_UP_WATER>0.00 l</DISPLAY_TOP_UP_WATER>
+ <DISPLAY_TRUB_CHILLER_LOSS>0.00 l</DISPLAY_TRUB_CHILLER_LOSS>
+ <DISPLAY_LAUTER_DEADSPACE>0.60 l</DISPLAY_LAUTER_DEADSPACE>
+ <DISPLAY_TOP_UP_KETTLE>0.00 l</DISPLAY_TOP_UP_KETTLE>
+</EQUIPMENT>
+
+ <MASH>
+ <NAME>Double Infusion, Medium Body</NAME>
+ <VERSION>1</VERSION>
+ <GRAIN_TEMP>22.2222222</GRAIN_TEMP>
+ <TUN_TEMP>22.2222222</TUN_TEMP>
+ <SPARGE_TEMP>75.5555556</SPARGE_TEMP>
+ <PH>5.4000000</PH>
+ <TUN_WEIGHT>144.0000000</TUN_WEIGHT>
+ <TUN_SPECIFIC_HEAT>0.3000000</TUN_SPECIFIC_HEAT>
+ <EQUIP_ADJUST>FALSE</EQUIP_ADJUST>
+ <NOTES>Double step infusion - for medium body beers requiring a protein rest.  Used primarily in beers high in unmodified grains or adjuncts.</NOTES>
+ <DISPLAY_GRAIN_TEMP>22.2 C</DISPLAY_GRAIN_TEMP>
+ <DISPLAY_TUN_TEMP>22.2 C</DISPLAY_TUN_TEMP>
+ <DISPLAY_SPARGE_TEMP>75.6 C</DISPLAY_SPARGE_TEMP>
+ <DISPLAY_TUN_WEIGHT>4.08 kg</DISPLAY_TUN_WEIGHT>
+<MASH_STEPS>
+<MASH_STEP>
+ <NAME>Glucan Rest</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Infusion</TYPE>
+ <INFUSE_AMOUNT>5.3981500</INFUSE_AMOUNT>
+ <STEP_TIME>30.0000000</STEP_TIME>
+ <STEP_TEMP>37.0000000</STEP_TEMP>
+ <RAMP_TIME>2.0000000</RAMP_TIME>
+ <END_TEMP>37.0000000</END_TEMP>
+ <DESCRIPTION>Add 6.00 l of water at 42.0 C</DESCRIPTION>
+ <WATER_GRAIN_RATIO>1.009 l/kg</WATER_GRAIN_RATIO>
+ <DECOCTION_AMT>0.00 l</DECOCTION_AMT>
+ <INFUSE_TEMP>42.0 C</INFUSE_TEMP>
+ <DISPLAY_STEP_TEMP>37.0 C</DISPLAY_STEP_TEMP>
+ <DISPLAY_INFUSE_AMT>6.00 l</DISPLAY_INFUSE_AMT>
+</MASH_STEP>
+<MASH_STEP>
+ <NAME>Saccharification</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Infusion</TYPE>
+ <INFUSE_AMOUNT>8.9296358</INFUSE_AMOUNT>
+ <STEP_TIME>30.0000000</STEP_TIME>
+ <STEP_TEMP>66.6666667</STEP_TEMP>
+ <RAMP_TIME>2.0000000</RAMP_TIME>
+ <END_TEMP>66.6666667</END_TEMP>
+ <DESCRIPTION>Add 8.93 l of water at 93.3 C</DESCRIPTION>
+ <WATER_GRAIN_RATIO>2.790 l/kg</WATER_GRAIN_RATIO>
+ <DECOCTION_AMT>0.00 l</DECOCTION_AMT>
+ <INFUSE_TEMP>93.3 C</INFUSE_TEMP>
+ <DISPLAY_STEP_TEMP>66.7 C</DISPLAY_STEP_TEMP>
+ <DISPLAY_INFUSE_AMT>8.93 l</DISPLAY_INFUSE_AMT>
+</MASH_STEP>
+<MASH_STEP>
+ <NAME>Mash Out</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Infusion</TYPE>
+ <INFUSE_AMOUNT>7.8134313</INFUSE_AMOUNT>
+ <STEP_TIME>10.0000000</STEP_TIME>
+ <STEP_TEMP>75.5555556</STEP_TEMP>
+ <RAMP_TIME>2.0000000</RAMP_TIME>
+ <END_TEMP>75.5555556</END_TEMP>
+ <DESCRIPTION>Add 7.81 l of water at 94.9 C</DESCRIPTION>
+ <WATER_GRAIN_RATIO>4.251 l/kg</WATER_GRAIN_RATIO>
+ <DECOCTION_AMT>0.00 l</DECOCTION_AMT>
+ <INFUSE_TEMP>94.9 C</INFUSE_TEMP>
+ <DISPLAY_STEP_TEMP>75.6 C</DISPLAY_STEP_TEMP>
+ <DISPLAY_INFUSE_AMT>7.81 l</DISPLAY_INFUSE_AMT>
+</MASH_STEP>
+</MASH_STEPS>
+
+</MASH>
+
+ <NOTES></NOTES>
+ <TASTE_NOTES></TASTE_NOTES>
+ <TASTE_RATING>30.0000000</TASTE_RATING>
+ <OG>1.0460000</OG>
+ <FG>1.0100000</FG>
+ <CARBONATION>2.3000000</CARBONATION>
+ <FERMENTATION_STAGES>2</FERMENTATION_STAGES>
+ <PRIMARY_AGE>4.0000000</PRIMARY_AGE>
+ <PRIMARY_TEMP>19.4444444</PRIMARY_TEMP>
+ <SECONDARY_AGE>10.0000000</SECONDARY_AGE>
+ <SECONDARY_TEMP>19.4444444</SECONDARY_TEMP>
+ <TERTIARY_AGE>7.0000000</TERTIARY_AGE>
+ <AGE>30.0000000</AGE>
+ <AGE_TEMP>18.3333333</AGE_TEMP>
+ <CARBONATION_USED>Bottle with 129.40 g Corn Sugar</CARBONATION_USED>
+ <FORCED_CARBONATION>TRUE</FORCED_CARBONATION>
+ <PRIMING_SUGAR_NAME>Corn Sugar</PRIMING_SUGAR_NAME>
+ <PRIMING_SUGAR_EQUIV>1.0000000</PRIMING_SUGAR_EQUIV>
+ <KEG_PRIMING_FACTOR>0.5000000</KEG_PRIMING_FACTOR>
+ <CARBONATION_TEMP>21.1111111</CARBONATION_TEMP>
+ <DISPLAY_CARB_TEMP>21.1 C</DISPLAY_CARB_TEMP>
+ <DATE>10 May 2014</DATE>
+ <EST_OG>1.046 SG</EST_OG>
+ <EST_FG>1.012 SG</EST_FG>
+ <EST_COLOR>6.3 EBC</EST_COLOR>
+ <IBU>16.9 IBUs</IBU>
+ <IBU_METHOD>Tinseth</IBU_METHOD>
+ <EST_ABV>4.5 %</EST_ABV>
+ <ABV>4.7 %</ABV>
+ <ACTUAL_EFFICIENCY>56.9 %</ACTUAL_EFFICIENCY>
+ <CALORIES>427.1 kcal/l</CALORIES>
+ <DISPLAY_BATCH_SIZE>25.00 l</DISPLAY_BATCH_SIZE>
+ <DISPLAY_BOIL_SIZE>35.00 l</DISPLAY_BOIL_SIZE>
+ <DISPLAY_OG>1.046 SG</DISPLAY_OG>
+ <DISPLAY_FG>1.010 SG</DISPLAY_FG>
+ <DISPLAY_PRIMARY_TEMP>19.4 C</DISPLAY_PRIMARY_TEMP>
+ <DISPLAY_SECONDARY_TEMP>19.4 C</DISPLAY_SECONDARY_TEMP>
+ <DISPLAY_TERTIARY_TEMP>18.3 C</DISPLAY_TERTIARY_TEMP>
+ <DISPLAY_AGE_TEMP>18.3 C</DISPLAY_AGE_TEMP>
+</RECIPE>
+</RECIPES>

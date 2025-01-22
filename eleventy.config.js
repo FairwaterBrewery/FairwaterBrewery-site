@@ -4,7 +4,9 @@ import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import pluginNavigation from "@11ty/eleventy-navigation";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import { EleventyRenderPlugin } from "@11ty/eleventy";
-import xml2js from "xml2js";
+import faviconsPlugin from "eleventy-plugin-gen-favicons";
+import markdownIt from "markdown-it";
+import markdownItAttrs from "markdown-it-attrs";
 
 import pluginFilters from "./_config/filters.js";
 
@@ -117,6 +119,16 @@ export default async function(eleventyConfig) {
 		let items = arr?.filter(item => item[key][0] === value);
 		return items;
 	});
+	
+	eleventyConfig.addPlugin(faviconsPlugin, {"outputDir": "./_site"});
+
+	let markdownItOptions = {
+		html: true,
+		breaks: true,
+		linkify: true,
+	};
+	const markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs)
+	eleventyConfig.setLibrary("md", markdownLib);
 
 	// Features to make your build faster (when you need them)
 

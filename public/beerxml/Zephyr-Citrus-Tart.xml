@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><RECIPES>
+<RECIPE>
+ <NAME>Zephry (Citrus Tart)</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>All Grain</TYPE>
+ <BREWER>Bryan</BREWER>
+ <ASST_BREWER></ASST_BREWER>
+ <BATCH_SIZE>19.9998847</BATCH_SIZE>
+ <BOIL_SIZE>25.8331844</BOIL_SIZE>
+ <BOIL_TIME>60.0000000</BOIL_TIME>
+ <EFFICIENCY>75.0000000</EFFICIENCY>
+ <HOPS>
+<HOP>
+ <NAME>Perle</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>Germany</ORIGIN>
+ <ALPHA>9.6000000</ALPHA>
+ <AMOUNT>0.0080000</AMOUNT>
+ <USE>Boil</USE>
+ <TIME>60.0000000</TIME>
+ <NOTES>Used for: General purpose bittering for US and German ales, lagers
+Aroma: Slightly spicy, pleasant aroma, minty
+Substitutes: Chinook, Galena, Northern Brewer
+Examples: Sierra Nevada Pale Ale, Pale Bock</NOTES>
+ <TYPE>Bittering</TYPE>
+ <FORM>Leaf</FORM>
+ <BETA>4.7500000</BETA>
+ <HSI>15.0000000</HSI>
+ <DISPLAY_AMOUNT>8.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>147.00 g</INVENTORY>
+ <DISPLAY_TIME>60.0 min</DISPLAY_TIME>
+</HOP>
+</HOPS>
+
+ <FERMENTABLES>
+<FERMENTABLE>
+ <NAME>Pale Ale (Crisp)</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>2.5199984</AMOUNT>
+ <YIELD>82.5000000</YIELD>
+ <COLOR>5.7000000</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>United Kingdom</ORIGIN>
+ <SUPPLIER>Crisp</SUPPLIER>
+ <NOTES>Base malt for all English beer styles</NOTES>
+ <COARSE_FINE_DIFF>2.0000000</COARSE_FINE_DIFF>
+ <MOISTURE>3.3000000</MOISTURE>
+ <DIASTATIC_POWER>60.0000000</DIASTATIC_POWER>
+ <PROTEIN>10.0000000</PROTEIN>
+ <MAX_IN_BATCH>100.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>TRUE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>2.52 kg</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 kg</INVENTORY>
+ <POTENTIAL>1.0379500</POTENTIAL>
+ <DISPLAY_COLOR>5.7 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE>Pale Liquid Extract</EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+<FERMENTABLE>
+ <NAME>Wheat Malt, Pale (Weyermann)</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>1.1999992</AMOUNT>
+ <YIELD>82.2300000</YIELD>
+ <COLOR>3.9400000</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>Germany</ORIGIN>
+ <SUPPLIER>Weyermann</SUPPLIER>
+ <NOTES>Pale wheat malt, used as a base malt in many wheat styles. Wheat beers, Koelsch, Alts.</NOTES>
+ <COARSE_FINE_DIFF>1.7000000</COARSE_FINE_DIFF>
+ <MOISTURE>4.5000000</MOISTURE>
+ <DIASTATIC_POWER>74.0000000</DIASTATIC_POWER>
+ <PROTEIN>11.7000000</PROTEIN>
+ <MAX_IN_BATCH>80.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>TRUE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>1.20 kg</DISPLAY_AMOUNT>
+ <INVENTORY>1.80 kg</INVENTORY>
+ <POTENTIAL>1.0378258</POTENTIAL>
+ <DISPLAY_COLOR>3.9 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE>Wheat Liquid Extract</EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+</FERMENTABLES>
+
+ <MISCS>
+<MISC>
+ <NAME>Malic Acid</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Flavor</TYPE>
+ <USE>Primary</USE>
+ <AMOUNT>0.005000</AMOUNT>
+ <TIME>0.00</TIME>
+ <AMOUNT_IS_WEIGHT>TRUE</AMOUNT_IS_WEIGHT>
+ <USE_FOR>Raise Acidity in Cider</USE_FOR>
+ <NOTES>Used primariy in ciders as malic acid is native to apples.  A dose of 3.4 g in 1 gal (4 l) will raise acidity by approx 0.1%. 1 tsp is about 2.7 g.  Sometimes used in Reisling, Gewurztraminer, and Muscat varieties.  Do not use in a wine where you will be doing a malolactic fermentation,</NOTES>
+ <DISPLAY_AMOUNT>5.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>0.0 mins</DISPLAY_TIME>
+ <BATCH_SIZE>3.79 L</BATCH_SIZE>
+</MISC>
+<MISC>
+ <NAME>Citric Acid</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Other</TYPE>
+ <USE>Primary</USE>
+ <AMOUNT>0.044000</AMOUNT>
+ <TIME>0.00</TIME>
+ <AMOUNT_IS_WEIGHT>TRUE</AMOUNT_IS_WEIGHT>
+ <USE_FOR>Increase Acidity of Wine</USE_FOR>
+ <NOTES>Used in a finished wine to increase acidity for improved stability and shelf life.  1 tsp per gallon (4 l) will raise acidity by about 0.1%.</NOTES>
+ <DISPLAY_AMOUNT>44.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>0.0 mins</DISPLAY_TIME>
+ <BATCH_SIZE>3.79 L</BATCH_SIZE>
+</MISC>
+<MISC>
+ <NAME>Lactic Acid</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Flavor</TYPE>
+ <USE>Primary</USE>
+ <AMOUNT>0.048000</AMOUNT>
+ <TIME>60.00</TIME>
+ <AMOUNT_IS_WEIGHT>TRUE</AMOUNT_IS_WEIGHT>
+ <USE_FOR>Mash pH</USE_FOR>
+ <NOTES>Used to lower the pH of the mash without altering the water profile.  Lower pH mashes generally improves head retention, increases extraction rate.</NOTES>
+ <DISPLAY_AMOUNT>48.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>60.0 mins</DISPLAY_TIME>
+ <BATCH_SIZE>18.93 L</BATCH_SIZE>
+</MISC>
+</MISCS>
+
+ 
+ 
+ <STYLE>
+ <NAME>Berliner Weisse</NAME>
+ <VERSION>1</VERSION>
+ <CATEGORY>European Sour Ale</CATEGORY>
+ <CATEGORY_NUMBER>23</CATEGORY_NUMBER>
+ <STYLE_LETTER>A</STYLE_LETTER>
+ <STYLE_GUIDE>BJCP 2015</STYLE_GUIDE>
+ <TYPE>Ale</TYPE>
+ <OG_MIN>1.0280000</OG_MIN>
+ <OG_MAX>1.0320000</OG_MAX>
+ <FG_MIN>1.0030000</FG_MIN>
+ <FG_MAX>1.0060000</FG_MAX>
+ <IBU_MIN>3.0000000</IBU_MIN>
+ <IBU_MAX>8.0000000</IBU_MAX>
+ <COLOR_MIN>3.9400000</COLOR_MIN>
+ <COLOR_MAX>5.9100000</COLOR_MAX>
+ <CARB_MIN>2.6000000</CARB_MIN>
+ <CARB_MAX>4.4000000</CARB_MAX>
+ <ABV_MAX>3.8000000</ABV_MAX>
+ <ABV_MIN>2.8000000</ABV_MIN>
+ <NOTES>A very pale, refreshing, low-alcohol German wheat beer with a clean lactic sourness and a very high carbonation level. A light bread dough malt flavor supports the sourness, which shouldn&#8217;t seem artificial. Any Brettanomyces funk is restrained. History: A regional specialty of Berlin; referred to by Napoleon&#39;s troops in 1809 as &#8220;the Champagne of the North&#8221; due to its lively and elegant character. At one point, it was smoked and there used to be M&#228;rzen-strength (14 &#176;P) version. Increasingly rare in German, but some American craft breweries now regularly produce the style. Style Comparison: Compared to a lambic, is generally not as acidic and has a clean lactic sourness with restrained to below sensory threshold funk. Also lower in alcohol content.</NOTES>
+ <PROFILE>Aroma: A sharply sour character is dominant (moderate to moderately-high). Can have up to a moderately fruity character (often lemony or tart apple). The fruitiness may increase with age and a light flowery character may develop. No hop aroma. The wheat may present as uncooked bread dough in fresher versions; combined with the acidity, may suggest sourdough bread. May optionally have a restrained funky Brettanomyces character. Appearance: Very pale straw in color. Clarity ranges from clear to somewhat hazy. Large, dense, white head with poor retention. Always effervescent. Flavor: Clean lactic sourness dominates and can be quite strong. Some complementary doughy, bready or grainy wheat flavor is generally noticeable. Hop bitterness is undetectable; sourness provides the balance rather than hops. Never vinegary. A restrained citrusy-lemony or tart apple fruitiness may be detected. Very dry finish. Balance dominated by sourness, but some malt flavor should be present. No hop flavor. May optionally have a restrained funky Brettanomyces character.  Mouthfeel: Light body. Very high carbonation. No sensation of alcohol. Crisp, juicy acidity. Comments: In Germany, it is classified as a Schankbier denoting a small beer of starting gravity in the range 7-8 &#176;P. Often served with the addition of a shot of sugar syrups (mit schuss) flavored with raspberry (himbeer), woodruff (waldmeister), or Caraway schnapps (K&#252;mmel) to counter the substantial sourness. Has been described by some as the most purely refreshing beer in the world.</PROFILE>
+ <INGREDIENTS>Wheat malt content is typically 50% of the grist (as is tradition with all German wheat beers) with the remainder typically being Pilsner malt. A symbiotic fermentation with top-fermenting yeast and Lactobacillus (various strains) provides the sharp sourness, which may be enhanced by blending of beers of different ages during fermentation and by extended cool aging. Hop bitterness is non-existent. Decoction mashing with mash hopping is traditional. German brewing scientists believe that Brettanomyces is essential to get the correct flavor profile, but this character is never strong.</INGREDIENTS>
+ <EXAMPLES>Bayerischer Bahnhof Berliner Style Weisse, Berliner Kindl Weisse, Nodding Head Berliner Weisse, The Bruery Hottenroth</EXAMPLES>
+ <DISPLAY_OG_MIN>1.028 SG</DISPLAY_OG_MIN>
+ <DISPLAY_OG_MAX>1.032 SG</DISPLAY_OG_MAX>
+ <DISPLAY_FG_MIN>1.003 SG</DISPLAY_FG_MIN>
+ <DISPLAY_FG_MAX>1.006 SG</DISPLAY_FG_MAX>
+ <DISPLAY_COLOR_MIN>3.9 EBC</DISPLAY_COLOR_MIN>
+ <DISPLAY_COLOR_MAX>5.9 EBC</DISPLAY_COLOR_MAX>
+ <OG_RANGE>1.028-1.032 SG</OG_RANGE>
+ <FG_RANGE>1.003-1.006 SG</FG_RANGE>
+ <IBU_RANGE>3.0-8.0 IBUs</IBU_RANGE>
+ <CARB_RANGE>2.60-4.40 Vols</CARB_RANGE>
+ <COLOR_RANGE>3.9-5.9 EBC</COLOR_RANGE>
+ <ABV_RANGE>2.80-3.80 %</ABV_RANGE>
+</STYLE>
+
+ <EQUIPMENT>
+ <NAME>Pot (18.5 Gal/70 L) and Cooler (9.5 Gal/45 L)  - All Grain</NAME>
+ <VERSION>1</VERSION>
+ <BOIL_SIZE>25.8331844</BOIL_SIZE>
+ <BATCH_SIZE>19.9998847</BATCH_SIZE>
+ <TUN_VOLUME>44.9997407</TUN_VOLUME>
+ <TUN_WEIGHT>4.0823280</TUN_WEIGHT>
+ <TUN_SPECIFIC_HEAT>0.3000000</TUN_SPECIFIC_HEAT>
+ <TOP_UP_WATER>0.0000000</TOP_UP_WATER>
+ <TRUB_CHILLER_LOSS>0.0000000</TRUB_CHILLER_LOSS>
+ <EVAP_RATE>19.3548387</EVAP_RATE>
+ <BOIL_TIME>60.0000000</BOIL_TIME>
+ <CALC_BOIL_VOLUME>TRUE</CALC_BOIL_VOLUME>
+ <LAUTER_DEADSPACE>0.5999965</LAUTER_DEADSPACE>
+ <TOP_UP_KETTLE>0.0000000</TOP_UP_KETTLE>
+ <HOP_UTILIZATION>100.0000000</HOP_UTILIZATION>
+ <COOLING_LOSS_PCT>4.0000000</COOLING_LOSS_PCT>
+ <NOTES>Based on a 18.5 Gal/70 L pot with a diameter of 18 inches/45 cm and a 9.5 Gal/40 L cooler. The above assumes loose pellet hops and only clear, chilled wort transferred from the kettle using no trub management techniques. Experienced brewers should adjust &#39;Loss to Trub and Chiller&#39; and &#39;Brewhouse Efficiency&#39; accordingly to suit their trub management techniques.</NOTES>
+ <DISPLAY_BOIL_SIZE>25.83 L</DISPLAY_BOIL_SIZE>
+ <DISPLAY_BATCH_SIZE>20.00 L</DISPLAY_BATCH_SIZE>
+ <DISPLAY_TUN_VOLUME>45.00 L</DISPLAY_TUN_VOLUME>
+ <DISPLAY_TUN_WEIGHT>4.08 kg</DISPLAY_TUN_WEIGHT>
+ <DISPLAY_TOP_UP_WATER>0.00 L</DISPLAY_TOP_UP_WATER>
+ <DISPLAY_TRUB_CHILLER_LOSS>0.00 L</DISPLAY_TRUB_CHILLER_LOSS>
+ <DISPLAY_LAUTER_DEADSPACE>0.60 L</DISPLAY_LAUTER_DEADSPACE>
+ <DISPLAY_TOP_UP_KETTLE>0.00 L</DISPLAY_TOP_UP_KETTLE>
+</EQUIPMENT>
+
+ <MASH>
+ <NAME>Double Infusion, Light Body</NAME>
+ <VERSION>1</VERSION>
+ <GRAIN_TEMP>22.2222222</GRAIN_TEMP>
+ <TUN_TEMP>22.2222222</TUN_TEMP>
+ <SPARGE_TEMP>75.5555556</SPARGE_TEMP>
+ <PH>5.4000000</PH>
+ <TUN_WEIGHT>144.0000000</TUN_WEIGHT>
+ <TUN_SPECIFIC_HEAT>0.3000000</TUN_SPECIFIC_HEAT>
+ <EQUIP_ADJUST>FALSE</EQUIP_ADJUST>
+ <NOTES>Double step infusion - for light body beers requiring a protein rest.  Used primarily in beers high in unmodified grains or adjuncts.</NOTES>
+ <DISPLAY_GRAIN_TEMP>22.2 C</DISPLAY_GRAIN_TEMP>
+ <DISPLAY_TUN_TEMP>22.2 C</DISPLAY_TUN_TEMP>
+ <DISPLAY_SPARGE_TEMP>75.6 C</DISPLAY_SPARGE_TEMP>
+ <DISPLAY_TUN_WEIGHT>4.08 kg</DISPLAY_TUN_WEIGHT>
+<MASH_STEPS>
+<MASH_STEP>
+ <NAME>Protein Rest</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Infusion</TYPE>
+ <INFUSE_AMOUNT>6.9861600</INFUSE_AMOUNT>
+ <STEP_TIME>25.0000000</STEP_TIME>
+ <STEP_TEMP>53.0000000</STEP_TEMP>
+ <RAMP_TIME>2.0000000</RAMP_TIME>
+ <END_TEMP>53.0000000</END_TEMP>
+ <DESCRIPTION>Add 7.59 L of water at 58.7 C</DESCRIPTION>
+ <WATER_GRAIN_RATIO>1.878 l/kg</WATER_GRAIN_RATIO>
+ <DECOCTION_AMT>0.00 L</DECOCTION_AMT>
+ <INFUSE_TEMP>58.7 C</INFUSE_TEMP>
+ <DISPLAY_STEP_TEMP>53.0 C</DISPLAY_STEP_TEMP>
+ <DISPLAY_INFUSE_AMT>7.59 L</DISPLAY_INFUSE_AMT>
+</MASH_STEP>
+<MASH_STEP>
+ <NAME>Saccharification</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Infusion</TYPE>
+ <INFUSE_AMOUNT>6.2084306</INFUSE_AMOUNT>
+ <STEP_TIME>60.0000000</STEP_TIME>
+ <STEP_TEMP>65.0000000</STEP_TEMP>
+ <RAMP_TIME>2.0000000</RAMP_TIME>
+ <END_TEMP>65.0000000</END_TEMP>
+ <DESCRIPTION>Add 6.21 L of water at 82.4 C</DESCRIPTION>
+ <WATER_GRAIN_RATIO>3.708 l/kg</WATER_GRAIN_RATIO>
+ <DECOCTION_AMT>0.00 L</DECOCTION_AMT>
+ <INFUSE_TEMP>82.4 C</INFUSE_TEMP>
+ <DISPLAY_STEP_TEMP>65.0 C</DISPLAY_STEP_TEMP>
+ <DISPLAY_INFUSE_AMT>6.21 L</DISPLAY_INFUSE_AMT>
+</MASH_STEP>
+</MASH_STEPS>
+
+</MASH>
+
+ <NOTES></NOTES>
+ <TASTE_NOTES></TASTE_NOTES>
+ <TASTE_RATING>30.0000000</TASTE_RATING>
+ <OG>1.0460000</OG>
+ <FG>1.0100000</FG>
+ <CARBONATION>2.3000000</CARBONATION>
+ <FERMENTATION_STAGES>2</FERMENTATION_STAGES>
+ <PRIMARY_AGE>4.0000000</PRIMARY_AGE>
+ <PRIMARY_TEMP>19.4444444</PRIMARY_TEMP>
+ <SECONDARY_AGE>10.0000000</SECONDARY_AGE>
+ <SECONDARY_TEMP>19.4444444</SECONDARY_TEMP>
+ <TERTIARY_AGE>7.0000000</TERTIARY_AGE>
+ <AGE>30.0000000</AGE>
+ <AGE_TEMP>18.3333333</AGE_TEMP>
+ <CARBONATION_USED>Bottle with 105.88 g Corn Sugar</CARBONATION_USED>
+ <FORCED_CARBONATION>TRUE</FORCED_CARBONATION>
+ <PRIMING_SUGAR_NAME>Corn Sugar</PRIMING_SUGAR_NAME>
+ <PRIMING_SUGAR_EQUIV>1.0000000</PRIMING_SUGAR_EQUIV>
+ <KEG_PRIMING_FACTOR>0.5000000</KEG_PRIMING_FACTOR>
+ <CARBONATION_TEMP>21.1111111</CARBONATION_TEMP>
+ <DISPLAY_CARB_TEMP>21.1 C</DISPLAY_CARB_TEMP>
+ <DATE>14 Jul 2019</DATE>
+ <EST_OG>1.044 SG</EST_OG>
+ <EST_FG>1.009 SG</EST_FG>
+ <EST_COLOR>7.7 EBC</EST_COLOR>
+ <IBU>10.2 IBUs</IBU>
+ <IBU_METHOD>Tinseth</IBU_METHOD>
+ <EST_ABV>4.6 %</EST_ABV>
+ <ABV>4.7 %</ABV>
+ <ACTUAL_EFFICIENCY>74.0 %</ACTUAL_EFFICIENCY>
+ <CALORIES>427.1 kcal/l</CALORIES>
+ <DISPLAY_BATCH_SIZE>20.00 L</DISPLAY_BATCH_SIZE>
+ <DISPLAY_BOIL_SIZE>25.83 L</DISPLAY_BOIL_SIZE>
+ <DISPLAY_OG>1.046 SG</DISPLAY_OG>
+ <DISPLAY_FG>1.010 SG</DISPLAY_FG>
+ <DISPLAY_PRIMARY_TEMP>19.4 C</DISPLAY_PRIMARY_TEMP>
+ <DISPLAY_SECONDARY_TEMP>19.4 C</DISPLAY_SECONDARY_TEMP>
+ <DISPLAY_TERTIARY_TEMP>18.3 C</DISPLAY_TERTIARY_TEMP>
+ <DISPLAY_AGE_TEMP>18.3 C</DISPLAY_AGE_TEMP>
+</RECIPE>
+</RECIPES>

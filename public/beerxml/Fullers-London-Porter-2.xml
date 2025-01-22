@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><RECIPES>
+<RECIPE>
+ <NAME>Fullers London Porter</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>All Grain</TYPE>
+ <BREWER>Bryan</BREWER>
+ <ASST_BREWER></ASST_BREWER>
+ <BATCH_SIZE>32.0000000</BATCH_SIZE>
+ <BOIL_SIZE>42.2800000</BOIL_SIZE>
+ <BOIL_TIME>90.0000000</BOIL_TIME>
+ <EFFICIENCY>75.0000000</EFFICIENCY>
+ <HOPS>
+<HOP>
+ <NAME>Fuggles</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN></ORIGIN>
+ <ALPHA>3.8000000</ALPHA>
+ <AMOUNT>0.0719999</AMOUNT>
+ <USE>Boil</USE>
+ <TIME>90.0000000</TIME>
+ <NOTES></NOTES>
+ <TYPE>Both</TYPE>
+ <FORM>Pellet</FORM>
+ <BETA>2.0000000</BETA>
+ <HSI>15.0000000</HSI>
+ <DISPLAY_AMOUNT>72.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>90.0 min</DISPLAY_TIME>
+</HOP>
+<HOP>
+ <NAME>Goldings, East Kent</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>United Kingdom</ORIGIN>
+ <ALPHA>5.0000000</ALPHA>
+ <AMOUNT>0.0200000</AMOUNT>
+ <USE>Boil</USE>
+ <TIME>90.0000000</TIME>
+ <NOTES>Used for: General purpose hops for bittering/finishing all British Ales
+Aroma: Floral, aromatic, earthy, slightly sweet spicy flavor
+Substitutes: Fuggles, BC Goldings
+Examples: Bass Pale Ale, Fullers ESB, Samual Smith&#39;s Pale Ale
+</NOTES>
+ <TYPE>Aroma</TYPE>
+ <FORM>Leaf</FORM>
+ <BETA>3.5000000</BETA>
+ <HSI>35.0000000</HSI>
+ <DISPLAY_AMOUNT>20.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>135.00 g</INVENTORY>
+ <DISPLAY_TIME>90.0 min</DISPLAY_TIME>
+</HOP>
+<HOP>
+ <NAME>Fuggles</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN></ORIGIN>
+ <ALPHA>3.8000000</ALPHA>
+ <AMOUNT>0.0380000</AMOUNT>
+ <USE>Boil</USE>
+ <TIME>10.0000000</TIME>
+ <NOTES></NOTES>
+ <TYPE>Both</TYPE>
+ <FORM>Pellet</FORM>
+ <BETA>2.0000000</BETA>
+ <HSI>15.0000000</HSI>
+ <DISPLAY_AMOUNT>38.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>10.0 min</DISPLAY_TIME>
+</HOP>
+</HOPS>
+
+ <FERMENTABLES>
+<FERMENTABLE>
+ <NAME>Pale Malt</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>5.8399962</AMOUNT>
+ <YIELD>80.4347826</YIELD>
+ <COLOR>3.9400000</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN></ORIGIN>
+ <SUPPLIER></SUPPLIER>
+ <NOTES></NOTES>
+ <COARSE_FINE_DIFF>1.5000000</COARSE_FINE_DIFF>
+ <MOISTURE>4.0000000</MOISTURE>
+ <DIASTATIC_POWER>120.0000000</DIASTATIC_POWER>
+ <PROTEIN>11.7000000</PROTEIN>
+ <MAX_IN_BATCH>100.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>FALSE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>5.84 kg</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 kg</INVENTORY>
+ <POTENTIAL>1.0370000</POTENTIAL>
+ <DISPLAY_COLOR>3.9 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE></EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+<FERMENTABLE>
+ <NAME>Brown Malt</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>0.9899994</AMOUNT>
+ <YIELD>69.5652174</YIELD>
+ <COLOR>150.1140000</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN></ORIGIN>
+ <SUPPLIER></SUPPLIER>
+ <NOTES></NOTES>
+ <COARSE_FINE_DIFF>1.5000000</COARSE_FINE_DIFF>
+ <MOISTURE>4.0000000</MOISTURE>
+ <DIASTATIC_POWER>120.0000000</DIASTATIC_POWER>
+ <PROTEIN>11.7000000</PROTEIN>
+ <MAX_IN_BATCH>100.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>FALSE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>0.99 kg</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 kg</INVENTORY>
+ <POTENTIAL>1.0320000</POTENTIAL>
+ <DISPLAY_COLOR>150.1 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE></EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+<FERMENTABLE>
+ <NAME>Crystal 60</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>0.7549995</AMOUNT>
+ <YIELD>73.9130435</YIELD>
+ <COLOR>118.2000000</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN></ORIGIN>
+ <SUPPLIER></SUPPLIER>
+ <NOTES></NOTES>
+ <COARSE_FINE_DIFF>1.5000000</COARSE_FINE_DIFF>
+ <MOISTURE>4.0000000</MOISTURE>
+ <DIASTATIC_POWER>120.0000000</DIASTATIC_POWER>
+ <PROTEIN>11.7000000</PROTEIN>
+ <MAX_IN_BATCH>100.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>FALSE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>0.75 kg</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 kg</INVENTORY>
+ <POTENTIAL>1.0340000</POTENTIAL>
+ <DISPLAY_COLOR>118.2 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE></EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+<FERMENTABLE>
+ <NAME>Chocolate</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>0.1499999</AMOUNT>
+ <YIELD>63.0434783</YIELD>
+ <COLOR>1050.7980000</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN></ORIGIN>
+ <SUPPLIER></SUPPLIER>
+ <NOTES></NOTES>
+ <COARSE_FINE_DIFF>1.5000000</COARSE_FINE_DIFF>
+ <MOISTURE>4.0000000</MOISTURE>
+ <DIASTATIC_POWER>120.0000000</DIASTATIC_POWER>
+ <PROTEIN>11.7000000</PROTEIN>
+ <MAX_IN_BATCH>100.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>FALSE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>0.15 kg</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 kg</INVENTORY>
+ <POTENTIAL>1.0290000</POTENTIAL>
+ <DISPLAY_COLOR>1050.8 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE></EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+</FERMENTABLES>
+
+ 
+ <YEASTS>
+<YEAST>
+ <NAME>WLP002 - English Ale</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Ale</TYPE>
+ <FORM>Liquid</FORM>
+ <AMOUNT>0.0000000</AMOUNT>
+ <AMOUNT_IS_WEIGHT>FALSE</AMOUNT_IS_WEIGHT>
+ <LABORATORY></LABORATORY>
+ <PRODUCT_ID></PRODUCT_ID>
+ <MIN_TEMPERATURE>17.7777778</MIN_TEMPERATURE>
+ <MAX_TEMPERATURE>20.5555556</MAX_TEMPERATURE>
+ <FLOCCULATION>Low</FLOCCULATION>
+ <ATTENUATION>75.0000000</ATTENUATION>
+ <NOTES></NOTES>
+ <BEST_FOR></BEST_FOR>
+ <MAX_REUSE>5</MAX_REUSE>
+ <TIMES_CULTURED>0</TIMES_CULTURED>
+ <ADD_TO_SECONDARY>FALSE</ADD_TO_SECONDARY>
+ <DISPLAY_AMOUNT>0.00 ml</DISPLAY_AMOUNT>
+ <DISP_MIN_TEMP>17.8 C</DISP_MIN_TEMP>
+ <DISP_MAX_TEMP>20.6 C</DISP_MAX_TEMP>
+ <INVENTORY>0.0 pkg</INVENTORY>
+ <CULTURE_DATE>01/11/2012</CULTURE_DATE>
+</YEAST>
+</YEASTS>
+
+ 
+ <STYLE>
+ <NAME>Robust Porter</NAME>
+ <VERSION>1</VERSION>
+ <CATEGORY>Porter</CATEGORY>
+ <CATEGORY_NUMBER>12</CATEGORY_NUMBER>
+ <STYLE_LETTER>B</STYLE_LETTER>
+ <STYLE_GUIDE>BJCP 2008</STYLE_GUIDE>
+ <TYPE>Ale</TYPE>
+ <OG_MIN>1.0480000</OG_MIN>
+ <OG_MAX>1.0650000</OG_MAX>
+ <FG_MIN>1.0120000</FG_MIN>
+ <FG_MAX>1.0160000</FG_MAX>
+ <IBU_MIN>25.0000000</IBU_MIN>
+ <IBU_MAX>50.0000000</IBU_MAX>
+ <COLOR_MIN>43.3400000</COLOR_MIN>
+ <COLOR_MAX>68.9500000</COLOR_MAX>
+ <CARB_MIN>1.8000000</CARB_MIN>
+ <CARB_MAX>2.5000000</CARB_MAX>
+ <ABV_MAX>6.5000000</ABV_MAX>
+ <ABV_MIN>4.8000000</ABV_MIN>
+ <NOTES>A substantial, malty dark ale with a complex and flavorful roasty character. Stronger, hoppier and/or roastier version of porter designed as either a historical throwback or an American interpretation of the style. Traditional versions will have a more subtle hop character (often English), while modern versions may be considerably more aggressive. Both types are equally valid. Although a rather broad style open to brewer interpretation, it may be distinguished from Stout as lacking a strong roasted barley character. It differs from a brown porter in that a black patent or roasted grain character is usually present, and it can be stronger in alcohol. Roast intensity and malt flavors can also vary significantly. May or may not have a strong hop character, and may or may not have significant fermentation by-products; thus may seem to have an &#8220;American&#8221; or &#8220;English&#8221; character.</NOTES>
+ <PROFILE>Aroma: Roasty aroma (often with a lightly burnt, black malt character) should be noticeable and may be moderately strong. Optionally may also show some additional malt character in support (grainy, bready, toffee-like, caramelly, chocolate, coffee, rich, and/or sweet). Hop aroma low to high (US or UK varieties). Some American versions may be dry-hopped. Fruity esters are moderate to none. Diacetyl low to none.
+Appearance: Medium brown to very dark brown, often with ruby- or garnet-like highlights. Can approach black in color. Clarity may be difficult to discern in such a dark beer, but when not opaque will be clear (particularly when held up to the light). Full, tan-colored head with moderately good head retention.
+Flavor: Moderately strong malt flavor usually features a lightly burnt, black malt character (and sometimes chocolate and/or coffee flavors) with a bit of roasty dryness in the finish. Overall flavor may finish from dry to medium-sweet, depending on grist composition, hop bittering level, and attenuation. May have a sharp character from dark roasted grains, although should not be overly acrid, burnt or harsh. Medium to high bitterness, which can be accentuated by the roasted malt. Hop flavor can vary from low to moderately high (US or UK varieties, typically), and balances the roasted malt flavors. Diacetyl low to none. Fruity esters moderate to none.
+Mouthfeel: Medium to medium-full body. Moderately low to moderately high carbonation. Stronger versions may have a slight alcohol warmth. May have a slight astringency from roasted grains, although this character should not be strong.</PROFILE>
+ <INGREDIENTS>May contain several malts, prominently dark roasted malts and grains, which often include black patent malt (chocolate malt and/or roasted barley may also be used in some versions). Hops are used for bittering, flavor and/or aroma, and are frequently UK or US varieties. Water with moderate to high carbonate hardness is typical. Ale yeast can either be clean US versions or characterful English varieties.</INGREDIENTS>
+ <EXAMPLES>Great Lakes Edmund Fitzgerald Porter, Meantime London Porter, Anchor Porter, Smuttynose Robust Porter, Sierra Nevada Porter, Deschutes Black Butte Porter, Boulevard Bully! Porter, Rogue Mocha Porter, Avery New World Porter, Bell&#8217;s Porter, Great Divide Saint Bridget&#8217;s Porter</EXAMPLES>
+ <DISPLAY_OG_MIN>1.048 SG</DISPLAY_OG_MIN>
+ <DISPLAY_OG_MAX>1.065 SG</DISPLAY_OG_MAX>
+ <DISPLAY_FG_MIN>1.012 SG</DISPLAY_FG_MIN>
+ <DISPLAY_FG_MAX>1.016 SG</DISPLAY_FG_MAX>
+ <DISPLAY_COLOR_MIN>43.3 EBC</DISPLAY_COLOR_MIN>
+ <DISPLAY_COLOR_MAX>69.0 EBC</DISPLAY_COLOR_MAX>
+ <OG_RANGE>1.048-1.065 SG</OG_RANGE>
+ <FG_RANGE>1.012-1.016 SG</FG_RANGE>
+ <IBU_RANGE>25.0-50.0 IBUs</IBU_RANGE>
+ <CARB_RANGE>1.80-2.50 Vols</CARB_RANGE>
+ <COLOR_RANGE>43.3-69.0 EBC</COLOR_RANGE>
+ <ABV_RANGE>4.80-6.50 %</ABV_RANGE>
+</STYLE>
+
+ <EQUIPMENT>
+ <NAME>Pot (18.5 Gal/70 L) and Cooler (9.5 Gal/45 L)  - All Grain</NAME>
+ <VERSION>1</VERSION>
+ <BOIL_SIZE>42.2800000</BOIL_SIZE>
+ <BATCH_SIZE>32.0000000</BATCH_SIZE>
+ <TUN_VOLUME>45.0000000</TUN_VOLUME>
+ <TUN_WEIGHT>4.0823280</TUN_WEIGHT>
+ <TUN_SPECIFIC_HEAT>0.3000000</TUN_SPECIFIC_HEAT>
+ <TOP_UP_WATER>0.0000000</TOP_UP_WATER>
+ <TRUB_CHILLER_LOSS>0.0000000</TRUB_CHILLER_LOSS>
+ <EVAP_RATE>14.1911069</EVAP_RATE>
+ <BOIL_TIME>90.0000000</BOIL_TIME>
+ <CALC_BOIL_VOLUME>TRUE</CALC_BOIL_VOLUME>
+ <LAUTER_DEADSPACE>0.6000000</LAUTER_DEADSPACE>
+ <TOP_UP_KETTLE>0.0000000</TOP_UP_KETTLE>
+ <HOP_UTILIZATION>100.0000000</HOP_UTILIZATION>
+ <COOLING_LOSS_PCT>4.0000000</COOLING_LOSS_PCT>
+ <NOTES>Based on a 18.5 Gal/70 L pot with a diameter of 18 inches/45 cm and a 9.5 Gal/40 L cooler. The above assumes loose pellet hops and only clear, chilled wort transferred from the kettle using no trub management techniques. Experienced brewers should adjust &#39;Loss to Trub and Chiller&#39; and &#39;Brewhouse Efficiency&#39; accordingly to suit their trub management techniques.</NOTES>
+ <DISPLAY_BOIL_SIZE>42.28 l</DISPLAY_BOIL_SIZE>
+ <DISPLAY_BATCH_SIZE>32.00 l</DISPLAY_BATCH_SIZE>
+ <DISPLAY_TUN_VOLUME>45.00 l</DISPLAY_TUN_VOLUME>
+ <DISPLAY_TUN_WEIGHT>4.08 kg</DISPLAY_TUN_WEIGHT>
+ <DISPLAY_TOP_UP_WATER>0.00 l</DISPLAY_TOP_UP_WATER>
+ <DISPLAY_TRUB_CHILLER_LOSS>0.00 l</DISPLAY_TRUB_CHILLER_LOSS>
+ <DISPLAY_LAUTER_DEADSPACE>0.60 l</DISPLAY_LAUTER_DEADSPACE>
+ <DISPLAY_TOP_UP_KETTLE>0.00 l</DISPLAY_TOP_UP_KETTLE>
+</EQUIPMENT>
+
+ <MASH>
+ <NAME>Single Infusion, Medium Body, Batch Sparge</NAME>
+ <VERSION>1</VERSION>
+ <GRAIN_TEMP>22.2222222</GRAIN_TEMP>
+ <TUN_TEMP>22.2222222</TUN_TEMP>
+ <SPARGE_TEMP>75.5555556</SPARGE_TEMP>
+ <PH>5.4000000</PH>
+ <TUN_WEIGHT>144.0000000</TUN_WEIGHT>
+ <TUN_SPECIFIC_HEAT>0.3000000</TUN_SPECIFIC_HEAT>
+ <EQUIP_ADJUST>TRUE</EQUIP_ADJUST>
+ <NOTES>Simple single infusion mash for use with most modern well modified grains (about 95% of the time).</NOTES>
+ <DISPLAY_GRAIN_TEMP>22.2 C</DISPLAY_GRAIN_TEMP>
+ <DISPLAY_TUN_TEMP>22.2 C</DISPLAY_TUN_TEMP>
+ <DISPLAY_SPARGE_TEMP>75.6 C</DISPLAY_SPARGE_TEMP>
+ <DISPLAY_TUN_WEIGHT>4.08 kg</DISPLAY_TUN_WEIGHT>
+<MASH_STEPS>
+<MASH_STEP>
+ <NAME>Mash In</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Infusion</TYPE>
+ <INFUSE_AMOUNT>20.1728800</INFUSE_AMOUNT>
+ <STEP_TIME>60.0000000</STEP_TIME>
+ <STEP_TEMP>66.6666667</STEP_TEMP>
+ <RAMP_TIME>2.0000000</RAMP_TIME>
+ <END_TEMP>66.6666667</END_TEMP>
+ <DESCRIPTION>Add 20.77 l of water at 74.8 C</DESCRIPTION>
+ <WATER_GRAIN_RATIO>2.608 l/kg</WATER_GRAIN_RATIO>
+ <DECOCTION_AMT>0.00 l</DECOCTION_AMT>
+ <INFUSE_TEMP>74.8 C</INFUSE_TEMP>
+ <DISPLAY_STEP_TEMP>66.7 C</DISPLAY_STEP_TEMP>
+ <DISPLAY_INFUSE_AMT>20.77 l</DISPLAY_INFUSE_AMT>
+</MASH_STEP>
+</MASH_STEPS>
+
+</MASH>
+
+ <NOTES></NOTES>
+ <TASTE_NOTES></TASTE_NOTES>
+ <TASTE_RATING>30.0000000</TASTE_RATING>
+ <OG>1.0540000</OG>
+ <FG>1.0140000</FG>
+ <CARBONATION>2.3000000</CARBONATION>
+ <FERMENTATION_STAGES>2</FERMENTATION_STAGES>
+ <PRIMARY_AGE>10.0000000</PRIMARY_AGE>
+ <PRIMARY_TEMP>20.0000000</PRIMARY_TEMP>
+ <SECONDARY_AGE>10.0000000</SECONDARY_AGE>
+ <SECONDARY_TEMP>18.3333333</SECONDARY_TEMP>
+ <TERTIARY_AGE>7.0000000</TERTIARY_AGE>
+ <AGE>7.0000000</AGE>
+ <AGE_TEMP>18.3333333</AGE_TEMP>
+ <CARBONATION_USED>Bottle with 170.58 g Corn Sugar</CARBONATION_USED>
+ <FORCED_CARBONATION>TRUE</FORCED_CARBONATION>
+ <PRIMING_SUGAR_NAME>Corn Sugar</PRIMING_SUGAR_NAME>
+ <PRIMING_SUGAR_EQUIV>1.0000000</PRIMING_SUGAR_EQUIV>
+ <KEG_PRIMING_FACTOR>0.5000000</KEG_PRIMING_FACTOR>
+ <CARBONATION_TEMP>21.1111111</CARBONATION_TEMP>
+ <DISPLAY_CARB_TEMP>21.1 C</DISPLAY_CARB_TEMP>
+ <DATE>01/11/2012</DATE>
+ <EST_OG>1.054 SG</EST_OG>
+ <EST_FG>1.012 SG</EST_FG>
+ <EST_COLOR>46.1 EBC</EST_COLOR>
+ <IBU>37.8 IBUs</IBU>
+ <IBU_METHOD>Tinseth</IBU_METHOD>
+ <EST_ABV>5.5 %</EST_ABV>
+ <ABV>5.3 %</ABV>
+ <ACTUAL_EFFICIENCY>44.1 %</ACTUAL_EFFICIENCY>
+ <CALORIES>509.5 kcal/l</CALORIES>
+ <DISPLAY_BATCH_SIZE>32.00 l</DISPLAY_BATCH_SIZE>
+ <DISPLAY_BOIL_SIZE>42.28 l</DISPLAY_BOIL_SIZE>
+ <DISPLAY_OG>1.054 SG</DISPLAY_OG>
+ <DISPLAY_FG>1.014 SG</DISPLAY_FG>
+ <DISPLAY_PRIMARY_TEMP>20.0 C</DISPLAY_PRIMARY_TEMP>
+ <DISPLAY_SECONDARY_TEMP>18.3 C</DISPLAY_SECONDARY_TEMP>
+ <DISPLAY_TERTIARY_TEMP>18.3 C</DISPLAY_TERTIARY_TEMP>
+ <DISPLAY_AGE_TEMP>18.3 C</DISPLAY_AGE_TEMP>
+</RECIPE>
+</RECIPES>

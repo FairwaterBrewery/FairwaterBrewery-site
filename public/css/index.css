@@ -145,6 +145,29 @@ header:after {
 .links-nextprev-next {
 	text-align: right;
 }
+.links-nextprev-pagenumber {
+	text-align: center;
+	border: solid; 
+    border-color: var(--color-gray-90);
+    border-radius: 1rem;
+    border-width: 1px;
+	background-color: var(--color-gray-50);
+}
+[aria-current].links-nextprev-pagenumber {
+	background-color: var(--text-color-link-active);
+	color: var(--color-gray-50);
+}
+@media (prefers-color-scheme: dark) {
+	.links-nextprev-pagenumber {
+		border-color: var(--color-gray-20);
+		background-color: var(--background-color);
+	}
+
+	[aria-current].links-nextprev-pagenumber {
+		background-color: var(--text-color-link-active);
+		color: var(--color-gray-20);
+	}
+}
 
 table {
 	margin: 1em 0;
@@ -205,6 +228,7 @@ header {
 .nav-item {
 	display: inline-block;
 	margin-right: 1em;
+	font-size: 0.8em;
 }
 .nav-item a[href]:not(:hover) {
 	text-decoration: none;
@@ -302,6 +326,12 @@ header {
 	background-color: #f2f2f2;
 }
 
+@media (prefers-color-scheme: dark) {
+	.recipe tr:nth-child(even) {
+		background-color: #0e0e0e;
+	}
+}
+
 .recipe .fermentables th {
 	background-color: #d6c67c;
 	color: #555;
@@ -319,8 +349,20 @@ header {
 }
 
 img.sitelogo  {
-	width: 50px;
-	height: 50px;
+	width: 75px;
+	height: 75px;
+}
+
+img.socialicon  {
+	width: 75px;
+	height: 75px;
+}
+
+a.sociallink
+{
+	display: flex;
+	align-items: center;
+	justify-content:left;
 }
 
 div.banner {

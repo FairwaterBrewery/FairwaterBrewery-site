@@ -9,7 +9,7 @@ permalink: "recipes/{{ pagination.items[0].file | slugify }}/index.html"
     {% set recipe = item.model.recipes.recipe[0] %}
     <div class="recipe">
     <h1>{{ recipe.name[0] }}</h1>
-    BeerXml file: <a href="/recipes/{{ item.file }}.xml" target="_blank">{{ item.file }}.xml</a>
+    BeerXml file: <a href="/beerxml/{{ item.file }}.xml" target="_blank">{{ item.file }}.xml</a>
     <h3>Vital statistics:</h3>
     <ul>
         <li>Type: {{ recipe.type[0] }}
@@ -22,7 +22,13 @@ permalink: "recipes/{{ pagination.items[0].file | slugify }}/index.html"
         <li>OG: {{ recipe.est_og[0] }}
         <li>FG: {{ recipe.est_fg[0] }}
         <li>ABV: {{ recipe.est_abv[0] }}
-        <li>Colour: {{ (recipe.est_color[0] * 1.97) | round(1) }} EBC
+        <li>Colour: 
+        {% set endsEbc = r/^.*EBC/g %}
+        {% if endsEbc.test(recipe.est_color[0]) %}
+            {{ recipe.est_color[0] }}
+        {% else %}
+            {{ (recipe.est_color[0] * 1.97) | round(1) }} EBC
+        {% endif %}
         <li>Bitterness: {{ recipe.ibu[0] }}
     </ul>
 

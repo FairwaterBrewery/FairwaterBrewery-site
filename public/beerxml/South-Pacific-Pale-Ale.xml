@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href='http://www.brewmate.net/brewmate.xsl' type='text/xsl'?>
+<!--BeerXML Format Recipe - Generated with BrewMate - www.brewmate.net-->
+<RECIPES>
+  <RECIPE>
+    <NAME>South Pacific Pale Ale</NAME>
+    <VERSION>1</VERSION>
+    <TYPE>All Grain</TYPE>
+    <STYLE>
+      <NAME>American IPA</NAME>
+    </STYLE>
+    <BREWER>Bryan</BREWER>
+    <BATCH_SIZE>28</BATCH_SIZE>
+    <BOIL_SIZE>30.8</BOIL_SIZE>
+    <BOIL_TIME>60</BOIL_TIME>
+    <EFFICIENCY>75</EFFICIENCY>
+    <HOPS>
+      <HOP>
+        <NAME>Nelson Sauvin</NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>12.6</ALPHA>
+        <AMOUNT>0.02</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>60</TIME>
+        <FORM>Leaf</FORM>
+      </HOP>
+      <HOP>
+        <NAME>Nelson Sauvin</NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>12.6</ALPHA>
+        <AMOUNT>0.02</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>30</TIME>
+        <FORM>Leaf</FORM>
+      </HOP>
+      <HOP>
+        <NAME>Nelson Sauvin</NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>12.6</ALPHA>
+        <AMOUNT>0.06</AMOUNT>
+        <USE>Aroma</USE>
+        <TIME>0</TIME>
+        <FORM>Leaf</FORM>
+      </HOP>
+    </HOPS>
+    <FERMENTABLES>
+      <FERMENTABLE>
+        <NAME>Pale Ale Malt</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>5.310</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>78.260869565217448</YIELD>
+        <COLOR>3</COLOR>
+        <POTENTIAL>1.036</POTENTIAL>
+        <PERCENTAGE>84.96</PERCENTAGE>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Munich I</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.470</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>82.608695652173992</YIELD>
+        <COLOR>7.1</COLOR>
+        <POTENTIAL>1.038</POTENTIAL>
+        <PERCENTAGE>7.52</PERCENTAGE>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Torrified Wheat</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.470</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>76.086956521738955</YIELD>
+        <COLOR>2</COLOR>
+        <POTENTIAL>1.035</POTENTIAL>
+        <PERCENTAGE>7.52</PERCENTAGE>
+      </FERMENTABLE>
+    </FERMENTABLES>
+    <MISCS>
+      <MISC>
+        <NAME>Protafloc</NAME>
+        <VERSION>1</VERSION>
+        <TYPE>Fining</TYPE>
+        <USE>Boil</USE>
+        <TIME>10</TIME>
+        <AMOUNT>0.003</AMOUNT>
+      </MISC>
+    </MISCS>
+    <YEASTS>
+      <YEAST>
+        <NAME>Safale US-05</NAME>
+        <VERSION>1</VERSION>
+        <ATTENUATION>75</ATTENUATION>
+      </YEAST>
+    </YEASTS>
+    <WATERS></WATERS>
+    <MASH>
+      <NAME></NAME>
+      <VERSION>1</VERSION>
+      <MASH_STEPS>
+        <MASH_STEP>
+          <NAME>Saccharification Rest</NAME>
+          <VERSION>1</VERSION>
+          <TYPE>Infusion</TYPE>
+          <STEP_TEMP>66</STEP_TEMP>
+          <STEP_TIME>90</STEP_TIME>
+        </MASH_STEP>
+      </MASH_STEPS>
+    </MASH>
+    <NOTES></NOTES>
+    <OG>1.050</OG>
+    <PRIMARY_TEMP>20</PRIMARY_TEMP>
+    <!--BrewMate XLST-->
+    <FG>1.013</FG>
+    <CALCCOLOUR>5.1308</CALCCOLOUR>
+    <CALCIBU>35.9</CALCIBU>
+    <!--BrewMate Specific Settings-->
+    <BIAB>0</BIAB>
+    <IBUCalcMethod>0</IBUCalcMethod>
+    <GrainCalcMethod>2</GrainCalcMethod>
+    <StyleNaziMode>1</StyleNaziMode>
+    <IsNoChill>0</IsNoChill>
+    <GrainUnits>1</GrainUnits>
+    <HopsUnits>0</HopsUnits>
+    <VolumeUnits>1</VolumeUnits>
+    <TemperatureUnits>0</TemperatureUnits>
+    <Colour>1</Colour>
+    <GrainTemp>0</GrainTemp>
+    <StrikeWater />
+    <GrainAbsorbtion>0.9</GrainAbsorbtion>
+    <WatertoGrainRatio />
+    <SpargeDeadSpace />
+    <SpargeTempDesired>0</SpargeTempDesired>
+    <TopUpWater />
+    <PercentEvap />
+    <TrubChillerLosses />
+    <calendarpressed>0</calendarpressed>
+    <brewdayDate />
+    <yeastpitchDate />
+    <primaryDate />
+    <secondaryDate />
+    <keggingDate />
+    <serveDate />
+    <brewdayEnabled>1</brewdayEnabled>
+    <yeastpitchEnabled>1</yeastpitchEnabled>
+    <primaryEnabled>1</primaryEnabled>
+    <secondaryEnabled>0</secondaryEnabled>
+    <keggingEnabled>1</keggingEnabled>
+    <serveEnabled>1</serveEnabled>
+  </RECIPE>
+</RECIPES>

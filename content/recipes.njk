@@ -1,23 +1,37 @@
----js
-const eleventyNavigation = {
-	key: "Recipes",
-	order: 3
-};
-const pagination = {
-  data: "recipes",
-  size: 10
-};
+---
+eleventyNavigation:
+  key: "Recipes"
+  order: 2
+pagination:
+  data: "recipes"
+  size: 10  
+numberOfLatestPostsToShow: 10  
+permalink: "recipelist/page-{{ pagination.pageNumber + 1 }}/index.html"
 ---
 <h1>Recipe list</h1>
-<p>Alphabetical by name</p>
-<ol>
+<p>All the recipes from the previous incarnation of the Fairwater Brewery website,
+  plus everything I add from now on (alphabetical by name). They should also be 
+  linked to from new blog posts.</p>
+<ul>
     {% for item in pagination.items.sort() -%}
     <li><a href="/recipes/{{ item.file }}">{{ item.file }}</a></li>
     {% endfor -%}
-</ol>
+</ul>
 {%- if pagination.href.previous or pagination.href.next %}
 <ul class="links-nextprev">
-	<li class="links-nextprev-prev">{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">← Previous</a>{% else %}&nbsp;{% endif %}</li>
-	<li class="links-nextprev-next">{% if pagination.href.next %}<a href="{{ pagination.href.next }}">Next →</a>{% else %}&nbsp;{% endif %}</li>
+  <li class="links-nextprev-prev">{% if page.url != pagination.href.first %}<a href="{{ pagination.href.first }}">First</a>{% else %}First{% endif %}</li>
+	<li class="links-nextprev-prev">{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">← Previous</a>{% else %}Previous{% endif %}</li>
+  {%- for pageEntry in pagination.pages %}
+      {% if page.url == pagination.hrefs[ loop.index0 ] %}
+      <li aria-current="page" class="links-nextprev-pagenumber">
+        {{ loop.index }}
+      {% else %}
+      <li class="links-nextprev-pagenumber">
+      <a href="{{ pagination.hrefs[ loop.index0 ] }}">{{ loop.index }}</a>
+      {% endif %}
+    </li>
+  {%- endfor %}
+	<li class="links-nextprev-next">{% if pagination.href.next %}<a href="{{ pagination.href.next }}">Next →</a>{% else %}Next{% endif %}</li>
+  <li class="links-nextprev-next">{% if page.url != pagination.href.last %}<a href="{{ pagination.href.last }}">Last</a>{% else %}Last{% endif %}</li>
 </ul>
 {%- endif %}
