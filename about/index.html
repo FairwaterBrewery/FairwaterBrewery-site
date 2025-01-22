@@ -173,6 +173,29 @@ header:after {
 .links-nextprev-next {
 	text-align: right;
 }
+.links-nextprev-pagenumber {
+	text-align: center;
+	border: solid; 
+    border-color: var(--color-gray-90);
+    border-radius: 1rem;
+    border-width: 1px;
+	background-color: var(--color-gray-50);
+}
+[aria-current].links-nextprev-pagenumber {
+	background-color: var(--text-color-link-active);
+	color: var(--color-gray-50);
+}
+@media (prefers-color-scheme: dark) {
+	.links-nextprev-pagenumber {
+		border-color: var(--color-gray-20);
+		background-color: var(--background-color);
+	}
+
+	[aria-current].links-nextprev-pagenumber {
+		background-color: var(--text-color-link-active);
+		color: var(--color-gray-20);
+	}
+}
 
 table {
 	margin: 1em 0;
@@ -233,6 +256,7 @@ header {
 .nav-item {
 	display: inline-block;
 	margin-right: 1em;
+	font-size: 0.8em;
 }
 .nav-item a[href]:not(:hover) {
 	text-decoration: none;
@@ -330,6 +354,12 @@ header {
 	background-color: #f2f2f2;
 }
 
+@media (prefers-color-scheme: dark) {
+	.recipe tr:nth-child(even) {
+		background-color: #0e0e0e;
+	}
+}
+
 .recipe .fermentables th {
 	background-color: #d6c67c;
 	color: #555;
@@ -347,8 +377,20 @@ header {
 }
 
 img.sitelogo  {
-	width: 50px;
-	height: 50px;
+	width: 75px;
+	height: 75px;
+}
+
+img.socialicon  {
+	width: 75px;
+	height: 75px;
+}
+
+a.sociallink
+{
+	display: flex;
+	align-items: center;
+	justify-content:left;
 }
 
 div.banner {
@@ -361,6 +403,13 @@ div.banner {
     border-width: 5px;
     margin:auto;
 }</style>
+		
+		
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+
 	</head>
 	<body>
 		<a href="#skip" class="visually-hidden">Skip to main content</a>
@@ -368,15 +417,16 @@ div.banner {
 		<header>
 			<div class="banner"></div>
 			<br>
-			<picture><source type="image/avif" srcset="/img/iEMfCWLK-4-194.avif 194w"><source type="image/webp" srcset="/img/iEMfCWLK-4-194.webp 194w"><img loading="lazy" decoding="async" src="/img/iEMfCWLK-4-194.gif" class="sitelogo" alt="Fairwater Brewey Logo - a black cat pushing against a barrel" width="194" height="139"></picture>
+			<picture><source type="image/avif" srcset="/img/DX8sdilZyn-175.avif 175w"><source type="image/webp" srcset="/img/DX8sdilZyn-175.webp 175w"><img loading="lazy" decoding="async" src="/img/DX8sdilZyn-175.svg" class="sitelogo" alt="Fairwater Brewey Logo - a black cat pushing against a barrel" width="175" height="175"></picture>
 			<a href="/" class="home-link">Fairwater Brewery</a>
 			<nav>
 				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
 				<ul class="nav">
 					<li class="nav-item"><a href="/">Home</a></li>
-					<li class="nav-item"><a href="/blog/">Archive</a></li>
-					<li class="nav-item"><a href="/recipes/">Recipes</a></li>
+					<li class="nav-item"><a href="/recipelist/page-1/">Recipes</a></li>
 					<li class="nav-item"><a href="/about/" aria-current="page">About</a></li>
+					<li class="nav-item"><a href="/contact/">Contact</a></li>
+					<li class="nav-item"><a href="/blog/">Archive</a></li>
 					<li class="nav-item"><a href="/tags/">Tags</a></li>
 					<li class="nav-item"><a href="/feed/feed.xml">Feed</a></li>
 				</ul>
@@ -399,16 +449,16 @@ div.banner {
 <!-- Stop deleting -->
 
 <h1 id="about-the-brewey">About the brewey</h1>
-<p>I am a keen amateur brewer - and I'm a member of the <a href="https://readingamateurbrewers.co.uk/">Reading Amateur Brewers</a>, so if you're in the Reading area and you're interested in
+<p>I am a keen amateur brewer - and I'm a member of the <a href="https://readingamateurbrewers.co.uk/">Reading Amateur Brewers</a>, so if you're in the Reading area and you're interested in<br>
 brewing, check out the socials for an event, and come along, say hello, and drink some home-brewed beers!</p>
-<p>I started brewing all the way back in 2010 with kit brews, and I
-still have fond memories of the Coopers Stout kit (though it would be interesting to
+<p>I started brewing all the way back in 2010 with kit brews, and I<br>
+still have fond memories of the Coopers Stout kit (though it would be interesting to<br>
 see what I thought if I were to brew it today!)</p>
-<p>After kits I bought a simple boiler, which was just a plastic bucket with a kettle
+<p>After kits I bought a simple boiler, which was just a plastic bucket with a kettle<br>
 element fitted, and started doing extract brews.</p>
 <p>Inevitably this led to more, and at the end of 2010 I bought a coolbox mash tun from <a href="https://www.themaltmiller.co.uk/">The Malt Miller</a>, which can't have been long after they opened (and I'm very happy to still be using them to this day).</p>
 <p>This gave me the ability to do all grain brewing (maybe I did some brew-in-a-bag back then? I can't actually remember!), and that's been my focus ever since.</p>
-<p>A bit later I wanted to move to a proper 3-vessel system, so I slightly (!) over-bought
+<p>A bit later I wanted to move to a proper 3-vessel system, so I slightly (!) over-bought<br>
 and got a 70 litre stockpot and gas burner, which is the system I've been brewing on until very recently.</p>
 <p><picture><source type="image/avif" srcset="/img/uq8-BG83AQ-4618.avif 4618w"><source type="image/webp" srcset="/img/uq8-BG83AQ-4618.webp 4618w"><img loading="lazy" decoding="async" src="/img/uq8-BG83AQ-4618.jpeg" alt="My 3-tier brewing system with 70l boiler" title="My 3-tier brewing system with 70l boiler" width="4618" height="3464"></picture></p>
 <p>Fermentation has been controlled since my switch to extract brews thanks to a second-hand fridge, with a temperature controller. Heat was supplied at first by a light-bulb, then a tube heater, then a heat pad, and finally by heat belts.</p>
@@ -425,7 +475,7 @@ and got a 70 litre stockpot and gas burner, which is the system I've been brewin
 			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></em></p>
 		</footer>
 
-		<!-- This page `/about/` was built on 2025-01-21T18:37:20.571Z -->
-		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
+		<!-- This page `/about/` was built on 2025-01-22T18:56:22.169Z -->
+		<script type="module" src="/dist/PQuipxb2GV.js"></script>
 	</body>
 </html>

@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><RECIPES>
+<RECIPE>
+ <NAME>Beavertown Gamma Ray</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>All Grain</TYPE>
+ <BREWER>Bryan</BREWER>
+ <ASST_BREWER></ASST_BREWER>
+ <BATCH_SIZE>20.0000000</BATCH_SIZE>
+ <BOIL_SIZE>28.7907033</BOIL_SIZE>
+ <BOIL_TIME>60.0000000</BOIL_TIME>
+ <EFFICIENCY>75.0000000</EFFICIENCY>
+ <HOPS>
+<HOP>
+ <NAME>Columbus (Tomahawk)</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>U.S.</ORIGIN>
+ <ALPHA>14.0000000</ALPHA>
+ <AMOUNT>0.0070000</AMOUNT>
+ <USE>Boil</USE>
+ <TIME>60.0000000</TIME>
+ <NOTES>Engineered Centennial Substitute - High alpha bittering hops.
+Used for: Bittering, flavor, aroma - IPA, American Pale Ale, Stout, Lager
+Aroma: Pungent, spicy. Strongly aromatic, but clean tasting bitterness
+Substitutes: Centennial</NOTES>
+ <TYPE>Bittering</TYPE>
+ <FORM>Leaf</FORM>
+ <BETA>5.0000000</BETA>
+ <HSI>40.0000000</HSI>
+ <DISPLAY_AMOUNT>7.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>60.0 min</DISPLAY_TIME>
+</HOP>
+<HOP>
+ <NAME>Amarillo</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>U.S.</ORIGIN>
+ <ALPHA>9.2000000</ALPHA>
+ <AMOUNT>0.0080000</AMOUNT>
+ <USE>Boil</USE>
+ <TIME>15.0000000</TIME>
+ <NOTES>Discovered and introduced by Vigil Gamache Farms Inc. in Washington State. Character similar to Cascade.  Often used as a late kettle or dry hop addition to American style Pale Ales and IPA&#8217;s due to its signature aroma characteristics. Used for both bitterness and aroma.
+Used for: IPAs, Ales
+Aroma: Intensely fruity (citrus, melon, and stone friuts), floral, tropical notes.
+Substitutes: Cascade, Centennial, Simcoe
+Storage: Good
+8-11% AA / 6-7% Beta</NOTES>
+ <TYPE>Aroma</TYPE>
+ <FORM>Leaf</FORM>
+ <BETA>6.0000000</BETA>
+ <HSI>20.0000000</HSI>
+ <DISPLAY_AMOUNT>8.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>226.80 g</INVENTORY>
+ <DISPLAY_TIME>15.0 min</DISPLAY_TIME>
+</HOP>
+<HOP>
+ <NAME>Bravo</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>U.S.</ORIGIN>
+ <ALPHA>15.5000000</ALPHA>
+ <AMOUNT>0.0080000</AMOUNT>
+ <USE>Boil</USE>
+ <TIME>15.0000000</TIME>
+ <NOTES>A second generation super high alpha hops from the Hopsteiner breeding program released in 2006.  Good bittering hop.
+Aroma: Fruity and floral aroma.
+Substitutes: Columbus, Zeus, Tomahawk</NOTES>
+ <TYPE>Bittering</TYPE>
+ <FORM>Leaf</FORM>
+ <BETA>3.5000000</BETA>
+ <HSI>30.0000000</HSI>
+ <DISPLAY_AMOUNT>8.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>15.0 min</DISPLAY_TIME>
+</HOP>
+<HOP>
+ <NAME>Columbus (Tomahawk)</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>U.S.</ORIGIN>
+ <ALPHA>14.0000000</ALPHA>
+ <AMOUNT>0.0080000</AMOUNT>
+ <USE>Boil</USE>
+ <TIME>15.0000000</TIME>
+ <NOTES>Engineered Centennial Substitute - High alpha bittering hops.
+Used for: Bittering, flavor, aroma - IPA, American Pale Ale, Stout, Lager
+Aroma: Pungent, spicy. Strongly aromatic, but clean tasting bitterness
+Substitutes: Centennial</NOTES>
+ <TYPE>Bittering</TYPE>
+ <FORM>Leaf</FORM>
+ <BETA>5.0000000</BETA>
+ <HSI>40.0000000</HSI>
+ <DISPLAY_AMOUNT>8.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>15.0 min</DISPLAY_TIME>
+</HOP>
+<HOP>
+ <NAME>Mosaic (HBC 369)</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>U.S.</ORIGIN>
+ <ALPHA>12.2500000</ALPHA>
+ <AMOUNT>0.0080000</AMOUNT>
+ <USE>Boil</USE>
+ <TIME>15.0000000</TIME>
+ <NOTES>Available in quantity for the first time after 2012 harvest. Still known to many as HBC 369. A daughter of Simcoe crossed with a Nugget derived male. An excellent aroma variety.
+Used for: Ales, IPA, Experimental Ales
+Aroma: Rich in mango, lemon, citrus, pine, and notably, blueberry.
+Substitutes: Unknown
+Storage: Good (25% AA after 6 months at 20 C)
+11-13.5% AA / 3.2-3.9% Beta</NOTES>
+ <TYPE>Both</TYPE>
+ <FORM>Leaf</FORM>
+ <BETA>3.5000000</BETA>
+ <HSI>25.0000000</HSI>
+ <DISPLAY_AMOUNT>8.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>15.0 min</DISPLAY_TIME>
+</HOP>
+<HOP>
+ <NAME>Citra</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>U.S.</ORIGIN>
+ <ALPHA>12.0000000</ALPHA>
+ <AMOUNT>0.0520000</AMOUNT>
+ <USE>Dry Hop</USE>
+ <TIME>4320.0000000</TIME>
+ <NOTES>Special aroma hops released in 2007.  Imparts high alpha/oil content but low cohumulone.
+Aroma: Adds interesting citrus and tropical fruit character to the beer.  
+Substitutes: Unknown</NOTES>
+ <TYPE>Both</TYPE>
+ <FORM>Pellet</FORM>
+ <BETA>4.0000000</BETA>
+ <HSI>25.0000000</HSI>
+ <DISPLAY_AMOUNT>52.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>10.0 min</DISPLAY_TIME>
+</HOP>
+<HOP>
+ <NAME>Amarillo</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>U.S.</ORIGIN>
+ <ALPHA>9.2000000</ALPHA>
+ <AMOUNT>0.0420000</AMOUNT>
+ <USE>Dry Hop</USE>
+ <TIME>4320.0000000</TIME>
+ <NOTES>Discovered and introduced by Vigil Gamache Farms Inc. in Washington State. Character similar to Cascade.  Often used as a late kettle or dry hop addition to American style Pale Ales and IPA&#8217;s due to its signature aroma characteristics. Used for both bitterness and aroma.
+Used for: IPAs, Ales
+Aroma: Intensely fruity (citrus, melon, and stone friuts), floral, tropical notes.
+Substitutes: Cascade, Centennial, Simcoe
+Storage: Good
+8-11% AA / 6-7% Beta</NOTES>
+ <TYPE>Aroma</TYPE>
+ <FORM>Pellet</FORM>
+ <BETA>6.0000000</BETA>
+ <HSI>20.0000000</HSI>
+ <DISPLAY_AMOUNT>42.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>226.80 g</INVENTORY>
+ <DISPLAY_TIME>10.0 min</DISPLAY_TIME>
+</HOP>
+<HOP>
+ <NAME>Calypso</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>U.S.</ORIGIN>
+ <ALPHA>13.0000000</ALPHA>
+ <AMOUNT>0.0160000</AMOUNT>
+ <USE>Dry Hop</USE>
+ <TIME>4320.0000000</TIME>
+ <NOTES>A new, dual-purpose hop from the Hopsteiner breeding program that may establish itself as &#34;special&#34;.
+Used for: Ales, Stouts and Barley Wines
+Aroma: Not as tropical as the name might imply but rich in both stone fruits (pear and peaches, notes of cherry) and citrus.
+Substitutions: Unknown
+Storage: Good (65-70% AA after 6 months at 20 C)
+12-14% AA / 5-6% Beta</NOTES>
+ <TYPE>Both</TYPE>
+ <FORM>Pellet</FORM>
+ <BETA>5.5000000</BETA>
+ <HSI>15.0000000</HSI>
+ <DISPLAY_AMOUNT>16.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>10.0 min</DISPLAY_TIME>
+</HOP>
+</HOPS>
+
+ <FERMENTABLES>
+<FERMENTABLE>
+ <NAME>Extra Pale Maris Otter (Crisp)</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>3.9999974</AMOUNT>
+ <YIELD>82.5000000</YIELD>
+ <COLOR>3.1000001</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>United Kingdom</ORIGIN>
+ <SUPPLIER>Crisp</SUPPLIER>
+ <NOTES>Premium base malt from the UK.  Popular for many English styles of beer including ales, pale ales and bitters.</NOTES>
+ <COARSE_FINE_DIFF>1.5000000</COARSE_FINE_DIFF>
+ <MOISTURE>2.8000000</MOISTURE>
+ <DIASTATIC_POWER>50.0000000</DIASTATIC_POWER>
+ <PROTEIN>11.7000000</PROTEIN>
+ <MAX_IN_BATCH>100.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>TRUE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>4.00 kg</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 kg</INVENTORY>
+ <POTENTIAL>1.0379500</POTENTIAL>
+ <DISPLAY_COLOR>3.1 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE>Pale Liquid Extract</EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+<FERMENTABLE>
+ <NAME>Cara (Crisp)</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>0.2099999</AMOUNT>
+ <YIELD>76.0000000</YIELD>
+ <COLOR>34.4750000</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>United Kingdom</ORIGIN>
+ <SUPPLIER>Crisp</SUPPLIER>
+ <NOTES></NOTES>
+ <COARSE_FINE_DIFF>1.5000000</COARSE_FINE_DIFF>
+ <MOISTURE>6.0000000</MOISTURE>
+ <DIASTATIC_POWER>0.0000000</DIASTATIC_POWER>
+ <PROTEIN>11.7000000</PROTEIN>
+ <MAX_IN_BATCH>10.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>FALSE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>0.21 kg</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 kg</INVENTORY>
+ <POTENTIAL>1.0349600</POTENTIAL>
+ <DISPLAY_COLOR>34.5 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE></EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+<FERMENTABLE>
+ <NAME>Caragold (Crisp)</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>0.1199999</AMOUNT>
+ <YIELD>76.0000000</YIELD>
+ <COLOR>12.0000001</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>United Kingdom</ORIGIN>
+ <SUPPLIER>Crisp</SUPPLIER>
+ <NOTES></NOTES>
+ <COARSE_FINE_DIFF>1.5000000</COARSE_FINE_DIFF>
+ <MOISTURE>6.0000000</MOISTURE>
+ <DIASTATIC_POWER>0.0000000</DIASTATIC_POWER>
+ <PROTEIN>11.7000000</PROTEIN>
+ <MAX_IN_BATCH>10.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>FALSE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>0.12 kg</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 kg</INVENTORY>
+ <POTENTIAL>1.0349600</POTENTIAL>
+ <DISPLAY_COLOR>12.0 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE></EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+</FERMENTABLES>
+
+ <MISCS>
+<MISC>
+ <NAME>Irish Moss</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Fining</TYPE>
+ <USE>Boil</USE>
+ <AMOUNT>0.001232</AMOUNT>
+ <TIME>15.00</TIME>
+ <AMOUNT_IS_WEIGHT>FALSE</AMOUNT_IS_WEIGHT>
+ <USE_FOR>Clarity</USE_FOR>
+ <NOTES>Fining agent that aids in the post-boil protein break.  Reduces protein chill haze and improves beer clarity.</NOTES>
+ <DISPLAY_AMOUNT>0.25 tsp</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 tsp</INVENTORY>
+ <DISPLAY_TIME>15.0 mins</DISPLAY_TIME>
+ <BATCH_SIZE>18.93 l</BATCH_SIZE>
+</MISC>
+</MISCS>
+
+ <YEASTS>
+<YEAST>
+ <NAME>Safale American </NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Ale</TYPE>
+ <FORM>Dry</FORM>
+ <AMOUNT>0.0502753</AMOUNT>
+ <AMOUNT_IS_WEIGHT>FALSE</AMOUNT_IS_WEIGHT>
+ <LABORATORY>DCL/Fermentis</LABORATORY>
+ <PRODUCT_ID>US-05</PRODUCT_ID>
+ <MIN_TEMPERATURE>15.0000000</MIN_TEMPERATURE>
+ <MAX_TEMPERATURE>23.8888889</MAX_TEMPERATURE>
+ <FLOCCULATION>Medium</FLOCCULATION>
+ <ATTENUATION>76.5000000</ATTENUATION>
+ <NOTES>American ale yeast that produces well balanced beers with low diacetyl and a very clean, crisp end palate.</NOTES>
+ <BEST_FOR>American ale, other clean finish ales</BEST_FOR>
+ <MAX_REUSE>5</MAX_REUSE>
+ <TIMES_CULTURED>0</TIMES_CULTURED>
+ <ADD_TO_SECONDARY>FALSE</ADD_TO_SECONDARY>
+ <DISPLAY_AMOUNT>50.28 ml</DISPLAY_AMOUNT>
+ <DISP_MIN_TEMP>15.0 C</DISP_MIN_TEMP>
+ <DISP_MAX_TEMP>23.9 C</DISP_MAX_TEMP>
+ <INVENTORY>0.0 pkg</INVENTORY>
+ <CULTURE_DATE>06 Mar 2011</CULTURE_DATE>
+</YEAST>
+</YEASTS>
+
+ 
+ <STYLE>
+ <NAME>American IPA</NAME>
+ <VERSION>1</VERSION>
+ <CATEGORY>IPA</CATEGORY>
+ <CATEGORY_NUMBER>21</CATEGORY_NUMBER>
+ <STYLE_LETTER>A</STYLE_LETTER>
+ <STYLE_GUIDE>BJCP 2015</STYLE_GUIDE>
+ <TYPE>Ale</TYPE>
+ <OG_MIN>1.0560000</OG_MIN>
+ <OG_MAX>1.0700000</OG_MAX>
+ <FG_MIN>1.0080000</FG_MIN>
+ <FG_MAX>1.0140000</FG_MAX>
+ <IBU_MIN>40.0000000</IBU_MIN>
+ <IBU_MAX>70.0000000</IBU_MAX>
+ <COLOR_MIN>11.8200000</COLOR_MIN>
+ <COLOR_MAX>27.5800000</COLOR_MAX>
+ <CARB_MIN>2.4000000</CARB_MIN>
+ <CARB_MAX>2.9000000</CARB_MAX>
+ <ABV_MAX>7.5000000</ABV_MAX>
+ <ABV_MIN>5.5000000</ABV_MIN>
+ <NOTES>A decidedly hoppy and bitter, moderately strong American pale ale, showcasing modern American or New World hop varieties. The balance is hop-forward, with a clean fermentation profile, dryish finish, and clean, supporting malt allowing a creative range of hop character to shine through. The IPA category is for modern American IPAs and their derivatives. This does not imply that English IPAs aren&#8217;t proper IPAs or that there isn&#8217;t a relationship between them. This is simply a method of grouping similar styles for competition purposes. English IPAs are grouped with other English-derived beers, and the stronger Double IPA is grouped with stronger American beers. The term &#8220;IPA&#8221; is intentionally not spelled out as &#8220;India Pale Ale&#8221; since none of these beers historically went to India, and many aren&#8217;t pale. However, the term IPA has come to be a balance-defined style in modern craft beer. History: The first modern American craft beer example is generally believed to be Anchor Liberty Ale, first brewed in 1975 and using whole Cascade hops; the style has pushed beyond that original beer, which now tastes more like an American Pale Ale in comparison. American-made IPAs from earlier eras were not unknown (particularly the well-regarded Ballantine&#8217;s IPA, an oak-aged beer using an old English recipe). This style is based on the modern craft beer examples. Style Comparison: Stronger and more highly hopped than an American Pale Ale. Compared to an English IPA, has less of the &#8220;English&#8221; character from malt, hops, and yeast (less caramel, bread, and toast; more American/New World hops than English; less yeast-derived esters), less body, and often has a more hoppy balance and is slightly stronger than most examples. Less alcohol than a Double IPA, but with a similar balance.</NOTES>
+ <PROFILE>Aroma: A prominent to intense hop aroma featuring one or more characteristics of American or New World hops, such as citrus, floral, pine, resinous, spicy, tropical fruit, stone fruit, berry, melon, etc. Many versions are dry hopped and can have an additional fresh hop aroma; this is desirable but not required. Grassiness should be minimal, if present. A low to medium-low clean, grainy-malty aroma may be found in the background. Fruitiness from yeast may also be detected in some versions, although a neutral fermentation character is also acceptable. A restrained alcohol note may be present, but this character should be minimal at best. Any American or New World hop character is acceptable; new hop varieties continue to be released and should not constrain this style. Appearance: Color ranges from medium gold to light reddish-amber. Should be clear, although unfiltered dry-hopped versions may be a bit hazy. Medium-sized, white to off-white head with good persistence. Flavor: Hop flavor is medium to very high, and should reflect an American or New World hop character, such as citrus, floral, pine, resinous, spicy, tropical fruit, stone fruit, berry, melon, etc. Medium-high to very high hop bitterness. Malt flavor should be low to medium-low, and is generally clean and grainy-malty although some light caramel or toasty flavors are acceptable. Low yeast-derived fruitiness is acceptable but not required. Dry to medium-dry finish; residual sweetness should be low to none. The bitterness and hop flavor may linger into the aftertaste but should not be harsh. A very light, clean alcohol flavor may be noted in stronger versions. May be slightly sulfury, but most examples do not exhibit this character. Mouthfeel: Medium-light to medium body, with a smooth texture. Medium to medium-high carbonation. No harsh hop-derived astringency. Very light, smooth alcohol warming not a fault if it does not intrude into overall balance. Comments: A modern American craft beer interpretation of the historical English style, brewed using American ingredients and attitude. The basis for many modern variations, including the stronger Double IPA as well as IPAs with various other ingredients. Those other IPAs should generally be entered in the Specialty IPA style. Oak is inappropriate in this style; if noticeably oaked, enter in wood-aged category.</PROFILE>
+ <INGREDIENTS>Pale ale or 2-row brewers malt as the base, American or New World hops, American or English yeast with a clean or slightly fruity profile. Generally all-malt, but mashed at lower temperatures for high attenuation. Sugar additions to aid attenuation are acceptable. Restrained use of crystal malts, if any, as high amounts can lead to a sweet finish and clash with the hop character.</INGREDIENTS>
+ <EXAMPLES>Alpine Duet, Bell&#8217;s Two-Hearted Ale, Fat Heads Head Hunter IPA, Firestone Walker Union Jack, Lagunitas IPA, Russian River Blind Pig IPA, Stone IPA</EXAMPLES>
+ <DISPLAY_OG_MIN>1.056 SG</DISPLAY_OG_MIN>
+ <DISPLAY_OG_MAX>1.070 SG</DISPLAY_OG_MAX>
+ <DISPLAY_FG_MIN>1.008 SG</DISPLAY_FG_MIN>
+ <DISPLAY_FG_MAX>1.014 SG</DISPLAY_FG_MAX>
+ <DISPLAY_COLOR_MIN>11.8 EBC</DISPLAY_COLOR_MIN>
+ <DISPLAY_COLOR_MAX>27.6 EBC</DISPLAY_COLOR_MAX>
+ <OG_RANGE>1.056-1.070 SG</OG_RANGE>
+ <FG_RANGE>1.008-1.014 SG</FG_RANGE>
+ <IBU_RANGE>40.0-70.0 IBUs</IBU_RANGE>
+ <CARB_RANGE>2.40-2.90 Vols</CARB_RANGE>
+ <COLOR_RANGE>11.8-27.6 EBC</COLOR_RANGE>
+ <ABV_RANGE>5.50-7.50 %</ABV_RANGE>
+</STYLE>
+
+ <EQUIPMENT>
+ <NAME>Bryan&#39;s Kit</NAME>
+ <VERSION>1</VERSION>
+ <BOIL_SIZE>28.7907033</BOIL_SIZE>
+ <BATCH_SIZE>20.0000000</BATCH_SIZE>
+ <TUN_VOLUME>37.8543360</TUN_VOLUME>
+ <TUN_WEIGHT>4.0823280</TUN_WEIGHT>
+ <TUN_SPECIFIC_HEAT>0.3000000</TUN_SPECIFIC_HEAT>
+ <TOP_UP_WATER>0.0000000</TOP_UP_WATER>
+ <TRUB_CHILLER_LOSS>2.8390752</TRUB_CHILLER_LOSS>
+ <EVAP_RATE>17.3667171</EVAP_RATE>
+ <BOIL_TIME>60.0000000</BOIL_TIME>
+ <CALC_BOIL_VOLUME>TRUE</CALC_BOIL_VOLUME>
+ <LAUTER_DEADSPACE>0.6000000</LAUTER_DEADSPACE>
+ <TOP_UP_KETTLE>0.0000000</TOP_UP_KETTLE>
+ <HOP_UTILIZATION>100.0000000</HOP_UTILIZATION>
+ <COOLING_LOSS_PCT>4.0000000</COOLING_LOSS_PCT>
+ <NOTES>Based on a 18.5 Gal/70 L pot with a diameter of 18 inches/45 cm and a 9.5 Gal/40 L cooler. The above assumes loose pellet hops and only clear, chilled wort transferred from the kettle using no trub management techniques. Experienced brewers should adjust &#39;Loss to Trub and Chiller&#39; and &#39;Brewhouse Efficiency&#39; accordingly to suit their trub management techniques.</NOTES>
+ <DISPLAY_BOIL_SIZE>28.79 l</DISPLAY_BOIL_SIZE>
+ <DISPLAY_BATCH_SIZE>20.00 l</DISPLAY_BATCH_SIZE>
+ <DISPLAY_TUN_VOLUME>37.85 l</DISPLAY_TUN_VOLUME>
+ <DISPLAY_TUN_WEIGHT>4.08 kg</DISPLAY_TUN_WEIGHT>
+ <DISPLAY_TOP_UP_WATER>0.00 l</DISPLAY_TOP_UP_WATER>
+ <DISPLAY_TRUB_CHILLER_LOSS>2.84 l</DISPLAY_TRUB_CHILLER_LOSS>
+ <DISPLAY_LAUTER_DEADSPACE>0.60 l</DISPLAY_LAUTER_DEADSPACE>
+ <DISPLAY_TOP_UP_KETTLE>0.00 l</DISPLAY_TOP_UP_KETTLE>
+</EQUIPMENT>
+
+ <MASH>
+ <NAME>Single Infusion, Light Body, Batch Sparge</NAME>
+ <VERSION>1</VERSION>
+ <GRAIN_TEMP>22.2222222</GRAIN_TEMP>
+ <TUN_TEMP>22.2222222</TUN_TEMP>
+ <SPARGE_TEMP>75.5555556</SPARGE_TEMP>
+ <PH>5.4000000</PH>
+ <TUN_WEIGHT>144.0000000</TUN_WEIGHT>
+ <TUN_SPECIFIC_HEAT>0.3000000</TUN_SPECIFIC_HEAT>
+ <EQUIP_ADJUST>FALSE</EQUIP_ADJUST>
+ <NOTES>Simple single infusion mash for use with most modern well modified grains (about 95% of the time).</NOTES>
+ <DISPLAY_GRAIN_TEMP>22.2 C</DISPLAY_GRAIN_TEMP>
+ <DISPLAY_TUN_TEMP>22.2 C</DISPLAY_TUN_TEMP>
+ <DISPLAY_SPARGE_TEMP>75.6 C</DISPLAY_SPARGE_TEMP>
+ <DISPLAY_TUN_WEIGHT>4.08 kg</DISPLAY_TUN_WEIGHT>
+<MASH_STEPS>
+<MASH_STEP>
+ <NAME>Mash In</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Infusion</TYPE>
+ <INFUSE_AMOUNT>11.2924424</INFUSE_AMOUNT>
+ <STEP_TIME>75.0000000</STEP_TIME>
+ <STEP_TEMP>64.4444444</STEP_TEMP>
+ <RAMP_TIME>2.0000000</RAMP_TIME>
+ <END_TEMP>64.4444444</END_TEMP>
+ <DESCRIPTION>Add 11.89 l of water at 70.3 C</DESCRIPTION>
+ <WATER_GRAIN_RATIO>2.608 l/kg</WATER_GRAIN_RATIO>
+ <DECOCTION_AMT>0.00 l</DECOCTION_AMT>
+ <INFUSE_TEMP>70.3 C</INFUSE_TEMP>
+ <DISPLAY_STEP_TEMP>64.4 C</DISPLAY_STEP_TEMP>
+ <DISPLAY_INFUSE_AMT>11.89 l</DISPLAY_INFUSE_AMT>
+</MASH_STEP>
+</MASH_STEPS>
+
+</MASH>
+
+ <NOTES></NOTES>
+ <TASTE_NOTES></TASTE_NOTES>
+ <TASTE_RATING>30.0000000</TASTE_RATING>
+ <OG>1.0460000</OG>
+ <FG>1.0100000</FG>
+ <CARBONATION>2.3000000</CARBONATION>
+ <FERMENTATION_STAGES>2</FERMENTATION_STAGES>
+ <PRIMARY_AGE>4.0000000</PRIMARY_AGE>
+ <PRIMARY_TEMP>19.4444444</PRIMARY_TEMP>
+ <SECONDARY_AGE>10.0000000</SECONDARY_AGE>
+ <SECONDARY_TEMP>19.4444444</SECONDARY_TEMP>
+ <TERTIARY_AGE>7.0000000</TERTIARY_AGE>
+ <AGE>30.0000000</AGE>
+ <AGE_TEMP>18.3333333</AGE_TEMP>
+ <CARBONATION_USED>Bottle with 107.62 g Corn Sugar</CARBONATION_USED>
+ <FORCED_CARBONATION>TRUE</FORCED_CARBONATION>
+ <PRIMING_SUGAR_NAME>Corn Sugar</PRIMING_SUGAR_NAME>
+ <PRIMING_SUGAR_EQUIV>1.0000000</PRIMING_SUGAR_EQUIV>
+ <KEG_PRIMING_FACTOR>0.5000000</KEG_PRIMING_FACTOR>
+ <CARBONATION_TEMP>21.1111111</CARBONATION_TEMP>
+ <DISPLAY_CARB_TEMP>21.1 C</DISPLAY_CARB_TEMP>
+ <DATE>24 Mar 2018</DATE>
+ <EST_OG>1.051 SG</EST_OG>
+ <EST_FG>1.008 SG</EST_FG>
+ <EST_COLOR>7.5 EBC</EST_COLOR>
+ <IBU>32.9 IBUs</IBU>
+ <IBU_METHOD>Tinseth</IBU_METHOD>
+ <EST_ABV>5.6 %</EST_ABV>
+ <ABV>4.7 %</ABV>
+ <ACTUAL_EFFICIENCY>63.9 %</ACTUAL_EFFICIENCY>
+ <CALORIES>427.1 kcal/l</CALORIES>
+ <DISPLAY_BATCH_SIZE>20.00 l</DISPLAY_BATCH_SIZE>
+ <DISPLAY_BOIL_SIZE>28.79 l</DISPLAY_BOIL_SIZE>
+ <DISPLAY_OG>1.046 SG</DISPLAY_OG>
+ <DISPLAY_FG>1.010 SG</DISPLAY_FG>
+ <DISPLAY_PRIMARY_TEMP>19.4 C</DISPLAY_PRIMARY_TEMP>
+ <DISPLAY_SECONDARY_TEMP>19.4 C</DISPLAY_SECONDARY_TEMP>
+ <DISPLAY_TERTIARY_TEMP>18.3 C</DISPLAY_TERTIARY_TEMP>
+ <DISPLAY_AGE_TEMP>18.3 C</DISPLAY_AGE_TEMP>
+</RECIPE>
+</RECIPES>

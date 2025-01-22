@@ -5,11 +5,23 @@
   <subtitle>The home of the Fairwater Brewery</subtitle>
   <link href="https://fairwater-brewery.co.uk/feed/feed.xml" rel="self" />
   <link href="https://fairwater-brewery.co.uk/" />
-  <updated>2025-01-19T00:00:00Z</updated>
+  <updated>2025-01-22T00:00:00Z</updated>
   <id>https://fairwater-brewery.co.uk/</id>
   <author>
     <name>Bryan Robson</name>
   </author>
+  <entry>
+    <title>All the old recipes</title>
+    <link href="https://fairwater-brewery.co.uk/blog/2025/01/22/All%20the%20old%20recipes/" />
+    <updated>2025-01-22T00:00:00Z</updated>
+    <id>https://fairwater-brewery.co.uk/blog/2025/01/22/All%20the%20old%20recipes/</id>
+    <content type="html">&lt;p&gt;I&#39;ve uploaded all the old .BeerXml files from the original website: they can&lt;br&gt;
+be found on the &lt;a href=&quot;https://fairwater-brewery.co.uk/recipelist/page-1/&quot;&gt;recipes&lt;/a&gt; page.&lt;/p&gt;
+&lt;p&gt;Spot-checking suggests that they&#39;re all working correctly, but please let me&lt;br&gt;
+know if any don&#39;t work. (...which reminds me, must add some sort of &amp;quot;contact me&amp;quot; page!)&lt;/p&gt;
+&lt;p&gt;As I add any recipe-related blog posts I will add to them!&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Welcome back to the brewery...</title>
     <link href="https://fairwater-brewery.co.uk/blog/2025/01/19/welcome-back/" />

@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><RECIPES>
+<RECIPE>
+ <NAME>Tzara</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>All Grain</TYPE>
+ <BREWER>Bryan</BREWER>
+ <ASST_BREWER></ASST_BREWER>
+ <BATCH_SIZE>25.0000000</BATCH_SIZE>
+ <BOIL_SIZE>35.0000000</BOIL_SIZE>
+ <BOIL_TIME>90.0000000</BOIL_TIME>
+ <EFFICIENCY>75.0000000</EFFICIENCY>
+ <HOPS>
+<HOP>
+ <NAME>Perle</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>Germany</ORIGIN>
+ <ALPHA>9.6000000</ALPHA>
+ <AMOUNT>0.0150000</AMOUNT>
+ <USE>Boil</USE>
+ <TIME>60.0000000</TIME>
+ <NOTES>Used for: General purpose bittering for US and German ales, lagers
+Aroma: Slightly spicy, pleasant aroma, minty
+Substitutes: Chinook, Galena, Northern Brewer
+Examples: Sierra Nevada Pale Ale, Pale Bock</NOTES>
+ <TYPE>Bittering</TYPE>
+ <FORM>Leaf</FORM>
+ <BETA>4.7500000</BETA>
+ <HSI>15.0000000</HSI>
+ <DISPLAY_AMOUNT>15.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>40.00 g</INVENTORY>
+ <DISPLAY_TIME>60.0 min</DISPLAY_TIME>
+</HOP>
+<HOP>
+ <NAME>Hallertauer</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>Germany</ORIGIN>
+ <ALPHA>4.8000000</ALPHA>
+ <AMOUNT>0.0300000</AMOUNT>
+ <USE>Aroma</USE>
+ <TIME>30.0000000</TIME>
+ <NOTES>Used for: German Ales, German/US/Canadian Lagers, Wheat Beers
+Aroma: Pleasant, mild spicy flavor, clean, neutral flavor
+Substitutes: Crystal, Liberty, Hallertauer Mittelfrueh</NOTES>
+ <TYPE>Aroma</TYPE>
+ <FORM>Leaf</FORM>
+ <BETA>4.0000000</BETA>
+ <HSI>50.0000000</HSI>
+ <DISPLAY_AMOUNT>30.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>30.0 min</DISPLAY_TIME>
+</HOP>
+<HOP>
+ <NAME>Tettnang</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>Germany</ORIGIN>
+ <ALPHA>4.5000000</ALPHA>
+ <AMOUNT>0.0300000</AMOUNT>
+ <USE>Aroma</USE>
+ <TIME>30.0000000</TIME>
+ <NOTES>Used for: German ales, lagers and wheat beer
+Aroma: Noble, mild, fine, slightly spicy
+Substitutes: Saaz, Spalt
+Examples: Sam Adams Octoberfest, Anderson Valley ESB</NOTES>
+ <TYPE>Aroma</TYPE>
+ <FORM>Leaf</FORM>
+ <BETA>3.5000000</BETA>
+ <HSI>40.0000000</HSI>
+ <DISPLAY_AMOUNT>30.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>114.00 g</INVENTORY>
+ <DISPLAY_TIME>30.0 min</DISPLAY_TIME>
+</HOP>
+</HOPS>
+
+ <FERMENTABLES>
+<FERMENTABLE>
+ <NAME>Bohemian Pilsner (Weyermann)</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>4.4999971</AMOUNT>
+ <YIELD>82.2300000</YIELD>
+ <COLOR>3.3490000</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>Germany</ORIGIN>
+ <SUPPLIER>Weyermann</SUPPLIER>
+ <NOTES>Pilsner base malt for all pilsners, lagers.  Highly modified malt.</NOTES>
+ <COARSE_FINE_DIFF>1.2000000</COARSE_FINE_DIFF>
+ <MOISTURE>4.4000000</MOISTURE>
+ <DIASTATIC_POWER>110.0000000</DIASTATIC_POWER>
+ <PROTEIN>10.9000000</PROTEIN>
+ <MAX_IN_BATCH>100.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>TRUE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>4.50 kg</DISPLAY_AMOUNT>
+ <INVENTORY>0.55 kg</INVENTORY>
+ <POTENTIAL>1.0378258</POTENTIAL>
+ <DISPLAY_COLOR>3.3 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE>Pilsner Liquid Extract</EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+<FERMENTABLE>
+ <NAME>Wheat Malt, Pale (Weyermann)</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>0.3999997</AMOUNT>
+ <YIELD>82.2300000</YIELD>
+ <COLOR>3.9400000</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>Germany</ORIGIN>
+ <SUPPLIER>Weyermann</SUPPLIER>
+ <NOTES>Pale wheat malt, used as a base malt in many wheat styles. Wheat beers, Koelsch, Alts.</NOTES>
+ <COARSE_FINE_DIFF>1.7000000</COARSE_FINE_DIFF>
+ <MOISTURE>4.5000000</MOISTURE>
+ <DIASTATIC_POWER>74.0000000</DIASTATIC_POWER>
+ <PROTEIN>11.7000000</PROTEIN>
+ <MAX_IN_BATCH>80.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>TRUE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>0.40 kg</DISPLAY_AMOUNT>
+ <INVENTORY>0.84 kg</INVENTORY>
+ <POTENTIAL>1.0378258</POTENTIAL>
+ <DISPLAY_COLOR>3.9 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE>Wheat Liquid Extract</EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+<FERMENTABLE>
+ <NAME>Carapils (Weyermann)</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>0.1999999</AMOUNT>
+ <YIELD>75.0000000</YIELD>
+ <COLOR>4.0000001</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>Germany</ORIGIN>
+ <SUPPLIER>Weyermann</SUPPLIER>
+ <NOTES></NOTES>
+ <COARSE_FINE_DIFF>1.5000000</COARSE_FINE_DIFF>
+ <MOISTURE>4.0000000</MOISTURE>
+ <DIASTATIC_POWER>120.0000000</DIASTATIC_POWER>
+ <PROTEIN>11.7000000</PROTEIN>
+ <MAX_IN_BATCH>100.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>FALSE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>0.20 kg</DISPLAY_AMOUNT>
+ <INVENTORY>0.46 kg</INVENTORY>
+ <POTENTIAL>1.0345000</POTENTIAL>
+ <DISPLAY_COLOR>4.0 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE></EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+</FERMENTABLES>
+
+ <MISCS>
+<MISC>
+ <NAME>Protafloc</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Fining</TYPE>
+ <USE>Boil</USE>
+ <AMOUNT>0.002500</AMOUNT>
+ <TIME>15.00</TIME>
+ <AMOUNT_IS_WEIGHT>TRUE</AMOUNT_IS_WEIGHT>
+ <USE_FOR></USE_FOR>
+ <NOTES>1/2 tablet in 25 litre brew</NOTES>
+ <DISPLAY_AMOUNT>2.50 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>15.0 mins</DISPLAY_TIME>
+ <BATCH_SIZE>25.00 l</BATCH_SIZE>
+</MISC>
+</MISCS>
+
+ <YEASTS>
+<YEAST>
+ <NAME>German Ale/Kolsch</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Ale</TYPE>
+ <FORM>Liquid</FORM>
+ <AMOUNT>0.0354884</AMOUNT>
+ <AMOUNT_IS_WEIGHT>FALSE</AMOUNT_IS_WEIGHT>
+ <LABORATORY>White Labs</LABORATORY>
+ <PRODUCT_ID>WLP029</PRODUCT_ID>
+ <MIN_TEMPERATURE>18.3333333</MIN_TEMPERATURE>
+ <MAX_TEMPERATURE>20.5555556</MAX_TEMPERATURE>
+ <FLOCCULATION>Medium</FLOCCULATION>
+ <ATTENUATION>75.0000000</ATTENUATION>
+ <NOTES>Great for light beers.  Accentuates hop flavors.  Slight sulfer flavor will fade with age and leave a clean, lager like ale.</NOTES>
+ <BEST_FOR>Kolsch, Altbiers, Pale Ales, Blonde and Honey Ales</BEST_FOR>
+ <MAX_REUSE>5</MAX_REUSE>
+ <TIMES_CULTURED>0</TIMES_CULTURED>
+ <ADD_TO_SECONDARY>FALSE</ADD_TO_SECONDARY>
+ <DISPLAY_AMOUNT>35.49 ml</DISPLAY_AMOUNT>
+ <DISP_MIN_TEMP>18.3 C</DISP_MIN_TEMP>
+ <DISP_MAX_TEMP>20.6 C</DISP_MAX_TEMP>
+ <INVENTORY>0.0 pkg</INVENTORY>
+ <CULTURE_DATE>14 Jun 2003</CULTURE_DATE>
+</YEAST>
+</YEASTS>
+
+ 
+ <STYLE>
+ <NAME>K&#246;lsch</NAME>
+ <VERSION>1</VERSION>
+ <CATEGORY>Light Hybrid Beer</CATEGORY>
+ <CATEGORY_NUMBER>6</CATEGORY_NUMBER>
+ <STYLE_LETTER>C</STYLE_LETTER>
+ <STYLE_GUIDE>BJCP 2008</STYLE_GUIDE>
+ <TYPE>Ale</TYPE>
+ <OG_MIN>1.0440000</OG_MIN>
+ <OG_MAX>1.0500000</OG_MAX>
+ <FG_MIN>1.0070000</FG_MIN>
+ <FG_MAX>1.0110000</FG_MAX>
+ <IBU_MIN>20.0000000</IBU_MIN>
+ <IBU_MAX>30.0000000</IBU_MAX>
+ <COLOR_MIN>6.8950000</COLOR_MIN>
+ <COLOR_MAX>9.8500000</COLOR_MAX>
+ <CARB_MIN>2.4000000</CARB_MIN>
+ <CARB_MAX>2.8000000</CARB_MAX>
+ <ABV_MAX>5.2000000</ABV_MAX>
+ <ABV_MIN>4.4000000</ABV_MIN>
+ <NOTES>A clean, crisp, delicately balanced beer usually with very subtle fruit flavors and aromas. Subdued maltiness throughout leads to a pleasantly refreshing tang in the finish. To the untrained taster easily mistaken for a light lager, a somewhat subtle Pilsner, or perhaps a blonde ale. K&#246;lsch is an appellation protected by the K&#246;lsch Konvention, and is restricted to the 20 or so breweries in and around Cologne (K&#246;ln). The Konvention simply defines the beer as a &#8220;light, highly attenuated, hop-accentuated, clear topfermenting Vollbier.&#8221; Served in a tall, narrow 200ml glass called a &#8220;Stange.&#8221; Each K&#246;ln brewery produces a beer of different character, and each interprets the Konvention slightly differently. Allow for a range of variation within the style when judging. Note that drier versions may seem hoppier or more bitter than the IBU specifications might suggest. Due to its delicate flavor profile, K&#246;lsch tends to have a relatively short shelf-life; older examples can show some oxidation defects. Some K&#246;ln breweries (e.g., Dom, Hellers) are now producing young, unfiltered versions known as Wiess (which should not be entered in this category).</NOTES>
+ <PROFILE>Aroma: Very low to no Pils malt aroma. A pleasant, subtle fruit aroma from fermentation (apple, cherry or pear) is acceptable, but not always present. A low noble hop aroma is optional but not out of place (it is present only in a small minority of authentic versions). Some yeasts may give a slight winy or sulfury character (this characteristic is also optional, but not a fault).
+Appearance: Very pale gold to light gold. Authentic versions are filtered to a brilliant clarity. Has a delicate white head that may not persist.
+Flavor: Soft, rounded palate comprising of a delicate flavor balance between soft yet attenuated malt, an almost imperceptible fruity sweetness from fermentation, and a medium-low to medium bitterness with a delicate dryness and slight pucker in the finish (but no harsh aftertaste). The noble hop flavor is variable, and can range from low to moderately high; most are medium-low to medium. One or two examples (Dom being the most prominent) are noticeably malty-sweet up front. Some versions can have a slightly minerally or sulfury water or yeast character that accentuates the dryness and flavor balance. Some versions may have a slight wheat taste, although this is quite rare. Otherwise very clean with no diacetyl or fusels.
+Mouthfeel: Smooth and crisp. Medium-light body, although a few versions may be medium. Medium to medium-high carbonation. Generally well-attenuated.</PROFILE>
+ <INGREDIENTS>German noble hops (Hallertau, Tettnang, Spalt or Hersbrucker). German Pils or pale malt. Attenuative, clean ale yeast. Up to 20% wheat may be used, but this is quite rare in authentic versions. Water can vary from extremely soft to moderately hard. Traditionally uses a step mash program, although good results can be obtained using a single rest at 149&#176;F. Fermented at cool ale temperatures (59-65&#176;F) and lagered for at least a month, although many Cologne brewers ferment at 70&#176;F and lager for no more than two weeks.</INGREDIENTS>
+ <EXAMPLES>PJ Fr&#252;h, Hellers, Malzm&#252;hle, Paeffgen, Sion, Peters, Reissdorf, Gaffel, Eisenbahn Dourada, Goose Island Summertime, Alaska Summer Ale, Harpoon Summer Beer, New Holland Lucid, Saint Arnold Fancy Lawnmower, Capitol City Capitol K&#246;lsch, Shiner K&#246;lsch</EXAMPLES>
+ <DISPLAY_OG_MIN>1.044 SG</DISPLAY_OG_MIN>
+ <DISPLAY_OG_MAX>1.050 SG</DISPLAY_OG_MAX>
+ <DISPLAY_FG_MIN>1.007 SG</DISPLAY_FG_MIN>
+ <DISPLAY_FG_MAX>1.011 SG</DISPLAY_FG_MAX>
+ <DISPLAY_COLOR_MIN>6.9 EBC</DISPLAY_COLOR_MIN>
+ <DISPLAY_COLOR_MAX>9.8 EBC</DISPLAY_COLOR_MAX>
+ <OG_RANGE>1.044-1.050 SG</OG_RANGE>
+ <FG_RANGE>1.007-1.011 SG</FG_RANGE>
+ <IBU_RANGE>20.0-30.0 IBUs</IBU_RANGE>
+ <CARB_RANGE>2.40-2.80 Vols</CARB_RANGE>
+ <COLOR_RANGE>6.9-9.8 EBC</COLOR_RANGE>
+ <ABV_RANGE>4.40-5.20 %</ABV_RANGE>
+</STYLE>
+
+ <EQUIPMENT>
+ <NAME>Pot (18.5 Gal/70 L) and Cooler (9.5 Gal/45 L)  - All Grain</NAME>
+ <VERSION>1</VERSION>
+ <BOIL_SIZE>35.0000000</BOIL_SIZE>
+ <BATCH_SIZE>25.0000000</BATCH_SIZE>
+ <TUN_VOLUME>45.0000000</TUN_VOLUME>
+ <TUN_WEIGHT>4.0823280</TUN_WEIGHT>
+ <TUN_SPECIFIC_HEAT>0.3000000</TUN_SPECIFIC_HEAT>
+ <TOP_UP_WATER>0.0000000</TOP_UP_WATER>
+ <TRUB_CHILLER_LOSS>0.0000000</TRUB_CHILLER_LOSS>
+ <EVAP_RATE>17.1428571</EVAP_RATE>
+ <BOIL_TIME>90.0000000</BOIL_TIME>
+ <CALC_BOIL_VOLUME>TRUE</CALC_BOIL_VOLUME>
+ <LAUTER_DEADSPACE>0.6000000</LAUTER_DEADSPACE>
+ <TOP_UP_KETTLE>0.0000000</TOP_UP_KETTLE>
+ <HOP_UTILIZATION>100.0000000</HOP_UTILIZATION>
+ <COOLING_LOSS_PCT>4.0000000</COOLING_LOSS_PCT>
+ <NOTES>Based on a 18.5 Gal/70 L pot with a diameter of 18 inches/45 cm and a 9.5 Gal/40 L cooler. The above assumes loose pellet hops and only clear, chilled wort transferred from the kettle using no trub management techniques. Experienced brewers should adjust &#39;Loss to Trub and Chiller&#39; and &#39;Brewhouse Efficiency&#39; accordingly to suit their trub management techniques.</NOTES>
+ <DISPLAY_BOIL_SIZE>35.00 l</DISPLAY_BOIL_SIZE>
+ <DISPLAY_BATCH_SIZE>25.00 l</DISPLAY_BATCH_SIZE>
+ <DISPLAY_TUN_VOLUME>45.00 l</DISPLAY_TUN_VOLUME>
+ <DISPLAY_TUN_WEIGHT>4.08 kg</DISPLAY_TUN_WEIGHT>
+ <DISPLAY_TOP_UP_WATER>0.00 l</DISPLAY_TOP_UP_WATER>
+ <DISPLAY_TRUB_CHILLER_LOSS>0.00 l</DISPLAY_TRUB_CHILLER_LOSS>
+ <DISPLAY_LAUTER_DEADSPACE>0.60 l</DISPLAY_LAUTER_DEADSPACE>
+ <DISPLAY_TOP_UP_KETTLE>0.00 l</DISPLAY_TOP_UP_KETTLE>
+</EQUIPMENT>
+
+ <MASH>
+ <NAME>Single Infusion, Light Body, Batch Sparge</NAME>
+ <VERSION>1</VERSION>
+ <GRAIN_TEMP>22.2222222</GRAIN_TEMP>
+ <TUN_TEMP>22.2222222</TUN_TEMP>
+ <SPARGE_TEMP>75.5555556</SPARGE_TEMP>
+ <PH>5.4000000</PH>
+ <TUN_WEIGHT>144.0000000</TUN_WEIGHT>
+ <TUN_SPECIFIC_HEAT>0.3000000</TUN_SPECIFIC_HEAT>
+ <EQUIP_ADJUST>FALSE</EQUIP_ADJUST>
+ <NOTES>Simple single infusion mash for use with most modern well modified grains (about 95% of the time).</NOTES>
+ <DISPLAY_GRAIN_TEMP>22.2 C</DISPLAY_GRAIN_TEMP>
+ <DISPLAY_TUN_TEMP>22.2 C</DISPLAY_TUN_TEMP>
+ <DISPLAY_SPARGE_TEMP>75.6 C</DISPLAY_SPARGE_TEMP>
+ <DISPLAY_TUN_WEIGHT>4.08 kg</DISPLAY_TUN_WEIGHT>
+<MASH_STEPS>
+<MASH_STEP>
+ <NAME>Mash In</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Infusion</TYPE>
+ <INFUSE_AMOUNT>13.3005673</INFUSE_AMOUNT>
+ <STEP_TIME>75.0000000</STEP_TIME>
+ <STEP_TEMP>64.4444444</STEP_TEMP>
+ <RAMP_TIME>2.0000000</RAMP_TIME>
+ <END_TEMP>64.4444444</END_TEMP>
+ <DESCRIPTION>Add 13.90 l of water at 70.3 C</DESCRIPTION>
+ <WATER_GRAIN_RATIO>2.608 l/kg</WATER_GRAIN_RATIO>
+ <DECOCTION_AMT>0.00 l</DECOCTION_AMT>
+ <INFUSE_TEMP>70.3 C</INFUSE_TEMP>
+ <DISPLAY_STEP_TEMP>64.4 C</DISPLAY_STEP_TEMP>
+ <DISPLAY_INFUSE_AMT>13.90 l</DISPLAY_INFUSE_AMT>
+</MASH_STEP>
+</MASH_STEPS>
+
+</MASH>
+
+ <NOTES></NOTES>
+ <TASTE_NOTES></TASTE_NOTES>
+ <TASTE_RATING>30.0000000</TASTE_RATING>
+ <OG>1.0460000</OG>
+ <FG>1.0100000</FG>
+ <CARBONATION>2.3000000</CARBONATION>
+ <FERMENTATION_STAGES>2</FERMENTATION_STAGES>
+ <PRIMARY_AGE>4.0000000</PRIMARY_AGE>
+ <PRIMARY_TEMP>19.4444444</PRIMARY_TEMP>
+ <SECONDARY_AGE>10.0000000</SECONDARY_AGE>
+ <SECONDARY_TEMP>19.4444444</SECONDARY_TEMP>
+ <TERTIARY_AGE>7.0000000</TERTIARY_AGE>
+ <AGE>30.0000000</AGE>
+ <AGE_TEMP>18.3333333</AGE_TEMP>
+ <CARBONATION_USED>Bottle with 129.40 g Corn Sugar</CARBONATION_USED>
+ <FORCED_CARBONATION>TRUE</FORCED_CARBONATION>
+ <PRIMING_SUGAR_NAME>Corn Sugar</PRIMING_SUGAR_NAME>
+ <PRIMING_SUGAR_EQUIV>1.0000000</PRIMING_SUGAR_EQUIV>
+ <KEG_PRIMING_FACTOR>0.5000000</KEG_PRIMING_FACTOR>
+ <CARBONATION_TEMP>21.1111111</CARBONATION_TEMP>
+ <DISPLAY_CARB_TEMP>21.1 C</DISPLAY_CARB_TEMP>
+ <DATE>12 Mar 2014</DATE>
+ <EST_OG>1.048 SG</EST_OG>
+ <EST_FG>1.009 SG</EST_FG>
+ <EST_COLOR>6.2 EBC</EST_COLOR>
+ <IBU>26.6 IBUs</IBU>
+ <IBU_METHOD>Tinseth</IBU_METHOD>
+ <EST_ABV>5.2 %</EST_ABV>
+ <ABV>4.7 %</ABV>
+ <ACTUAL_EFFICIENCY>54.3 %</ACTUAL_EFFICIENCY>
+ <CALORIES>427.1 kcal/l</CALORIES>
+ <DISPLAY_BATCH_SIZE>25.00 l</DISPLAY_BATCH_SIZE>
+ <DISPLAY_BOIL_SIZE>35.00 l</DISPLAY_BOIL_SIZE>
+ <DISPLAY_OG>1.046 SG</DISPLAY_OG>
+ <DISPLAY_FG>1.010 SG</DISPLAY_FG>
+ <DISPLAY_PRIMARY_TEMP>19.4 C</DISPLAY_PRIMARY_TEMP>
+ <DISPLAY_SECONDARY_TEMP>19.4 C</DISPLAY_SECONDARY_TEMP>
+ <DISPLAY_TERTIARY_TEMP>18.3 C</DISPLAY_TERTIARY_TEMP>
+ <DISPLAY_AGE_TEMP>18.3 C</DISPLAY_AGE_TEMP>
+</RECIPE>
+</RECIPES>

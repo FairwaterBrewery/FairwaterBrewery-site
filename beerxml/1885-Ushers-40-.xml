@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href='http://www.brewmate.net/brewmate.xsl' type='text/xsl'?>
+<!--BeerXML Format Recipe - Generated with BrewMate - www.brewmate.net-->
+<RECIPES>
+  <RECIPE>
+    <NAME>1885 Ushers 40/-</NAME>
+    <VERSION>1</VERSION>
+    <TYPE>All Grain</TYPE>
+    <STYLE>
+      <NAME>Scottish Light 40/-</NAME>
+    </STYLE>
+    <BREWER>Bryan</BREWER>
+    <BATCH_SIZE>18</BATCH_SIZE>
+    <BOIL_SIZE>21.6</BOIL_SIZE>
+    <BOIL_TIME>120</BOIL_TIME>
+    <EFFICIENCY>70</EFFICIENCY>
+    <HOPS>
+      <HOP>
+        <NAME>Cluster</NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>8.1</ALPHA>
+        <AMOUNT>0.0211304347826087</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>120</TIME>
+        <FORM>Leaf</FORM>
+      </HOP>
+      <HOP>
+        <NAME>Hallertauer Hersbrucker </NAME>
+        <VERSION>1</VERSION>
+        <ALPHA>4.1</ALPHA>
+        <AMOUNT>0.011739130434782601</AMOUNT>
+        <USE>Boil</USE>
+        <TIME>30</TIME>
+        <FORM>Leaf</FORM>
+      </HOP>
+    </HOPS>
+    <FERMENTABLES>
+      <FERMENTABLE>
+        <NAME>Pale Ale Malt</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>2.16939130434782</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>82.608695652173992</YIELD>
+        <COLOR>3</COLOR>
+        <POTENTIAL>1.038</POTENTIAL>
+        <PERCENTAGE>88.36</PERCENTAGE>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Invert Sugar No. 2</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.277826086956522</AMOUNT>
+        <TYPE>Sugar</TYPE>
+        <YIELD>76.086956521738955</YIELD>
+        <COLOR>16.5</COLOR>
+        <POTENTIAL>1.035</POTENTIAL>
+        <PERCENTAGE>11.32</PERCENTAGE>
+      </FERMENTABLE>
+      <FERMENTABLE>
+        <NAME>Black Malt</NAME>
+        <VERSION>1</VERSION>
+        <AMOUNT>0.00782608695652173</AMOUNT>
+        <TYPE>Grain</TYPE>
+        <YIELD>73.913043478260931</YIELD>
+        <COLOR>600</COLOR>
+        <POTENTIAL>1.034</POTENTIAL>
+        <PERCENTAGE>0.32</PERCENTAGE>
+      </FERMENTABLE>
+    </FERMENTABLES>
+    <MISCS>
+      <MISC>
+        <NAME>Protafloc</NAME>
+        <VERSION>1</VERSION>
+        <TYPE>Fining</TYPE>
+        <USE>Boil</USE>
+        <TIME>10</TIME>
+        <AMOUNT>0.0024</AMOUNT>
+      </MISC>
+    </MISCS>
+    <YEASTS>
+      <YEAST>
+        <NAME>Danstar Nottingham</NAME>
+        <VERSION>1</VERSION>
+        <ATTENUATION>63</ATTENUATION>
+      </YEAST>
+    </YEASTS>
+    <WATERS></WATERS>
+    <MASH>
+      <NAME></NAME>
+      <VERSION>1</VERSION>
+      <MASH_STEPS>
+        <MASH_STEP>
+          <NAME>Saccharification Rest</NAME>
+          <VERSION>1</VERSION>
+          <TYPE>Infusion</TYPE>
+          <STEP_TEMP>67</STEP_TEMP>
+          <STEP_TIME>120</STEP_TIME>
+        </MASH_STEP>
+      </MASH_STEPS>
+    </MASH>
+    <NOTES></NOTES>
+    <OG>1.031</OG>
+    <PRIMARY_TEMP>20</PRIMARY_TEMP>
+    <!--BrewMate XLST-->
+    <FG>1.010</FG>
+    <CALCCOLOUR>5.8420000000000005</CALCCOLOUR>
+    <CALCIBU>32.0</CALCIBU>
+    <!--BrewMate Specific Settings-->
+    <BIAB>0</BIAB>
+    <IBUCalcMethod>0</IBUCalcMethod>
+    <GrainCalcMethod>2</GrainCalcMethod>
+    <StyleNaziMode>1</StyleNaziMode>
+    <IsNoChill>0</IsNoChill>
+    <GrainUnits>1</GrainUnits>
+    <HopsUnits>0</HopsUnits>
+    <VolumeUnits>1</VolumeUnits>
+    <TemperatureUnits>0</TemperatureUnits>
+    <Colour>1</Colour>
+    <GrainTemp>0</GrainTemp>
+    <StrikeWater>4.54</StrikeWater>
+    <GrainAbsorbtion>0.9</GrainAbsorbtion>
+    <WatertoGrainRatio>2.50</WatertoGrainRatio>
+    <SpargeDeadSpace>0.60</SpargeDeadSpace>
+    <SpargeTempDesired>0</SpargeTempDesired>
+    <TopUpWater>0.0</TopUpWater>
+    <PercentEvap>10.0</PercentEvap>
+    <TrubChillerLosses>0.0</TrubChillerLosses>
+    <calendarpressed>0</calendarpressed>
+    <brewdayDate></brewdayDate>
+    <yeastpitchDate></yeastpitchDate>
+    <primaryDate></primaryDate>
+    <secondaryDate></secondaryDate>
+    <keggingDate></keggingDate>
+    <serveDate></serveDate>
+    <brewdayEnabled>1</brewdayEnabled>
+    <yeastpitchEnabled>1</yeastpitchEnabled>
+    <primaryEnabled>1</primaryEnabled>
+    <secondaryEnabled>0</secondaryEnabled>
+    <keggingEnabled>1</keggingEnabled>
+    <serveEnabled>1</serveEnabled>
+  </RECIPE>
+</RECIPES>

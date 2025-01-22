@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><RECIPES>
+<RECIPE>
+ <NAME>Old Tom</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>All Grain</TYPE>
+ <BREWER>Bryan</BREWER>
+ <ASST_BREWER></ASST_BREWER>
+ <BATCH_SIZE>23.0000000</BATCH_SIZE>
+ <BOIL_SIZE>32.9200000</BOIL_SIZE>
+ <BOIL_TIME>90.0000000</BOIL_TIME>
+ <EFFICIENCY>75.0000000</EFFICIENCY>
+ <HOPS>
+<HOP>
+ <NAME>Whitbread Golding Variety (WGV)</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>United Kingdom</ORIGIN>
+ <ALPHA>7.6400000</ALPHA>
+ <AMOUNT>0.0430000</AMOUNT>
+ <USE>Boil</USE>
+ <TIME>90.0000000</TIME>
+ <NOTES>Derived in England in 1911 from Bates Brewer. Some Golding characteristics, but lacking the full Goldings aroma.
+Used for: Ales
+Aroma: Pleasant, hoppy, slightly intense
+Substitutes: East Kent Goldings, Progress</NOTES>
+ <TYPE>Aroma</TYPE>
+ <FORM>Leaf</FORM>
+ <BETA>2.5000000</BETA>
+ <HSI>35.0000000</HSI>
+ <DISPLAY_AMOUNT>43.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>71.00 g</INVENTORY>
+ <DISPLAY_TIME>90.0 min</DISPLAY_TIME>
+</HOP>
+<HOP>
+ <NAME>Goldings, East Kent</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>United Kingdom</ORIGIN>
+ <ALPHA>5.0000000</ALPHA>
+ <AMOUNT>0.0280000</AMOUNT>
+ <USE>Boil</USE>
+ <TIME>90.0000000</TIME>
+ <NOTES>Used for: General purpose hops for bittering/finishing all British Ales
+Aroma: Floral, aromatic, earthy, slightly sweet spicy flavor
+Substitutes: Fuggles, BC Goldings
+Examples: Bass Pale Ale, Fullers ESB, Samual Smith&#39;s Pale Ale
+</NOTES>
+ <TYPE>Aroma</TYPE>
+ <FORM>Leaf</FORM>
+ <BETA>3.5000000</BETA>
+ <HSI>35.0000000</HSI>
+ <DISPLAY_AMOUNT>28.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>15.00 g</INVENTORY>
+ <DISPLAY_TIME>90.0 min</DISPLAY_TIME>
+</HOP>
+<HOP>
+ <NAME>Goldings, East Kent</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>United Kingdom</ORIGIN>
+ <ALPHA>5.0000000</ALPHA>
+ <AMOUNT>0.0230000</AMOUNT>
+ <USE>Boil</USE>
+ <TIME>10.0000000</TIME>
+ <NOTES>Used for: General purpose hops for bittering/finishing all British Ales
+Aroma: Floral, aromatic, earthy, slightly sweet spicy flavor
+Substitutes: Fuggles, BC Goldings
+Examples: Bass Pale Ale, Fullers ESB, Samual Smith&#39;s Pale Ale
+</NOTES>
+ <TYPE>Aroma</TYPE>
+ <FORM>Leaf</FORM>
+ <BETA>3.5000000</BETA>
+ <HSI>35.0000000</HSI>
+ <DISPLAY_AMOUNT>23.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>15.00 g</INVENTORY>
+ <DISPLAY_TIME>10.0 min</DISPLAY_TIME>
+</HOP>
+</HOPS>
+
+ <FERMENTABLES>
+<FERMENTABLE>
+ <NAME>Pale Ale (Crisp)</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>6.5799958</AMOUNT>
+ <YIELD>82.5000000</YIELD>
+ <COLOR>5.7000000</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>United Kingdom</ORIGIN>
+ <SUPPLIER>Crisp</SUPPLIER>
+ <NOTES>Base malt for all English beer styles</NOTES>
+ <COARSE_FINE_DIFF>2.0000000</COARSE_FINE_DIFF>
+ <MOISTURE>3.3000000</MOISTURE>
+ <DIASTATIC_POWER>60.0000000</DIASTATIC_POWER>
+ <PROTEIN>10.0000000</PROTEIN>
+ <MAX_IN_BATCH>100.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>TRUE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>6.58 kg</DISPLAY_AMOUNT>
+ <INVENTORY>1.00 kg</INVENTORY>
+ <POTENTIAL>1.0379500</POTENTIAL>
+ <DISPLAY_COLOR>5.7 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE>Pale Liquid Extract</EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+<FERMENTABLE>
+ <NAME>Crystal Malt - 60L (Thomas Fawcett)</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>0.4399997</AMOUNT>
+ <YIELD>74.4000000</YIELD>
+ <COLOR>118.2000000</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>United Kingdom</ORIGIN>
+ <SUPPLIER>Thomas Fawcett &#38; Sons</SUPPLIER>
+ <NOTES>Caramel or crystal malt from Thomas Fawcett.  Adds Toffee caramel flavor.  Improves head retention and body.</NOTES>
+ <COARSE_FINE_DIFF>1.5000000</COARSE_FINE_DIFF>
+ <MOISTURE>4.5000000</MOISTURE>
+ <DIASTATIC_POWER>0.0000000</DIASTATIC_POWER>
+ <PROTEIN>11.7000000</PROTEIN>
+ <MAX_IN_BATCH>10.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>FALSE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>0.44 kg</DISPLAY_AMOUNT>
+ <INVENTORY>0.11 kg</INVENTORY>
+ <POTENTIAL>1.0342240</POTENTIAL>
+ <DISPLAY_COLOR>118.2 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE></EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+<FERMENTABLE>
+ <NAME>Chocolate Malt</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>0.1849999</AMOUNT>
+ <YIELD>73.0000000</YIELD>
+ <COLOR>949.9999999</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>United Kingdom</ORIGIN>
+ <SUPPLIER></SUPPLIER>
+ <NOTES>Dark malt that gives a rich red or brown color and nutty flavor.
+Use for: Brown ales, porters, some stouts
+Maintains some malty flavor, not as dark as roasted malt.</NOTES>
+ <COARSE_FINE_DIFF>1.5000000</COARSE_FINE_DIFF>
+ <MOISTURE>4.0000000</MOISTURE>
+ <DIASTATIC_POWER>0.0000000</DIASTATIC_POWER>
+ <PROTEIN>10.5000000</PROTEIN>
+ <MAX_IN_BATCH>10.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>FALSE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>0.18 kg</DISPLAY_AMOUNT>
+ <INVENTORY>2.50 kg</INVENTORY>
+ <POTENTIAL>1.0335800</POTENTIAL>
+ <DISPLAY_COLOR>950.0 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE></EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+<FERMENTABLE>
+ <NAME>Caramel/Crystal Malt - 40L</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>0.1099999</AMOUNT>
+ <YIELD>74.0000000</YIELD>
+ <COLOR>78.8000000</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>US</ORIGIN>
+ <SUPPLIER></SUPPLIER>
+ <NOTES>Adds body, color and improves head retention.
+Also called &#34;Crystal&#34; malt.</NOTES>
+ <COARSE_FINE_DIFF>1.5000000</COARSE_FINE_DIFF>
+ <MOISTURE>4.0000000</MOISTURE>
+ <DIASTATIC_POWER>0.0000000</DIASTATIC_POWER>
+ <PROTEIN>13.2000000</PROTEIN>
+ <MAX_IN_BATCH>20.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>FALSE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>0.11 kg</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 kg</INVENTORY>
+ <POTENTIAL>1.0340400</POTENTIAL>
+ <DISPLAY_COLOR>78.8 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE></EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+<FERMENTABLE>
+ <NAME>Caster Sugar</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Sugar</TYPE>
+ <AMOUNT>0.5499996</AMOUNT>
+ <YIELD>100.0000000</YIELD>
+ <COLOR>0.0000000</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>UK</ORIGIN>
+ <SUPPLIER>Tate+Lyle</SUPPLIER>
+ <NOTES>Common household baking sugar.
+Lightens flavor and body of beer.
+Can contribute a cider-like flavor to the beer if not cold-fermented or used in large quantities.</NOTES>
+ <COARSE_FINE_DIFF>1.5000000</COARSE_FINE_DIFF>
+ <MOISTURE>4.0000000</MOISTURE>
+ <DIASTATIC_POWER>120.0000000</DIASTATIC_POWER>
+ <PROTEIN>11.7000000</PROTEIN>
+ <MAX_IN_BATCH>7.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>FALSE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>0.55 kg</DISPLAY_AMOUNT>
+ <INVENTORY>1.84 kg</INVENTORY>
+ <POTENTIAL>1.0460000</POTENTIAL>
+ <DISPLAY_COLOR>0.0 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE></EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+</FERMENTABLES>
+
+ <MISCS>
+<MISC>
+ <NAME>Protafloc</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Fining</TYPE>
+ <USE>Boil</USE>
+ <AMOUNT>0.002300</AMOUNT>
+ <TIME>15.00</TIME>
+ <AMOUNT_IS_WEIGHT>TRUE</AMOUNT_IS_WEIGHT>
+ <USE_FOR></USE_FOR>
+ <NOTES>1/2 tablet in 25 litre brew</NOTES>
+ <DISPLAY_AMOUNT>2.30 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>15.0 mins</DISPLAY_TIME>
+ <BATCH_SIZE>25.00 l</BATCH_SIZE>
+</MISC>
+</MISCS>
+
+ <YEASTS>
+<YEAST>
+ <NAME>Dry English Ale</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Ale</TYPE>
+ <FORM>Liquid</FORM>
+ <AMOUNT>0.0354884</AMOUNT>
+ <AMOUNT_IS_WEIGHT>FALSE</AMOUNT_IS_WEIGHT>
+ <LABORATORY>White Labs</LABORATORY>
+ <PRODUCT_ID>WLP007</PRODUCT_ID>
+ <MIN_TEMPERATURE>18.3333333</MIN_TEMPERATURE>
+ <MAX_TEMPERATURE>21.1111111</MAX_TEMPERATURE>
+ <FLOCCULATION>High</FLOCCULATION>
+ <ATTENUATION>75.0000000</ATTENUATION>
+ <NOTES>Clean, Highly flocculant, and highly attentive yeast.  Similar to White labs English Ale yeast, but more attentive.  Suitable for high gravity ales.</NOTES>
+ <BEST_FOR>Pale Ales, Amber, ESB, Brown Ales, Strong Ales</BEST_FOR>
+ <MAX_REUSE>5</MAX_REUSE>
+ <TIMES_CULTURED>0</TIMES_CULTURED>
+ <ADD_TO_SECONDARY>FALSE</ADD_TO_SECONDARY>
+ <DISPLAY_AMOUNT>35.49 ml</DISPLAY_AMOUNT>
+ <DISP_MIN_TEMP>18.3 C</DISP_MIN_TEMP>
+ <DISP_MAX_TEMP>21.1 C</DISP_MAX_TEMP>
+ <INVENTORY>0.0 pkg</INVENTORY>
+ <CULTURE_DATE>14/06/2003</CULTURE_DATE>
+</YEAST>
+</YEASTS>
+
+ 
+ <STYLE>
+ <NAME>English Barleywine</NAME>
+ <VERSION>1</VERSION>
+ <CATEGORY>Strong Ale</CATEGORY>
+ <CATEGORY_NUMBER>19</CATEGORY_NUMBER>
+ <STYLE_LETTER>B</STYLE_LETTER>
+ <STYLE_GUIDE>BJCP 2008</STYLE_GUIDE>
+ <TYPE>Ale</TYPE>
+ <OG_MIN>1.0800000</OG_MIN>
+ <OG_MAX>1.1200000</OG_MAX>
+ <FG_MIN>1.0180000</FG_MIN>
+ <FG_MAX>1.0300000</FG_MAX>
+ <IBU_MIN>35.0000000</IBU_MIN>
+ <IBU_MAX>70.0000000</IBU_MAX>
+ <COLOR_MIN>15.7600000</COLOR_MIN>
+ <COLOR_MAX>43.3400000</COLOR_MAX>
+ <CARB_MIN>1.6000000</CARB_MIN>
+ <CARB_MAX>2.5000000</CARB_MAX>
+ <ABV_MAX>12.0000000</ABV_MAX>
+ <ABV_MIN>8.0000000</ABV_MIN>
+ <NOTES>The richest and strongest of the English Ales. A showcase of malty richness and complex, intense flavors. The character of these ales can change significantly over time; both young and old versions should be appreciated for what they are. The malt profile can vary widely; not all examples will have all possible flavors or aromas. Usually the strongest ale offered by a brewery, and in recent years many commercial examples are now vintagedated. Normally aged significantly prior to release. Often associated with the winter or holiday season. Although often a hoppy beer, the English Barleywine places less emphasis on hop character than the American Barleywine and features English hops. English versions can be darker, maltier, fruitier, and feature richer specialty malt flavors than American Barleywines.</NOTES>
+ <PROFILE>Aroma: Very rich and strongly malty, often with a caramel-like aroma. May have moderate to strong fruitiness, often with a dried-fruit character. English hop aroma may range from mild to assertive. Alcohol aromatics may be low to moderate, but never harsh, hot or solventy. The intensity of these aromatics often subsides with age. The aroma may have a rich character including bready, toasty, toffee, molasses, and/or treacle notes. Aged versions may have a sherry-like quality, possibly vinous or port-like aromatics, and generally more muted malt aromas. Low to no diacetyl.
+Appearance: Color may range from rich gold to very dark amber or even dark brown. Often has ruby highlights, but should not be opaque. Low to moderate off-white head; may have low head retention. May be cloudy with chill haze at cooler temperatures, but generally clears to good to brilliant clarity as it warms. The color may appear to have great depth, as if viewed through a thick glass lens. High alcohol and viscosity may be visible in &#8220;legs&#8221; when beer is swirled in a glass.
+Flavor: Strong, intense, complex, multi-layered malt flavors ranging from bready and biscuity through nutty, deep toast, dark caramel, toffee, and/or molasses. Moderate to high malty sweetness on the palate, although the finish may be moderately sweet to moderately dry (depending on aging). Some oxidative or vinous flavors may be present, and often complex alcohol flavors should be evident. Alcohol flavors shouldn&#8217;t be harsh, hot or solventy. Moderate to fairly high fruitiness, often with a dried-fruit character. Hop bitterness may range from just enough for balance to a firm presence; balance therefore ranges from malty to somewhat bitter. Low to moderately high hop flavor (usually UK varieties). Low to no diacetyl.
+Mouthfeel: Full-bodied and chewy, with a velvety, luscious texture (although the body may decline with long conditioning). A smooth warmth from aged alcohol should be present, and should not be hot or harsh. Carbonation may be low to moderate, depending on age and conditioning.</PROFILE>
+ <INGREDIENTS>Well-modified pale malt should form the backbone of the grist, with judicious amounts of caramel malts. Dark malts should be used with great restraint, if at all, as most of the color arises from a lengthy boil. English hops such as Northdown, Target, East Kent Goldings and Fuggles. Characterful English yeast.</INGREDIENTS>
+ <EXAMPLES>Thomas Hardy&#8217;s Ale, Burton Bridge Thomas Sykes Old Ale, J.W. Lee&#8217;s Vintage Harvest Ale, Robinson&#8217;s Old Tom, Fuller&#8217;s Golden Pride, AleSmith Old Numbskull, Young&#8217;s Old Nick (unusual in its 7.2% ABV), Whitbread Gold Label, Old Dominion Millenium, North Coast Old Stock Ale (when aged), Weyerbacher Blithering Idiot</EXAMPLES>
+ <DISPLAY_OG_MIN>1.080 SG</DISPLAY_OG_MIN>
+ <DISPLAY_OG_MAX>1.120 SG</DISPLAY_OG_MAX>
+ <DISPLAY_FG_MIN>1.018 SG</DISPLAY_FG_MIN>
+ <DISPLAY_FG_MAX>1.030 SG</DISPLAY_FG_MAX>
+ <DISPLAY_COLOR_MIN>15.8 EBC</DISPLAY_COLOR_MIN>
+ <DISPLAY_COLOR_MAX>43.3 EBC</DISPLAY_COLOR_MAX>
+ <OG_RANGE>1.080-1.120 SG</OG_RANGE>
+ <FG_RANGE>1.018-1.030 SG</FG_RANGE>
+ <IBU_RANGE>35.0-70.0 IBUs</IBU_RANGE>
+ <CARB_RANGE>1.60-2.50 Vols</CARB_RANGE>
+ <COLOR_RANGE>15.8-43.3 EBC</COLOR_RANGE>
+ <ABV_RANGE>8.00-12.00 %</ABV_RANGE>
+</STYLE>
+
+ <EQUIPMENT>
+ <NAME>Pot (18.5 Gal/70 L) and Cooler (9.5 Gal/45 L)  - All Grain</NAME>
+ <VERSION>1</VERSION>
+ <BOIL_SIZE>32.9200000</BOIL_SIZE>
+ <BATCH_SIZE>23.0000000</BATCH_SIZE>
+ <TUN_VOLUME>45.0000000</TUN_VOLUME>
+ <TUN_WEIGHT>4.0823280</TUN_WEIGHT>
+ <TUN_SPECIFIC_HEAT>0.3000000</TUN_SPECIFIC_HEAT>
+ <TOP_UP_WATER>0.0000000</TOP_UP_WATER>
+ <TRUB_CHILLER_LOSS>0.0000000</TRUB_CHILLER_LOSS>
+ <EVAP_RATE>18.2260024</EVAP_RATE>
+ <BOIL_TIME>90.0000000</BOIL_TIME>
+ <CALC_BOIL_VOLUME>TRUE</CALC_BOIL_VOLUME>
+ <LAUTER_DEADSPACE>0.6000000</LAUTER_DEADSPACE>
+ <TOP_UP_KETTLE>0.0000000</TOP_UP_KETTLE>
+ <HOP_UTILIZATION>100.0000000</HOP_UTILIZATION>
+ <COOLING_LOSS_PCT>4.0000000</COOLING_LOSS_PCT>
+ <NOTES>Based on a 18.5 Gal/70 L pot with a diameter of 18 inches/45 cm and a 9.5 Gal/40 L cooler. The above assumes loose pellet hops and only clear, chilled wort transferred from the kettle using no trub management techniques. Experienced brewers should adjust &#39;Loss to Trub and Chiller&#39; and &#39;Brewhouse Efficiency&#39; accordingly to suit their trub management techniques.</NOTES>
+ <DISPLAY_BOIL_SIZE>32.92 l</DISPLAY_BOIL_SIZE>
+ <DISPLAY_BATCH_SIZE>23.00 l</DISPLAY_BATCH_SIZE>
+ <DISPLAY_TUN_VOLUME>45.00 l</DISPLAY_TUN_VOLUME>
+ <DISPLAY_TUN_WEIGHT>4.08 kg</DISPLAY_TUN_WEIGHT>
+ <DISPLAY_TOP_UP_WATER>0.00 l</DISPLAY_TOP_UP_WATER>
+ <DISPLAY_TRUB_CHILLER_LOSS>0.00 l</DISPLAY_TRUB_CHILLER_LOSS>
+ <DISPLAY_LAUTER_DEADSPACE>0.60 l</DISPLAY_LAUTER_DEADSPACE>
+ <DISPLAY_TOP_UP_KETTLE>0.00 l</DISPLAY_TOP_UP_KETTLE>
+</EQUIPMENT>
+
+ <MASH>
+ <NAME>Single Infusion, Medium Body, Batch Sparge</NAME>
+ <VERSION>1</VERSION>
+ <GRAIN_TEMP>18.0000000</GRAIN_TEMP>
+ <TUN_TEMP>20.0000000</TUN_TEMP>
+ <SPARGE_TEMP>75.5555556</SPARGE_TEMP>
+ <PH>5.4000000</PH>
+ <TUN_WEIGHT>144.0000000</TUN_WEIGHT>
+ <TUN_SPECIFIC_HEAT>0.3000000</TUN_SPECIFIC_HEAT>
+ <EQUIP_ADJUST>FALSE</EQUIP_ADJUST>
+ <NOTES>Simple single infusion mash for use with most modern well modified grains (about 95% of the time).</NOTES>
+ <DISPLAY_GRAIN_TEMP>18.0 C</DISPLAY_GRAIN_TEMP>
+ <DISPLAY_TUN_TEMP>20.0 C</DISPLAY_TUN_TEMP>
+ <DISPLAY_SPARGE_TEMP>75.6 C</DISPLAY_SPARGE_TEMP>
+ <DISPLAY_TUN_WEIGHT>4.08 kg</DISPLAY_TUN_WEIGHT>
+<MASH_STEPS>
+<MASH_STEP>
+ <NAME>Mash In</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Infusion</TYPE>
+ <INFUSE_AMOUNT>19.0775200</INFUSE_AMOUNT>
+ <STEP_TIME>90.0000000</STEP_TIME>
+ <STEP_TEMP>66.6666667</STEP_TEMP>
+ <RAMP_TIME>0.0000000</RAMP_TIME>
+ <END_TEMP>66.6666667</END_TEMP>
+ <DESCRIPTION>Add 19.68 l of water at 73.5 C</DESCRIPTION>
+ <WATER_GRAIN_RATIO>2.608 l/kg</WATER_GRAIN_RATIO>
+ <DECOCTION_AMT>0.00 l</DECOCTION_AMT>
+ <INFUSE_TEMP>73.5 C</INFUSE_TEMP>
+ <DISPLAY_STEP_TEMP>66.7 C</DISPLAY_STEP_TEMP>
+ <DISPLAY_INFUSE_AMT>19.68 l</DISPLAY_INFUSE_AMT>
+</MASH_STEP>
+</MASH_STEPS>
+
+</MASH>
+
+ <NOTES></NOTES>
+ <TASTE_NOTES></TASTE_NOTES>
+ <TASTE_RATING>30.0000000</TASTE_RATING>
+ <OG>1.0460000</OG>
+ <FG>1.0100000</FG>
+ <CARBONATION>2.3000000</CARBONATION>
+ <FERMENTATION_STAGES>1</FERMENTATION_STAGES>
+ <PRIMARY_AGE>14.0000000</PRIMARY_AGE>
+ <PRIMARY_TEMP>19.4444444</PRIMARY_TEMP>
+ <SECONDARY_AGE>10.0000000</SECONDARY_AGE>
+ <SECONDARY_TEMP>18.3333333</SECONDARY_TEMP>
+ <TERTIARY_AGE>7.0000000</TERTIARY_AGE>
+ <AGE>30.0000000</AGE>
+ <AGE_TEMP>18.3333333</AGE_TEMP>
+ <CARBONATION_USED>Bottle with 107.04 g Table Sugar</CARBONATION_USED>
+ <FORCED_CARBONATION>TRUE</FORCED_CARBONATION>
+ <PRIMING_SUGAR_NAME>Table Sugar</PRIMING_SUGAR_NAME>
+ <PRIMING_SUGAR_EQUIV>0.9099181</PRIMING_SUGAR_EQUIV>
+ <KEG_PRIMING_FACTOR>0.5000000</KEG_PRIMING_FACTOR>
+ <CARBONATION_TEMP>21.1111111</CARBONATION_TEMP>
+ <DISPLAY_CARB_TEMP>21.1 C</DISPLAY_CARB_TEMP>
+ <DATE>02/09/2013</DATE>
+ <EST_OG>1.084 SG</EST_OG>
+ <EST_FG>1.014 SG</EST_FG>
+ <EST_COLOR>43.3 EBC</EST_COLOR>
+ <IBU>50.2 IBUs</IBU>
+ <IBU_METHOD>Tinseth</IBU_METHOD>
+ <EST_ABV>9.2 %</EST_ABV>
+ <ABV>4.7 %</ABV>
+ <ACTUAL_EFFICIENCY>28.8 %</ACTUAL_EFFICIENCY>
+ <CALORIES>427.1 kcal/l</CALORIES>
+ <DISPLAY_BATCH_SIZE>23.00 l</DISPLAY_BATCH_SIZE>
+ <DISPLAY_BOIL_SIZE>32.92 l</DISPLAY_BOIL_SIZE>
+ <DISPLAY_OG>1.046 SG</DISPLAY_OG>
+ <DISPLAY_FG>1.010 SG</DISPLAY_FG>
+ <DISPLAY_PRIMARY_TEMP>19.4 C</DISPLAY_PRIMARY_TEMP>
+ <DISPLAY_SECONDARY_TEMP>18.3 C</DISPLAY_SECONDARY_TEMP>
+ <DISPLAY_TERTIARY_TEMP>18.3 C</DISPLAY_TERTIARY_TEMP>
+ <DISPLAY_AGE_TEMP>18.3 C</DISPLAY_AGE_TEMP>
+</RECIPE>
+</RECIPES>

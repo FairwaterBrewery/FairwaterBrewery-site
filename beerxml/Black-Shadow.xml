@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><RECIPES>
+<RECIPE>
+ <NAME>Black Shadow</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>All Grain</TYPE>
+ <BREWER>Bryan</BREWER>
+ <ASST_BREWER></ASST_BREWER>
+ <BATCH_SIZE>25.0000000</BATCH_SIZE>
+ <BOIL_SIZE>32.0000000</BOIL_SIZE>
+ <BOIL_TIME>60.0000000</BOIL_TIME>
+ <EFFICIENCY>75.0000000</EFFICIENCY>
+ <HOPS>
+<HOP>
+ <NAME>Magnum</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>Germany</ORIGIN>
+ <ALPHA>14.0000000</ALPHA>
+ <AMOUNT>0.0250000</AMOUNT>
+ <USE>First Wort</USE>
+ <TIME>60.0000000</TIME>
+ <NOTES>German Hallertauer hybrid, widely used in Germany
+Used for: German ales and lagers
+Aroma: Good aroma and stable spicy flavor
+Substitutes: N/A</NOTES>
+ <TYPE>Bittering</TYPE>
+ <FORM>Leaf</FORM>
+ <BETA>6.5000000</BETA>
+ <HSI>15.0000000</HSI>
+ <DISPLAY_AMOUNT>25.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>90.00 g</INVENTORY>
+ <DISPLAY_TIME>60.0 min</DISPLAY_TIME>
+</HOP>
+<HOP>
+ <NAME>Cascade</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>U.S.</ORIGIN>
+ <ALPHA>7.0000000</ALPHA>
+ <AMOUNT>0.0100000</AMOUNT>
+ <USE>Boil</USE>
+ <TIME>5.0000000</TIME>
+ <NOTES>A hops with Northern Brewers Heritage
+Used for: American ales and lagers
+Aroma: Strong spicy, floral, grapefruit character
+Substitutes: Centennial
+Examples: Sierra Nevada Pale Ale, Anchor Liberty Ale</NOTES>
+ <TYPE>Both</TYPE>
+ <FORM>Leaf</FORM>
+ <BETA>6.0000000</BETA>
+ <HSI>50.0000000</HSI>
+ <DISPLAY_AMOUNT>10.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>5.0 min</DISPLAY_TIME>
+</HOP>
+<HOP>
+ <NAME>Citra</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>U.S.</ORIGIN>
+ <ALPHA>12.0000000</ALPHA>
+ <AMOUNT>0.0100000</AMOUNT>
+ <USE>Boil</USE>
+ <TIME>5.0000000</TIME>
+ <NOTES>Special aroma hops released in 2007.  Imparts high alpha/oil content but low cohumulone.
+Aroma: Adds interesting citrus and tropical fruit character to the beer.  
+Substitutes: Unknown</NOTES>
+ <TYPE>Both</TYPE>
+ <FORM>Leaf</FORM>
+ <BETA>4.0000000</BETA>
+ <HSI>25.0000000</HSI>
+ <DISPLAY_AMOUNT>10.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>130.00 g</INVENTORY>
+ <DISPLAY_TIME>5.0 min</DISPLAY_TIME>
+</HOP>
+<HOP>
+ <NAME>Cascade</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>U.S.</ORIGIN>
+ <ALPHA>7.0000000</ALPHA>
+ <AMOUNT>0.0100000</AMOUNT>
+ <USE>Aroma</USE>
+ <TIME>20.0000000</TIME>
+ <NOTES>A hops with Northern Brewers Heritage
+Used for: American ales and lagers
+Aroma: Strong spicy, floral, grapefruit character
+Substitutes: Centennial
+Examples: Sierra Nevada Pale Ale, Anchor Liberty Ale</NOTES>
+ <TYPE>Both</TYPE>
+ <FORM>Leaf</FORM>
+ <BETA>6.0000000</BETA>
+ <HSI>50.0000000</HSI>
+ <DISPLAY_AMOUNT>10.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>20.0 min</DISPLAY_TIME>
+</HOP>
+<HOP>
+ <NAME>Citra</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>U.S.</ORIGIN>
+ <ALPHA>12.0000000</ALPHA>
+ <AMOUNT>0.0100000</AMOUNT>
+ <USE>Aroma</USE>
+ <TIME>20.0000000</TIME>
+ <NOTES>Special aroma hops released in 2007.  Imparts high alpha/oil content but low cohumulone.
+Aroma: Adds interesting citrus and tropical fruit character to the beer.  
+Substitutes: Unknown</NOTES>
+ <TYPE>Both</TYPE>
+ <FORM>Leaf</FORM>
+ <BETA>4.0000000</BETA>
+ <HSI>25.0000000</HSI>
+ <DISPLAY_AMOUNT>10.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>130.00 g</INVENTORY>
+ <DISPLAY_TIME>20.0 min</DISPLAY_TIME>
+</HOP>
+<HOP>
+ <NAME>Chinook</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>U.S.</ORIGIN>
+ <ALPHA>13.0000000</ALPHA>
+ <AMOUNT>0.0400000</AMOUNT>
+ <USE>Dry Hop</USE>
+ <TIME>0.0000000</TIME>
+ <NOTES>Strong versatile bittering hop
+Used for: Ales, porters, stouts
+Aroma: Heavy and spicy aroma
+Substitutes: Galena, Eroica, Nugget, Bullion
+Examples: Sierra Nevada Stout, Sierra Nevada Celebration Ale</NOTES>
+ <TYPE>Bittering</TYPE>
+ <FORM>Pellet</FORM>
+ <BETA>3.6000000</BETA>
+ <HSI>42.0000000</HSI>
+ <DISPLAY_AMOUNT>40.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>100.00 g</INVENTORY>
+ <DISPLAY_TIME>60.0 min</DISPLAY_TIME>
+</HOP>
+<HOP>
+ <NAME>Galaxy</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>Australia</ORIGIN>
+ <ALPHA>15.0000000</ALPHA>
+ <AMOUNT>0.0400000</AMOUNT>
+ <USE>Dry Hop</USE>
+ <TIME>0.0000000</TIME>
+ <NOTES>A high alpha, dual purpose seedless hops with a unique hop aroma.  It can be used either for bittering or as a late hop addition to provide a flavor of citrus and passionfruit to the finished beer.
+Aroma: Intense, pleasant, unique.</NOTES>
+ <TYPE>Both</TYPE>
+ <FORM>Pellet</FORM>
+ <BETA>5.9000000</BETA>
+ <HSI>35.0000000</HSI>
+ <DISPLAY_AMOUNT>40.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>25.00 g</INVENTORY>
+ <DISPLAY_TIME>60.0 min</DISPLAY_TIME>
+</HOP>
+</HOPS>
+
+ <FERMENTABLES>
+<FERMENTABLE>
+ <NAME>Flagon Pale Ale Malt</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>3.9999974</AMOUNT>
+ <YIELD>82.5000000</YIELD>
+ <COLOR>5.7000000</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>UK</ORIGIN>
+ <SUPPLIER>Crisp</SUPPLIER>
+ <NOTES></NOTES>
+ <COARSE_FINE_DIFF>1.5000000</COARSE_FINE_DIFF>
+ <MOISTURE>3.3000000</MOISTURE>
+ <DIASTATIC_POWER>50.0000000</DIASTATIC_POWER>
+ <PROTEIN>11.7000000</PROTEIN>
+ <MAX_IN_BATCH>100.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>TRUE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>4.00 kg</DISPLAY_AMOUNT>
+ <INVENTORY>0.82 kg</INVENTORY>
+ <POTENTIAL>1.0379500</POTENTIAL>
+ <DISPLAY_COLOR>5.7 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE></EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+<FERMENTABLE>
+ <NAME>Wheat, Torrified (Thomas Fawcett)</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>0.4999997</AMOUNT>
+ <YIELD>76.1000000</YIELD>
+ <COLOR>3.9400000</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>United Kingdom</ORIGIN>
+ <SUPPLIER>Thomas Fawcett &#38; Sons</SUPPLIER>
+ <NOTES>Unmalted wheat torrified for use in a single step infusion.  Typically used for Wits and other wheats where raw unmalted wheat is called for.</NOTES>
+ <COARSE_FINE_DIFF>1.5000000</COARSE_FINE_DIFF>
+ <MOISTURE>6.0000000</MOISTURE>
+ <DIASTATIC_POWER>0.0000000</DIASTATIC_POWER>
+ <PROTEIN>16.0000000</PROTEIN>
+ <MAX_IN_BATCH>10.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>TRUE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>0.50 kg</DISPLAY_AMOUNT>
+ <INVENTORY>0.86 kg</INVENTORY>
+ <POTENTIAL>1.0350060</POTENTIAL>
+ <DISPLAY_COLOR>3.9 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE>Wheat Liquid Extract</EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+<FERMENTABLE>
+ <NAME>Munich Malt</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>0.3999997</AMOUNT>
+ <YIELD>80.0000000</YIELD>
+ <COLOR>17.7300000</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>England</ORIGIN>
+ <SUPPLIER></SUPPLIER>
+ <NOTES>Malty-sweet flavor characteristic and adds a reddish amber color to the beer.
+Does not contribute signficantly to body or head retention.
+Use for: Bock, Porter, Marzen, Oktoberfest beers</NOTES>
+ <COARSE_FINE_DIFF>1.3000000</COARSE_FINE_DIFF>
+ <MOISTURE>5.0000000</MOISTURE>
+ <DIASTATIC_POWER>72.0000000</DIASTATIC_POWER>
+ <PROTEIN>11.5000000</PROTEIN>
+ <MAX_IN_BATCH>80.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>TRUE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>0.40 kg</DISPLAY_AMOUNT>
+ <INVENTORY>1.12 kg</INVENTORY>
+ <POTENTIAL>1.0368000</POTENTIAL>
+ <DISPLAY_COLOR>17.7 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE>Amber Liquid Extract</EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+<FERMENTABLE>
+ <NAME>Black Malt (Thomas Fawcett)</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>0.1999999</AMOUNT>
+ <YIELD>74.0000000</YIELD>
+ <COLOR>1300.2000000</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>United Kingdom</ORIGIN>
+ <SUPPLIER>Thomas Fawcett &#38; Sons</SUPPLIER>
+ <NOTES>Malted black barley  adds a strong burnt coffee flavor - suitable for stouts and porters.</NOTES>
+ <COARSE_FINE_DIFF>1.5000000</COARSE_FINE_DIFF>
+ <MOISTURE>3.0000000</MOISTURE>
+ <DIASTATIC_POWER>0.0000000</DIASTATIC_POWER>
+ <PROTEIN>13.0000000</PROTEIN>
+ <MAX_IN_BATCH>10.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>FALSE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>0.20 kg</DISPLAY_AMOUNT>
+ <INVENTORY>0.92 kg</INVENTORY>
+ <POTENTIAL>1.0340400</POTENTIAL>
+ <DISPLAY_COLOR>1300.2 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE></EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+<FERMENTABLE>
+ <NAME>Chocolate Malt</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>0.1999999</AMOUNT>
+ <YIELD>73.0000000</YIELD>
+ <COLOR>949.9999999</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>United Kingdom</ORIGIN>
+ <SUPPLIER></SUPPLIER>
+ <NOTES>Dark malt that gives a rich red or brown color and nutty flavor.
+Use for: Brown ales, porters, some stouts
+Maintains some malty flavor, not as dark as roasted malt.</NOTES>
+ <COARSE_FINE_DIFF>1.5000000</COARSE_FINE_DIFF>
+ <MOISTURE>4.0000000</MOISTURE>
+ <DIASTATIC_POWER>0.0000000</DIASTATIC_POWER>
+ <PROTEIN>10.5000000</PROTEIN>
+ <MAX_IN_BATCH>10.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>FALSE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>0.20 kg</DISPLAY_AMOUNT>
+ <INVENTORY>2.50 kg</INVENTORY>
+ <POTENTIAL>1.0335800</POTENTIAL>
+ <DISPLAY_COLOR>950.0 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE></EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+<FERMENTABLE>
+ <NAME>Crystal Malt - 60L (Thomas Fawcett)</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>0.1999999</AMOUNT>
+ <YIELD>74.4000000</YIELD>
+ <COLOR>118.2000000</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>United Kingdom</ORIGIN>
+ <SUPPLIER>Thomas Fawcett &#38; Sons</SUPPLIER>
+ <NOTES>Caramel or crystal malt from Thomas Fawcett.  Adds Toffee caramel flavor.  Improves head retention and body.</NOTES>
+ <COARSE_FINE_DIFF>1.5000000</COARSE_FINE_DIFF>
+ <MOISTURE>4.5000000</MOISTURE>
+ <DIASTATIC_POWER>0.0000000</DIASTATIC_POWER>
+ <PROTEIN>11.7000000</PROTEIN>
+ <MAX_IN_BATCH>10.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>FALSE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>0.20 kg</DISPLAY_AMOUNT>
+ <INVENTORY>0.11 kg</INVENTORY>
+ <POTENTIAL>1.0342240</POTENTIAL>
+ <DISPLAY_COLOR>118.2 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE></EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+<FERMENTABLE>
+ <NAME>Molasses</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Sugar</TYPE>
+ <AMOUNT>0.2499998</AMOUNT>
+ <YIELD>78.3000000</YIELD>
+ <COLOR>600.0000000</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>US</ORIGIN>
+ <SUPPLIER></SUPPLIER>
+ <NOTES>Imparts a strong, sweet flavor.  Used primarily in stouts and porters.</NOTES>
+ <COARSE_FINE_DIFF>1.5000000</COARSE_FINE_DIFF>
+ <MOISTURE>4.0000000</MOISTURE>
+ <DIASTATIC_POWER>120.0000000</DIASTATIC_POWER>
+ <PROTEIN>11.7000000</PROTEIN>
+ <MAX_IN_BATCH>5.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>FALSE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>0.25 kg</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 kg</INVENTORY>
+ <POTENTIAL>1.0360180</POTENTIAL>
+ <DISPLAY_COLOR>600.0 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE></EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+</FERMENTABLES>
+
+ <MISCS>
+<MISC>
+ <NAME>Protafloc</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Fining</TYPE>
+ <USE>Boil</USE>
+ <AMOUNT>0.002500</AMOUNT>
+ <TIME>15.00</TIME>
+ <AMOUNT_IS_WEIGHT>TRUE</AMOUNT_IS_WEIGHT>
+ <USE_FOR></USE_FOR>
+ <NOTES>1/2 tablet in 25 litre brew</NOTES>
+ <DISPLAY_AMOUNT>2.50 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>15.0 mins</DISPLAY_TIME>
+ <BATCH_SIZE>25.00 l</BATCH_SIZE>
+</MISC>
+</MISCS>
+
+ <YEASTS>
+<YEAST>
+ <NAME>West Coast Style Ale Yeast</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Ale</TYPE>
+ <FORM>Dry</FORM>
+ <AMOUNT>0.0000000</AMOUNT>
+ <AMOUNT_IS_WEIGHT>FALSE</AMOUNT_IS_WEIGHT>
+ <LABORATORY>Neale&#39;s Brewing Supplies</LABORATORY>
+ <PRODUCT_ID></PRODUCT_ID>
+ <MIN_TEMPERATURE>17.0000000</MIN_TEMPERATURE>
+ <MAX_TEMPERATURE>22.0000000</MAX_TEMPERATURE>
+ <FLOCCULATION>High</FLOCCULATION>
+ <ATTENUATION>78.0000000</ATTENUATION>
+ <NOTES>Neutral, fast fermenting yeast that is ideal in any product that requires the hops and malt to shine rather than the yeast. Best used in the temperature range of 17-22c. Medium to high attenuation and highly floculant, this can be further enhanced by cooling. 12g suitable for 23 litres. Vac packed in foil for freshness.
+
+Ideally this yeast needs to be rehydrated in pre boiled tap water at a rate of 1g of yeast per 10ml of water at 30-35c. Sprinkle on top and leave for 15 minutes. After the 15 minutes stir, then leave for a further 5 minutes. Bring the solution down to fermantation temperature in 10c steps by adding cold water then add to wort.</NOTES>
+ <BEST_FOR></BEST_FOR>
+ <MAX_REUSE>5</MAX_REUSE>
+ <TIMES_CULTURED>0</TIMES_CULTURED>
+ <ADD_TO_SECONDARY>FALSE</ADD_TO_SECONDARY>
+ <DISPLAY_AMOUNT>0.00 ml</DISPLAY_AMOUNT>
+ <DISP_MIN_TEMP>17.0 C</DISP_MIN_TEMP>
+ <DISP_MAX_TEMP>22.0 C</DISP_MAX_TEMP>
+ <INVENTORY>1.0 pkg</INVENTORY>
+ <CULTURE_DATE>06 Apr 2013</CULTURE_DATE>
+</YEAST>
+</YEASTS>
+
+ 
+ <STYLE>
+ <NAME>Specialty Beer</NAME>
+ <VERSION>1</VERSION>
+ <CATEGORY>Specialty Beer</CATEGORY>
+ <CATEGORY_NUMBER>23</CATEGORY_NUMBER>
+ <STYLE_LETTER>A</STYLE_LETTER>
+ <STYLE_GUIDE>BJCP 2008</STYLE_GUIDE>
+ <TYPE>Mixed</TYPE>
+ <OG_MIN>1.0300000</OG_MIN>
+ <OG_MAX>1.1100000</OG_MAX>
+ <FG_MIN>1.0060000</FG_MIN>
+ <FG_MAX>1.0240000</FG_MAX>
+ <IBU_MIN>5.0000000</IBU_MIN>
+ <IBU_MAX>70.0000000</IBU_MAX>
+ <COLOR_MIN>9.8500000</COLOR_MIN>
+ <COLOR_MAX>98.5000000</COLOR_MAX>
+ <CARB_MIN>1.8000000</CARB_MIN>
+ <CARB_MAX>3.0000000</CARB_MAX>
+ <ABV_MAX>12.0000000</ABV_MAX>
+ <ABV_MIN>2.5000000</ABV_MIN>
+ <NOTES>A harmonious marriage of ingredients, processes and beer. The key attributes of the underlying style (if declared) will be atypical due to the addition of special ingredients or techniques; do not expect the base beer to taste the same as the unadulterated version. Judge the beer based on the pleasantness and harmony of the resulting combination. The overall uniqueness of the process, ingredients used, and creativity should be considered. The overall rating of the beer depends heavily on the inherently subjective assessment of distinctiveness and drinkability. Base Style: THE BREWER MAY SPECIFY AN UNDERLYING BEER STYLE. The base style may be a classic style (i.e., a named subcategory from these Style Guidelines) or a broader characterization (e.g., &#8220;Porter&#8221; or &#8220;Brown Ale&#8221;). If a base style is declared, the style should be recognizable. The beer should be judged by how well the special ingredient or process complements, enhances, and harmonizes with the underlying style. Overall harmony and drinkability are the keys to presenting a well-made specialty beer. The distinctive nature of the stated specialty ingredients/methods should complement the original style (if declared) and not totally overwhelm it. The brewer should recognize that some combinations of base beer styles and ingredients or techniques work well together while others do not make palatable combinations. THE BREWER MUST SPECIFY THE &#8220;EXPERIMENTAL NATURE&#8221; OF THE BEER (E.G., TYPE OF SPECIAL INGREDIENTS USED, PROCESS UTILIZED OR HISTORICAL STYLE BEING BREWED), OR WHY THE BEER DOESN&#8217;T FIT AN ESTABLISHED STYLE. For historical styles or unusual ingredients/techniques that may not be known to all beer judges, the brewer should provide descriptions of the styles, ingredients and/or techniques as an aid to the judges.</NOTES>
+ <PROFILE>Aroma: The character of the stated specialty ingredient or nature should be evident in the aroma, but harmonious with the other components (yet not totally overpowering them). Overall the aroma should be a pleasant combination of malt, hops and the featured specialty ingredient or nature as appropriate to the specific type of beer being presented. The individual character of special ingredients and processes may not always be identifiable when used in combination. If a classic style base beer is specified then the characteristics of that classic style should be noticeable. Note, however, that classic styles will have a different impression when brewed with unusual ingredients, additives or processes. The typical aroma components of classic beer styles (particularly hops) may be intentionally subdued to allow the special ingredients or nature to be more apparent.
+Appearance: Appearance should be appropriate to the base beer being presented and will vary depending on the base beer (if declared). Note that unusual ingredients or processes may affect the appearance so that the result is quite different from the declared base style. Some ingredients may add color (including to the head), and may affect head formation and retention.
+Flavor: As with aroma, the distinctive flavor character associated with the stated specialty nature should be noticeable, and may range in intensity from subtle to aggressive. The marriage of specialty ingredients or nature with the underlying beer should be harmonious, and the specialty character should not seem artificial and/or totally overpowering. Hop bitterness, flavor, malt flavors, alcohol content, and fermentation byproducts, such as esters or diacetyl, should be appropriate to the base beer (if declared) and be well-integrated with the distinctive specialty flavors present. Some ingredients may add tartness, sweetness, or other flavor by-products. Remember that fruit and sugar adjuncts generally add flavor and not excessive sweetness to beer. The sugary adjuncts, as well as sugar found in fruit, are usually fully fermented and contribute to a lighter flavor profile and a drier finish than might be expected for the declared base style. The individual character of special ingredients and processes may not always be identifiable when used in combination. If a classic style base beer is specified then the characteristics of that classic style should be noticeable. Note, however, that classic styles will have a different impression when brewed with unusual ingredients, additives or processes. Note that these components (especially hops) may be intentionally subdued to allow the specialty character to come through in the final presentation.
+Mouthfeel: Mouthfeel may vary depending on the base beer selected and as appropriate to that base beer (if declared). Body and carbonation levels should be appropriate to the base beer style being presented. Unusual ingredients or processes may affect the mouthfeel so that the result is quite different from the declared base style.</PROFILE>
+ <INGREDIENTS>Varies by base style. </INGREDIENTS>
+ <EXAMPLES>Bell&#8217;s Rye Stout, Bell&#8217;s Eccentric Ale, Samuel Adams Triple Bock and Utopias, Hair of the Dog Adam, Great Alba Scots Pine, Tommyknocker Maple Nut Brown Ale, Great Divide Bee Sting Honey Ale, Stoudt&#8217;s Honey Double Mai Bock, Rogue Dad&#8217;s Little Helper, Rogue Honey Cream Ale, Dogfish Head India Brown Ale, Zum Uerige Sticke and Doppel Sticke Altbier, Yards Brewing Company General Washington Tavern Porter, Rauchenfels Steinbier, Odells 90 Shilling Ale, Bear Republic Red Rocket Ale, Stone Arrogant Bastard</EXAMPLES>
+ <DISPLAY_OG_MIN>1.030 SG</DISPLAY_OG_MIN>
+ <DISPLAY_OG_MAX>1.110 SG</DISPLAY_OG_MAX>
+ <DISPLAY_FG_MIN>1.006 SG</DISPLAY_FG_MIN>
+ <DISPLAY_FG_MAX>1.024 SG</DISPLAY_FG_MAX>
+ <DISPLAY_COLOR_MIN>9.8 EBC</DISPLAY_COLOR_MIN>
+ <DISPLAY_COLOR_MAX>98.5 EBC</DISPLAY_COLOR_MAX>
+ <OG_RANGE>1.030-1.110 SG</OG_RANGE>
+ <FG_RANGE>1.006-1.024 SG</FG_RANGE>
+ <IBU_RANGE>5.0-70.0 IBUs</IBU_RANGE>
+ <CARB_RANGE>1.80-3.00 Vols</CARB_RANGE>
+ <COLOR_RANGE>9.8-98.5 EBC</COLOR_RANGE>
+ <ABV_RANGE>2.50-12.00 %</ABV_RANGE>
+</STYLE>
+
+ <EQUIPMENT>
+ <NAME>Pot (18.5 Gal/70 L) and Cooler (9.5 Gal/45 L)  - All Grain</NAME>
+ <VERSION>1</VERSION>
+ <BOIL_SIZE>32.0000000</BOIL_SIZE>
+ <BATCH_SIZE>25.0000000</BATCH_SIZE>
+ <TUN_VOLUME>45.0000000</TUN_VOLUME>
+ <TUN_WEIGHT>4.0823280</TUN_WEIGHT>
+ <TUN_SPECIFIC_HEAT>0.3000000</TUN_SPECIFIC_HEAT>
+ <TOP_UP_WATER>0.0000000</TOP_UP_WATER>
+ <TRUB_CHILLER_LOSS>0.0000000</TRUB_CHILLER_LOSS>
+ <EVAP_RATE>18.7500000</EVAP_RATE>
+ <BOIL_TIME>60.0000000</BOIL_TIME>
+ <CALC_BOIL_VOLUME>TRUE</CALC_BOIL_VOLUME>
+ <LAUTER_DEADSPACE>0.6000000</LAUTER_DEADSPACE>
+ <TOP_UP_KETTLE>0.0000000</TOP_UP_KETTLE>
+ <HOP_UTILIZATION>100.0000000</HOP_UTILIZATION>
+ <COOLING_LOSS_PCT>4.0000000</COOLING_LOSS_PCT>
+ <NOTES>Based on a 18.5 Gal/70 L pot with a diameter of 18 inches/45 cm and a 9.5 Gal/40 L cooler. The above assumes loose pellet hops and only clear, chilled wort transferred from the kettle using no trub management techniques. Experienced brewers should adjust &#39;Loss to Trub and Chiller&#39; and &#39;Brewhouse Efficiency&#39; accordingly to suit their trub management techniques.</NOTES>
+ <DISPLAY_BOIL_SIZE>32.00 l</DISPLAY_BOIL_SIZE>
+ <DISPLAY_BATCH_SIZE>25.00 l</DISPLAY_BATCH_SIZE>
+ <DISPLAY_TUN_VOLUME>45.00 l</DISPLAY_TUN_VOLUME>
+ <DISPLAY_TUN_WEIGHT>4.08 kg</DISPLAY_TUN_WEIGHT>
+ <DISPLAY_TOP_UP_WATER>0.00 l</DISPLAY_TOP_UP_WATER>
+ <DISPLAY_TRUB_CHILLER_LOSS>0.00 l</DISPLAY_TRUB_CHILLER_LOSS>
+ <DISPLAY_LAUTER_DEADSPACE>0.60 l</DISPLAY_LAUTER_DEADSPACE>
+ <DISPLAY_TOP_UP_KETTLE>0.00 l</DISPLAY_TOP_UP_KETTLE>
+</EQUIPMENT>
+
+ <MASH>
+ <NAME>Single Infusion, Medium Body, Batch Sparge</NAME>
+ <VERSION>1</VERSION>
+ <GRAIN_TEMP>18.0000000</GRAIN_TEMP>
+ <TUN_TEMP>18.0000000</TUN_TEMP>
+ <SPARGE_TEMP>75.5555556</SPARGE_TEMP>
+ <PH>5.4000000</PH>
+ <TUN_WEIGHT>144.0000000</TUN_WEIGHT>
+ <TUN_SPECIFIC_HEAT>0.3000000</TUN_SPECIFIC_HEAT>
+ <EQUIP_ADJUST>FALSE</EQUIP_ADJUST>
+ <NOTES>Simple single infusion mash for use with most modern well modified grains (about 95% of the time).</NOTES>
+ <DISPLAY_GRAIN_TEMP>18.0 C</DISPLAY_GRAIN_TEMP>
+ <DISPLAY_TUN_TEMP>18.0 C</DISPLAY_TUN_TEMP>
+ <DISPLAY_SPARGE_TEMP>75.6 C</DISPLAY_SPARGE_TEMP>
+ <DISPLAY_TUN_WEIGHT>4.08 kg</DISPLAY_TUN_WEIGHT>
+<MASH_STEPS>
+<MASH_STEP>
+ <NAME>Mash In</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Infusion</TYPE>
+ <INFUSE_AMOUNT>14.3440000</INFUSE_AMOUNT>
+ <STEP_TIME>90.0000000</STEP_TIME>
+ <STEP_TEMP>66.6666667</STEP_TEMP>
+ <RAMP_TIME>0.0000000</RAMP_TIME>
+ <END_TEMP>66.6666667</END_TEMP>
+ <DESCRIPTION>Add 14.94 l of water at 73.5 C</DESCRIPTION>
+ <WATER_GRAIN_RATIO>2.608 l/kg</WATER_GRAIN_RATIO>
+ <DECOCTION_AMT>0.00 l</DECOCTION_AMT>
+ <INFUSE_TEMP>73.5 C</INFUSE_TEMP>
+ <DISPLAY_STEP_TEMP>66.7 C</DISPLAY_STEP_TEMP>
+ <DISPLAY_INFUSE_AMT>14.94 l</DISPLAY_INFUSE_AMT>
+</MASH_STEP>
+</MASH_STEPS>
+
+</MASH>
+
+ <NOTES></NOTES>
+ <TASTE_NOTES></TASTE_NOTES>
+ <TASTE_RATING>30.0000000</TASTE_RATING>
+ <OG>1.0460000</OG>
+ <FG>1.0100000</FG>
+ <CARBONATION>2.3000000</CARBONATION>
+ <FERMENTATION_STAGES>2</FERMENTATION_STAGES>
+ <PRIMARY_AGE>4.0000000</PRIMARY_AGE>
+ <PRIMARY_TEMP>19.4444444</PRIMARY_TEMP>
+ <SECONDARY_AGE>10.0000000</SECONDARY_AGE>
+ <SECONDARY_TEMP>19.4444444</SECONDARY_TEMP>
+ <TERTIARY_AGE>7.0000000</TERTIARY_AGE>
+ <AGE>30.0000000</AGE>
+ <AGE_TEMP>18.3333333</AGE_TEMP>
+ <CARBONATION_USED>Bottle with 129.40 g Corn Sugar</CARBONATION_USED>
+ <FORCED_CARBONATION>TRUE</FORCED_CARBONATION>
+ <PRIMING_SUGAR_NAME>Corn Sugar</PRIMING_SUGAR_NAME>
+ <PRIMING_SUGAR_EQUIV>1.0000000</PRIMING_SUGAR_EQUIV>
+ <KEG_PRIMING_FACTOR>0.5000000</KEG_PRIMING_FACTOR>
+ <CARBONATION_TEMP>21.1111111</CARBONATION_TEMP>
+ <DISPLAY_CARB_TEMP>21.1 C</DISPLAY_CARB_TEMP>
+ <DATE>31 Jan 2015</DATE>
+ <EST_OG>1.054 SG</EST_OG>
+ <EST_FG>1.010 SG</EST_FG>
+ <EST_COLOR>74.4 EBC</EST_COLOR>
+ <IBU>47.3 IBUs</IBU>
+ <IBU_METHOD>Tinseth</IBU_METHOD>
+ <EST_ABV>5.9 %</EST_ABV>
+ <ABV>4.7 %</ABV>
+ <ACTUAL_EFFICIENCY>46.6 %</ACTUAL_EFFICIENCY>
+ <CALORIES>427.1 kcal/l</CALORIES>
+ <DISPLAY_BATCH_SIZE>25.00 l</DISPLAY_BATCH_SIZE>
+ <DISPLAY_BOIL_SIZE>32.00 l</DISPLAY_BOIL_SIZE>
+ <DISPLAY_OG>1.046 SG</DISPLAY_OG>
+ <DISPLAY_FG>1.010 SG</DISPLAY_FG>
+ <DISPLAY_PRIMARY_TEMP>19.4 C</DISPLAY_PRIMARY_TEMP>
+ <DISPLAY_SECONDARY_TEMP>19.4 C</DISPLAY_SECONDARY_TEMP>
+ <DISPLAY_TERTIARY_TEMP>18.3 C</DISPLAY_TERTIARY_TEMP>
+ <DISPLAY_AGE_TEMP>18.3 C</DISPLAY_AGE_TEMP>
+</RECIPE>
+</RECIPES>

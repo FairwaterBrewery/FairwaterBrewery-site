@@ -173,6 +173,29 @@ header:after {
 .links-nextprev-next {
 	text-align: right;
 }
+.links-nextprev-pagenumber {
+	text-align: center;
+	border: solid; 
+    border-color: var(--color-gray-90);
+    border-radius: 1rem;
+    border-width: 1px;
+	background-color: var(--color-gray-50);
+}
+[aria-current].links-nextprev-pagenumber {
+	background-color: var(--text-color-link-active);
+	color: var(--color-gray-50);
+}
+@media (prefers-color-scheme: dark) {
+	.links-nextprev-pagenumber {
+		border-color: var(--color-gray-20);
+		background-color: var(--background-color);
+	}
+
+	[aria-current].links-nextprev-pagenumber {
+		background-color: var(--text-color-link-active);
+		color: var(--color-gray-20);
+	}
+}
 
 table {
 	margin: 1em 0;
@@ -233,6 +256,7 @@ header {
 .nav-item {
 	display: inline-block;
 	margin-right: 1em;
+	font-size: 0.8em;
 }
 .nav-item a[href]:not(:hover) {
 	text-decoration: none;
@@ -330,6 +354,12 @@ header {
 	background-color: #f2f2f2;
 }
 
+@media (prefers-color-scheme: dark) {
+	.recipe tr:nth-child(even) {
+		background-color: #0e0e0e;
+	}
+}
+
 .recipe .fermentables th {
 	background-color: #d6c67c;
 	color: #555;
@@ -347,8 +377,20 @@ header {
 }
 
 img.sitelogo  {
-	width: 50px;
-	height: 50px;
+	width: 75px;
+	height: 75px;
+}
+
+img.socialicon  {
+	width: 75px;
+	height: 75px;
+}
+
+a.sociallink
+{
+	display: flex;
+	align-items: center;
+	justify-content:left;
 }
 
 div.banner {
@@ -361,6 +403,13 @@ div.banner {
     border-width: 5px;
     margin:auto;
 }</style>
+		
+		
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+
 	</head>
 	<body>
 		<a href="#skip" class="visually-hidden">Skip to main content</a>
@@ -368,15 +417,16 @@ div.banner {
 		<header>
 			<div class="banner"></div>
 			<br>
-			<picture><source type="image/avif" srcset="/img/iEMfCWLK-4-194.avif 194w"><source type="image/webp" srcset="/img/iEMfCWLK-4-194.webp 194w"><img loading="lazy" decoding="async" src="/img/iEMfCWLK-4-194.gif" class="sitelogo" alt="Fairwater Brewey Logo - a black cat pushing against a barrel" width="194" height="139"></picture>
+			<picture><source type="image/avif" srcset="/img/DX8sdilZyn-175.avif 175w"><source type="image/webp" srcset="/img/DX8sdilZyn-175.webp 175w"><img loading="lazy" decoding="async" src="/img/DX8sdilZyn-175.svg" class="sitelogo" alt="Fairwater Brewey Logo - a black cat pushing against a barrel" width="175" height="175"></picture>
 			<a href="/" class="home-link">Fairwater Brewery</a>
 			<nav>
 				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
 				<ul class="nav">
 					<li class="nav-item"><a href="/">Home</a></li>
-					<li class="nav-item"><a href="/blog/">Archive</a></li>
-					<li class="nav-item"><a href="/recipes/">Recipes</a></li>
+					<li class="nav-item"><a href="/recipelist/page-1/">Recipes</a></li>
 					<li class="nav-item"><a href="/about/">About</a></li>
+					<li class="nav-item"><a href="/contact/">Contact</a></li>
+					<li class="nav-item"><a href="/blog/">Archive</a></li>
 					<li class="nav-item"><a href="/tags/">Tags</a></li>
 					<li class="nav-item"><a href="/feed/feed.xml">Feed</a></li>
 				</ul>
@@ -401,8 +451,8 @@ div.banner {
 
     
     <div class="recipe">
-    <h1 id="double-oregonian">Double Oregonian</h1>
-    BeerXml file: <a href="/recipes/bigger-oregonian.xml" target="_blank">bigger-oregonian.xml</a>
+    <h1 id="bigger-oregonian">Bigger Oregonian</h1>
+    BeerXml file: <a href="/beerxml/bigger-oregonian.xml" target="_blank">bigger-oregonian.xml</a>
     <h3 id="vital-statistics">Vital statistics:</h3>
     <ul>
         <li>Type: All Grain
@@ -414,7 +464,11 @@ div.banner {
         </li><li>OG: 1.058 SG
         </li><li>FG: 1.010 SG
         </li><li>ABV: 6.4 %
-        </li><li>Colour: 9.6 EBC
+        </li><li>Colour: 
+        
+        
+            9.6 EBC
+        
         </li><li>Bitterness: 65.0 IBUs
     </li></ul>
 
@@ -581,7 +635,7 @@ div.banner {
 			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></em></p>
 		</footer>
 
-		<!-- This page `/recipes/bigger-oregonian/` was built on 2025-01-21T18:37:20.567Z -->
-		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
+		<!-- This page `/recipes/bigger-oregonian/` was built on 2025-01-22T18:56:34.053Z -->
+		<script type="module" src="/dist/PQuipxb2GV.js"></script>
 	</body>
 </html>
