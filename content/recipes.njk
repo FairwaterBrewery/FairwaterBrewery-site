@@ -14,7 +14,8 @@ permalink: "recipelist/page-{{ pagination.pageNumber + 1 }}/index.html"
   linked to from new blog posts.</p>
 <ul>
     {% for item in pagination.items.sort() -%}
-    <li><a href="/recipes/{{ item.file }}">{{ item.file }}</a></li>
+    {% set recipeUrl = "/recipes/" + item.file %}
+    <li><a href="{{ recipeUrl | lower }}">{{ item.file }}</a></li>
     {% endfor -%}
 </ul>
 {%- if pagination.href.previous or pagination.href.next %}
