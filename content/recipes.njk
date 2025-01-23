@@ -13,9 +13,10 @@ permalink: "recipelist/page-{{ pagination.pageNumber + 1 }}/index.html"
   plus everything I add from now on (alphabetical by name). They should also be 
   linked to from new blog posts.</p>
 <ul>
-    {% for item in pagination.items.sort() -%}
+    {% for item in pagination.items -%}
     {% set recipeUrl = "/recipes/" + item.file %}
-    <li><a href="{{ recipeUrl | lower }}">{{ item.file }}</a></li>
+    {% set recipe = item.model.recipes.recipe[0] %}
+    <li><a href="{{ recipeUrl | lower }}">{{ recipe.name[0] }}</a></li>
     {% endfor -%}
 </ul>
 {%- if pagination.href.previous or pagination.href.next %}
