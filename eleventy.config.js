@@ -130,6 +130,8 @@ export default async function(eleventyConfig) {
 	const markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs)
 	eleventyConfig.setLibrary("md", markdownLib);
 
+	eleventyConfig.addGlobalData("runMode", process.env.ELEVENTY_RUN_MODE || "default");
+	
 	// Features to make your build faster (when you need them)
 
 	// If your passthrough copy gets heavy and cumbersome, add this line

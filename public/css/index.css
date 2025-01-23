@@ -152,6 +152,7 @@ header:after {
     border-radius: 1rem;
     border-width: 1px;
 	background-color: var(--color-gray-50);
+	font-size: 0.8em;
 }
 [aria-current].links-nextprev-pagenumber {
 	background-color: var(--text-color-link-active);
