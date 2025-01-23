@@ -213,6 +213,9 @@ header {
 	font-size: 1em; /* 16px /16 */
 	font-weight: 700;
 	margin-right: 2em;
+	display: flex;
+	align-items: center;
+	justify-content:left;	
 }
 .home-link:link:not(:hover) {
 	text-decoration: none;
@@ -353,9 +356,9 @@ img.sitelogo  {
 	height: 75px;
 }
 
-img.socialicon  {
-	width: 75px;
-	height: 75px;
+img.sociallink {
+	width: 30px;
+	height: 30px;
 }
 
 a.sociallink
@@ -363,6 +366,10 @@ a.sociallink
 	display: flex;
 	align-items: center;
 	justify-content:left;
+}
+
+.sociallink > span {
+	padding-left: 10px;
 }
 
 div.banner {

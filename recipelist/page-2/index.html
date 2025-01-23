@@ -241,6 +241,9 @@ header {
 	font-size: 1em; /* 16px /16 */
 	font-weight: 700;
 	margin-right: 2em;
+	display: flex;
+	align-items: center;
+	justify-content:left;	
 }
 .home-link:link:not(:hover) {
 	text-decoration: none;
@@ -381,9 +384,9 @@ img.sitelogo  {
 	height: 75px;
 }
 
-img.socialicon  {
-	width: 75px;
-	height: 75px;
+img.sociallink {
+	width: 30px;
+	height: 30px;
 }
 
 a.sociallink
@@ -391,6 +394,10 @@ a.sociallink
 	display: flex;
 	align-items: center;
 	justify-content:left;
+}
+
+.sociallink > span {
+	padding-left: 10px;
 }
 
 div.banner {
@@ -405,11 +412,6 @@ div.banner {
 }</style>
 		
 		
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<link rel="manifest" href="/manifest.webmanifest">
-
 	</head>
 	<body>
 		<a href="#skip" class="visually-hidden">Skip to main content</a>
@@ -417,15 +419,17 @@ div.banner {
 		<header>
 			<div class="banner"></div>
 			<br>
-			<picture><source type="image/avif" srcset="/img/DX8sdilZyn-175.avif 175w"><source type="image/webp" srcset="/img/DX8sdilZyn-175.webp 175w"><img loading="lazy" decoding="async" src="/img/DX8sdilZyn-175.svg" class="sitelogo" alt="Fairwater Brewey Logo - a black cat pushing against a barrel" width="175" height="175"></picture>
-			<a href="/" class="home-link">Fairwater Brewery</a>
+			<a href="/" class="home-link">			
+				<picture><source type="image/avif" srcset="/img/DX8sdilZyn-175.avif 175w"><source type="image/webp" srcset="/img/DX8sdilZyn-175.webp 175w"><img loading="lazy" decoding="async" src="/img/DX8sdilZyn-175.svg" class="sitelogo" alt="Fairwater Brewey Logo - a black cat pushing against a barrel" width="175" height="175"></picture>
+				Fairwater Brewery
+			</a>
 			<nav>
 				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
 				<ul class="nav">
 					<li class="nav-item"><a href="/">Home</a></li>
 					<li class="nav-item"><a href="/recipelist/page-1/">Recipes</a></li>
 					<li class="nav-item"><a href="/about/">About</a></li>
-					<li class="nav-item"><a href="/contact/">Contact</a></li>
+					<li class="nav-item"><a href="/contact/">Contacts</a></li>
 					<li class="nav-item"><a href="/blog/">Archive</a></li>
 					<li class="nav-item"><a href="/tags/">Tags</a></li>
 					<li class="nav-item"><a href="/feed/feed.xml">Feed</a></li>
@@ -453,16 +457,26 @@ div.banner {
   plus everything I add from now on (alphabetical by name). They should also be 
   linked to from new blog posts.</p>
 <ul>
-    <li><a href="/recipes/Angry-Yank-3">Angry-Yank-3</a></li>
-    <li><a href="/recipes/Archers-Village">Archers-Village</a></li>
-    <li><a href="/recipes/Belgian-Pale-AG83">Belgian-Pale-AG83</a></li>
-    <li><a href="/recipes/Belgian-Pale">Belgian-Pale</a></li>
-    <li><a href="/recipes/Black-Shadow">Black-Shadow</a></li>
-    <li><a href="/recipes/Bombay-IPA">Bombay-IPA</a></li>
-    <li><a href="/recipes/Bramble-Stout">Bramble-Stout</a></li>
-    <li><a href="/recipes/Centenary">Centenary</a></li>
-    <li><a href="/recipes/CitraAceJpn">CitraAceJpn</a></li>
-    <li><a href="/recipes/Cocker-Hoop">Cocker-Hoop</a></li>
+    
+    <li><a href="/recipes/angry-yank-3">Angry-Yank-3</a></li>
+    
+    <li><a href="/recipes/archers-village">Archers-Village</a></li>
+    
+    <li><a href="/recipes/belgian-pale-ag83">Belgian-Pale-AG83</a></li>
+    
+    <li><a href="/recipes/belgian-pale">Belgian-Pale</a></li>
+    
+    <li><a href="/recipes/black-shadow">Black-Shadow</a></li>
+    
+    <li><a href="/recipes/bombay-ipa">Bombay-IPA</a></li>
+    
+    <li><a href="/recipes/bramble-stout">Bramble-Stout</a></li>
+    
+    <li><a href="/recipes/centenary">Centenary</a></li>
+    
+    <li><a href="/recipes/citraacejpn">CitraAceJpn</a></li>
+    
+    <li><a href="/recipes/cocker-hoop">Cocker-Hoop</a></li>
     </ul>
 <ul class="links-nextprev">
   <li class="links-nextprev-prev"><a href="/recipelist/page-1/">First</a></li>
@@ -518,7 +532,7 @@ div.banner {
 			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></em></p>
 		</footer>
 
-		<!-- This page `/recipelist/page-2/` was built on 2025-01-22T18:56:32.211Z -->
+		<!-- This page `/recipelist/page-2/` was built on 2025-01-23T10:56:45.788Z -->
 		<script type="module" src="/dist/PQuipxb2GV.js"></script>
 	</body>
 </html>
