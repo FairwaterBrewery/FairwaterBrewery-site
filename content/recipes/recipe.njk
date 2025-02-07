@@ -38,6 +38,11 @@ permalink: "recipes/{{ pagination.items[0].file | slugify }}/index.html"
         {% set totalWeight = totalWeight + thisWeight %}
     {% endfor -%}
 
+    {% if recipe.notes[0] %}
+    <h3>Notes:</h3>
+    <p><span style="white-space: pre-line">{{ recipe.notes[0] }}</span></p>
+    {% endif %}
+
     <h3>Fermentables:</h3>
 	<table width="90%" class="fermentables">
         <tr>
@@ -122,7 +127,7 @@ permalink: "recipes/{{ pagination.items[0].file | slugify }}/index.html"
         {% endfor -%}
     </table>
 
-    <p>
+    <p class="footer">
         I don't include mash schedule, water treatment, fininings 
         (and other miscellaneous ingredients), as these are all down
         to personal preferences, local water conditions (or the 
