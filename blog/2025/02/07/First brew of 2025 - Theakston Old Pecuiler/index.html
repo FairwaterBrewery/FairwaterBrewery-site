@@ -3,27 +3,177 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Fairwater Brewery</title>
-		<meta name="description" content="Amateur brewing blog - recipes, thoughts, equipment, hints, and anything else that occurs to me.">
+		<title>First Brew of 2025 - Theakston Old Pecuiler</title>
+		<meta name="description" content="My first brewday this year, and a classic Old Ale.">
 		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Fairwater Brewery">
 		
-		<style>/* Message Box */
-.message-box {
-	--color-message-box: #ffc;
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
 
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
 	display: block;
-	background-color: var(--color-message-box);
-	color: var(--color-gray-90);
-	padding: 1em 0.625em; /* 16px 10px /16 */
-}
-.message-box ol {
-	margin-top: 0;
-}
-
-@media (prefers-color-scheme: dark) {
-	.message-box {
-		--color-message-box: #082840;
-	}
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
 }
 /* This is an arbitrary CSS string added to the bundle */
 /* Defaults */
@@ -439,100 +589,21 @@ div.banner {
 
 		<main id="skip">
 			<heading-anchors>
-				<!-- Delete this block, which will also remove the component CSS from the bundle -->
-<!--
-<div class="message-box">
-	<ol>
-		<li>Edit <code>_data/metadata.js</code> with your blog’s information.</li>
-		<li>(Optional) Edit <code>eleventy.config.js</code> with your <a href="https://www.11ty.dev/docs/config/">configuration preferences</a>.</li>
-		<li>Delete this message from <code>_includes/layouts/home.njk</code>.</li>
-	</ol>
-	<p><em>This is an <a href="https://www.11ty.dev/">Eleventy project</a> created from the <a href="https://github.com/11ty/eleventy-base-blog"><code>eleventy-base-blog</code> repo</a>.</em></p>
-</div>
--->
-<!-- Stop deleting -->
+				
+<h1 id="first-brew-of-2025-theakston-old-pecuiler">First Brew of 2025 - Theakston Old Pecuiler</h1>
 
-<h1 id="recipe-list">Recipe list</h1>
-<p>All the recipes from the previous incarnation of the Fairwater Brewery website,
-  plus everything I add from now on (alphabetical by name). They should also be 
-  linked to from new blog posts.</p>
-<ul>
-    
-    
-    <li><a href="/recipes/hobgoblin">Hobgoblin (Orfy)</a></li>
-    
-    
-    <li><a href="/recipes/hobgoblin-2">Hobgoblin (Orfy) 2</a></li>
-    
-    
-    <li><a href="/recipes/hop-fiction">Hop Fiction</a></li>
-    
-    
-    <li><a href="/recipes/intergalactic-leftovers">Intergalactic Leftovers</a></li>
-    
-    
-    <li><a href="/recipes/jack-hammer">Jack Hammer</a></li>
-    
-    
-    <li><a href="/recipes/jasmine-ipa">Jasmine IPA</a></li>
-    
-    
-    <li><a href="/recipes/jet-black-heart">Jet Black Heart</a></li>
-    
-    
-    <li><a href="/recipes/leftovers-american-amber">Leftovers American Amber</a></li>
-    
-    
-    <li><a href="/recipes/leftovers-pale-ale">Leftovers Pale Ale</a></li>
-    
-    
-    <li><a href="/recipes/martins-reward">Martin&#39;s Reward</a></li>
-    </ul>
-<ul class="links-nextprev">
-  <li class="links-nextprev-prev"><a href="/recipelist/page-1/">First</a></li>
-	<li class="links-nextprev-prev"><a href="/recipelist/page-4/">← Previous</a></li>
-      
-      <li class="links-nextprev-pagenumber">
-      <a href="/recipelist/page-1/">1</a>
-      
-    </li>
-      
-      <li class="links-nextprev-pagenumber">
-      <a href="/recipelist/page-2/">2</a>
-      
-    </li>
-      
-      <li class="links-nextprev-pagenumber">
-      <a href="/recipelist/page-3/">3</a>
-      
-    </li>
-      
-      <li class="links-nextprev-pagenumber">
-      <a href="/recipelist/page-4/">4</a>
-      
-    </li>
-      
-      <li aria-current="page" class="links-nextprev-pagenumber">
-        5
-      
-    </li>
-      
-      <li class="links-nextprev-pagenumber">
-      <a href="/recipelist/page-6/">6</a>
-      
-    </li>
-      
-      <li class="links-nextprev-pagenumber">
-      <a href="/recipelist/page-7/">7</a>
-      
-    </li>
-      
-      <li class="links-nextprev-pagenumber">
-      <a href="/recipelist/page-8/">8</a>
-      
-    </li>
-	<li class="links-nextprev-next"><a href="/recipelist/page-6/">Next →</a></li>
-  <li class="links-nextprev-next"><a href="/recipelist/page-8/">Last</a></li>
+<ul class="post-metadata">
+	<li><time datetime="2025-01-22">22 January 2025</time></li>
+	<li><a href="/tags/recipes/" class="post-tag">recipes</a></li>
+</ul>
+
+<p>My first brewday of 2025 will be this weekend - probably Sunday, as that looks to have the better weather: my brewery is in a detached garage at the bottom of our garden, and I don't like to have to walk back and forth in the rain if I can avoid it!</p>
+<p>The recipe is <a href="/recipes/2025-02-07-theakston-old-pecuiler/">this one</a> for a classic Old Ale: Theakson Old Pecuiler.</p>
+<p>I have brewed a clone of this one before, using the recipe from Graham Wheeler's <em>Brew Your Own British Real Ale</em>, but this time it''s based on <a href="https://www.themaltmiller.co.uk/product/theakstons-old-peculier-clone/">this recipe from The Malt Miller site</a>. The Wheeler recipe is a very basic grist, just base malt and a bit of crystal and chocolate malt, whereas the MM one is a bit more complex, with wheat to give a bit more body and head retention, and some golden syrup and black treacle, which will add some simply fermentable sugars (though I'm going to use molasses rather than treacle, mainly because I have a jar already!). I'm going to use some bramling cross hops, which I'm hoping will add some blackcurrant notes to the beer.</p>
+<p>I've gone for a smack-pack of <a href="https://wyeastlab.com/product/west-yorkshire-ale/">Wyeast 1469 &quot;West Yorkshire Ale&quot;</a>, which I'm hoping will suit this beer. I'm not prepared, either in equiment terms, or otherwise, to make a starter from a yeast slope as suggested in the MM recipe, but I wanted to use something a little more interesting than one of the dried standards like S-04, Windsor, or Nottingham.</p>
+<p>In the past I've often based my water treatment on the Graham Wheeler <a href="https://www.jimsbeerkit.co.uk/water.html">Liquor Treatment Calculator</a>, but I'm getting used to the calculator in <a href="https://beersmith.com/">BeerSmith3</a> now, which (I belive) closely matches the suggestions from Martin Brungard's <a href="https://www.brunwater.com/">Bru'n Water</a>, and has the advantage over the latter of meaning that I don't need to transfer the details of the salts from the latter to the former. My initial water profile (which is in the .beerxml file for the recipe, even though I don't render it for the recipe page) is taken as far as possible from the most recent Thames Water <a href="https://www.thameswater.co.uk/help/water-and-waste-help/water-quality/check-your-water-quality#/results/RG53JG">Water Quality Report</a>, combined with a reasonable average of the hardness measurements I have taken at the start of every brewday for lots of years (using a Salifert kH Test Kit). I keep meaning to get a &quot;proper&quot; water report done, and if I do so I'll post the results on this site!</p>
+
+<ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/blog/2025/01/22/All the old recipes/">All the old recipes</a></li>
 </ul>
 
 			</heading-anchors>
@@ -542,7 +613,7 @@ div.banner {
 			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></em></p>
 		</footer>
 
-		<!-- This page `/recipelist/page-5/` was built on 2025-02-07T15:13:49.035Z -->
+		<!-- This page `/blog/2025/02/07/First brew of 2025 - Theakston Old Pecuiler/` was built on 2025-02-07T15:13:39.141Z -->
 		<script type="module" src="/dist/xbxy_EL6cU.js"></script>
 	</body>
 </html>

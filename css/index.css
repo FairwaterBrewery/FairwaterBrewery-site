@@ -348,7 +348,7 @@ header {
 	text-align: left;
 }
 
-.recipe p {
+.recipe p.footer {
 	font-style: italic;
 }
 
