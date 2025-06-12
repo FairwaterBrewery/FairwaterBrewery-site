@@ -3,27 +3,177 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Fairwater Brewery</title>
-		<meta name="description" content="Amateur brewing blog - recipes, thoughts, equipment, hints, and anything else that occurs to me.">
+		<title>Rhubard &amp; Gooseberry Sour</title>
+		<meta name="description" content="First &quot;Philly Sour&quot; of the year">
 		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Fairwater Brewery">
 		
-		<style>/* Message Box */
-.message-box {
-	--color-message-box: #ffc;
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
 
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
 	display: block;
-	background-color: var(--color-message-box);
-	color: var(--color-gray-90);
-	padding: 1em 0.625em; /* 16px 10px /16 */
-}
-.message-box ol {
-	margin-top: 0;
-}
-
-@media (prefers-color-scheme: dark) {
-	.message-box {
-		--color-message-box: #082840;
-	}
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
 }
 /* This is an arbitrary CSS string added to the bundle */
 /* Defaults */
@@ -439,202 +589,29 @@ div.banner {
 
 		<main id="skip">
 			<heading-anchors>
-				<!-- Delete this block, which will also remove the component CSS from the bundle -->
-<!--
-<div class="message-box">
-	<ol>
-		<li>Edit <code>_data/metadata.js</code> with your blog’s information.</li>
-		<li>(Optional) Edit <code>eleventy.config.js</code> with your <a href="https://www.11ty.dev/docs/config/">configuration preferences</a>.</li>
-		<li>Delete this message from <code>_includes/layouts/home.njk</code>.</li>
-	</ol>
-	<p><em>This is an <a href="https://www.11ty.dev/">Eleventy project</a> created from the <a href="https://github.com/11ty/eleventy-base-blog"><code>eleventy-base-blog</code> repo</a>.</em></p>
-</div>
--->
-<!-- Stop deleting -->
+				
+<h1 id="rhubard-and-gooseberry-sour">Rhubard &amp; Gooseberry Sour</h1>
 
+<ul class="post-metadata">
+	<li><time datetime="2025-06-12">12 June 2025</time></li>
+	<li><a href="/tags/recipes/" class="post-tag">recipes</a></li>
+</ul>
 
-    
-    <div class="recipe">
-    <h1 id="bigger-oregonian">Bigger Oregonian</h1>
-    BeerXml file: <a href="/beerxml/bigger-oregonian.xml" target="_blank">bigger-oregonian.xml</a>
-    <h3 id="vital-statistics">Vital statistics:</h3>
-    <ul>
-        <li>Type: All Grain
-        </li><li>Brewer: Bryan
-        </li><li>Style: American IPA
-        </li><li>Length: 20 litres
-        </li><li>Yeast:   
-            LAX (WHCLAB LAX)
-        </li><li>OG: 1.058 SG
-        </li><li>FG: 1.010 SG
-        </li><li>ABV: 6.4 %
-        </li><li>Colour: 
-        
-        
-            9.6 EBC
-        
-        </li><li>Bitterness: 65.0 IBUs
-    </li></ul>
+<p>Ok, it seems like I'm still hopeless and writing new posts. Maybe I need to find something other than brewday recipe posts..!</p>
+<p>The recipe is <a href="/recipes/2025-06-12-rhubard-gooseberry-sour/">this one</a> for a fruited sour.</p>
+<p>Some friends of ours have an annual party where the attendees supply mini-kegs of beer for everyone to enjoy, but since I'm a brewer it seems sensible for me to bring one of my own creations! It was suggested that a sour would be popular, as they're not as easy to get hold of in mini-kegs from commercial breweries.</p>
+<p>I'm starting with a simple grain bill of mainly low colour Golden Promise (which is what I'm tending to get by the 25kg sack as my base malt for pretty much everything), some biscuit malt (to try and get a sort of fruit crumble end result), a bit of wheat, and some acidulated malt to adjust the mash pH.</p>
+<p>Water treatment is quite simple, just a bit of epsom and salt. I'll probably add a bit more salt later in the process, not to make it more like a gose, necessarily, but to help emphasise that biscuit flavour.</p>
+<p>I put Saaz as the hop in the recipe - on brew day I might substitute, depending on what and how much I have of European hops. It's not there for flavour, just a bit of light background bitterness.</p>
+<p>We have some rhubarb and gooseberries in the freezer from my in-law's garden, so those are the fruits for this one.</p>
+<p>I'm going to use Philly Sour, as I appreciate the simplicity. I'll start the ferment using the straight wort, and after 2 days I'll add the fruit.</p>
+<p>I'll let it defrost, then probably blizt the rhubarb to get a puree, and mash the gooseberries to release their juices (I won't blitz them as I don't want to break up any seeds). Then I'll stick it all in a grain bag so I can remove it easily and won't have to fight with any bits of fruit in the lines when I rack to keg.</p>
+<p>I've got a little shy of 2kgs of the fruit, so I'm going for a 12 litre batch, though it will probably end up a bit more than that in the end because of the added liquid from the fruits.</p>
+<p>I considered aging on wood to get a more complex character, but I don't really have time. I've also considered adding a little vanilla extract to give ahint of custard, just for the whole &quot;fruit crumble&quot; idea.</p>
+<p>If it all works out as planned I should have a decent fruited sour in time for &quot;Kegger 2025&quot;!</p>
 
-    
-     
-        
-        
-     
-        
-        
-     
-        
-        
-     
-        
-        
-     
-        
-        
-    
-
-    <h3 id="fermentables">Fermentables:</h3>
-	<table width="90%" class="fermentables">
-        <tr>
-			<th width="60%">Name</th>
-			<th width="10%">Colour (EBC)</th>
-			<th width="20%">Amount (kg)</th>
-			<th width="10%">%</th>
-		</tr>
-         
-        <tr>
-            <td>Pale Ale, Low Colour Maris Otter (Simpsons)</td>
-            <td>3.0 </td>
-            
-            <td>4.7</td>
-            <td>85.5</td>
-        </tr>
-         
-        <tr>
-            <td>Caravienne Malt</td>
-            <td>43.3 </td>
-            
-            <td>0.3</td>
-            <td>5.5</td>
-        </tr>
-         
-        <tr>
-            <td>BEST Chit Malt</td>
-            <td>2.5 </td>
-            
-            <td>0.2</td>
-            <td>3.6</td>
-        </tr>
-         
-        <tr>
-            <td>Vienna Malt (Crisp)</td>
-            <td>7.8 </td>
-            
-            <td>0.2</td>
-            <td>3.6</td>
-        </tr>
-         
-        <tr>
-            <td>Rye, Malted (Simpsons)</td>
-            <td>4.0 </td>
-            
-            <td>0.1</td>
-            <td>1.8</td>
-        </tr>
-        </table>
-
-    <h3 id="hops">Hops:</h3>
-    <table width="90%" class="hops">
-		<tr>
-			<th width="50%">Name</th>
-			<th width="10%">Alpha</th>
-			<th width="10%">Form</th>
-			<th width="20%">Amount (g)</th>
-			<th width="10%">Time (mins)</th>
-		</tr>
-        
-        
-        
-         
-        <tr>
-            <td>Magnum</td>
-            <td>14</td>
-            <td>Pellet</td>
-            <td>10</td>
-            <td>60</td>
-        </tr>
-         
-        <tr>
-            <td>BRU-1</td>
-            <td>15</td>
-            <td>Pellet</td>
-            <td>12.5</td>
-            <td>15</td>
-        </tr>
-         
-        <tr>
-            <td>BRU-1</td>
-            <td>15</td>
-            <td>Pellet</td>
-            <td>20</td>
-            <td>5</td>
-        </tr>
-        
-         
-        <tr>
-            <td>Citra</td>
-            <td>12</td>
-            <td>Pellet</td>
-            <td>60</td>
-            <td>Whirlpool</td>
-        </tr>
-         
-        <tr>
-            <td>BRU-1</td>
-            <td>15</td>
-            <td>Pellet</td>
-            <td>20</td>
-            <td>Whirlpool</td>
-        </tr>
-        
-         
-        <tr>
-            <td>Columbus (Tomahawk)</td>
-            <td>14</td>
-            <td>Pellet</td>
-            <td>60</td>
-            <td>Dry Hop</td>
-        </tr>
-         
-        <tr>
-            <td>Simcoe</td>
-            <td>13</td>
-            <td>Pellet</td>
-            <td>60</td>
-            <td>Dry Hop</td>
-        </tr>
-         
-        <tr>
-            <td>Mosaic</td>
-            <td>11.8</td>
-            <td>Leaf</td>
-            <td>20</td>
-            <td>Dry Hop</td>
-        </tr>
-        </table>
-
-    <p class="footer">
-        I don't include mash schedule, water treatment, fininings 
-        (and other miscellaneous ingredients), as these are all down
-        to personal preferences, local water conditions (or the 
-        availability of RO water!), and so on. Some of these details
-        might be present in the .beerxml file, thought I can't
-        guarantee their accuracy, so make your own decisions!
-    </p>
-
-  </div>
-
+<ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/blog/2025/02/07/First brew of 2025 - Theakston Old Pecuiler/">First Brew of 2025 - Theakston Old Pecuiler</a></li>
+</ul>
 
 			</heading-anchors>
 		</main>
@@ -643,7 +620,7 @@ div.banner {
 			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.1.1</a></em></p>
 		</footer>
 
-		<!-- This page `/recipes/bigger-oregonian/` was built on 2025-06-12T15:51:02.060Z -->
+		<!-- This page `/blog/2025/06/12/Sour day/` was built on 2025-06-12T15:50:45.374Z -->
 		<script type="module" src="/dist/xbxy_EL6cU.js"></script>
 	</body>
 </html>
