@@ -10,7 +10,7 @@ The recipe is [this one](/recipes/2025-06-12-rhubard-gooseberry-sour/) for a fru
 
 Some friends of ours have an annual party where the attendees supply mini-kegs of beer for everyone to enjoy, but since I'm a brewer it seems sensible for me to bring one of my own creations! It was suggested that a sour would be popular, as they're not as easy to get hold of in mini-kegs from commercial breweries.
 
-I'm starting with a simple grain bill of mainly low colour Golden Promise (which is what I'm tending to get by the 25kg sack as my base malt for pretty much everything), some biscuit malt (to try and get a sort of fruit crumble end result), a bit of wheat, and some acidulated malt to adjust the mash pH.  
+I'm starting with a simple grain bill of mainly low colour Golden Promise (which is what I'm tending to get by the 25kg sack as my base malt for pretty much everything), some biscuit malt (to try and get a sort of fruit crumble end result), a bit of wheat, and some ~~acidulated malt~~ lactic acid to adjust the mash pH (that strikethrough on the acidulated malt is from the brewday, when I found that I didn't have any in my stocks, so I increased the Golden Promise and used lactic acid instead).
 
 Water treatment is quite simple, just a bit of epsom and salt. I'll probably add a bit more salt later in the process, not to make it more like a gose, necessarily, but to help emphasise that biscuit flavour.
 
