@@ -85,7 +85,7 @@ html {
 	overflow-y: scroll;
 }
 body {
-	max-width: 40em;
+	max-width: 60em;
 }
 
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
@@ -410,6 +410,124 @@ div.banner {
     border-radius: 5rem;
     border-width: 5px;
     margin:auto;
+}
+/* Flex container */
+.beer-tap-list {
+  display: flex;
+  /* Enable flex container */
+  flex-wrap: wrap;
+  /* Wrap cards to next line on small screens */
+  gap: 16px;
+  /* Space between cards */
+  justify-content: flex-start;
+  /* Align cards to the start */
+  padding: 16px;
+}
+
+.beer-card {
+  display: flex;
+  /* Enable flex for content inside card */
+  flex-direction: column;
+  /* Stack name and details */
+  justify-content: space-between;
+  width: 400px;
+  /* Fixed card width */
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #f5f5f5;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.beer-card:hover {
+  transform: scale(1.05);
+  /* Slight hover effect */
+}
+
+.beer-name {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 8px;
+}
+
+.beer-details {
+  display: flex;
+  justify-content: space-between;
+  /* Beer style on left, ABV on right */
+  font-size: 0.9em;
+  color: #555;
+}
+
+.beer-colour {
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.beer-abv{
+  align-self: flex-end;
+}
+
+.beer-notes {
+  font-size: 0.9em;
+  font-style: italic;
+  margin-bottom: 8px;
+}
+
+:root {
+  --ebc-4: #f8f4a2;
+  /* pale straw */
+  --ebc-8: #f1c04a;
+  /* pale gold */
+  --ebc-12: #e28f2d;
+  /* gold/amber */
+  --ebc-17: #c46a1b;
+  /* amber */
+  --ebc-25: #8b3e1f;
+  /* copper/brown */
+  --ebc-40: #5a2e1a;
+  /* brown */
+  --ebc-60: #331c12;
+  /* dark brown*/
+  --ebc-80: #1a0f0a;
+  /* very dark */
+}
+
+/* EBC utility classes */
+.ebc-4 {
+  background-color: var(--ebc-4);
+  color: #000;
+}
+
+.ebc-8 {
+  background-color: var(--ebc-8);
+  color: #000;
+}
+
+.ebc-12 {
+  background-color: var(--ebc-12);
+}
+
+.ebc-17 {
+  background-color: var(--ebc-17);
+}
+
+.ebc-25 {
+  background-color: var(--ebc-25);
+}
+
+.ebc-40 {
+  background-color: var(--ebc-40);
+}
+
+.ebc-60 {
+  background-color: var(--ebc-60);
+}
+
+.ebc-80 {
+  background-color: var(--ebc-80);
 }</style>
 		
 	</head>
@@ -549,10 +667,10 @@ div.banner {
 		</main>
 
 		<footer>
-			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.1.1</a></em></p>
+			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.1.2</a></em></p>
 		</footer>
 
-		<!-- This page `/recipes/zephyr-citrus-tart/` was built on 2025-06-13T10:40:42.716Z -->
-		<script type="module" src="/dist/xbxy_EL6cU.js"></script>
+		<!-- This page `/recipes/zephyr-citrus-tart/` was built on 2026-03-02T15:25:46.915Z -->
+		<script type="module" src="/dist/cC8wS6ZjFU.js"></script>
 	</body>
 </html>
