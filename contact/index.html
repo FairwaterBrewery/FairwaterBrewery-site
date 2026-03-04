@@ -411,7 +411,61 @@ div.banner {
     border-width: 5px;
     margin:auto;
 }
-/* Flex container */
+.carousel-container {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.carousel-slide {
+  display: none;
+  position: relative;
+}
+
+.carousel-slide.active {
+  display: block;
+}
+
+.carousel-slide img {
+  width: 100%;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  color: #fff;
+  background-color: rgba(0,0,0,0.5);
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.carousel-prev,
+.carousel-next {
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  border: 1px solid #ccc;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.carousel-prev:hover,
+.carousel-next:hover {
+  transform: scale(1.05);
+  /* Slight hover effect */
+}
+
+.carousel-buttons {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.carousel-prev { left: 10px; }
+.carousel-next { right: 10px; }
+/* Taplist styles */
 .beer-tap-list {
   display: flex;
   /* Enable flex container */
@@ -474,6 +528,17 @@ div.banner {
   font-size: 0.9em;
   font-style: italic;
   margin-bottom: 8px;
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+	.beer-card{
+    border: 1px solid #202020;
+    background: #082840;
+  }
+  .beer-details{
+    color: var(--text-color);
+  }
 }
 
 :root {
@@ -607,7 +672,7 @@ div.banner {
 			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.1.2</a></em></p>
 		</footer>
 
-		<!-- This page `/contact/` was built on 2026-03-02T15:45:10.751Z -->
-		<script type="module" src="/dist/cC8wS6ZjFU.js"></script>
+		<!-- This page `/contact/` was built on 2026-03-04T10:50:25.008Z -->
+		<script type="module" src="/dist/KYBw1fLZ6G.js"></script>
 	</body>
 </html>

@@ -1,4 +1,4 @@
-/* Flex container */
+/* Taplist styles */
 .beer-tap-list {
   display: flex;
   /* Enable flex container */
@@ -61,6 +61,17 @@
   font-size: 0.9em;
   font-style: italic;
   margin-bottom: 8px;
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+	.beer-card{
+    border: 1px solid #202020;
+    background: #082840;
+  }
+  .beer-details{
+    color: var(--text-color);
+  }
 }
 
 :root {

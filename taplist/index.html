@@ -411,7 +411,61 @@ div.banner {
     border-width: 5px;
     margin:auto;
 }
-/* Flex container */
+.carousel-container {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.carousel-slide {
+  display: none;
+  position: relative;
+}
+
+.carousel-slide.active {
+  display: block;
+}
+
+.carousel-slide img {
+  width: 100%;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  color: #fff;
+  background-color: rgba(0,0,0,0.5);
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.carousel-prev,
+.carousel-next {
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  border: 1px solid #ccc;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.carousel-prev:hover,
+.carousel-next:hover {
+  transform: scale(1.05);
+  /* Slight hover effect */
+}
+
+.carousel-buttons {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.carousel-prev { left: 10px; }
+.carousel-next { right: 10px; }
+/* Taplist styles */
 .beer-tap-list {
   display: flex;
   /* Enable flex container */
@@ -474,6 +528,17 @@ div.banner {
   font-size: 0.9em;
   font-style: italic;
   margin-bottom: 8px;
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+	.beer-card{
+    border: 1px solid #202020;
+    background: #082840;
+  }
+  .beer-details{
+    color: var(--text-color);
+  }
 }
 
 :root {
@@ -571,102 +636,119 @@ div.banner {
 -->
 <!-- Stop deleting -->
 
-<h1 id="keggerator">Keggerator</h1>
-<div class="beer-tap-list">
-  <div class="beer-card">
-    <div class="beer-name">Tap 1: Fairwater Facets</div>
-    <div class="beer-details">
-      <span class="beer-colour ebc-17"></span>
-      <span class="beer-style">India Pale Ale</span>
-      <span class="beer-abv">5.2%</span>
+<div class="carousel-buttons">
+  <button class="carousel-prev">&#10094;</button>
+  <button class="carousel-next">&#10095;</button>
+</div>
+
+<div class="carousel-container">
+  <div class="carousel-slide active">
+    <h1 id="keggerator">Keggerator</h1>
+    <div class="beer-tap-list">
+      <div class="beer-card">
+        <div class="beer-name">Tap 1: Fairwater Facets</div>
+        <div class="beer-details">
+          <span class="beer-colour ebc-17"></span>
+          <span class="beer-style">India Pale Ale</span>
+          <span class="beer-abv">5.2%</span>
+        </div>
+        <div class="beer-notes">Superdelic edition!</div>
+      </div>
+      <div class="beer-card">
+        <div class="beer-name">Tap 2: Oregon Trail</div>
+        <div class="beer-details">
+          <span class="beer-colour ebc-8"></span>
+          <span class="beer-style">West Coast IPA</span>
+          <span class="beer-abv">5.4%</span>
+        </div>
+        <div class="beer-notes">A variant on the Elusive Brewery classic pale ale!</div>
+      </div>
+      <div class="beer-card">
+        <div class="beer-name">Tap 3: Dry :-(</div>
+        <div class="beer-details">
+          <span class="beer-colour"></span>
+          <span class="beer-style"></span>
+          <span class="beer-abv"></span>
+        </div>
+        <div class="beer-notes"></div>
+      </div>
+      <div class="beer-card">
+        <div class="beer-name">Tap 4: Vanilla & Run Porter</div>
+        <div class="beer-details">
+          <span class="beer-colour ebc-60"></span>
+          <span class="beer-style">Robust Porter</span>
+          <span class="beer-abv">6.00%</span>
+        </div>
+        <div class="beer-notes">Sweet vanilla and rum flavour complimented by subtle notes of winter berries and dried
+          fruit.</div>
+      </div>
     </div>
-    <div class="beer-notes">Superdelic edition!</div>
   </div>
-  <div class="beer-card">
-    <div class="beer-name">Tap 2: Oregon Trail</div>
-    <div class="beer-details">
-      <span class="beer-colour ebc-8"></span>
-      <span class="beer-style">West Coast IPA</span>
-      <span class="beer-abv">5.4%</span>
+
+  <div class="carousel-slide">
+    <h1 id="keezer">Keezer</h1>
+    <div class="beer-tap-list">
+      <div class="beer-card">
+        <div class="beer-name">Tap 1: Dry :-(</div>
+        <div class="beer-details">
+          <span class="beer-colour"></span>
+          <span class="beer-style"></span>
+          <span class="beer-abv"></span>
+        </div>
+        <div class="beer-notes"></div>
+      </div>
+      <div class="beer-card">
+        <div class="beer-name">Tap 2: Dry :-(</div>
+        <div class="beer-details">
+          <span class="beer-colour"></span>
+          <span class="beer-style"></span>
+          <span class="beer-abv"></span>
+        </div>
+        <div class="beer-notes"></div>
+      </div>
+      <div class="beer-card">
+        <div class="beer-name">Tap 3: Dry :-(</div>
+        <div class="beer-details">
+          <span class="beer-colour"></span>
+          <span class="beer-style"></span>
+          <span class="beer-abv"></span>
+        </div>
+        <div class="beer-notes"></div>
+      </div>
+      <div class="beer-card">
+        <div class="beer-name">Tap 4: Dry :-(</div>
+        <div class="beer-details">
+          <span class="beer-colour"></span>
+          <span class="beer-style"></span>
+          <span class="beer-abv"></span>
+        </div>
+        <div class="beer-notes"></div>
+      </div>
+      <div class="beer-card">
+        <div class="beer-name">Tap 5: Dry :-(</div>
+        <div class="beer-details">
+          <span class="beer-colour"></span>
+          <span class="beer-style"></span>
+          <span class="beer-abv"></span>
+        </div>
+        <div class="beer-notes"></div>
+      </div>
+      <div class="beer-card">
+        <div class="beer-name">Tap 6: Dry :-(</div>
+        <div class="beer-details">
+          <span class="beer-colour"></span>
+          <span class="beer-style"></span>
+          <span class="beer-abv"></span>
+        </div>
+        <div class="beer-notes"></div>
+      </div>
     </div>
-    <div class="beer-notes">A variant on the Elusive Brewery classic pale ale!</div>
-  </div>
-  <div class="beer-card">
-    <div class="beer-name">Tap 3: Dry :-(</div>
-    <div class="beer-details">
-      <span class="beer-colour"></span>
-      <span class="beer-style"></span>
-      <span class="beer-abv"></span>
-    </div>
-    <div class="beer-notes"></div>
-  </div>
-  <div class="beer-card">
-    <div class="beer-name">Tap 4: Vanilla & Run Porter</div>
-    <div class="beer-details">
-      <span class="beer-colour ebc-60"></span>
-      <span class="beer-style">Robust Porter</span>
-      <span class="beer-abv">6.00%</span>
-    </div>
-    <div class="beer-notes">Sweet vanilla and rum flavour complimented by subtle notes of winter berries and dried
-      fruit.</div>
   </div>
 </div>
-<h1 id="keezer">Keezer</h1>
-<div class="beer-tap-list">
-  <div class="beer-card">
-    <div class="beer-name">Tap 1: Dry :-(</div>
-    <div class="beer-details">
-      <span class="beer-colour"></span>
-      <span class="beer-style"></span>
-      <span class="beer-abv"></span>
-    </div>
-    <div class="beer-notes"></div>
-  </div>
-  <div class="beer-card">
-    <div class="beer-name">Tap 1: Dry :-(</div>
-    <div class="beer-details">
-      <span class="beer-colour"></span>
-      <span class="beer-style"></span>
-      <span class="beer-abv"></span>
-    </div>
-    <div class="beer-notes"></div>
-  </div>
-  <div class="beer-card">
-    <div class="beer-name">Tap 1: Dry :-(</div>
-    <div class="beer-details">
-      <span class="beer-colour"></span>
-      <span class="beer-style"></span>
-      <span class="beer-abv"></span>
-    </div>
-    <div class="beer-notes"></div>
-  </div>
-  <div class="beer-card">
-    <div class="beer-name">Tap 1: Dry :-(</div>
-    <div class="beer-details">
-      <span class="beer-colour"></span>
-      <span class="beer-style"></span>
-      <span class="beer-abv"></span>
-    </div>
-    <div class="beer-notes"></div>
-  </div>
-  <div class="beer-card">
-    <div class="beer-name">Tap 1: Dry :-(</div>
-    <div class="beer-details">
-      <span class="beer-colour"></span>
-      <span class="beer-style"></span>
-      <span class="beer-abv"></span>
-    </div>
-    <div class="beer-notes"></div>
-  </div>
-  <div class="beer-card">
-    <div class="beer-name">Tap 1: Dry :-(</div>
-    <div class="beer-details">
-      <span class="beer-colour"></span>
-      <span class="beer-style"></span>
-      <span class="beer-abv"></span>
-    </div>
-    <div class="beer-notes"></div>
-  </div>
+
+<div class="carousel-buttons">
+  <button class="carousel-prev">&#10094;</button>
+  <button class="carousel-next">&#10095;</button>
 </div>
 
 			</heading-anchors>
@@ -676,7 +758,7 @@ div.banner {
 			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.1.2</a></em></p>
 		</footer>
 
-		<!-- This page `/taplist/` was built on 2026-03-02T15:45:10.754Z -->
-		<script type="module" src="/dist/cC8wS6ZjFU.js"></script>
+		<!-- This page `/taplist/` was built on 2026-03-04T10:50:25.011Z -->
+		<script type="module" src="/dist/KYBw1fLZ6G.js"></script>
 	</body>
 </html>
