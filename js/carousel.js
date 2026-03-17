@@ -26,9 +26,9 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Auto-slide every 5 seconds
+    // Auto-slide every N seconds
     setInterval(() => {
         currentSlide = (currentSlide + 1) % slides.length;
         showSlide(currentSlide);
-    }, 60000);
+    }, 15000);
 });

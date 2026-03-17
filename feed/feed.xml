@@ -5,11 +5,22 @@
   <subtitle>The home of the Fairwater Brewery</subtitle>
   <link href="https://fairwater-brewery.co.uk/feed/feed.xml" rel="self" />
   <link href="https://fairwater-brewery.co.uk/" />
-  <updated>2025-06-12T00:00:00Z</updated>
+  <updated>2026-02-04T00:00:00Z</updated>
   <id>https://fairwater-brewery.co.uk/</id>
   <author>
     <name>Bryan Robson</name>
   </author>
+  <entry>
+    <title>Ding-ish</title>
+    <link href="https://fairwater-brewery.co.uk/blog/2026/02/Dingish/" />
+    <updated>2026-02-04T00:00:00Z</updated>
+    <id>https://fairwater-brewery.co.uk/blog/2026/02/Dingish/</id>
+    <content type="html">&lt;p&gt;I really am hopeless at adding posts to this site...&lt;/p&gt;
+&lt;p&gt;My latest brew was intended to be a version of Double-Barreled&#39;s Ding, from the recipe in Andy Parker &amp;amp; Jamil Zainasheff&#39;s book &amp;quot;The Modern Homebrewer&amp;quot;. It was all going well until I was putting the grain bill together, when I realised I didn&#39;t actually have any lager malt in stock. So I ended up substituting the only base malt I had enough of, which was Simpson&#39;s Low Colour Maris Otter.&lt;/p&gt;
+&lt;p&gt;The beer has ended up tasting fine - good, in fact - but it would be interesting to compare it against what it should have been!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://fairwater-brewery.co.uk/recipes/2026-02-04-ding-ish/&quot;&gt;Here&#39;s the recipe.&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Rhubard &amp; Gooseberry Sour</title>
     <link href="https://fairwater-brewery.co.uk/blog/2025/06/12/Sour%20day/" />

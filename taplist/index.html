@@ -7,25 +7,7 @@
 		<meta name="description" content="Amateur brewing blog - recipes, thoughts, equipment, hints, and anything else that occurs to me.">
 		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Fairwater Brewery">
 		
-		<style>/* Message Box */
-.message-box {
-	--color-message-box: #ffc;
-
-	display: block;
-	background-color: var(--color-message-box);
-	color: var(--color-gray-90);
-	padding: 1em 0.625em; /* 16px 10px /16 */
-}
-.message-box ol {
-	margin-top: 0;
-}
-
-@media (prefers-color-scheme: dark) {
-	.message-box {
-		--color-message-box: #082840;
-	}
-}
-/* This is an arbitrary CSS string added to the bundle */
+		<style>/* This is an arbitrary CSS string added to the bundle */
 /* Defaults */
 :root {
 	--font-family: -apple-system, system-ui, sans-serif;
@@ -600,12 +582,12 @@ div.banner {
 		<a href="#skip" class="visually-hidden">Skip to main content</a>
 
 		<header>
-			<div class="banner"></div>
 			
 			<a href="/" class="home-link">			
 				<picture><source type="image/avif" srcset="/img/DX8sdilZyn-175.avif 175w"><source type="image/webp" srcset="/img/DX8sdilZyn-175.webp 175w"><img loading="lazy" decoding="async" src="/img/DX8sdilZyn-175.svg" class="sitelogo" alt="Fairwater Brewey Logo - a black cat pushing against a barrel" width="175" height="175"></picture>
 				Fairwater Brewery
 			</a>
+
 			<nav>
 				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
 				<ul class="nav">
@@ -623,142 +605,148 @@ div.banner {
 
 		<main id="skip">
 			<heading-anchors>
-				<!-- Delete this block, which will also remove the component CSS from the bundle -->
-<!--
-<div class="message-box">
-	<ol>
-		<li>Edit <code>_data/metadata.js</code> with your blog’s information.</li>
-		<li>(Optional) Edit <code>eleventy.config.js</code> with your <a href="https://www.11ty.dev/docs/config/">configuration preferences</a>.</li>
-		<li>Delete this message from <code>_includes/layouts/home.njk</code>.</li>
-	</ol>
-	<p><em>This is an <a href="https://www.11ty.dev/">Eleventy project</a> created from the <a href="https://github.com/11ty/eleventy-base-blog"><code>eleventy-base-blog</code> repo</a>.</em></p>
-</div>
--->
-<!-- Stop deleting -->
-
-<div class="carousel-buttons">
+				<div class="carousel-buttons">
   <button class="carousel-prev">&#10094;</button>
   <button class="carousel-next">&#10095;</button>
 </div>
 
-<div class="carousel-container">
-  <div class="carousel-slide active">
-    <h1 id="keggerator">Keggerator</h1>
-    <div class="beer-tap-list">
-      <div class="beer-card">
-        <div class="beer-name">Tap 1: Fairwater Facets</div>
-        <div class="beer-details">
-          <span class="beer-colour ebc-17"></span>
-          <span class="beer-style">India Pale Ale</span>
-          <span class="beer-abv">5.2%</span>
-        </div>
-        <div class="beer-notes">Superdelic edition!</div>
-      </div>
-      <div class="beer-card">
-        <div class="beer-name">Tap 2: Oregon Trail</div>
-        <div class="beer-details">
-          <span class="beer-colour ebc-8"></span>
-          <span class="beer-style">West Coast IPA</span>
-          <span class="beer-abv">5.4%</span>
-        </div>
-        <div class="beer-notes">A variant on the Elusive Brewery classic pale ale!</div>
-      </div>
-      <div class="beer-card">
-        <div class="beer-name">Tap 3: Dry :-(</div>
-        <div class="beer-details">
-          <span class="beer-colour"></span>
-          <span class="beer-style"></span>
-          <span class="beer-abv"></span>
-        </div>
-        <div class="beer-notes"></div>
-      </div>
-      <div class="beer-card">
-        <div class="beer-name">Tap 4: Vanilla & Run Porter</div>
-        <div class="beer-details">
-          <span class="beer-colour ebc-60"></span>
-          <span class="beer-style">Robust Porter</span>
-          <span class="beer-abv">6.00%</span>
-        </div>
-        <div class="beer-notes">Sweet vanilla and rum flavour complimented by subtle notes of winter berries and dried
-          fruit.</div>
-      </div>
-    </div>
-  </div>
-
-  <div class="carousel-slide">
+<div class="carousel-container"><div class="carousel-slide">
     <h1 id="keezer">Keezer</h1>
     <div class="beer-tap-list">
-      <div class="beer-card">
-        <div class="beer-name">Tap 1: Dry :-(</div>
-        <div class="beer-details">
-          <span class="beer-colour"></span>
-          <span class="beer-style"></span>
-          <span class="beer-abv"></span>
+        <div class="beer-card">
+            <div class="beer-name">Tap 1: Dry :-(</div>
+            <div class="beer-details">
+                <span class="beer-colour"></span>
+                <span class="beer-style"></span>
+                <span class="beer-abv"></span>
+            </div>
+            <div class="beer-notes"></div>
         </div>
-        <div class="beer-notes"></div>
-      </div>
-      <div class="beer-card">
-        <div class="beer-name">Tap 2: Dry :-(</div>
-        <div class="beer-details">
-          <span class="beer-colour"></span>
-          <span class="beer-style"></span>
-          <span class="beer-abv"></span>
+        <div class="beer-card">
+            <div class="beer-name">Tap 2: Dry :-(</div>
+            <div class="beer-details">
+                <span class="beer-colour"></span>
+                <span class="beer-style"></span>
+                <span class="beer-abv"></span>
+            </div>
+            <div class="beer-notes"></div>
         </div>
-        <div class="beer-notes"></div>
-      </div>
-      <div class="beer-card">
-        <div class="beer-name">Tap 3: Dry :-(</div>
-        <div class="beer-details">
-          <span class="beer-colour"></span>
-          <span class="beer-style"></span>
-          <span class="beer-abv"></span>
+        <div class="beer-card">
+            <div class="beer-name">Tap 3: Dry :-(</div>
+            <div class="beer-details">
+                <span class="beer-colour"></span>
+                <span class="beer-style"></span>
+                <span class="beer-abv"></span>
+            </div>
+            <div class="beer-notes"></div>
         </div>
-        <div class="beer-notes"></div>
-      </div>
-      <div class="beer-card">
-        <div class="beer-name">Tap 4: Dry :-(</div>
-        <div class="beer-details">
-          <span class="beer-colour"></span>
-          <span class="beer-style"></span>
-          <span class="beer-abv"></span>
+        <div class="beer-card">
+            <div class="beer-name">Tap 4: Dry :-(</div>
+            <div class="beer-details">
+                <span class="beer-colour"></span>
+                <span class="beer-style"></span>
+                <span class="beer-abv"></span>
+            </div>
+            <div class="beer-notes"></div>
         </div>
-        <div class="beer-notes"></div>
-      </div>
-      <div class="beer-card">
-        <div class="beer-name">Tap 5: Dry :-(</div>
-        <div class="beer-details">
-          <span class="beer-colour"></span>
-          <span class="beer-style"></span>
-          <span class="beer-abv"></span>
+        <div class="beer-card">
+            <div class="beer-name">Tap 5: Dry :-(</div>
+            <div class="beer-details">
+                <span class="beer-colour"></span>
+                <span class="beer-style"></span>
+                <span class="beer-abv"></span>
+            </div>
+            <div class="beer-notes"></div>
         </div>
-        <div class="beer-notes"></div>
-      </div>
-      <div class="beer-card">
-        <div class="beer-name">Tap 6: Dry :-(</div>
-        <div class="beer-details">
-          <span class="beer-colour"></span>
-          <span class="beer-style"></span>
-          <span class="beer-abv"></span>
+        <div class="beer-card">
+            <div class="beer-name">Tap 6: Dry :-(</div>
+            <div class="beer-details">
+                <span class="beer-colour"></span>
+                <span class="beer-style"></span>
+                <span class="beer-abv"></span>
+            </div>
+            <div class="beer-notes"></div>
         </div>
-        <div class="beer-notes"></div>
-      </div>
     </div>
-  </div>
-</div>
+</div><div class="carousel-slide">
+    <h1 id="keggerator">Keggerator</h1>
+    <div class="beer-tap-list">
+        <div class="beer-card">
+            <div class="beer-name">Tap 1: Fairwater Facets</div>
+            <div class="beer-details">
+                <span class="beer-colour ebc-17"></span>
+                <span class="beer-style">India Pale Ale</span>
+                <span class="beer-abv">5.2%</span>
+            </div>
+            <div class="beer-notes">Superdelic edition!</div>
+        </div>
+        <div class="beer-card">
+            <div class="beer-name">Tap 2: Oregon Trail</div>
+            <div class="beer-details">
+                <span class="beer-colour ebc-8"></span>
+                <span class="beer-style">West Coast IPA</span>
+                <span class="beer-abv">5.4%</span>
+            </div>
+            <div class="beer-notes">A variant on the Elusive Brewery classic pale ale!</div>
+        </div>
+        <div class="beer-card">
+            <div class="beer-name">Tap 3: <a href="/recipes/2026-02-04-ding-ish/">Ding-ish</a></div>
+            <div class="beer-details">
+                <span class="beer-colour ebc-8"></span>
+                <span class="beer-style">Munich Helles</span>
+                <span class="beer-abv">5.0%</span>
+            </div>
+            <div class="beer-notes">Based on Double-Barrelled's recipe for Ding in Andy Parker's
+                "The Modern Homebrewer". I didn't have any pilsener malt, so I used Simpson's Low Colour Maris Otter
+                instead.</div>
+        </div>
+        <div class="beer-card">
+            <div class="beer-name">Tap 4: Vanilla & Run Porter</div>
+            <div class="beer-details">
+                <span class="beer-colour ebc-60"></span>
+                <span class="beer-style">Robust Porter</span>
+                <span class="beer-abv">6.0%</span>
+            </div>
+            <div class="beer-notes">Sweet vanilla and rum flavour complimented by subtle notes of winter berries and
+                dried
+                fruit.</div>
+        </div>
+    </div>
+</div><div class="carousel-slide">
+    <h1 id="reading-amateur-brewers">Reading Amateur Brewers</h1>
+    <div class="beer-tap-list">
+        <div class="beer-card">
+            <img src="content/img/qr/rabQR.png" alt="Reading Amateur Brewers QR code - link to the RAB website">
+            <p align="center">Reading Amateur Brewers website</p>
+        </div>
+        <div class="beer-card">
+            <picture><source type="image/avif" srcset="/img/zymaDiedki-1024.avif 1024w"><source type="image/webp" srcset="/img/zymaDiedki-1024.webp 1024w"><img loading="lazy" decoding="async" src="/img/zymaDiedki-1024.jpeg" alt="Reading Amateur Brewers Festival 2026 logo - a stylised hop cone with the text RABFest 2026" width="1024" height="1024"></picture>
+            <p align="center">Join us for RABFest 2026!</p>
+        </div>
+    </div>
+</div><div class="carousel-slide active">
+    <h1 id="wifi-and-taplist-link">Wifi & Taplist link</h1>
+    <div class="beer-tap-list">
+        <div class="beer-card">
+            <picture><source type="image/avif" srcset="/img/WJtNFWxtT5-731.avif 731w"><source type="image/webp" srcset="/img/WJtNFWxtT5-731.webp 731w"><img loading="lazy" decoding="async" src="/img/WJtNFWxtT5-731.svg" alt="QR code for connecting to the Fairwater Brewery wifi network" width="731" height="704"></picture>
+            <p align="center">Wifi: <i>FairwaterBrewery</i><br>
+                Pwd: <i>welovebeer</i></p>
+        </div>
+        <div class="beer-card">
+            <picture><source type="image/avif" srcset="/img/fH_bzTCwak-200.avif 200w"><source type="image/webp" srcset="/img/fH_bzTCwak-200.webp 200w"><img loading="lazy" decoding="async" src="/img/fH_bzTCwak-200.png" class="taplist-qr" alt="Direct link to this taplist page" width="200" height="200"></picture>
+            <p align="center">Direct link to this taplist page</p>
+        </div>
+    </div>
+</div></div>
 
 <div class="carousel-buttons">
   <button class="carousel-prev">&#10094;</button>
   <button class="carousel-next">&#10095;</button>
 </div>
-
 			</heading-anchors>
 		</main>
 
-		<footer>
-			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.1.2</a></em></p>
-		</footer>
-
-		<!-- This page `/taplist/` was built on 2026-03-04T10:50:25.011Z -->
-		<script type="module" src="/dist/KYBw1fLZ6G.js"></script>
+		<!-- This page `/taplist/` was built on 2026-03-17T16:28:28.305Z -->
+		<script type="module" src="/dist/bKaaYZwSBL.js"></script>
 	</body>
 </html>
