@@ -139,6 +139,10 @@ export default async function(eleventyConfig) {
 	// https://www.11ty.dev/docs/copy/#emulate-passthrough-copy-during-serve
 
 	// eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
+
+	eleventyConfig.addNunjucksShortcode("recipelink", function(label, url) {
+    	return `<a href="${url}">${label}</a>`;
+  	});
 };
 
 export const config = {

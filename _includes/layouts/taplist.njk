@@ -25,6 +25,8 @@
 		{%- css %}/* This is an arbitrary CSS string added to the bundle */{% endcss %}
 		{#- Add the contents of a file to the bundle #}
 		{%- css %}{% include "public/css/index.css" %}{% endcss %}
+		{%- css %}{% include "public/css/carousel.css" %}{% endcss %}
+		{%- css %}{% include "public/css/taplist.css" %}{% endcss %}
 		{#- Or you can add from node_modules #}
 		{# {%- css %}{% include "node_modules/prismjs/themes/prism-okaidia.css" %}{% endcss %} #}
 
@@ -35,6 +37,7 @@
 
 		{#- Add the heading-anchors web component to the JavaScript bundle #}
 		{%- js %}{% include "node_modules/@zachleat/heading-anchors/heading-anchors.js" %}{% endjs %}
+		{%- js %}{% include "public/js/carousel.js" %}{% endjs %}
 		{% if runMode == "Build" %}
 		{% set faviconLocation =  "content" + metadata.logo | url %}
 		{% favicons faviconLocation, appleIconBgColor="#123" %}
@@ -44,7 +47,6 @@
 		<a href="#skip" class="visually-hidden">Skip to main content</a>
 
 		<header>
-			<div class="banner"></div>
 			
 			<a href="/" class="home-link">			
 				<img class="sitelogo" 
@@ -53,7 +55,6 @@
 				{{ metadata.title }}
 			</a>
 
-			{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
 			<nav>
 				<h2 class="visually-hidden">Top level navigation menu</h2>
 				<ul class="nav">
@@ -69,10 +70,6 @@
 				{{ content | safe }}
 			</heading-anchors>
 		</main>
-
-		<footer>
-			<p><em>Built with <a href="https://www.11ty.dev/">{{ eleventy.generator }}</a></em></p>
-		</footer>
 
 		<!-- This page `{{ page.url }}` was built on {% currentBuildDate %} -->
 		<script type="module" src="{% getBundleFileUrl "js" %}"></script>
