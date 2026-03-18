@@ -10,7 +10,7 @@ tags: ["taplistpages"]
                 Pwd: <i>welovebeer</i></p>
         </div>
         <div class="beer-card">
-            <img class="taplist-qr" src="{{ taplist.taplistQr }}" alt="{{ taplist.taplistAlt }}" />
+            {% qrcode taplist.taplistLink, 374, taplist.taplistAlt %}
             <p align="center">{{ taplist.taplistAlt }}</p>
         </div>
     </div>

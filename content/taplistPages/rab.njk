@@ -5,7 +5,7 @@ tags: ["taplistpages"]
     <h1>Reading Amateur Brewers</h1>
     <div class="beer-tap-list">
         <div class="beer-card">
-            <img src="{{ taplist.rabQr }}" alt="{{ taplist.rabAlt }}" />
+            {% qrcode "https://readingamateurbrewers.co.uk/", 374, taplist.rabAlt %}
             <p align="center">Reading Amateur Brewers website</p>
         </div>
         <div class="beer-card">

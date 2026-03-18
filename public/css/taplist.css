@@ -1,4 +1,25 @@
 /* Taplist styles */
+
+/* Left column with two stacked rows */
+  .left {
+    display: flex;
+    flex: 4;
+    flex-direction: column; /* Stack children vertically */
+    align-self: stretch;
+  }
+
+  /* Right column with one row */
+  .right {
+    display: flex;
+    align-self: flex-end;
+  }
+
+  /* Row styles for left column */
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+
 .beer-tap-list {
   display: flex;
   /* Enable flex container */
@@ -33,17 +54,27 @@
 }
 
 .beer-name {
+  display: flex;
+  justify-content: space-between;
   font-weight: bold;
   font-size: 1.2em;
   margin-bottom: 8px;
+  width:100%;
+}
+
+.beer-qr{
+  align-self: flex-end;
 }
 
 .beer-details {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   /* Beer style on left, ABV on right */
   font-size: 0.9em;
   color: #555;
+  width:100%;
+  padding: 8px;
 }
 
 .beer-colour {

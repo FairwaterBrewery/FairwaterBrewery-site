@@ -7,8 +7,9 @@ import { EleventyRenderPlugin } from "@11ty/eleventy";
 import faviconsPlugin from "eleventy-plugin-gen-favicons";
 import markdownIt from "markdown-it";
 import markdownItAttrs from "markdown-it-attrs";
-
 import pluginFilters from "./_config/filters.js";
+import qrCodeShortcode from "./_config/qrcode-shortcode.js";
+import beerCardShortcode from "./_config/beercard-shortcode.js";
 
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default async function(eleventyConfig) {
@@ -141,8 +142,18 @@ export default async function(eleventyConfig) {
 	// eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
 
 	eleventyConfig.addNunjucksShortcode("recipelink", function(label, url) {
-    	return `<a href="${url}">${label}</a>`;
+		if(url != null && url != "") {
+			return `<a href="/recipes/${url}">${label}</a>`;
+		}
+		else 
+		{
+			return label;
+		}
   	});
+	
+	eleventyConfig.addNunjucksAsyncShortcode("qrcode", qrCodeShortcode);
+	eleventyConfig.addNunjucksAsyncShortcode("beercard", beerCardShortcode);
+	
 };
 
 export const config = {
