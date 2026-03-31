@@ -1,10 +1,10 @@
 export default {
     tap1: {
-        name: "Fairwater Facets",
-        colour: "ebc-17",
-        style: "India Pale Ale",
-        abv: "5.2%",
-        notes: "Superdelic edition!",
+        name: "Dry ;-(",
+        colour: "",
+        style: "",
+        abv: "",
+        notes: "",
         recipe: ""
     },
     tap2: {
