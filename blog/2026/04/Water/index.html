@@ -3,27 +3,177 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Fairwater Brewery</title>
-		<meta name="description" content="Amateur brewing blog - recipes, thoughts, equipment, hints, and anything else that occurs to me.">
+		<title>Water</title>
+		<meta name="description" content="Water profiles in the Reading area">
 		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Fairwater Brewery">
 		
-		<style>/* Message Box */
-.message-box {
-	--color-message-box: #ffc;
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
 
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
 	display: block;
-	background-color: var(--color-message-box);
-	color: var(--color-gray-90);
-	padding: 1em 0.625em; /* 16px 10px /16 */
-}
-.message-box ol {
-	margin-top: 0;
-}
-
-@media (prefers-color-scheme: dark) {
-	.message-box {
-		--color-message-box: #082840;
-	}
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
 }
 /* This is an arbitrary CSS string added to the bundle */
 /* Defaults */
@@ -458,237 +608,81 @@ div.banner {
 
 		<main id="skip">
 			<heading-anchors>
-				<!-- Delete this block, which will also remove the component CSS from the bundle -->
-<!--
-<div class="message-box">
-	<ol>
-		<li>Edit <code>_data/metadata.js</code> with your blog’s information.</li>
-		<li>(Optional) Edit <code>eleventy.config.js</code> with your <a href="https://www.11ty.dev/docs/config/">configuration preferences</a>.</li>
-		<li>Delete this message from <code>_includes/layouts/home.njk</code>.</li>
-	</ol>
-	<p><em>This is an <a href="https://www.11ty.dev/">Eleventy project</a> created from the <a href="https://github.com/11ty/eleventy-base-blog"><code>eleventy-base-blog</code> repo</a>.</em></p>
+				
+<h1 id="water">Water</h1>
+
+<ul class="post-metadata">
+	<li><time datetime="2026-04-02">02 April 2026</time></li>
+	<li><a href="/tags/water/" class="post-tag">water</a></li>
+</ul>
+
+<p>Water treatment is far too complicated a topic for me to want to attempt to write a blog post about it - there are far better sources of information out there than me! So that's not what this is about. Rather, it's a brief mention of what our water profile is like around here in Reading, Berkshire.</p>
+<p>When I started getting a bit more serious about water treatment I put together a reasonable profile using the information from the Thames Water website - you can get a PDF containing most of the info you need. <a href="https://water-quality-api.prod.p.webapp.thameswater.co.uk/water-quality-api/Zone/R22">This is the current one for &quot;Reading East&quot;</a></p>
+<p>I plugged the numbers into a water treatment calculator, and went from there. I originally used the one on the Jim's Beer Kit website, but in recent years I've exclusively used the one in <a href="https://beersmith.com/">BeerSmith</a> (my preferred brewing software). My results have been fine, but I wanted to confirm that the water profile I came up with actually matched what comes out of our tap, so I bought an <a href="https://www.themaltmiller.co.uk/product/advanced-water-report-from-murphy-sons/">&quot;Advanced Water Report from Murphy &amp; Son&quot; from The Malt Miller</a>.</p>
+<p>The results were:</p>
+<div class="waterprofile">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Calcium <br> <span><em>Ca<sup>+2</sup></em></span></th>
+<th style="text-align:center">Magnesium <br> <span><em>Mg<sup>+2</sup></em></span></th>
+<th style="text-align:center">Sodium <br> <span><em>Na<sup>+</sup></em></span></th>
+<th style="text-align:center">Chloride <br> <span><em>Cl</em></span></th>
+<th style="text-align:center">Sulphate <br> <span><em>SO<sub>4</sub><sup>-2</sup></em></span></th>
+<th style="text-align:center">Alkalinity <br> <span><em>as CaCO<sub>3</sub></em></span></th>
+<th style="text-align:center">pH</th>
+<th style="text-align:center">Nitrate</th>
+<th style="text-align:center">Total Hardness <br> <span><em>as CaCO<sub>3</sub></em></span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">111</td>
+<td style="text-align:center">2</td>
+<td style="text-align:center">12</td>
+<td style="text-align:center">31</td>
+<td style="text-align:center">18</td>
+<td style="text-align:center">229</td>
+<td style="text-align:center">7.9</td>
+<td style="text-align:center">28</td>
+<td style="text-align:center">336</td>
+</tr>
+</tbody>
+</table>
 </div>
--->
-<!-- Stop deleting -->
+<p><strong>Table 1:</strong> Water profile for Reading, Berkshire, May 2025.</p>
+<p>Interestingly, this is pretty close to what I had originally gleaned from the TW report, no more than a few ppm out in any of the values, but it's good to have proper confirmation!</p>
+<p>As a comparison, in <em>The Modern Homebrewer</em>, Andy provides the profile he works from at Elusive Brewing, who are only about 7 miles away from our house:</p>
+<div class="waterprofile">
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Calcium <br> <span><em>Ca<sup>+2</sup></em></span></th>
+<th style="text-align:center">Magnesium <br> <span><em>Mg<sup>+2</sup></em></span></th>
+<th style="text-align:center">Sodium <br> <span><em>Na<sup>+</sup></em></span></th>
+<th style="text-align:center">Chloride <br> <span><em>Cl</em></span></th>
+<th style="text-align:center">Sulphate <br> <span><em>SO<sub>4</sub><sup>-2</sup></em></span></th>
+<th style="text-align:center">Bicarbonate <br> <span><em>as CaCO<sub>3</sub></em></span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">118</td>
+<td style="text-align:center">7</td>
+<td style="text-align:center">21</td>
+<td style="text-align:center">41</td>
+<td style="text-align:center">45</td>
+<td style="text-align:center">343</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Table 2:</strong> Water profile for Elusive Brewing, Finchampstead, Berkshire, as listed in <em>The Modern Homebrewer</em>.</p>
+<p>Pretty similar, though there's more of a difference than I expected, especially given how close my previous numbers based on the TW report were to the values I got back from Murphy's.</p>
+<p>Oh, and I remain as confused as ever between Alkalinity, Total Hardness, and Bicarbonate......</p>
 
-
-    
-    <div class="recipe">
-    <h1 id="4am-sinner">4AM Sinner</h1>
-    BeerXml file: <a href="/beerxml/4AM-Sinner.xml" target="_blank">4AM-Sinner.xml</a>
-    <h3 id="vital-statistics">Vital statistics:</h3>
-    <ul>
-        <li>Type: All Grain
-        </li><li>Brewer: Bryan
-        </li><li>Style: American Amber Ale
-        </li><li>Length: 20 litres
-        </li><li>Yeast:   
-            Safale American  (DCL/Fermentis US-05)
-        </li><li>OG: 1.052 SG
-        </li><li>FG: 1.012 SG
-        </li><li>ABV: 5.2 %
-        </li><li>Colour: 
-        
-        
-            28.8 EBC
-        
-        </li><li>Bitterness: 41.6 IBUs
-    </li></ul>
-
-    
-     
-        
-        
-     
-        
-        
-     
-        
-        
-     
-        
-        
-     
-        
-        
-     
-        
-        
-    
-
-    <h3 id="fermentables">Fermentables:</h3>
-	<table width="90%" class="fermentables">
-        <tr>
-			<th width="60%">Name</th>
-			<th width="10%">Colour (EBC)</th>
-			<th width="20%">Amount (kg)</th>
-			<th width="10%">%</th>
-		</tr>
-         
-        <tr>
-            <td>Pale Ale (Crisp)</td>
-            <td>5.7 </td>
-            
-            <td>2.5</td>
-            <td>55.6</td>
-        </tr>
-         
-        <tr>
-            <td>Munich Malt</td>
-            <td>17.7 </td>
-            
-            <td>0.65</td>
-            <td>14.4</td>
-        </tr>
-         
-        <tr>
-            <td>Caramalt (Thomas Fawcett)</td>
-            <td>29.6 </td>
-            
-            <td>0.5</td>
-            <td>11.1</td>
-        </tr>
-         
-        <tr>
-            <td>Crystal Malt - 30L (Thomas Fawcett)</td>
-            <td>60.0 </td>
-            
-            <td>0.35</td>
-            <td>7.8</td>
-        </tr>
-         
-        <tr>
-            <td>Crystal Rye Malt (Thomas Fawcett)</td>
-            <td>157.6 </td>
-            
-            <td>0.35</td>
-            <td>7.8</td>
-        </tr>
-         
-        <tr>
-            <td>Amber (Crisp)</td>
-            <td>100.0 </td>
-            
-            <td>0.15</td>
-            <td>3.3</td>
-        </tr>
-        </table>
-
-    <h3 id="hops">Hops:</h3>
-    <table width="90%" class="hops">
-		<tr>
-			<th width="50%">Name</th>
-			<th width="10%">Alpha</th>
-			<th width="10%">Form</th>
-			<th width="20%">Amount (g)</th>
-			<th width="10%">Time (mins)</th>
-		</tr>
-        
-        
-        
-         
-        <tr>
-            <td>Galena</td>
-            <td>12.5</td>
-            <td>Leaf</td>
-            <td>8</td>
-            <td>60</td>
-        </tr>
-         
-        <tr>
-            <td>Centennial</td>
-            <td>10</td>
-            <td>Leaf</td>
-            <td>6</td>
-            <td>60</td>
-        </tr>
-         
-        <tr>
-            <td>Galaxy (leaf)</td>
-            <td>15</td>
-            <td>Pellet</td>
-            <td>5</td>
-            <td>30</td>
-        </tr>
-        
-         
-        <tr>
-            <td>Citra</td>
-            <td>12</td>
-            <td>Leaf</td>
-            <td>12.5</td>
-            <td>Whirlpool</td>
-        </tr>
-         
-        <tr>
-            <td>Galaxy (leaf)</td>
-            <td>15</td>
-            <td>Pellet</td>
-            <td>12.5</td>
-            <td>Whirlpool</td>
-        </tr>
-        
-         
-        <tr>
-            <td>Ahtanum</td>
-            <td>6</td>
-            <td>Leaf</td>
-            <td>50</td>
-            <td>Dry Hop</td>
-        </tr>
-         
-        <tr>
-            <td>Cascade</td>
-            <td>7</td>
-            <td>Leaf</td>
-            <td>50</td>
-            <td>Dry Hop</td>
-        </tr>
-         
-        <tr>
-            <td>Centennial</td>
-            <td>10</td>
-            <td>Leaf</td>
-            <td>50</td>
-            <td>Dry Hop</td>
-        </tr>
-         
-        <tr>
-            <td>Amarillo</td>
-            <td>11.2</td>
-            <td>Leaf</td>
-            <td>25</td>
-            <td>Dry Hop</td>
-        </tr>
-         
-        <tr>
-            <td>Simcoe</td>
-            <td>13</td>
-            <td>Leaf</td>
-            <td>25</td>
-            <td>Dry Hop</td>
-        </tr>
-         
-        <tr>
-            <td>Nelson Sauvin</td>
-            <td>12</td>
-            <td>Pellet</td>
-            <td>12.5</td>
-            <td>Dry Hop</td>
-        </tr>
-        </table>
-
-    <p class="footer">
-        I don't include mash schedule, water treatment, fininings 
-        (and other miscellaneous ingredients), as these are all down
-        to personal preferences, local water conditions (or the 
-        availability of RO water!), and so on. Some of these details
-        might be present in the .beerxml file, thought I can't
-        guarantee their accuracy, so make your own decisions!
-    </p>
-
-  </div>
-
+<ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/blog/2026/02/Dingish/">Ding-ish</a></li>
+</ul>
 
 			</heading-anchors>
 		</main>
@@ -697,7 +691,7 @@ div.banner {
 			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.1.5</a></em></p>
 		</footer>
 
-		<!-- This page `/recipes/4am-sinner/` was built on 2026-04-02T17:46:39.205Z -->
+		<!-- This page `/blog/2026/04/Water/` was built on 2026-04-02T17:46:25.827Z -->
 		<script type="module" src="/dist/cC8wS6ZjFU.js"></script>
 	</body>
 </html>

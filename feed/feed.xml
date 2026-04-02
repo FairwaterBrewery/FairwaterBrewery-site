@@ -5,11 +5,82 @@
   <subtitle>The home of the Fairwater Brewery</subtitle>
   <link href="https://fairwater-brewery.co.uk/feed/feed.xml" rel="self" />
   <link href="https://fairwater-brewery.co.uk/" />
-  <updated>2026-02-04T00:00:00Z</updated>
+  <updated>2026-04-02T00:00:00Z</updated>
   <id>https://fairwater-brewery.co.uk/</id>
   <author>
     <name>Bryan Robson</name>
   </author>
+  <entry>
+    <title>Water</title>
+    <link href="https://fairwater-brewery.co.uk/blog/2026/04/Water/" />
+    <updated>2026-04-02T00:00:00Z</updated>
+    <id>https://fairwater-brewery.co.uk/blog/2026/04/Water/</id>
+    <content type="html">&lt;p&gt;Water treatment is far too complicated a topic for me to want to attempt to write a blog post about it - there are far better sources of information out there than me! So that&#39;s not what this is about. Rather, it&#39;s a brief mention of what our water profile is like around here in Reading, Berkshire.&lt;/p&gt;
+&lt;p&gt;When I started getting a bit more serious about water treatment I put together a reasonable profile using the information from the Thames Water website - you can get a PDF containing most of the info you need. &lt;a href=&quot;https://water-quality-api.prod.p.webapp.thameswater.co.uk/water-quality-api/Zone/R22&quot;&gt;This is the current one for &amp;quot;Reading East&amp;quot;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I plugged the numbers into a water treatment calculator, and went from there. I originally used the one on the Jim&#39;s Beer Kit website, but in recent years I&#39;ve exclusively used the one in &lt;a href=&quot;https://beersmith.com/&quot;&gt;BeerSmith&lt;/a&gt; (my preferred brewing software). My results have been fine, but I wanted to confirm that the water profile I came up with actually matched what comes out of our tap, so I bought an &lt;a href=&quot;https://www.themaltmiller.co.uk/product/advanced-water-report-from-murphy-sons/&quot;&gt;&amp;quot;Advanced Water Report from Murphy &amp;amp; Son&amp;quot; from The Malt Miller&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The results were:&lt;/p&gt;
+&lt;div class=&quot;waterprofile&quot;&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;Calcium &lt;br&gt; &lt;span&gt;&lt;em&gt;Ca&lt;sup&gt;+2&lt;/sup&gt;&lt;/em&gt;&lt;/span&gt;&lt;/th&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;Magnesium &lt;br&gt; &lt;span&gt;&lt;em&gt;Mg&lt;sup&gt;+2&lt;/sup&gt;&lt;/em&gt;&lt;/span&gt;&lt;/th&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;Sodium &lt;br&gt; &lt;span&gt;&lt;em&gt;Na&lt;sup&gt;+&lt;/sup&gt;&lt;/em&gt;&lt;/span&gt;&lt;/th&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;Chloride &lt;br&gt; &lt;span&gt;&lt;em&gt;Cl&lt;/em&gt;&lt;/span&gt;&lt;/th&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;Sulphate &lt;br&gt; &lt;span&gt;&lt;em&gt;SO&lt;sub&gt;4&lt;/sub&gt;&lt;sup&gt;-2&lt;/sup&gt;&lt;/em&gt;&lt;/span&gt;&lt;/th&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;Alkalinity &lt;br&gt; &lt;span&gt;&lt;em&gt;as CaCO&lt;sub&gt;3&lt;/sub&gt;&lt;/em&gt;&lt;/span&gt;&lt;/th&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;pH&lt;/th&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;Nitrate&lt;/th&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;Total Hardness &lt;br&gt; &lt;span&gt;&lt;em&gt;as CaCO&lt;sub&gt;3&lt;/sub&gt;&lt;/em&gt;&lt;/span&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;111&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;2&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;12&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;31&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;18&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;229&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;7.9&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;28&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;336&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Table 1:&lt;/strong&gt; Water profile for Reading, Berkshire, May 2025.&lt;/p&gt;
+&lt;p&gt;Interestingly, this is pretty close to what I had originally gleaned from the TW report, no more than a few ppm out in any of the values, but it&#39;s good to have proper confirmation!&lt;/p&gt;
+&lt;p&gt;As a comparison, in &lt;em&gt;The Modern Homebrewer&lt;/em&gt;, Andy provides the profile he works from at Elusive Brewing, who are only about 7 miles away from our house:&lt;/p&gt;
+&lt;div class=&quot;waterprofile&quot;&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;Calcium &lt;br&gt; &lt;span&gt;&lt;em&gt;Ca&lt;sup&gt;+2&lt;/sup&gt;&lt;/em&gt;&lt;/span&gt;&lt;/th&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;Magnesium &lt;br&gt; &lt;span&gt;&lt;em&gt;Mg&lt;sup&gt;+2&lt;/sup&gt;&lt;/em&gt;&lt;/span&gt;&lt;/th&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;Sodium &lt;br&gt; &lt;span&gt;&lt;em&gt;Na&lt;sup&gt;+&lt;/sup&gt;&lt;/em&gt;&lt;/span&gt;&lt;/th&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;Chloride &lt;br&gt; &lt;span&gt;&lt;em&gt;Cl&lt;/em&gt;&lt;/span&gt;&lt;/th&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;Sulphate &lt;br&gt; &lt;span&gt;&lt;em&gt;SO&lt;sub&gt;4&lt;/sub&gt;&lt;sup&gt;-2&lt;/sup&gt;&lt;/em&gt;&lt;/span&gt;&lt;/th&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;Bicarbonate &lt;br&gt; &lt;span&gt;&lt;em&gt;as CaCO&lt;sub&gt;3&lt;/sub&gt;&lt;/em&gt;&lt;/span&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;118&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;7&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;21&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;41&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;45&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;343&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Table 2:&lt;/strong&gt; Water profile for Elusive Brewing, Finchampstead, Berkshire, as listed in &lt;em&gt;The Modern Homebrewer&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Pretty similar, though there&#39;s more of a difference than I expected, especially given how close my previous numbers based on the TW report were to the values I got back from Murphy&#39;s.&lt;/p&gt;
+&lt;p&gt;Oh, and I remain as confused as ever between Alkalinity, Total Hardness, and Bicarbonate......&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Ding-ish</title>
     <link href="https://fairwater-brewery.co.uk/blog/2026/02/Dingish/" />
