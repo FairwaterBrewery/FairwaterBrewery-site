@@ -383,3 +383,21 @@ div.banner {
     border-width: 5px;
     margin:auto;
 }
+
+.waterprofile table{
+	border: 1px solid #ddd;
+	border-spacing: 0;
+}
+.waterprofile th {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.waterprofile th, td {
+	border: 1px solid #ddd;
+}
+
+.waterprofile span {
+	font-weight: lighter;
+	font-size:small;
+}
