@@ -19,8 +19,8 @@ export default async function() {
       })
     )
   ).sort((a, b) => {
-    const nameA = a.file.toUpperCase(); // ignore upper and lowercase
-    const nameB = b.file.toUpperCase(); // ignore upper and lowercase
+    const nameA = a.model.recipes.recipe[0].name;
+    const nameB = b.model.recipes.recipe[0].name;
     if (nameA < nameB) {
       return -1;
     }
