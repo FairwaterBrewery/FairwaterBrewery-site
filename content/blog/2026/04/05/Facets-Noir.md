@@ -1,7 +1,7 @@
 ---
 title: Fairwater Facets - Noir
 description: Black IPA
-date: 2026-02-05
+date: 2026-04-05
 tags: ["posts", "recipes"]
 ---
 I haven't done a BIPA for a few years, so this should make a pleasant change from my usual pale-n-hoppy beers.
