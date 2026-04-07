@@ -8,19 +8,19 @@ export default {
         recipe: "2026-02-04-ding-ish"
     },
     tap2: {
-        name: "Oregonian",
+        name: "Fairwater Facets Harlequin",
         colour: "ebc-8",
-        style: "West Coast IPA",
-        abv: "5.4%",
-        notes: "A variant on the Elusive Brewery classic pale ale!",
-        recipe: ""
+        style: "Pale Ale",
+        abv: "5.5%",
+        notes: "The next in the Fairwater Facets range. This one is a single-hop pale ale using Harlequin hops. Expect passion fruit, peach, and pineapple notes with a hint of spice.",
+        recipe: "2026-03-15-facets-harlequin"
     },
     tap3: {
-        name: "Vanilla & Run Porter",
-        colour: "ebc-60",
-        style: "Robust Porter",
-        abv: "6.0%",
-        notes: "Sweet vanilla and rum flavour complimented by subtle notes of winter berries and dried fruit.",
+        name: "Dry ;-(",
+        colour: "",
+        style: "",
+        abv: "",
+        notes: "",
         recipe: ""
     },
     tap4: {
