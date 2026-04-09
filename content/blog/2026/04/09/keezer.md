@@ -1,6 +1,6 @@
 ---
 title: Building my new keezer
-description: Announcing a new web page describing my new keezer build.
+description: Describing my new keezer build.
 date: 2026-04-09
 tags: ["posts", "announcements"]
 ---
