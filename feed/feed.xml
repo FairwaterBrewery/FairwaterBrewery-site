@@ -5,11 +5,21 @@
   <subtitle>The home of the Fairwater Brewery</subtitle>
   <link href="https://fairwater-brewery.co.uk/feed/feed.xml" rel="self" />
   <link href="https://fairwater-brewery.co.uk/" />
-  <updated>2026-04-05T00:00:00Z</updated>
+  <updated>2026-04-09T00:00:00Z</updated>
   <id>https://fairwater-brewery.co.uk/</id>
   <author>
     <name>Bryan Robson</name>
   </author>
+  <entry>
+    <title>Building my new keezer</title>
+    <link href="https://fairwater-brewery.co.uk/blog/2026/04/09/keezer/" />
+    <updated>2026-04-09T00:00:00Z</updated>
+    <id>https://fairwater-brewery.co.uk/blog/2026/04/09/keezer/</id>
+    <content type="html">&lt;p&gt;I have recently finished building a keezer. Rather than having the details of the build as a blog post that will disappear down the list, I thought it worth a page all of its own, and just have the announcement here.&lt;/p&gt;
+&lt;p&gt;Hopefully this will be of interest and use to someone!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://fairwater-brewery.co.uk/keezer/&quot;&gt;Here it is.&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Fairwater Facets - Noir</title>
     <link href="https://fairwater-brewery.co.uk/blog/2026/04/05/Facets-Noir/" />
