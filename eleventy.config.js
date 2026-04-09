@@ -7,6 +7,7 @@ import { EleventyRenderPlugin } from "@11ty/eleventy";
 import faviconsPlugin from "eleventy-plugin-gen-favicons";
 import markdownIt from "markdown-it";
 import markdownItAttrs from "markdown-it-attrs";
+import mdfigcaption from "markdown-it-image-figures";
 import pluginFilters from "./_config/filters.js";
 import qrCodeShortcode from "./_config/qrcode-shortcode.js";
 import beerCardShortcode from "./_config/beercard-shortcode.js";
@@ -128,7 +129,10 @@ export default async function(eleventyConfig) {
 		breaks: true,
 		linkify: true,
 	};
-	const markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs)
+	let figoptions = {
+		figcaption: true
+	};
+	const markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs).use(mdfigcaption, figoptions);
 	eleventyConfig.setLibrary("md", markdownLib);
 
 	eleventyConfig.addGlobalData("runMode", process.env.ELEVENTY_RUN_MODE || "default");

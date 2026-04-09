@@ -283,6 +283,12 @@ header {
 .postlist-item-active .postlist-link {
 	font-weight: bold;
 }
+.postlist-description
+{
+	font-size: small;
+	font-style: italic;
+	padding-left: .25em;
+}
 
 /* Tags */
 .post-tag {
@@ -400,4 +406,13 @@ div.banner {
 .waterprofile span {
 	font-weight: lighter;
 	font-size:small;
+}
+
+figure p {
+	margin: 0 0 0 0;
+}
+
+figcaption {
+	font-style: italic;
+	font-size: small;
 }
