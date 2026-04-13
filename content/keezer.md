@@ -72,6 +72,8 @@ Now I'm ready for beer! I moved the three kegs I had running from the keggorator
 
 I am still struggling a bit with fobbing. It seems like gas of some form is getting into the lines, which doesn't help. I'm not sure if this is air being introduced at the liquid disconnect, or CO2 coming out of solution in the lines. Yesterday I checked all the disconnects, both gas and liquid, for tightness on the top release screw and that the lines were correctly fitted, so I'm hoping the gas will end up being driven out and I will end up with just beer in the lines.
 
+Update a week later: after reading about warmer and cooler spots in keezers such as this, I dropped in a small USB-powered fan, and a couple of days later all is good - the lines are now entirely beer-filled. Glad it was as simple as that!
+
 ## Final touches and taplist
 
 You can see in that last photo that on the floor I have my "drip trough". This is a large garden planting trough from B&Q, which is wide enough to go under all the taps and contain any drips. This wasn't my first plan, I had bought a 40cm drip tray, but I can't figure out the best way to fit it. Clearly I can't screw it into the front of the freezer, but nor can I figure out a sensible way of hanging it from the collar - the screw holes on it are far too close to the base of the drip tray for a glass to fit under it if I did so. Either I need to drop something (pieces of wood?) down from the collar to fit it to (and which would need to be as thin as possible), or maybe sit it on something coming up from the floor.

@@ -13,3 +13,5 @@ I had a minor problem with this batch when I was using the dump valve on my ferm
 Think I might go back to using a hop sock for dry hopping, especially in larger quantities such as this, as I always have a struggle getting the crap to flow out of the dump valve. It always seems to get blocked and is difficult to free.
 
 [Here's the recipe.](/recipes/2026-03-15-facets-harlequin/)
+
+Update 2026-04-13: I'm still amazed that I can say this, but I won! I had a realy pain getting a bottle and growler filled to be able to take to the judging, and consequently the beer was significantly under-carbonated. Luckily for me, Ken and Ricky were able to see past that and award me first place in our Q1 competition.
