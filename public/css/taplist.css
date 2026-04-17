@@ -18,6 +18,7 @@
   .row {
     display: flex;
     justify-content: space-between;
+    width:100%;
   }
 
 .beer-tap-list {
@@ -37,7 +38,7 @@
   /* Enable flex for content inside card */
   flex-direction: column;
   /* Stack name and details */
-  justify-content: space-between;
+  justify-content: flex-start;
   width: 400px;
   /* Fixed card width */
   padding: 12px;
@@ -106,6 +107,8 @@
 }
 
 :root {
+  --water: #d4f1f9;
+  --ebc-0: #ffffff;
   --ebc-4: #f8f4a2;
   /* pale straw */
   --ebc-8: #f1c04a;
@@ -125,6 +128,16 @@
 }
 
 /* EBC utility classes */
+.water {
+  background-color: var(--water);
+  color: #000;
+}
+
+.ebc-0 {
+  background-color: var(--ebc-0);
+  color: #000;
+}
+
 .ebc-4 {
   background-color: var(--ebc-4);
   color: #000;

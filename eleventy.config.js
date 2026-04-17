@@ -11,6 +11,7 @@ import mdfigcaption from "markdown-it-image-figures";
 import pluginFilters from "./_config/filters.js";
 import qrCodeShortcode from "./_config/qrcode-shortcode.js";
 import beerCardShortcode from "./_config/beercard-shortcode.js";
+import pintGlassShortcode from "./_config/pintglass-shortcode.js";
 
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default async function(eleventyConfig) {
@@ -34,9 +35,10 @@ export default async function(eleventyConfig) {
 
 	// Run Eleventy when these files change:
 	// https://www.11ty.dev/docs/watch-serve/#add-your-own-watch-targets
+	eleventyConfig.addWatchTarget("public/**/*.{svg,webp,png,jpg,jpeg,gif}");
 
 	// Watch images for the image pipeline.
-	eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpg,jpeg,gif}");
+	eleventyConfig.addWatchTarget("content/**/*.{css,js}");
 
 	// Per-page bundles, see https://github.com/11ty/eleventy-plugin-bundle
 	// Adds the {% css %} paired shortcode
@@ -157,6 +159,7 @@ export default async function(eleventyConfig) {
 	
 	eleventyConfig.addNunjucksAsyncShortcode("qrcode", qrCodeShortcode);
 	eleventyConfig.addNunjucksAsyncShortcode("beercard", beerCardShortcode);
+	eleventyConfig.addNunjucksAsyncShortcode("pintglass", pintGlassShortcode);
 	
 };
 

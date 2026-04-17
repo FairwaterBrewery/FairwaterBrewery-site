@@ -32,19 +32,19 @@ export default {
         recipe: ""
     },
     tap5: {
-        name: "Dry ;-(",
-        colour: "",
-        style: "",
-        abv: "",
-        notes: "",
-        recipe: ""
+        name: "Chilean Sauvignon Blanc",
+        colour: "ebc-4",
+        style: "Wine",
+        abv: "12%",
+        notes: "Winexpert Kit: Herbaceous and zesty with notes of peach, pineapple, and fresh-cut grass. Light-bodied with crisp acidity, this dry white offers a lively palate and a bright finish. A classic Sauvignon Blanc style with freshness, green fruit, and vibrant energy.",
+        recipe: "https://winexpert.com/product/sauvignon-blanc-chile-2/"
     },
     tap6: {
         name: "Soda Water",
-        colour: "",
-        style: "",
+        colour: "water",
+        style: "Water",
         abv: "0%",
-        notes: "Carbonated water...",
+        notes: "Water, lovingly force-carbonated to provide a refreshing fizz.",
         recipe: ""
     }    
 }
