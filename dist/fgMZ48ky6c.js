@@ -259,7 +259,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Auto-slide every N seconds
     setInterval(() => {
-        currentSlide = (currentSlide + 1) % slides.length;
-        showSlide(currentSlide);
+        //currentSlide = (currentSlide + 1) % slides.length;
+        //showSlide(currentSlide);
     }, 15000);
 });
