@@ -4,7 +4,7 @@ description: Pale Ale
 date: 2026-03-15
 tags: ["posts", "recipes"]
 ---
-The Reading Amateur Brewers Q1 2026 competition is to brew a single-hop showcase using Harlequin hops. Judging will be at the Castle Tap on Thursday 9th April, with Ken from Mysterious Brewing providing the necessary expertise to find our first champion of 2026!
+The Reading Amateur Brewers Q1 2026 competition is to brew a single-hop showcase using Harlequin hops. Judging will be at the Castle Tap on Thursday 9th April, with Ken from Mysterious Brewing and Ricky from Elusive providing the necessary expertise to find our first champion of 2026!
 
 I've gone for a Harlequin variation on my recurring "Fairwater Facets" beer, which is my new name for what started as "Sim Citra". This is my go-to base recipe for a pale and hoppy beer, and with which I use different hops every time.
 
@@ -14,6 +14,6 @@ Think I might go back to using a hop sock for dry hopping, especially in larger 
 
 [Here's the recipe.](/recipes/2026-03-15-facets-harlequin/)
 
-Update 2026-04-13: I'm still amazed that I can say this, but I won! I had a realy pain getting a bottle and growler filled to be able to take to the judging, and consequently the beer was significantly under-carbonated. Luckily for me, Ken and Ricky were able to see past that and award me first place in our Q1 competition.
+Update 2026-04-13: I'm still amazed that I can say this, but I won! I had a real problem getting a bottle and growler filled to be able to take to the judging, and consequently the beer was significantly under-carbonated. Luckily for me, Ken and Ricky were able to see past that and award me first place in our Q1 competition.
 
 ![The RAB Champion Brewer paddle.](/img/blog/rab-paddle.jpg "The RAB Champion Brewer paddle")
