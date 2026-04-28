@@ -15,3 +15,5 @@ Think I might go back to using a hop sock for dry hopping, especially in larger 
 [Here's the recipe.](/recipes/2026-03-15-facets-harlequin/)
 
 Update 2026-04-13: I'm still amazed that I can say this, but I won! I had a realy pain getting a bottle and growler filled to be able to take to the judging, and consequently the beer was significantly under-carbonated. Luckily for me, Ken and Ricky were able to see past that and award me first place in our Q1 competition.
+
+![The RAB Champion Brewer paddle.](/img/blog/rab-paddle.jpg "The RAB Champion Brewer paddle")
