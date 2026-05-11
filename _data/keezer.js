@@ -1,27 +1,27 @@
 export default {
     tap1: {
-        name: "Ding-ish",
-        colour: "ebc-8",
-        style: "Munich Helles",
-        abv: "5.0%",
-        notes: "Based on Double-Barrelled's recipe for Ding in Andy Parker's The Modern Homebrewer. I didn't have any pilsener malt, so I used Simpson's Low Colour Maris Otter instead.",
-        recipe: "2026-02-04-ding-ish"
+        name: "Fairwater Facets: Noir",
+        colour: "ebc-80",
+        style: "BIPA",
+        abv: "5.2%",
+        notes: "A Black IPA variantion on the Facets theme. Hopped on the hot side with Bramling Cross and Sorachi Ace, and on the cold side with Simcoe.",
+        recipe: "2026-04-05-facets-noir"
     },
     tap2: {
-        name: "Fairwater Facets Harlequin",
-        colour: "ebc-8",
-        style: "Pale Ale",
-        abv: "5.5%",
-        notes: "The next in the Fairwater Facets range. This one is a single-hop pale ale using Harlequin hops. Expect passion fruit, peach, and pineapple notes with a hint of spice.",
-        recipe: "2026-03-15-facets-harlequin"
-    },
+        name: "Wobbly Gob Great Bar Cider",
+        colour: "ebc-4",
+        style: "Cider",
+        abv: "6.7%",
+        notes: "A clean crisp and refreshing cider with a great apple taste.",
+        recipe: "https://www.hamsteadhomebrew.co.uk/WobblyGob-Great-Barr-Gold-Apple-Cider"
+   },
     tap3: {
-        name: "Dry ;-(",
-        colour: "",
-        style: "",
-        abv: "",
-        notes: "",
-        recipe: ""
+        name: "Rhubarb & Gooseberry Sour",
+        colour: "ebc-4",
+        style: "Sour",
+        abv: "4.5%",
+        notes: "A PhillySour fermented beer with rhubarb and gooseberry. Tart, fruity, and refreshing.",
+        recipe: "2026-04-24-Rhubarb-Gooseberry-Sour"
     },
     tap4: {
         name: "Dry ;-(",
