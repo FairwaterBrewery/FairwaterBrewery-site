@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><RECIPES>
+<RECIPE>
+ <NAME>Rhubard &#38; Gooseberry Sour</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>All Grain</TYPE>
+ <BREWER>Bryan</BREWER>
+ <ASST_BREWER></ASST_BREWER>
+ <BATCH_SIZE>21.0000000</BATCH_SIZE>
+ <BOIL_SIZE>29.0416667</BOIL_SIZE>
+ <BOIL_TIME>60.0000000</BOIL_TIME>
+ <EFFICIENCY>70.0000000</EFFICIENCY>
+ <HOPS>
+<HOP>
+ <NAME>Saaz</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>Czech Republic</ORIGIN>
+ <ALPHA>3.4000000</ALPHA>
+ <AMOUNT>0.0200000</AMOUNT>
+ <USE>Boil</USE>
+ <TIME>60.0000000</TIME>
+ <NOTES>Used for: Pilsners and Bohemian style lagers
+Aroma: Delicate, mild, clean, somewhat floral -- Noble hops
+Substitutes: Tettnanger, Lublin
+Examples: Pulsner Urquell</NOTES>
+ <TYPE>Aroma</TYPE>
+ <FORM>Pellet</FORM>
+ <BETA>3.5000000</BETA>
+ <HSI>42.0000000</HSI>
+ <DISPLAY_AMOUNT>20.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>60.0 min</DISPLAY_TIME>
+</HOP>
+</HOPS>
+
+ <FERMENTABLES>
+<FERMENTABLE>
+ <NAME>Extra Pale Maris Otter&#174; Malt (Crisp)</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>2.9000007</AMOUNT>
+ <YIELD>81.5000000</YIELD>
+ <COLOR>1.7258883</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>United Kingdom</ORIGIN>
+ <SUPPLIER>Crisp</SUPPLIER>
+ <NOTES>Lower colour version of Maris Otter&#174; Ale malt suitable for lager and golden ale brewing</NOTES>
+ <COARSE_FINE_DIFF>1.5000000</COARSE_FINE_DIFF>
+ <MOISTURE>4.5000000</MOISTURE>
+ <DIASTATIC_POWER>53.0000000</DIASTATIC_POWER>
+ <PROTEIN>9.0000000</PROTEIN>
+ <MAX_IN_BATCH>100.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>TRUE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>2.90 kg</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 kg</INVENTORY>
+ <POTENTIAL>1.0374900</POTENTIAL>
+ <DISPLAY_COLOR>3.4 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE></EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+<FERMENTABLE>
+ <NAME>Biscuit (Dingemans)</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>0.7000002</AMOUNT>
+ <YIELD>70.0000000</YIELD>
+ <COLOR>22.5000000</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>Belgium</ORIGIN>
+ <SUPPLIER>Dingemans</SUPPLIER>
+ <NOTES>Lightly toasted malt with bready, biscuity flavour and warm brown hue. Contributes a slew of warm, earthy, toasted malt flavours and aromas.</NOTES>
+ <COARSE_FINE_DIFF>0.0000000</COARSE_FINE_DIFF>
+ <MOISTURE>4.5000000</MOISTURE>
+ <DIASTATIC_POWER>0.0000000</DIASTATIC_POWER>
+ <PROTEIN>11.5000000</PROTEIN>
+ <MAX_IN_BATCH>15.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>TRUE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>0.70 kg</DISPLAY_AMOUNT>
+ <INVENTORY>0.43 kg</INVENTORY>
+ <POTENTIAL>1.0322000</POTENTIAL>
+ <DISPLAY_COLOR>44.3 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE></EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+<FERMENTABLE>
+ <NAME>Wheat Malt (Crisp)</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>0.3000001</AMOUNT>
+ <YIELD>84.0000000</YIELD>
+ <COLOR>2.0812183</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>United Kingdom</ORIGIN>
+ <SUPPLIER>Crisp</SUPPLIER>
+ <NOTES>Even when used in small quantities will improve foam and head retention in all beers. Huskless grain - use rice hulls when using high percentages</NOTES>
+ <COARSE_FINE_DIFF>1.5000000</COARSE_FINE_DIFF>
+ <MOISTURE>6.5000000</MOISTURE>
+ <DIASTATIC_POWER>118.0000000</DIASTATIC_POWER>
+ <PROTEIN>10.0000000</PROTEIN>
+ <MAX_IN_BATCH>50.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>TRUE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>0.30 kg</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 kg</INVENTORY>
+ <POTENTIAL>1.0386400</POTENTIAL>
+ <DISPLAY_COLOR>4.1 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE></EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+<FERMENTABLE>
+ <NAME>Crystal, Light (Simpsons)</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>0.1000000</AMOUNT>
+ <YIELD>69.0000000</YIELD>
+ <COLOR>52.8000000</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>UK</ORIGIN>
+ <SUPPLIER>Simpsons</SUPPLIER>
+ <NOTES>Simpson&#39;s Crystal Light brings mild caramel and toffee flavours to beers whilst contributing a beautiful golden hue. Its clean, mild sweetness brings depth of flavour to beers where extra body is required, without adding overtly toasted or roasted characters.</NOTES>
+ <COARSE_FINE_DIFF>1.5000000</COARSE_FINE_DIFF>
+ <MOISTURE>6.0000000</MOISTURE>
+ <DIASTATIC_POWER>0.0000000</DIASTATIC_POWER>
+ <PROTEIN>0.0000000</PROTEIN>
+ <MAX_IN_BATCH>15.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>TRUE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>0.10 kg</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 kg</INVENTORY>
+ <POTENTIAL>1.0317400</POTENTIAL>
+ <DISPLAY_COLOR>104.0 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE></EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+<FERMENTABLE>
+ <NAME>Gooseberry</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Fruit</TYPE>
+ <AMOUNT>1.0000002</AMOUNT>
+ <YIELD>7.8000000</YIELD>
+ <COLOR>3.0000000</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN></ORIGIN>
+ <SUPPLIER></SUPPLIER>
+ <NOTES></NOTES>
+ <COARSE_FINE_DIFF>1.5000000</COARSE_FINE_DIFF>
+ <MOISTURE>4.0000000</MOISTURE>
+ <DIASTATIC_POWER>120.0000000</DIASTATIC_POWER>
+ <PROTEIN>11.7000000</PROTEIN>
+ <MAX_IN_BATCH>5.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>FALSE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>1.00 kg</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 kg</INVENTORY>
+ <POTENTIAL>1.0035880</POTENTIAL>
+ <DISPLAY_COLOR>5.9 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE></EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+<FERMENTABLE>
+ <NAME>Rhubarb</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Fruit</TYPE>
+ <AMOUNT>1.0000002</AMOUNT>
+ <YIELD>1.7000000</YIELD>
+ <COLOR>3.0000000</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN></ORIGIN>
+ <SUPPLIER></SUPPLIER>
+ <NOTES></NOTES>
+ <COARSE_FINE_DIFF>1.5000000</COARSE_FINE_DIFF>
+ <MOISTURE>4.0000000</MOISTURE>
+ <DIASTATIC_POWER>120.0000000</DIASTATIC_POWER>
+ <PROTEIN>11.7000000</PROTEIN>
+ <MAX_IN_BATCH>100.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>FALSE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>1.00 kg</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 kg</INVENTORY>
+ <POTENTIAL>1.0007820</POTENTIAL>
+ <DISPLAY_COLOR>5.9 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE></EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+</FERMENTABLES>
+
+ <MISCS>
+<MISC>
+ <NAME>Lactic Acid</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Water Agent</TYPE>
+ <USE>Mash</USE>
+ <AMOUNT>0.005757</AMOUNT>
+ <TIME>60.00</TIME>
+ <AMOUNT_IS_WEIGHT>FALSE</AMOUNT_IS_WEIGHT>
+ <USE_FOR>Mash pH</USE_FOR>
+ <NOTES>Used to lower the pH of the mash without altering the water profile.  Lower pH mashes generally improves head retention, increases extraction rate.</NOTES>
+ <DISPLAY_AMOUNT>5.76 ml</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 ml</INVENTORY>
+ <DISPLAY_TIME>60.0 mins</DISPLAY_TIME>
+ <BATCH_SIZE>18.93 L</BATCH_SIZE>
+</MISC>
+<MISC>
+ <NAME>Epsom Salt (MgSO4)</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Water Agent</TYPE>
+ <USE>Mash</USE>
+ <AMOUNT>0.002080</AMOUNT>
+ <TIME>60.00</TIME>
+ <AMOUNT_IS_WEIGHT>TRUE</AMOUNT_IS_WEIGHT>
+ <USE_FOR>Water Agent</USE_FOR>
+ <NOTES>Water agent used to modify water profile.  Use the BeerSmith Water Profile tool to determine amount to add.</NOTES>
+ <DISPLAY_AMOUNT>2.08 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>60.0 mins</DISPLAY_TIME>
+ <BATCH_SIZE>12.63 L</BATCH_SIZE>
+</MISC>
+<MISC>
+ <NAME>Salt</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Water Agent</TYPE>
+ <USE>Mash</USE>
+ <AMOUNT>0.000619</AMOUNT>
+ <TIME>60.00</TIME>
+ <AMOUNT_IS_WEIGHT>TRUE</AMOUNT_IS_WEIGHT>
+ <USE_FOR>Water Agent</USE_FOR>
+ <NOTES>Table Salt (NaCl) may be used as a water mineral to adjust brewing water for mashing.</NOTES>
+ <DISPLAY_AMOUNT>0.62 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>60.0 mins</DISPLAY_TIME>
+ <BATCH_SIZE>12.63 L</BATCH_SIZE>
+</MISC>
+<MISC>
+ <NAME>Lactic Acid</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Water Agent</TYPE>
+ <USE>Sparge</USE>
+ <AMOUNT>0.007966</AMOUNT>
+ <TIME>60.00</TIME>
+ <AMOUNT_IS_WEIGHT>FALSE</AMOUNT_IS_WEIGHT>
+ <USE_FOR>Mash pH</USE_FOR>
+ <NOTES>Used to lower the pH of the mash without altering the water profile.  Lower pH mashes generally improves head retention, increases extraction rate.</NOTES>
+ <DISPLAY_AMOUNT>7.97 ml</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 ml</INVENTORY>
+ <DISPLAY_TIME>60.0 mins</DISPLAY_TIME>
+ <BATCH_SIZE>18.93 L</BATCH_SIZE>
+</MISC>
+<MISC>
+ <NAME>Epsom Salt (MgSO4)</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Water Agent</TYPE>
+ <USE>Boil</USE>
+ <AMOUNT>0.003429</AMOUNT>
+ <TIME>60.00</TIME>
+ <AMOUNT_IS_WEIGHT>TRUE</AMOUNT_IS_WEIGHT>
+ <USE_FOR>Water Agent</USE_FOR>
+ <NOTES>Water agent used to modify water profile.  Use the BeerSmith Water Profile tool to determine amount to add.</NOTES>
+ <DISPLAY_AMOUNT>3.43 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>60.0 mins</DISPLAY_TIME>
+ <BATCH_SIZE>20.82 L</BATCH_SIZE>
+</MISC>
+<MISC>
+ <NAME>Salt</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Water Agent</TYPE>
+ <USE>Boil</USE>
+ <AMOUNT>0.001020</AMOUNT>
+ <TIME>60.00</TIME>
+ <AMOUNT_IS_WEIGHT>TRUE</AMOUNT_IS_WEIGHT>
+ <USE_FOR>Water Agent</USE_FOR>
+ <NOTES>Table Salt (NaCl) may be used as a water mineral to adjust brewing water for mashing.</NOTES>
+ <DISPLAY_AMOUNT>1.02 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>60.0 mins</DISPLAY_TIME>
+ <BATCH_SIZE>20.82 L</BATCH_SIZE>
+</MISC>
+<MISC>
+ <NAME>Protafloc</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Fining</TYPE>
+ <USE>Boil</USE>
+ <AMOUNT>0.002000</AMOUNT>
+ <TIME>15.00</TIME>
+ <AMOUNT_IS_WEIGHT>TRUE</AMOUNT_IS_WEIGHT>
+ <USE_FOR></USE_FOR>
+ <NOTES>1/2 tablet in 25 litre brew</NOTES>
+ <DISPLAY_AMOUNT>2.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>15.0 mins</DISPLAY_TIME>
+ <BATCH_SIZE>25.00 L</BATCH_SIZE>
+</MISC>
+<MISC>
+ <NAME>TMM Concentrated Yeast Vit</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Other</TYPE>
+ <USE>Boil</USE>
+ <AMOUNT>0.001000</AMOUNT>
+ <TIME>0.00</TIME>
+ <AMOUNT_IS_WEIGHT>TRUE</AMOUNT_IS_WEIGHT>
+ <USE_FOR>Yeast Nutrient</USE_FOR>
+ <NOTES>Yeast Vit is a blended yeast nutrient so comprehensive it can be used with even the most nutritionally deficient worts.
+
+Yeast Vit is supplied as a free flowing pale brown to yellow crystalline powder, which is a formulated blend of organic salts, vitamins, amino acids and trace elements along with an approved organic source of nitrogen. Yeast Vit is designed to ensure correction of nutrient deficiencies in wort.
+
+It reduces fermentation time and improves sedimentation.
+
+Benefits
+* Improves rate of yeast growth.
+* Prevents slow fermentations
+* Useful in low nitrogen worts
+* Concentrated in powder product, economical in use
+ 
+
+Principle
+Brewers yeast needs readily used sources of vitamins and trace elements. Deficiencies of such components can cause the following symptoms:
+
+* Long lag phase
+* High pH
+* Sticking fermentations
+* Poor finings
+ 
+The product can be mixed into the yeast slurry about 30 minutes before pitching into the wort, or alternatively mixed with a small volume of wort and added to the fermenter. It can also be added to the kettle at the end of the boil.
+
+Dosage Rate
+
+Use 0.05g per litre.
+19Ltr Batch = 0.95g
+23ltr batch= 1.15g
+Use 0 &#8211; 100g @ 0.01g digital scales to weigh out.
+
+Storage and shelf life
+* Store in cool conditions away from direct sunlight
+* Keep in original container
+* Keep containers sealed when not in use
+* Maximum storage temperature is 25&#176;C</NOTES>
+ <DISPLAY_AMOUNT>1.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>50.00 g</INVENTORY>
+ <DISPLAY_TIME>0.0 mins</DISPLAY_TIME>
+ <BATCH_SIZE>19.00 L</BATCH_SIZE>
+</MISC>
+<MISC>
+ <NAME>NBS Clarity</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Fining</TYPE>
+ <USE>Primary</USE>
+ <AMOUNT>0.000500</AMOUNT>
+ <TIME>0.00</TIME>
+ <AMOUNT_IS_WEIGHT>FALSE</AMOUNT_IS_WEIGHT>
+ <USE_FOR>Significantly reduces gluten and chill haze.</USE_FOR>
+ <NOTES>NBS Clarity is added a at a rate of .5ml per 20-25 litre brew and is added at the same time as pitching yeast.
+
+The effect of NBS Clarity is reduce chill haze in the final product.
+
+Another great benefit of using NBS Clarity is that it significantly reduces gluten, usually resulting in a product testing under 20ppm.</NOTES>
+ <DISPLAY_AMOUNT>0.50 ml</DISPLAY_AMOUNT>
+ <INVENTORY>15.00 ml</INVENTORY>
+ <DISPLAY_TIME>0.0 mins</DISPLAY_TIME>
+ <BATCH_SIZE>20.00 L</BATCH_SIZE>
+</MISC>
+</MISCS>
+
+ <YEASTS>
+<YEAST>
+ <NAME>Wildbrew Philly Sour</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Ale</TYPE>
+ <FORM>Dry</FORM>
+ <AMOUNT>1.0000000</AMOUNT>
+ <AMOUNT_IS_WEIGHT>FALSE</AMOUNT_IS_WEIGHT>
+ <LABORATORY>Lallemand</LABORATORY>
+ <PRODUCT_ID>- </PRODUCT_ID>
+ <MIN_TEMPERATURE>20.0000000</MIN_TEMPERATURE>
+ <MAX_TEMPERATURE>25.0000000</MAX_TEMPERATURE>
+ <FLOCCULATION>High</FLOCCULATION>
+ <ATTENUATION>78.0000000</ATTENUATION>
+ <NOTES>WildBrew Philly Sour produces moderate amounts of lactic acid in addition to ethanol in one simple
+fermentation step. This first yeast in the WildBrew series is a great choice for innovative,
+sessionable sour beers with refreshing acidity and notes of stone fruit. With high attenuation,
+high flocculation and good head retention, WildBrew Philly Sour is an ideal yeast for
+traditional styles such as Berliner Weiss, Gose, American Lambic Style, American Wild Ales
+and its resistance to hops make it perfect for Sour IPA&#8217;s.</NOTES>
+ <BEST_FOR>Berliner Weisse, Gose, lambic-style, American Wild, and Sour IPA</BEST_FOR>
+ <MAX_REUSE>5</MAX_REUSE>
+ <TIMES_CULTURED>0</TIMES_CULTURED>
+ <ADD_TO_SECONDARY>FALSE</ADD_TO_SECONDARY>
+ <DISPLAY_AMOUNT>1.00</DISPLAY_AMOUNT>
+ <DISP_MIN_TEMP>20.0 C</DISP_MIN_TEMP>
+ <DISP_MAX_TEMP>25.0 C</DISP_MAX_TEMP>
+ <INVENTORY>0.0 pkg</INVENTORY>
+ <CULTURE_DATE>2011-03-06</CULTURE_DATE>
+</YEAST>
+</YEASTS>
+
+ <WATERS>
+<WATER>
+ <NAME>Reading (Murphys Analysis, May 2025)</NAME>
+ <VERSION>1</VERSION>
+ <AMOUNT>33.3044973</AMOUNT>
+ <CALCIUM>111.0000000</CALCIUM>
+ <BICARBONATE>279.0000000</BICARBONATE>
+ <SULFATE>18.0000000</SULFATE>
+ <CHLORIDE>31.0000000</CHLORIDE>
+ <SODIUM>12.0000000</SODIUM>
+ <MAGNESIUM>2.0000000</MAGNESIUM>
+ <PH>7.9000000</PH>
+ <NOTES></NOTES>
+ <DISPLAY_AMOUNT>33.30 L</DISPLAY_AMOUNT>
+</WATER>
+</WATERS>
+
+ <STYLE>
+ <NAME>Mixed-Fermentation Sour Beer</NAME>
+ <VERSION>1</VERSION>
+ <CATEGORY>American Wild Ale</CATEGORY>
+ <CATEGORY_NUMBER>28</CATEGORY_NUMBER>
+ <STYLE_LETTER>B</STYLE_LETTER>
+ <STYLE_GUIDE>BJCP 2021</STYLE_GUIDE>
+ <TYPE>Mixed</TYPE>
+ <OG_MIN>1.0200000</OG_MIN>
+ <OG_MAX>1.0900000</OG_MAX>
+ <FG_MIN>1.0000000</FG_MIN>
+ <FG_MAX>1.0160000</FG_MAX>
+ <IBU_MIN>5.0000000</IBU_MIN>
+ <IBU_MAX>50.0000000</IBU_MAX>
+ <COLOR_MIN>3.9400000</COLOR_MIN>
+ <COLOR_MAX>98.5000000</COLOR_MAX>
+ <CARB_MIN>2.0000000</CARB_MIN>
+ <CARB_MAX>3.0000000</CARB_MAX>
+ <ABV_MAX>10.0000000</ABV_MAX>
+ <ABV_MIN>2.0000000</ABV_MIN>
+ <NOTES>Intended for beer fermented with any combination of Sacch, Lacto, Pedio, and Brett (or additional yeast or bacteria), with or without oak aging (except if the beer fits instead in 28A or 28D). A sour and funky version of a base style of beer. Comments: The base beer style becomes less relevant in this style because the various yeast and bacteria tend to dominate the profile. Bitterness is often reserved since bitter and sour flavors clash on the palate. Inappropriate characteristics include diacetyl, solvent, ropy or viscous texture, and heavy oxidation.
+History: Modern American craft beer interpretations of Belgian sour ales, or experimentations inspired by Belgian sour ales. Style Comparison: A sour and funky version of a base style, but do not necessarily have to be as sour or as funky as some traditional European sour examples.
+Entry Instructions: The entrant must specify a description of the beer, identifying yeast or bacteria used and either a Base Style, or the ingredients, specs, or target character of the beer.</NOTES>
+ <PROFILE>Aroma: Variable by base style. The contribution of non-Sacch microbes should be noticeable to strong, and often contribute a sour and funky, wild note. The best examples will display a range of aromatics, rather than a single dominant character. The aroma should be inviting, not harsh or unpleasant. Appearance: Variable by base style. Clarity can be variable; some haze is not a fault. Head retention can be poor. Flavor: Variable by base style. Look for an agreeable balance between the base beer and the fermentation character. A range of results is possible from fairly high acidity and funk to a subtle, pleasant, harmonious beer. The best examples are pleasurable to drink with the esters and phenols complementing the malt or hops. The wild character can be prominent, but does not need to be dominating in a style with an otherwise strong malt or hop profile. Acidity should be firm yet enjoyable, and ranging from clean to complex, but should not be biting or vinegary; prominent, objectionable, or offensive acetic acid is a fault. Bitterness tends to be low, especially as sourness increases. Mouthfeel: Variable by base style. Generally has a light body, almost always lighter than what might be expected from the base style. Generally moderate to high carbonation, although often lower in higher alcohol examples.</PROFILE>
+ <INGREDIENTS>Virtually any style of beer. Usually fermented by some combination of Lacto, Pedio, Sacch, and Brett. Can also be a blend of styles. Wood or barrel aging is very common, but not required; if present, should not be a primary or dominant flavor.</INGREDIENTS>
+ <EXAMPLES>Boulevard Love Child, Jester King Le Petit Prince, Jolly Pumpkin Oro de Calabaza, Lost Abbey Ghosts in the Forest, New Belgium Le Terroir, Russian River Temptation</EXAMPLES>
+ <DISPLAY_OG_MIN>1.020 SG</DISPLAY_OG_MIN>
+ <DISPLAY_OG_MAX>1.090 SG</DISPLAY_OG_MAX>
+ <DISPLAY_FG_MIN>1.000 SG</DISPLAY_FG_MIN>
+ <DISPLAY_FG_MAX>1.016 SG</DISPLAY_FG_MAX>
+ <DISPLAY_COLOR_MIN>3.9 EBC</DISPLAY_COLOR_MIN>
+ <DISPLAY_COLOR_MAX>98.5 EBC</DISPLAY_COLOR_MAX>
+ <OG_RANGE>1.020-1.090 SG</OG_RANGE>
+ <FG_RANGE>1.000-1.016 SG</FG_RANGE>
+ <IBU_RANGE>5.0-50.0 IBUs</IBU_RANGE>
+ <CARB_RANGE>2.00-3.00 Vols</CARB_RANGE>
+ <COLOR_RANGE>3.9-98.5 EBC</COLOR_RANGE>
+ <ABV_RANGE>2.00-10.00 %</ABV_RANGE>
+</STYLE>
+
+ <EQUIPMENT>
+ <NAME>Bryan Fly Sparge 20l</NAME>
+ <VERSION>1</VERSION>
+ <BOIL_SIZE>29.0416667</BOIL_SIZE>
+ <BATCH_SIZE>21.0000000</BATCH_SIZE>
+ <TUN_VOLUME>44.9997407</TUN_VOLUME>
+ <TUN_WEIGHT>4.0823316</TUN_WEIGHT>
+ <TUN_SPECIFIC_HEAT>0.3000000</TUN_SPECIFIC_HEAT>
+ <TOP_UP_WATER>0.0000000</TOP_UP_WATER>
+ <TRUB_CHILLER_LOSS>4.0000000</TRUB_CHILLER_LOSS>
+ <EVAP_RATE>10.3299857</EVAP_RATE>
+ <BOIL_TIME>60.0000000</BOIL_TIME>
+ <CALC_BOIL_VOLUME>TRUE</CALC_BOIL_VOLUME>
+ <LAUTER_DEADSPACE>0.4000000</LAUTER_DEADSPACE>
+ <TOP_UP_KETTLE>0.0000000</TOP_UP_KETTLE>
+ <HOP_UTILIZATION>100.0000000</HOP_UTILIZATION>
+ <COOLING_LOSS_PCT>4.0000000</COOLING_LOSS_PCT>
+ <NOTES>Current 35l boiler</NOTES>
+ <DISPLAY_BOIL_SIZE>29.04 L</DISPLAY_BOIL_SIZE>
+ <DISPLAY_BATCH_SIZE>21.00 L</DISPLAY_BATCH_SIZE>
+ <DISPLAY_TUN_VOLUME>45.00 L</DISPLAY_TUN_VOLUME>
+ <DISPLAY_TUN_WEIGHT>4.08 kg</DISPLAY_TUN_WEIGHT>
+ <DISPLAY_TOP_UP_WATER>0.00 L</DISPLAY_TOP_UP_WATER>
+ <DISPLAY_TRUB_CHILLER_LOSS>4.00 L</DISPLAY_TRUB_CHILLER_LOSS>
+ <DISPLAY_LAUTER_DEADSPACE>0.40 L</DISPLAY_LAUTER_DEADSPACE>
+ <DISPLAY_TOP_UP_KETTLE>0.00 L</DISPLAY_TOP_UP_KETTLE>
+</EQUIPMENT>
+
+ <MASH>
+ <NAME>Single Infusion, Light Body, No Mash Out</NAME>
+ <VERSION>1</VERSION>
+ <GRAIN_TEMP>22.2222222</GRAIN_TEMP>
+ <TUN_TEMP>22.2222222</TUN_TEMP>
+ <SPARGE_TEMP>75.5555556</SPARGE_TEMP>
+ <PH>$ph</PH>
+ <TUN_WEIGHT>144.0000000</TUN_WEIGHT>
+ <TUN_SPECIFIC_HEAT>0.3000000</TUN_SPECIFIC_HEAT>
+ <EQUIP_ADJUST>FALSE</EQUIP_ADJUST>
+ <NOTES>Simple single infusion mash for use with most modern well modified grains (about 95% of the time).</NOTES>
+ <DISPLAY_GRAIN_TEMP>22.2 C</DISPLAY_GRAIN_TEMP>
+ <DISPLAY_TUN_TEMP>22.2 C</DISPLAY_TUN_TEMP>
+ <DISPLAY_SPARGE_TEMP>75.6 C</DISPLAY_SPARGE_TEMP>
+ <DISPLAY_TUN_WEIGHT>4.08 kg</DISPLAY_TUN_WEIGHT>
+<MASH_STEPS>
+<MASH_STEP>
+ <NAME>Mash In</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Infusion</TYPE>
+ <INFUSE_AMOUNT>10.6276589</INFUSE_AMOUNT>
+ <STEP_TIME>75.0000000</STEP_TIME>
+ <STEP_TEMP>64.4444444</STEP_TEMP>
+ <RAMP_TIME>2.0000000</RAMP_TIME>
+ <END_TEMP>64.4444444</END_TEMP>
+ <DESCRIPTION>Add 12.63 L of water at 69.5 C</DESCRIPTION>
+ <WATER_GRAIN_RATIO>2.657 l/kg</WATER_GRAIN_RATIO>
+ <DECOCTION_AMT>0.00 L</DECOCTION_AMT>
+ <INFUSE_TEMP>69.5 C</INFUSE_TEMP>
+ <DISPLAY_STEP_TEMP>64.4 C</DISPLAY_STEP_TEMP>
+ <DISPLAY_INFUSE_AMT>12.63 L</DISPLAY_INFUSE_AMT>
+</MASH_STEP>
+</MASH_STEPS>
+
+</MASH>
+
+ <NOTES></NOTES>
+ <TASTE_NOTES></TASTE_NOTES>
+ <TASTE_RATING>30.0000000</TASTE_RATING>
+ <OG>1.0460000</OG>
+ <FG>1.0100000</FG>
+ <CARBONATION>4.5176600</CARBONATION>
+ <FERMENTATION_STAGES>2</FERMENTATION_STAGES>
+ <PRIMARY_AGE>4.0000000</PRIMARY_AGE>
+ <PRIMARY_TEMP>19.4444444</PRIMARY_TEMP>
+ <SECONDARY_AGE>10.0000000</SECONDARY_AGE>
+ <SECONDARY_TEMP>19.4444444</SECONDARY_TEMP>
+ <TERTIARY_AGE>7.0000000</TERTIARY_AGE>
+ <AGE>30.0000000</AGE>
+ <AGE_TEMP>18.3333333</AGE_TEMP>
+ <CARBONATION_USED>Bottle with 111.76 g Corn Sugar</CARBONATION_USED>
+ <FORCED_CARBONATION>FALSE</FORCED_CARBONATION>
+ <PRIMING_SUGAR_NAME>Corn Sugar</PRIMING_SUGAR_NAME>
+ <PRIMING_SUGAR_EQUIV>1.0000000</PRIMING_SUGAR_EQUIV>
+ <KEG_PRIMING_FACTOR>0.5000000</KEG_PRIMING_FACTOR>
+ <CARBONATION_TEMP>21.1111111</CARBONATION_TEMP>
+ <DISPLAY_CARB_TEMP>21.1 C</DISPLAY_CARB_TEMP>
+ <DATE>2026-04-24 10:00:00</DATE>
+ <EST_OG>1.041 SG</EST_OG>
+ <EST_FG>1.006 SG</EST_FG>
+ <EST_COLOR>7.6817365</EST_COLOR>
+ <IBU>8.1 IBUs</IBU>
+ <IBU_METHOD>Tinseth</IBU_METHOD>
+ <EST_ABV>4.8 %</EST_ABV>
+ <ABV>4.7 %</ABV>
+ <ACTUAL_EFFICIENCY>79.3 %</ACTUAL_EFFICIENCY>
+ <CALORIES>151.5868530</CALORIES>
+ <DISPLAY_BATCH_SIZE>21.00 L</DISPLAY_BATCH_SIZE>
+ <DISPLAY_BOIL_SIZE>29.04 L</DISPLAY_BOIL_SIZE>
+ <DISPLAY_OG>1.046 SG</DISPLAY_OG>
+ <DISPLAY_FG>1.010 SG</DISPLAY_FG>
+ <DISPLAY_PRIMARY_TEMP>19.4 C</DISPLAY_PRIMARY_TEMP>
+ <DISPLAY_SECONDARY_TEMP>19.4 C</DISPLAY_SECONDARY_TEMP>
+ <DISPLAY_TERTIARY_TEMP>18.3 C</DISPLAY_TERTIARY_TEMP>
+ <DISPLAY_AGE_TEMP>18.3 C</DISPLAY_AGE_TEMP>
+</RECIPE>
+</RECIPES>

@@ -5,11 +5,31 @@
   <subtitle>The home of the Fairwater Brewery</subtitle>
   <link href="https://fairwater-brewery.co.uk/feed/feed.xml" rel="self" />
   <link href="https://fairwater-brewery.co.uk/" />
-  <updated>2026-04-28T00:00:00Z</updated>
+  <updated>2026-05-08T00:00:00Z</updated>
   <id>https://fairwater-brewery.co.uk/</id>
   <author>
     <name>Bryan Robson</name>
   </author>
+  <entry>
+    <title>ESB</title>
+    <link href="https://fairwater-brewery.co.uk/blog/2026/05/08/esb/" />
+    <updated>2026-05-08T00:00:00Z</updated>
+    <id>https://fairwater-brewery.co.uk/blog/2026/05/08/esb/</id>
+    <content type="html">&lt;p&gt;I&#39;ve made a few variations on the ESB theme over the years. This batch&#39;s variation is that I used WHC Saturated yeast - while this isn&#39;t a NEIPA (obviously) I have heard that it&#39;s a good choice for an English bitter as well.&lt;/p&gt;
+&lt;p&gt;For some reason my OG was low - 1.048 rather than the target 1.056. Not sure why, possibly I sparged a bit quicker than I do usually. I&#39;ll try to remember to take more measurements on my next brew and if I&#39;m low again then I might get an idea of which stage is causing it.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://fairwater-brewery.co.uk/recipes/2026-05-08-ESB/&quot;&gt;Here&#39;s the recipe.&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Fairwater Facets - Super-Citra-delic</title>
+    <link href="https://fairwater-brewery.co.uk/blog/2026/05/01/facets-citra-superdelic/" />
+    <updated>2026-05-01T00:00:00Z</updated>
+    <id>https://fairwater-brewery.co.uk/blog/2026/05/01/facets-citra-superdelic/</id>
+    <content type="html">&lt;p&gt;The next in the Facets series - using my old favourite Citra, combined with the new kid on the block Superdelic.&lt;/p&gt;
+&lt;p&gt;Even at dry-hopping time it&#39;s tasting rather good!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://fairwater-brewery.co.uk/recipes/2026-05-01-facets-citra-superdelic/&quot;&gt;Here&#39;s the recipe.&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>RABFest tickets now on sale!</title>
     <link href="https://fairwater-brewery.co.uk/blog/2026/04/28/rabfest2026/" />
@@ -19,6 +39,18 @@
 &lt;p&gt;Full details can be found on the &lt;a href=&quot;https://readingamateurbrewers.co.uk/events/rab-fest-2026/&quot;&gt;Reading Amateur Brewers website&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;It was a great day last year - we&#39;re hoping for an even better one this year!&lt;/p&gt;
 &lt;figure&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://fairwater-brewery.co.uk/blog/2026/04/28/rabfest2026/3l6cFDLFS2-572.avif 572w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://fairwater-brewery.co.uk/blog/2026/04/28/rabfest2026/3l6cFDLFS2-572.webp 572w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://fairwater-brewery.co.uk/blog/2026/04/28/rabfest2026/3l6cFDLFS2-572.jpeg&quot; alt=&quot;RABFest 2026 publicity poster&quot; width=&quot;572&quot; height=&quot;1024&quot;&gt;&lt;/picture&gt;&lt;figcaption&gt;RABFest 2026 publicity poster&lt;/figcaption&gt;&lt;/figure&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Rhubarb &amp; Gooseberry Sour</title>
+    <link href="https://fairwater-brewery.co.uk/blog/2026/04/24/rhubarb-gooseberry-sour/" />
+    <updated>2026-04-24T00:00:00Z</updated>
+    <id>https://fairwater-brewery.co.uk/blog/2026/04/24/rhubarb-gooseberry-sour/</id>
+    <content type="html">&lt;p&gt;Part of the bundle I received when getting the old chest freezer from my in-laws for my &lt;a href=&quot;https://fairwater-brewery.co.uk/keezer/&quot;&gt;keezer&lt;/a&gt; build was a large quntity of frozen fruit, which is now occupying a large amount of space in our freezers. This is mainly rhubarb, gooseberry, and backcurrants. Sounds like a lot of sour beer will be in this year&#39;s brew schedule!&lt;/p&gt;
+&lt;p&gt;First off, and using a kilo each of rhubarb and gooseberry, is this recipe. I did a &lt;a href=&quot;https://fairwater-brewery.co.uk/blog/2025/06/12/Sour%20day/&quot;&gt;12l batch last year&lt;/a&gt; that went down really well, so this is a scale-up to my normal brew length.&lt;/p&gt;
+&lt;p&gt;Looking back as I&#39;m writing this up, I used a kilo of each in the 12l batch, so I&#39;m not too sure why I didn&#39;t scale the fruit up any for this longer brew... silly me.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://fairwater-brewery.co.uk/recipes/2026-04-24-Rhubarb-Gooseberry-Sour/&quot;&gt;Here&#39;s the recipe.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Updated 2026-05-10: I kegged this a couple of days ago, and it&#39;s tasting really good.&lt;/p&gt;
 </content>
   </entry>
   <entry>
@@ -156,41 +188,6 @@
 &lt;p&gt;I&#39;ve got a little shy of 2kgs of the fruit, so I&#39;m going for a 12 litre batch, though it will probably end up a bit more than that in the end because of the added liquid from the fruits.&lt;/p&gt;
 &lt;p&gt;I considered aging on wood to get a more complex character, but I don&#39;t really have time. I&#39;ve also considered adding a little vanilla extract to give ahint of custard, just for the whole &amp;quot;fruit crumble&amp;quot; idea.&lt;/p&gt;
 &lt;p&gt;If it all works out as planned I should have a decent fruited sour in time for &amp;quot;Kegger 2025&amp;quot;!&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>First Brew of 2025 - Theakston Old Pecuiler</title>
-    <link href="https://fairwater-brewery.co.uk/blog/2025/02/07/First%20brew%20of%202025%20-%20Theakston%20Old%20Pecuiler/" />
-    <updated>2025-01-22T00:00:00Z</updated>
-    <id>https://fairwater-brewery.co.uk/blog/2025/02/07/First%20brew%20of%202025%20-%20Theakston%20Old%20Pecuiler/</id>
-    <content type="html">&lt;p&gt;My first brewday of 2025 will be this weekend - probably Sunday, as that looks to have the better weather: my brewery is in a detached garage at the bottom of our garden, and I don&#39;t like to have to walk back and forth in the rain if I can avoid it!&lt;/p&gt;
-&lt;p&gt;The recipe is &lt;a href=&quot;https://fairwater-brewery.co.uk/recipes/2025-02-07-theakston-old-pecuiler/&quot;&gt;this one&lt;/a&gt; for a classic Old Ale: Theakson Old Pecuiler.&lt;/p&gt;
-&lt;p&gt;I have brewed a clone of this one before, using the recipe from Graham Wheeler&#39;s &lt;em&gt;Brew Your Own British Real Ale&lt;/em&gt;, but this time it&#39;&#39;s based on &lt;a href=&quot;https://www.themaltmiller.co.uk/product/theakstons-old-peculier-clone/&quot;&gt;this recipe from The Malt Miller site&lt;/a&gt;. The Wheeler recipe is a very basic grist, just base malt and a bit of crystal and chocolate malt, whereas the MM one is a bit more complex, with wheat to give a bit more body and head retention, and some golden syrup and black treacle, which will add some simply fermentable sugars (though I&#39;m going to use molasses rather than treacle, mainly because I have a jar already!). I&#39;m going to use some bramling cross hops, which I&#39;m hoping will add some blackcurrant notes to the beer.&lt;/p&gt;
-&lt;p&gt;I&#39;ve gone for a smack-pack of &lt;a href=&quot;https://wyeastlab.com/product/west-yorkshire-ale/&quot;&gt;Wyeast 1469 &amp;quot;West Yorkshire Ale&amp;quot;&lt;/a&gt;, which I&#39;m hoping will suit this beer. I&#39;m not prepared, either in equiment terms, or otherwise, to make a starter from a yeast slope as suggested in the MM recipe, but I wanted to use something a little more interesting than one of the dried standards like S-04, Windsor, or Nottingham.&lt;/p&gt;
-&lt;p&gt;In the past I&#39;ve often based my water treatment on the Graham Wheeler &lt;a href=&quot;https://www.jimsbeerkit.co.uk/water.html&quot;&gt;Liquor Treatment Calculator&lt;/a&gt;, but I&#39;m getting used to the calculator in &lt;a href=&quot;https://beersmith.com/&quot;&gt;BeerSmith3&lt;/a&gt; now, which (I belive) closely matches the suggestions from Martin Brungard&#39;s &lt;a href=&quot;https://www.brunwater.com/&quot;&gt;Bru&#39;n Water&lt;/a&gt;, and has the advantage over the latter of meaning that I don&#39;t need to transfer the details of the salts from the latter to the former. My initial water profile (which is in the .beerxml file for the recipe, even though I don&#39;t render it for the recipe page) is taken as far as possible from the most recent Thames Water &lt;a href=&quot;https://www.thameswater.co.uk/help/water-and-waste-help/water-quality/check-your-water-quality#/results/RG53JG&quot;&gt;Water Quality Report&lt;/a&gt;, combined with a reasonable average of the hardness measurements I have taken at the start of every brewday for lots of years (using a Salifert kH Test Kit). I keep meaning to get a &amp;quot;proper&amp;quot; water report done, and if I do so I&#39;ll post the results on this site!&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>All the old recipes</title>
-    <link href="https://fairwater-brewery.co.uk/blog/2025/01/22/All%20the%20old%20recipes/" />
-    <updated>2025-01-22T00:00:00Z</updated>
-    <id>https://fairwater-brewery.co.uk/blog/2025/01/22/All%20the%20old%20recipes/</id>
-    <content type="html">&lt;p&gt;I&#39;ve uploaded all the old .BeerXml files from the original website: they can&lt;br&gt;
-be found on the &lt;a href=&quot;https://fairwater-brewery.co.uk/recipelist/page-1/&quot;&gt;recipes&lt;/a&gt; page.&lt;/p&gt;
-&lt;p&gt;Spot-checking suggests that they&#39;re all working correctly, but please let me&lt;br&gt;
-know if any don&#39;t work. (...which reminds me, must add some sort of &amp;quot;contact me&amp;quot; page!)&lt;/p&gt;
-&lt;p&gt;As I add any recipe-related blog posts I will add to them!&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Welcome back to the brewery...</title>
-    <link href="https://fairwater-brewery.co.uk/blog/2025/01/19/welcome-back/" />
-    <updated>2025-01-19T00:00:00Z</updated>
-    <id>https://fairwater-brewery.co.uk/blog/2025/01/19/welcome-back/</id>
-    <content type="html">&lt;p&gt;It&#39;s been a while since I mothballed the original Fairwater Brewery site, as I didn&#39;t want to pay for the hosting any more.&lt;/p&gt;
-&lt;p&gt;But I never really wanted to lose the site, so finally it is making its way back to life, as a static site created by Eleventy.&lt;/p&gt;
-&lt;p&gt;Actual content is to come, so far this is all about getting something up and running that looks ok, and gives me a basis to build on.&lt;/p&gt;
-&lt;p&gt;I doubt I&#39;ll be able to recreate the old posts, but I do still have all the data so I might at least upload all the old beer.xml recipes.&lt;/p&gt;
 </content>
   </entry>
 </feed>
