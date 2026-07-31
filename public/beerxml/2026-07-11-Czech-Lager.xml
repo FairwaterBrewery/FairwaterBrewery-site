@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><RECIPES>
+<RECIPE>
+ <NAME>Czech Lager</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>All Grain</TYPE>
+ <BREWER>Bryan</BREWER>
+ <ASST_BREWER></ASST_BREWER>
+ <BATCH_SIZE>21.0000000</BATCH_SIZE>
+ <BOIL_SIZE>29.0000000</BOIL_SIZE>
+ <BOIL_TIME>60.0000000</BOIL_TIME>
+ <EFFICIENCY>70.0000000</EFFICIENCY>
+ <HOPS>
+<HOP>
+ <NAME>Comet</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>U.S.</ORIGIN>
+ <ALPHA>9.5000000</ALPHA>
+ <AMOUNT>0.0100000</AMOUNT>
+ <USE>Boil</USE>
+ <TIME>60.0000000</TIME>
+ <NOTES>Very bitter hops - use sparingly with other hops
+Used for: Bittering only
+Substitutes: N/A</NOTES>
+ <TYPE>Bittering</TYPE>
+ <FORM>Pellet</FORM>
+ <BETA>4.0000000</BETA>
+ <HSI>50.0000000</HSI>
+ <DISPLAY_AMOUNT>10.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>60.0 min</DISPLAY_TIME>
+</HOP>
+<HOP>
+ <NAME>Hallertauer Mittelfrueh</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>Germany</ORIGIN>
+ <ALPHA>4.0000000</ALPHA>
+ <AMOUNT>0.0270000</AMOUNT>
+ <USE>Boil</USE>
+ <TIME>15.0000000</TIME>
+ <NOTES>Used for: Continental Lagers, German Ales/Lagers, US Lagers
+Aroma: Pleasant, assertive, mild herbal aroma
+Substitutes: Hallertauer, Mt. Hood, Liberty, Crystal
+Examples: Sam Adams Boston Lager, Sam Adams Boston Lightship</NOTES>
+ <TYPE>Aroma</TYPE>
+ <FORM>Pellet</FORM>
+ <BETA>4.6000000</BETA>
+ <HSI>45.0000000</HSI>
+ <DISPLAY_AMOUNT>27.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>15.0 min</DISPLAY_TIME>
+</HOP>
+<HOP>
+ <NAME>Hallertauer Mittelfrueh</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>Germany</ORIGIN>
+ <ALPHA>5.4000000</ALPHA>
+ <AMOUNT>0.0240000</AMOUNT>
+ <USE>Boil</USE>
+ <TIME>30.0000000</TIME>
+ <NOTES>Used for: Continental Lagers, German Ales/Lagers, US Lagers
+Aroma: Pleasant, assertive, mild herbal aroma
+Substitutes: Hallertauer, Mt. Hood, Liberty, Crystal
+Examples: Sam Adams Boston Lager, Sam Adams Boston Lightship</NOTES>
+ <TYPE>Aroma</TYPE>
+ <FORM>Pellet</FORM>
+ <BETA>4.6000000</BETA>
+ <HSI>45.0000000</HSI>
+ <DISPLAY_AMOUNT>24.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>30.0 min</DISPLAY_TIME>
+</HOP>
+<HOP>
+ <NAME>Tettnang (Tettnang Tettnager)</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>Germany</ORIGIN>
+ <ALPHA>4.0000000</ALPHA>
+ <AMOUNT>0.0130000</AMOUNT>
+ <USE>Boil</USE>
+ <TIME>15.0000000</TIME>
+ <NOTES>One of the four noble hops along with Saaz, Spalt, and Hallertau Mittelfrueh, a group of mainland European hops that are prized for their similar, delicate flavor and aroma profile.
+Used for: German ales, lagers, wheat
+Aroma: Noble, Mild and pleasant with balanced earthy, herbal and floral aroma impressions
+Substitutes: Saaz, Spalt, Hallertau Mittelfrueh
+Storage: Poor
+2.5-6% AA / 3-5% Beta</NOTES>
+ <TYPE>Aroma</TYPE>
+ <FORM>Pellet</FORM>
+ <BETA>4.0000000</BETA>
+ <HSI>50.0000000</HSI>
+ <DISPLAY_AMOUNT>13.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>15.0 min</DISPLAY_TIME>
+</HOP>
+</HOPS>
+
+ <FERMENTABLES>
+<FERMENTABLE>
+ <NAME>Bohemian Pilsner (Weyermann)</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>4.0000010</AMOUNT>
+ <YIELD>82.2300000</YIELD>
+ <COLOR>1.7000000</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>Germany</ORIGIN>
+ <SUPPLIER>Weyermann</SUPPLIER>
+ <NOTES>Pilsner base malt for all pilsners, lagers.  Highly modified malt.</NOTES>
+ <COARSE_FINE_DIFF>1.2000000</COARSE_FINE_DIFF>
+ <MOISTURE>4.4000000</MOISTURE>
+ <DIASTATIC_POWER>110.0000000</DIASTATIC_POWER>
+ <PROTEIN>10.9000000</PROTEIN>
+ <MAX_IN_BATCH>100.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>TRUE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>4.00 kg</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 kg</INVENTORY>
+ <POTENTIAL>1.0378258</POTENTIAL>
+ <DISPLAY_COLOR>3.3 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE>Pilsner Liquid Extract</EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+<FERMENTABLE>
+ <NAME>Dextrin Malt (Simpsons)</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>0.3000001</AMOUNT>
+ <YIELD>67.0000000</YIELD>
+ <COLOR>0.7360406</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>Uk</ORIGIN>
+ <SUPPLIER>Simpsons</SUPPLIER>
+ <NOTES>A handy little tool to keep up your sleeve, Dextrin Malt can be used sparingly to add body, mouthfeel and foam stability to any beer. Particularly useful in very light, hop forward IPAs to balance bitterness. It is great in lower attenuated sweet beers such as Mild and sweet Stout.</NOTES>
+ <COARSE_FINE_DIFF>1.5000000</COARSE_FINE_DIFF>
+ <MOISTURE>7.0000000</MOISTURE>
+ <DIASTATIC_POWER>0.0000000</DIASTATIC_POWER>
+ <PROTEIN>0.0000000</PROTEIN>
+ <MAX_IN_BATCH>20.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>TRUE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>0.30 kg</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 kg</INVENTORY>
+ <POTENTIAL>1.0308200</POTENTIAL>
+ <DISPLAY_COLOR>1.4 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE></EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+<FERMENTABLE>
+ <NAME>Extra Pale Maris Otter&#174; Malt (Crisp)</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>0.5000001</AMOUNT>
+ <YIELD>81.5000000</YIELD>
+ <COLOR>1.7258883</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>United Kingdom</ORIGIN>
+ <SUPPLIER>Crisp</SUPPLIER>
+ <NOTES>Lower colour version of Maris Otter&#174; Ale malt suitable for lager and golden ale brewing</NOTES>
+ <COARSE_FINE_DIFF>1.5000000</COARSE_FINE_DIFF>
+ <MOISTURE>4.5000000</MOISTURE>
+ <DIASTATIC_POWER>53.0000000</DIASTATIC_POWER>
+ <PROTEIN>9.0000000</PROTEIN>
+ <MAX_IN_BATCH>100.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>TRUE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>0.50 kg</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 kg</INVENTORY>
+ <POTENTIAL>1.0374900</POTENTIAL>
+ <DISPLAY_COLOR>3.4 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE></EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+</FERMENTABLES>
+
+ <MISCS>
+<MISC>
+ <NAME>TMM ProMix</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Fining</TYPE>
+ <USE>Boil</USE>
+ <AMOUNT>1.000000</AMOUNT>
+ <TIME>15.00</TIME>
+ <AMOUNT_IS_WEIGHT>FALSE</AMOUNT_IS_WEIGHT>
+ <USE_FOR>Kettle Fining and Yeast Nutrient combination.</USE_FOR>
+ <NOTES>Ingredients:
+E407 semi-refined grade carrageenan
+Zinc enriched yeast &#8211; Saccharomyces cerevisiae
+
+Instructions: Add contents of sachet to the kettle 10 minutes before the end of boil.
+
+Recommended storage temperature is 10&#176;C &#8211; 15&#176;C</NOTES>
+ <DISPLAY_AMOUNT>1.00 Items</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 Items</INVENTORY>
+ <DISPLAY_TIME>15.0 mins</DISPLAY_TIME>
+ <BATCH_SIZE>21.00 L</BATCH_SIZE>
+</MISC>
+<MISC>
+ <NAME>Calcium Chloride</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Water Agent</TYPE>
+ <USE>Mash</USE>
+ <AMOUNT>0.000095</AMOUNT>
+ <TIME>60.00</TIME>
+ <AMOUNT_IS_WEIGHT>TRUE</AMOUNT_IS_WEIGHT>
+ <USE_FOR>Water Agent</USE_FOR>
+ <NOTES>Dry (Annhydrous version). Alters water profile and pH of mash.  Use the BeerSmith Water Profile tool to determine amount to add.</NOTES>
+ <DISPLAY_AMOUNT>0.09 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>60.0 mins</DISPLAY_TIME>
+ <BATCH_SIZE>22.03 L</BATCH_SIZE>
+</MISC>
+<MISC>
+ <NAME>Calcium Chloride</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Water Agent</TYPE>
+ <USE>Sparge</USE>
+ <AMOUNT>0.000052</AMOUNT>
+ <TIME>60.00</TIME>
+ <AMOUNT_IS_WEIGHT>TRUE</AMOUNT_IS_WEIGHT>
+ <USE_FOR>Water Agent</USE_FOR>
+ <NOTES>Dry (Annhydrous version). Alters water profile and pH of mash.  Use the BeerSmith Water Profile tool to determine amount to add.</NOTES>
+ <DISPLAY_AMOUNT>0.05 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>60.0 mins</DISPLAY_TIME>
+ <BATCH_SIZE>12.22 L</BATCH_SIZE>
+</MISC>
+<MISC>
+ <NAME>Chalk</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Water Agent</TYPE>
+ <USE>Mash</USE>
+ <AMOUNT>0.000274</AMOUNT>
+ <TIME>60.00</TIME>
+ <AMOUNT_IS_WEIGHT>TRUE</AMOUNT_IS_WEIGHT>
+ <USE_FOR>Water Agent</USE_FOR>
+ <NOTES>Chalk (CaCO3) can be used as a water addition to adjust mineral content for mashing.</NOTES>
+ <DISPLAY_AMOUNT>0.27 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>60.0 mins</DISPLAY_TIME>
+ <BATCH_SIZE>22.03 L</BATCH_SIZE>
+</MISC>
+<MISC>
+ <NAME>Chalk</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Water Agent</TYPE>
+ <USE>Sparge</USE>
+ <AMOUNT>0.000152</AMOUNT>
+ <TIME>60.00</TIME>
+ <AMOUNT_IS_WEIGHT>TRUE</AMOUNT_IS_WEIGHT>
+ <USE_FOR>Water Agent</USE_FOR>
+ <NOTES>Chalk (CaCO3) can be used as a water addition to adjust mineral content for mashing.</NOTES>
+ <DISPLAY_AMOUNT>0.15 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>60.0 mins</DISPLAY_TIME>
+ <BATCH_SIZE>12.22 L</BATCH_SIZE>
+</MISC>
+<MISC>
+ <NAME>Epsom Salt (MgSO4)</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Water Agent</TYPE>
+ <USE>Sparge</USE>
+ <AMOUNT>0.000159</AMOUNT>
+ <TIME>60.00</TIME>
+ <AMOUNT_IS_WEIGHT>TRUE</AMOUNT_IS_WEIGHT>
+ <USE_FOR>Water Agent</USE_FOR>
+ <NOTES>Water agent used to modify water profile.  Use the BeerSmith Water Profile tool to determine amount to add.</NOTES>
+ <DISPLAY_AMOUNT>0.16 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>60.0 mins</DISPLAY_TIME>
+ <BATCH_SIZE>12.22 L</BATCH_SIZE>
+</MISC>
+<MISC>
+ <NAME>Epsom Salt (MgSO4)</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Water Agent</TYPE>
+ <USE>Mash</USE>
+ <AMOUNT>0.000287</AMOUNT>
+ <TIME>60.00</TIME>
+ <AMOUNT_IS_WEIGHT>TRUE</AMOUNT_IS_WEIGHT>
+ <USE_FOR>Water Agent</USE_FOR>
+ <NOTES>Water agent used to modify water profile.  Use the BeerSmith Water Profile tool to determine amount to add.</NOTES>
+ <DISPLAY_AMOUNT>0.29 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>60.0 mins</DISPLAY_TIME>
+ <BATCH_SIZE>22.03 L</BATCH_SIZE>
+</MISC>
+<MISC>
+ <NAME>Lactic Acid</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Water Agent</TYPE>
+ <USE>Mash</USE>
+ <AMOUNT>0.002800</AMOUNT>
+ <TIME>60.00</TIME>
+ <AMOUNT_IS_WEIGHT>FALSE</AMOUNT_IS_WEIGHT>
+ <USE_FOR>Mash pH</USE_FOR>
+ <NOTES>Used to lower the pH of the mash without altering the water profile.  Lower pH mashes generally improves head retention, increases extraction rate.</NOTES>
+ <DISPLAY_AMOUNT>2.80 ml</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 ml</INVENTORY>
+ <DISPLAY_TIME>60.0 mins</DISPLAY_TIME>
+ <BATCH_SIZE>18.93 L</BATCH_SIZE>
+</MISC>
+<MISC>
+ <NAME>Salt</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Water Agent</TYPE>
+ <USE>Sparge</USE>
+ <AMOUNT>0.000050</AMOUNT>
+ <TIME>60.00</TIME>
+ <AMOUNT_IS_WEIGHT>TRUE</AMOUNT_IS_WEIGHT>
+ <USE_FOR>Water Agent</USE_FOR>
+ <NOTES>Table Salt (NaCl) may be used as a water mineral to adjust brewing water for mashing.</NOTES>
+ <DISPLAY_AMOUNT>0.05 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>60.0 mins</DISPLAY_TIME>
+ <BATCH_SIZE>12.22 L</BATCH_SIZE>
+</MISC>
+<MISC>
+ <NAME>Salt</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Water Agent</TYPE>
+ <USE>Mash</USE>
+ <AMOUNT>0.000091</AMOUNT>
+ <TIME>60.00</TIME>
+ <AMOUNT_IS_WEIGHT>TRUE</AMOUNT_IS_WEIGHT>
+ <USE_FOR>Water Agent</USE_FOR>
+ <NOTES>Table Salt (NaCl) may be used as a water mineral to adjust brewing water for mashing.</NOTES>
+ <DISPLAY_AMOUNT>0.09 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>60.0 mins</DISPLAY_TIME>
+ <BATCH_SIZE>22.03 L</BATCH_SIZE>
+</MISC>
+</MISCS>
+
+ <YEASTS>
+<YEAST>
+ <NAME>LalBrew NovaLager</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Lager</TYPE>
+ <FORM>Dry</FORM>
+ <AMOUNT>2.0000000</AMOUNT>
+ <AMOUNT_IS_WEIGHT>FALSE</AMOUNT_IS_WEIGHT>
+ <LABORATORY>Lallemand</LABORATORY>
+ <PRODUCT_ID>-</PRODUCT_ID>
+ <MIN_TEMPERATURE>10.0000000</MIN_TEMPERATURE>
+ <MAX_TEMPERATURE>20.0000000</MAX_TEMPERATURE>
+ <FLOCCULATION>Medium</FLOCCULATION>
+ <ATTENUATION>81.0000000</ATTENUATION>
+ <NOTES>LalBrew NovaLager&#8482; is a true bottom-fermenting Saccharomyces pastorianus hybrid from the novel Group III lineage that has been selected to produce clean lager beers with distinct flavor characteristics and superior fermentation performance. LalBrew NovaLager&#8482; is a robust lager strain with ideal characteristics for lager beer production including fast fermentations and high attenuation. The distinct flavor profile is very clean, slight esters over a wide temperature range. LalBrew NovaLager&#8482; was selected using classical and non-GMO breeding methods to obtain a novel Saccharomyces cerevisiae x Saccharomyces eubayanus hybrid strain that defines a novel Group III lager lineage that is distinct from any other traditional Saccharomyces pastorianus strains. This strain is a low VDK/diacetyl producer and utilizes patented technology from the University of California Davis (USA) that inhibits the production of hydrogen sulfide (H2S) off-flavors, therefore reducing the maturation time associated with lager beer production.</NOTES>
+ <BEST_FOR>Baltic Porter, Bohemian Pilsner, Brown Porter, California Common, Classic American Pilsner, Dark American Lager, Doppelbock, Dortmunder Export, Eisbock, German Pilsner, Maibock/Helles Bock, Munich Dunkel, Munich Helles, Oktoberfest/Marzen, Schwarzbier, Traditional Bock, Vienna Lager, New England IPA, New England Pale Ale, Session IPA</BEST_FOR>
+ <MAX_REUSE>5</MAX_REUSE>
+ <TIMES_CULTURED>0</TIMES_CULTURED>
+ <ADD_TO_SECONDARY>FALSE</ADD_TO_SECONDARY>
+ <DISPLAY_AMOUNT>2.00</DISPLAY_AMOUNT>
+ <DISP_MIN_TEMP>10.0 C</DISP_MIN_TEMP>
+ <DISP_MAX_TEMP>20.0 C</DISP_MAX_TEMP>
+ <INVENTORY>0.0 pkg</INVENTORY>
+ <CULTURE_DATE>2011-03-06</CULTURE_DATE>
+</YEAST>
+</YEASTS>
+
+ <WATERS>
+<WATER>
+ <NAME>RO Water</NAME>
+ <VERSION>1</VERSION>
+ <AMOUNT>34.2486205</AMOUNT>
+ <CALCIUM>0.0000000</CALCIUM>
+ <BICARBONATE>0.0000000</BICARBONATE>
+ <SULFATE>0.0000000</SULFATE>
+ <CHLORIDE>0.0000000</CHLORIDE>
+ <SODIUM>0.0000000</SODIUM>
+ <MAGNESIUM>0.0000000</MAGNESIUM>
+ <PH>7.0000000</PH>
+ <NOTES>Reverse Osmosis Water. A good RO system filters out 95-99% of the water ions. Neutral water, may be used as a base for creating desired water profile.</NOTES>
+ <DISPLAY_AMOUNT>34.25 L</DISPLAY_AMOUNT>
+</WATER>
+</WATERS>
+
+ <STYLE>
+ <NAME>Czech Premium Pale Lager</NAME>
+ <VERSION>1</VERSION>
+ <CATEGORY>Czech Lager</CATEGORY>
+ <CATEGORY_NUMBER>3</CATEGORY_NUMBER>
+ <STYLE_LETTER>B</STYLE_LETTER>
+ <STYLE_GUIDE>BJCP 2021</STYLE_GUIDE>
+ <TYPE>Lager</TYPE>
+ <OG_MIN>1.0440000</OG_MIN>
+ <OG_MAX>1.0600000</OG_MAX>
+ <FG_MIN>1.0130000</FG_MIN>
+ <FG_MAX>1.0170000</FG_MAX>
+ <IBU_MIN>30.0000000</IBU_MIN>
+ <IBU_MAX>45.0000000</IBU_MAX>
+ <COLOR_MIN>6.8950000</COLOR_MIN>
+ <COLOR_MAX>11.8200000</COLOR_MAX>
+ <CARB_MIN>2.3000000</CARB_MIN>
+ <CARB_MAX>2.7000000</CARB_MAX>
+ <ABV_MAX>5.8000000</ABV_MAX>
+ <ABV_MIN>4.2000000</ABV_MIN>
+ <NOTES>A refreshing pale Czech lager with considerable malt and hop character and a long finish. The malt flavors are complex for a Pilsner-type beer. The bitterness is strong and clean but lacks harshness, which gives a well-balanced, rounded flavor impression that enhances drinkability. Comments: Generally a group of pivo Plze&#328;sk&#233;ho typu, or Pilsner-type beers. This style is a combination of the Czech styles sv&#283;tl&#253; le&#382;&#225;k (11&#8211;12.9 &#176;P) and sv&#283;tl&#233; speci&#225;ln&#237; pivo (13&#8211;14.9 &#176;P). In the Czech Republic, only Pilsner Urquell and Gambrinus are called Pilsner, despite how widely adopted this name is worldwide. Outside the Czech Republic, Czech Pilsner or Bohemian Pilsner are sometimes used to differentiate the beer from other Pilsner-type beers.
+Kvasnicov&#233; (&#8220;yeast beer&#8221;) versions are popular in the Czech Republic, and may be either kr&#228;usened with yeasted wort or given a fresh dose of pure yeast after fermentation. These beers are sometimes cloudy, with subtle yeastiness and enhanced hop character. Modern examples vary in their malt to hop balance and many are not as hop-forward as Pilsner Urquell.
+History: Commonly associated with Pilsner Urquell, which was first brewed in 1842 after construction of a new brewhouse by burghers dissatisfied with the standard of beer brewed in Plze&#328;. Bavarian brewer Josef Groll is credited with first brewing the beer, although there may have been earlier pale lagers in Bohemia. Just as important as the lager yeast was the use of English malting techniques.</NOTES>
+ <PROFILE>Appearance: Medium yellow to deep gold color. Brilliant to very clear clarity. Dense, long-lasting, creamy white head. 
+Flavor: Rich, complex, bready maltiness combined with a pronounced yet soft and rounded bitterness and floral and spicy hop flavor. Malt and hop flavors are medium to medium-high, and the malt may contain a slight impression of caramel. Bitterness is prominent but never harsh. The long finish can be balanced towards hops or malt but is never aggressively tilted either way. Light to moderately-low diacetyl and low hop-derived esters are acceptable, but need not be present.
+Mouthfeel: Medium body. Moderate to low carbonation.</PROFILE>
+ <INGREDIENTS>Traditional Czech hops. Czech malt. Czech lager yeast. Water low in sulfate and carbonate provides a distinctively soft, rounded hop profile despite high hopping rates. The bitterness level of some larger commercial examples has dropped in recent years, although not as much as in many contemporary German examples.</INGREDIENTS>
+ <EXAMPLES>Bernard sv&#283;tl&#233; le&#382;&#225;k 12&#176;, Budvar 33 sv&#283;tl&#253; le&#382;&#225;k, Pilsner Urquell, Pivovar Jihlava Je&#382;ek 11%, Prim&#225;tor Premium lager, Radegast Ryze ho&#345;k&#225; 12, &#218;n&#283;tick&#225; pivo 12&#176;</EXAMPLES>
+ <DISPLAY_OG_MIN>1.044 SG</DISPLAY_OG_MIN>
+ <DISPLAY_OG_MAX>1.060 SG</DISPLAY_OG_MAX>
+ <DISPLAY_FG_MIN>1.013 SG</DISPLAY_FG_MIN>
+ <DISPLAY_FG_MAX>1.017 SG</DISPLAY_FG_MAX>
+ <DISPLAY_COLOR_MIN>6.9 EBC</DISPLAY_COLOR_MIN>
+ <DISPLAY_COLOR_MAX>11.8 EBC</DISPLAY_COLOR_MAX>
+ <OG_RANGE>1.044-1.060 SG</OG_RANGE>
+ <FG_RANGE>1.013-1.017 SG</FG_RANGE>
+ <IBU_RANGE>30.0-45.0 IBUs</IBU_RANGE>
+ <CARB_RANGE>2.30-2.70 Vols</CARB_RANGE>
+ <COLOR_RANGE>6.9-11.8 EBC</COLOR_RANGE>
+ <ABV_RANGE>4.20-5.80 %</ABV_RANGE>
+</STYLE>
+
+ <EQUIPMENT>
+ <NAME>Bryan Fly Sparge 20l</NAME>
+ <VERSION>1</VERSION>
+ <BOIL_SIZE>29.0000000</BOIL_SIZE>
+ <BATCH_SIZE>21.0000000</BATCH_SIZE>
+ <TUN_VOLUME>44.9997407</TUN_VOLUME>
+ <TUN_WEIGHT>4.0823316</TUN_WEIGHT>
+ <TUN_SPECIFIC_HEAT>0.3000000</TUN_SPECIFIC_HEAT>
+ <TOP_UP_WATER>0.0000000</TOP_UP_WATER>
+ <TRUB_CHILLER_LOSS>4.0000000</TRUB_CHILLER_LOSS>
+ <EVAP_RATE>10.3448276</EVAP_RATE>
+ <BOIL_TIME>60.0000000</BOIL_TIME>
+ <CALC_BOIL_VOLUME>TRUE</CALC_BOIL_VOLUME>
+ <LAUTER_DEADSPACE>0.4000000</LAUTER_DEADSPACE>
+ <TOP_UP_KETTLE>0.0000000</TOP_UP_KETTLE>
+ <HOP_UTILIZATION>100.0000000</HOP_UTILIZATION>
+ <COOLING_LOSS_PCT>4.0000000</COOLING_LOSS_PCT>
+ <NOTES>Current 35l boiler</NOTES>
+ <DISPLAY_BOIL_SIZE>29.00 L</DISPLAY_BOIL_SIZE>
+ <DISPLAY_BATCH_SIZE>21.00 L</DISPLAY_BATCH_SIZE>
+ <DISPLAY_TUN_VOLUME>45.00 L</DISPLAY_TUN_VOLUME>
+ <DISPLAY_TUN_WEIGHT>4.08 kg</DISPLAY_TUN_WEIGHT>
+ <DISPLAY_TOP_UP_WATER>0.00 L</DISPLAY_TOP_UP_WATER>
+ <DISPLAY_TRUB_CHILLER_LOSS>4.00 L</DISPLAY_TRUB_CHILLER_LOSS>
+ <DISPLAY_LAUTER_DEADSPACE>0.40 L</DISPLAY_LAUTER_DEADSPACE>
+ <DISPLAY_TOP_UP_KETTLE>0.00 L</DISPLAY_TOP_UP_KETTLE>
+</EQUIPMENT>
+
+ <MASH>
+ <NAME>Single Infusion, Light Body, No Mash Out</NAME>
+ <VERSION>1</VERSION>
+ <GRAIN_TEMP>22.2222222</GRAIN_TEMP>
+ <TUN_TEMP>22.2222222</TUN_TEMP>
+ <SPARGE_TEMP>76.0000000</SPARGE_TEMP>
+ <PH>$ph</PH>
+ <TUN_WEIGHT>144.0000000</TUN_WEIGHT>
+ <TUN_SPECIFIC_HEAT>0.3000000</TUN_SPECIFIC_HEAT>
+ <EQUIP_ADJUST>FALSE</EQUIP_ADJUST>
+ <NOTES>Simple single infusion mash for use with most modern well modified grains (about 95% of the time).</NOTES>
+ <DISPLAY_GRAIN_TEMP>22.2 C</DISPLAY_GRAIN_TEMP>
+ <DISPLAY_TUN_TEMP>22.2 C</DISPLAY_TUN_TEMP>
+ <DISPLAY_SPARGE_TEMP>76.0 C</DISPLAY_SPARGE_TEMP>
+ <DISPLAY_TUN_WEIGHT>4.08 kg</DISPLAY_TUN_WEIGHT>
+<MASH_STEPS>
+<MASH_STEP>
+ <NAME>Mash In</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Infusion</TYPE>
+ <INFUSE_AMOUNT>12.5181088</INFUSE_AMOUNT>
+ <STEP_TIME>75.0000000</STEP_TIME>
+ <STEP_TEMP>64.4444444</STEP_TEMP>
+ <RAMP_TIME>2.0000000</RAMP_TIME>
+ <END_TEMP>64.4444444</END_TEMP>
+ <DESCRIPTION>Add 14.52 L of water at 69.7 C</DESCRIPTION>
+ <WATER_GRAIN_RATIO>2.608 l/kg</WATER_GRAIN_RATIO>
+ <DECOCTION_AMT>0.00 L</DECOCTION_AMT>
+ <INFUSE_TEMP>69.7 C</INFUSE_TEMP>
+ <DISPLAY_STEP_TEMP>64.4 C</DISPLAY_STEP_TEMP>
+ <DISPLAY_INFUSE_AMT>14.52 L</DISPLAY_INFUSE_AMT>
+</MASH_STEP>
+</MASH_STEPS>
+
+</MASH>
+
+ <NOTES>The beer itself is a crisp, light yet malty Czech Lager, which balances both bitterness and flavor very well. On the palate, you can expect sweet honey notes and fresh-baked bread, complemented with subtle floral notes from the M&#246;st hops. Radim has some specific advice for brewing this. Firstly, the recipe calls for a simplified single decoction mash where you remove 7.5l of mash from the vessel after 40 minutes of the mashing period; you then heat this mash to a boil, taking care not to scorch it. After 20 minutes, this is then returned to the main body of the mash with two consequences: one being the temperature increase to mash out levels, and then secondly, it brings out the honey notes in the flavor of the malt. Along with the decoction, Radim also advises using RO water with no additions added back in. If you have access to RO water, we strongly advise this too; if you don&#8217;t, then aim for a suitable water profile for the style.
+
+THE MASH
+Temperature &#176;C (Step 1): 65
+Length (mins) (Step 1): 40
+Temperature &#176;C (Step 2): 75
+Length (mins) (Step 2): 10
+
+Mash notes: This mash uses a single decoction method where apx 7.5l of mash is removed from there main body at the end of the 40min mash process and brought up to the boil in a separate vessel. This portion is boiled for apx 20mins and then added back to the main body of the mash and as such increases the overall temperate to 75c for the mash out period of 10mins.</NOTES>
+ <TASTE_NOTES></TASTE_NOTES>
+ <TASTE_RATING>30.0000000</TASTE_RATING>
+ <OG>1.0400000</OG>
+ <FG>1.0100000</FG>
+ <CARBONATION>4.5176600</CARBONATION>
+ <FERMENTATION_STAGES>2</FERMENTATION_STAGES>
+ <PRIMARY_AGE>4.0000000</PRIMARY_AGE>
+ <PRIMARY_TEMP>19.4444444</PRIMARY_TEMP>
+ <SECONDARY_AGE>10.0000000</SECONDARY_AGE>
+ <SECONDARY_TEMP>19.4444444</SECONDARY_TEMP>
+ <TERTIARY_AGE>7.0000000</TERTIARY_AGE>
+ <AGE>30.0000000</AGE>
+ <AGE_TEMP>18.3333333</AGE_TEMP>
+ <CARBONATION_USED>Bottle with 111.76 g Corn Sugar</CARBONATION_USED>
+ <FORCED_CARBONATION>FALSE</FORCED_CARBONATION>
+ <PRIMING_SUGAR_NAME>Corn Sugar</PRIMING_SUGAR_NAME>
+ <PRIMING_SUGAR_EQUIV>1.0000000</PRIMING_SUGAR_EQUIV>
+ <KEG_PRIMING_FACTOR>0.5000000</KEG_PRIMING_FACTOR>
+ <CARBONATION_TEMP>21.1111111</CARBONATION_TEMP>
+ <DISPLAY_CARB_TEMP>21.1 C</DISPLAY_CARB_TEMP>
+ <DATE>2026-07-11 11:44:53</DATE>
+ <EST_OG>1.050 SG</EST_OG>
+ <EST_FG>1.006 SG</EST_FG>
+ <EST_COLOR>2.8978113</EST_COLOR>
+ <IBU>34.3 IBUs</IBU>
+ <IBU_METHOD>Tinseth</IBU_METHOD>
+ <EST_ABV>5.8 %</EST_ABV>
+ <ABV>3.9 %</ABV>
+ <ACTUAL_EFFICIENCY>60.1 %</ACTUAL_EFFICIENCY>
+ <CALORIES>131.4208867</CALORIES>
+ <DISPLAY_BATCH_SIZE>21.00 L</DISPLAY_BATCH_SIZE>
+ <DISPLAY_BOIL_SIZE>29.00 L</DISPLAY_BOIL_SIZE>
+ <DISPLAY_OG>1.040 SG</DISPLAY_OG>
+ <DISPLAY_FG>1.010 SG</DISPLAY_FG>
+ <DISPLAY_PRIMARY_TEMP>19.4 C</DISPLAY_PRIMARY_TEMP>
+ <DISPLAY_SECONDARY_TEMP>19.4 C</DISPLAY_SECONDARY_TEMP>
+ <DISPLAY_TERTIARY_TEMP>18.3 C</DISPLAY_TERTIARY_TEMP>
+ <DISPLAY_AGE_TEMP>18.3 C</DISPLAY_AGE_TEMP>
+</RECIPE>
+</RECIPES>

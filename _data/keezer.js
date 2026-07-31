@@ -24,27 +24,27 @@ export default {
         recipe: "2026-04-24-Rhubarb-Gooseberry-Sour"
     },
     tap4: {
-        name: "Dry ;-(",
-        colour: "",
-        style: "",
-        abv: "",
-        notes: "",
-        recipe: ""
+        name: "Facets Super-Citra-Delic",
+        colour: "ebc-8",
+        style: "American Pale Ale",
+        abv: "5.2",
+        notes: "Latest iteration of the Facets series, this time combining old favourite Citra with new kid on the block Superdelic. Very tasty!",
+        recipe: "2026-05-01-facets-citra-superdelic"
     },
     tap5: {
+        name: "Fairwater Czech Lager",
+        colour: "ebc-6",
+        style: "Czech Premium Pale Lager",
+        abv: "5%",
+        notes: "A refreshing lager, perfect for a hot summer's day.",
+        recipe: "2026-07-11-Czech-Lager"
+    },
+    tap6: {
         name: "Chilean Sauvignon Blanc",
         colour: "ebc-4",
         style: "Wine",
         abv: "12%",
         notes: "Winexpert Kit: Herbaceous and zesty with notes of peach, pineapple, and fresh-cut grass. Light-bodied with crisp acidity, this dry white offers a lively palate and a bright finish. A classic Sauvignon Blanc style with freshness, green fruit, and vibrant energy.",
         recipe: "https://winexpert.com/product/sauvignon-blanc-chile-2/"
-    },
-    tap6: {
-        name: "Soda Water",
-        colour: "water",
-        style: "Water",
-        abv: "0%",
-        notes: "Water, lovingly force-carbonated to provide a refreshing fizz.",
-        recipe: ""
     }    
 }
