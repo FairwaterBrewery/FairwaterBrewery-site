@@ -3,27 +3,177 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Fairwater Brewery</title>
-		<meta name="description" content="Amateur brewing blog - recipes, thoughts, equipment, hints, and anything else that occurs to me.">
+		<title>Rhubarb &amp; Gooseberry Crumble Sour</title>
+		<meta name="description" content="Fruited sour">
 		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Fairwater Brewery">
 		
-		<style>/* Message Box */
-.message-box {
-	--color-message-box: #ffc;
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
 
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
 	display: block;
-	background-color: var(--color-message-box);
-	color: var(--color-gray-90);
-	padding: 1em 0.625em; /* 16px 10px /16 */
-}
-.message-box ol {
-	margin-top: 0;
-}
-
-@media (prefers-color-scheme: dark) {
-	.message-box {
-		--color-message-box: #082840;
-	}
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
 }
 /* This is an arbitrary CSS string added to the bundle */
 /* Defaults */
@@ -474,172 +624,21 @@ figcaption {
 
 		<main id="skip">
 			<heading-anchors>
-				<!-- Delete this block, which will also remove the component CSS from the bundle -->
-<!--
-<div class="message-box">
-	<ol>
-		<li>Edit <code>_data/metadata.js</code> with your blog’s information.</li>
-		<li>(Optional) Edit <code>eleventy.config.js</code> with your <a href="https://www.11ty.dev/docs/config/">configuration preferences</a>.</li>
-		<li>Delete this message from <code>_includes/layouts/home.njk</code>.</li>
-	</ol>
-	<p><em>This is an <a href="https://www.11ty.dev/">Eleventy project</a> created from the <a href="https://github.com/11ty/eleventy-base-blog"><code>eleventy-base-blog</code> repo</a>.</em></p>
-</div>
--->
-<!-- Stop deleting -->
+				
+<h1 id="rhubarb-and-gooseberry-crumble-sour">Rhubarb &amp; Gooseberry Crumble Sour</h1>
 
+<ul class="post-metadata">
+	<li><time datetime="2026-07-11">11 July 2026</time></li>
+	<li><a href="/tags/recipes/" class="post-tag">recipes</a></li>
+</ul>
 
-    
-    <div class="recipe">
-    <h1 id="dead-pony-club">Dead Pony Club</h1>
-    BeerXml file: <a href="/beerxml/Dead-Pony-Club.xml" target="_blank">Dead-Pony-Club.xml</a>
-    <h3 id="vital-statistics">Vital statistics:</h3>
-    <ul>
-        <li>Type: All Grain
-        </li><li>Brewer: Bryan
-        </li><li>Style: Special/Best/Premium Bitter
-        </li><li>Length: 20 litres
-        </li><li>Yeast:   
-            Safale American  (DCL/Fermentis US-05)
-        </li><li>OG: 1.042 SG
-        </li><li>FG: 1.007 SG
-        </li><li>ABV: 4.6 %
-        </li><li>Colour: 
-        
-        
-            14.8 EBC
-        
-        </li><li>Bitterness: 29.7 IBUs
-    </li></ul>
+<p>This is my latest iteration of this sour. I'm still using up the rather large quantities of frozen fruit I was gifted along with the freezer I used to make my keezer.</p>
+<p>This recpie was tweaked in conversation with Gemini to try and get a more biscuity, crumble-like flavour from the grains. I also doubled the amount of fruit I used, to push those flavours front and centre.</p>
+<p><a href="/recipes/2026-07-11-Rhubarb-Gooseberry-Sour/">Here's the recipe.</a></p>
+<p>I took a 12l keg to a friend's party last week, and the consensus was that this is the best batch so far, which was pleasing to hear! I would still like to emphasise the crumble a little more, so more tweaking is called for.</p>
 
-    
-     
-        
-        
-     
-        
-        
-     
-        
-        
-    
-
-    <h3 id="fermentables">Fermentables:</h3>
-	<table width="90%" class="fermentables">
-        <tr>
-			<th width="60%">Name</th>
-			<th width="10%">Colour (EBC)</th>
-			<th width="20%">Amount (kg)</th>
-			<th width="10%">%</th>
-		</tr>
-         
-        <tr>
-            <td>Extra Pale Maris Otter (Crisp)</td>
-            <td>3.1 </td>
-            
-            <td>2.8</td>
-            <td>77.3</td>
-        </tr>
-         
-        <tr>
-            <td>Caramalt (Thomas Fawcett)</td>
-            <td>29.6 </td>
-            
-            <td>0.63</td>
-            <td>17.4</td>
-        </tr>
-         
-        <tr>
-            <td>Crystal Malt - 60L (Thomas Fawcett)</td>
-            <td>118.2 </td>
-            
-            <td>0.19</td>
-            <td>5.2</td>
-        </tr>
-        </table>
-
-    <h3 id="hops">Hops:</h3>
-    <table width="90%" class="hops">
-		<tr>
-			<th width="50%">Name</th>
-			<th width="10%">Alpha</th>
-			<th width="10%">Form</th>
-			<th width="20%">Amount (g)</th>
-			<th width="10%">Time (mins)</th>
-		</tr>
-        
-        
-        
-         
-        <tr>
-            <td>Citra</td>
-            <td>12</td>
-            <td>Leaf</td>
-            <td>5</td>
-            <td>60</td>
-        </tr>
-         
-        <tr>
-            <td>Simcoe</td>
-            <td>13</td>
-            <td>Leaf</td>
-            <td>5</td>
-            <td>60</td>
-        </tr>
-         
-        <tr>
-            <td>Citra</td>
-            <td>12</td>
-            <td>Leaf</td>
-            <td>5</td>
-            <td>30</td>
-        </tr>
-         
-        <tr>
-            <td>Simcoe</td>
-            <td>13</td>
-            <td>Leaf</td>
-            <td>5</td>
-            <td>30</td>
-        </tr>
-        
-        
-         
-        <tr>
-            <td>Simcoe</td>
-            <td>13</td>
-            <td>Pellet</td>
-            <td>75</td>
-            <td>Dry Hop</td>
-        </tr>
-         
-        <tr>
-            <td>Mosaic</td>
-            <td>11.8</td>
-            <td>Leaf</td>
-            <td>62.5</td>
-            <td>Dry Hop</td>
-        </tr>
-         
-        <tr>
-            <td>Citra</td>
-            <td>12</td>
-            <td>Leaf</td>
-            <td>50</td>
-            <td>Dry Hop</td>
-        </tr>
-        </table>
-
-    <p class="footer">
-        I don't include mash schedule, water treatment, fininings 
-        (and other miscellaneous ingredients), as these are all down
-        to personal preferences, local water conditions (or the 
-        availability of RO water!), and so on. Some of these details
-        might be present in the .beerxml file, thought I can't
-        guarantee their accuracy, so make your own decisions!
-    </p>
-
-  </div>
-
+<ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/blog/2026/07/11/czech-lager/">Fairwater Czech Lager</a></li>
+</ul>
 
 			</heading-anchors>
 		</main>
@@ -648,7 +647,7 @@ figcaption {
 			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.1.6</a></em></p>
 		</footer>
 
-		<!-- This page `/recipes/dead-pony-club/` was built on 2026-07-31T12:05:47.545Z -->
+		<!-- This page `/blog/2026/07/11/rhubarb-gooseberry-crumble-sour/` was built on 2026-07-31T12:02:39.607Z -->
 		<script type="module" src="/dist/cC8wS6ZjFU.js"></script>
 	</body>
 </html>
