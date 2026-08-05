@@ -1,19 +1,19 @@
 export default {
     tap1: {
-        name: "Fairwater Facets: Noir",
-        colour: "ebc-80",
-        style: "BIPA",
-        abv: "5.2%",
-        notes: "A Black IPA variantion on the Facets theme. Hopped on the hot side with Bramling Cross and Sorachi Ace, and on the cold side with Simcoe.",
-        recipe: "2026-04-05-facets-noir"
+        name: "Dry ;-(",
+        colour: "",
+        style: "",
+        abv: "",
+        notes: "",
+        recipe: ""
     },
     tap2: {
-        name: "Wobbly Gob Great Bar Cider",
-        colour: "ebc-4",
-        style: "Cider",
-        abv: "6.7%",
-        notes: "A clean crisp and refreshing cider with a great apple taste.",
-        recipe: "https://www.hamsteadhomebrew.co.uk/WobblyGob-Great-Barr-Gold-Apple-Cider"
+         name: "Dry ;-(",
+        colour: "",
+        style: "",
+        abv: "",
+        notes: "",
+        recipe: ""
    },
     tap3: {
         name: "Rhubarb & Gooseberry Sour",
@@ -24,12 +24,12 @@ export default {
         recipe: "2026-04-24-Rhubarb-Gooseberry-Sour"
     },
     tap4: {
-        name: "Facets Super-Citra-Delic",
-        colour: "ebc-8",
-        style: "American Pale Ale",
-        abv: "5.2",
-        notes: "Latest iteration of the Facets series, this time combining old favourite Citra with new kid on the block Superdelic. Very tasty!",
-        recipe: "2026-05-01-facets-citra-superdelic"
+        name: "Dry ;-(",
+        colour: "",
+        style: "",
+        abv: "",
+        notes: "",
+        recipe: ""
     },
     tap5: {
         name: "Fairwater Czech Lager",
