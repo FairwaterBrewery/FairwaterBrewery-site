@@ -416,3 +416,16 @@ figcaption {
 	font-style: italic;
 	font-size: small;
 }
+
+.image-row {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.image-row img {
+  max-width: 45%;
+  height: auto;
+  object-fit: contain;
+}
