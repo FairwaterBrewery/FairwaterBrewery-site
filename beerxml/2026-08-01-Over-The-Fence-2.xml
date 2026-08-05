@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><RECIPES>
+<RECIPE>
+ <NAME>Over The Fence IPA 2 - Motueka</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>All Grain</TYPE>
+ <BREWER>Bryan &#38; Tim &#38; Emma &#38; Adam</BREWER>
+ <ASST_BREWER></ASST_BREWER>
+ <BATCH_SIZE>21.0000000</BATCH_SIZE>
+ <BOIL_SIZE>29.0416667</BOIL_SIZE>
+ <BOIL_TIME>60.0000000</BOIL_TIME>
+ <EFFICIENCY>65.0000000</EFFICIENCY>
+ <HOPS>
+<HOP>
+ <NAME>Hallertau Magnum</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>Germany</ORIGIN>
+ <ALPHA>14.0000000</ALPHA>
+ <AMOUNT>0.0100000</AMOUNT>
+ <USE>First Wort</USE>
+ <TIME>60.0000000</TIME>
+ <NOTES>German Hallertauer hybrid, widely used in Germany. Extremely appropriate for early boil additions.
+Used for: German ales and lagers, bitters, IPAs, pilsners, pale ales, stouts.
+Aroma: somewhat unnoticeable aroma; stable spicy flavor
+Substitutes: Hallertau Taurus, Columbus, Nugget
+Storage: Excellent (80%-85% AA after 6 months at 20 C)
+12-14% AA / 4.5-5.5% Beta</NOTES>
+ <TYPE>Bittering</TYPE>
+ <FORM>Pellet</FORM>
+ <BETA>6.5000000</BETA>
+ <HSI>17.5000000</HSI>
+ <DISPLAY_AMOUNT>10.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>60.0 min</DISPLAY_TIME>
+</HOP>
+<HOP>
+ <NAME>Motueka</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>New Zealand</ORIGIN>
+ <ALPHA>7.0000000</ALPHA>
+ <AMOUNT>0.0100000</AMOUNT>
+ <USE>Boil</USE>
+ <TIME>30.0000000</TIME>
+ <NOTES>Flexible hop developed from Saaz.  Has noble character and aroma, lemon and lime tones, balanced bitterness, and unique flavor.
+
+Used for: Lagers, Belgian Ales and Bohemian Pilsner.  
+Substitutions: Saaz, Sterling</NOTES>
+ <TYPE>Aroma</TYPE>
+ <FORM>Pellet</FORM>
+ <BETA>5.2500000</BETA>
+ <HSI>30.0000000</HSI>
+ <DISPLAY_AMOUNT>10.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>30.0 min</DISPLAY_TIME>
+</HOP>
+<HOP>
+ <NAME>Motueka</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>New Zealand</ORIGIN>
+ <ALPHA>7.0000000</ALPHA>
+ <AMOUNT>0.0100000</AMOUNT>
+ <USE>Boil</USE>
+ <TIME>15.0000000</TIME>
+ <NOTES>Flexible hop developed from Saaz.  Has noble character and aroma, lemon and lime tones, balanced bitterness, and unique flavor.
+
+Used for: Lagers, Belgian Ales and Bohemian Pilsner.  
+Substitutions: Saaz, Sterling</NOTES>
+ <TYPE>Aroma</TYPE>
+ <FORM>Pellet</FORM>
+ <BETA>5.2500000</BETA>
+ <HSI>30.0000000</HSI>
+ <DISPLAY_AMOUNT>10.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>15.0 min</DISPLAY_TIME>
+</HOP>
+<HOP>
+ <NAME>Motueka</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>New Zealand</ORIGIN>
+ <ALPHA>7.0000000</ALPHA>
+ <AMOUNT>0.0300000</AMOUNT>
+ <USE>Aroma</USE>
+ <TIME>20.0000000</TIME>
+ <NOTES>Flexible hop developed from Saaz.  Has noble character and aroma, lemon and lime tones, balanced bitterness, and unique flavor.
+
+Used for: Lagers, Belgian Ales and Bohemian Pilsner.  
+Substitutions: Saaz, Sterling</NOTES>
+ <TYPE>Aroma</TYPE>
+ <FORM>Pellet</FORM>
+ <BETA>5.2500000</BETA>
+ <HSI>30.0000000</HSI>
+ <DISPLAY_AMOUNT>30.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>20.0 min</DISPLAY_TIME>
+</HOP>
+<HOP>
+ <NAME>Motueka</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>New Zealand</ORIGIN>
+ <ALPHA>7.0000000</ALPHA>
+ <AMOUNT>0.0500000</AMOUNT>
+ <USE>Dry Hop</USE>
+ <TIME>0.0000000</TIME>
+ <NOTES>Flexible hop developed from Saaz.  Has noble character and aroma, lemon and lime tones, balanced bitterness, and unique flavor.
+
+Used for: Lagers, Belgian Ales and Bohemian Pilsner.  
+Substitutions: Saaz, Sterling</NOTES>
+ <TYPE>Aroma</TYPE>
+ <FORM>Pellet</FORM>
+ <BETA>5.2500000</BETA>
+ <HSI>30.0000000</HSI>
+ <DISPLAY_AMOUNT>50.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>60.0 min</DISPLAY_TIME>
+</HOP>
+</HOPS>
+
+ <FERMENTABLES>
+<FERMENTABLE>
+ <NAME>Extra Pale Maris Otter&#174; Malt (Crisp)</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>4.5000011</AMOUNT>
+ <YIELD>81.5000000</YIELD>
+ <COLOR>1.7258883</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>United Kingdom</ORIGIN>
+ <SUPPLIER>Crisp</SUPPLIER>
+ <NOTES>Lower colour version of Maris Otter&#174; Ale malt suitable for lager and golden ale brewing</NOTES>
+ <COARSE_FINE_DIFF>1.5000000</COARSE_FINE_DIFF>
+ <MOISTURE>4.5000000</MOISTURE>
+ <DIASTATIC_POWER>53.0000000</DIASTATIC_POWER>
+ <PROTEIN>9.0000000</PROTEIN>
+ <MAX_IN_BATCH>100.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>TRUE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>4.50 kg</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 kg</INVENTORY>
+ <POTENTIAL>1.0374900</POTENTIAL>
+ <DISPLAY_COLOR>3.4 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE></EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+<FERMENTABLE>
+ <NAME>Light Munich Malt (Crisp)</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>0.4500001</AMOUNT>
+ <YIELD>79.0000000</YIELD>
+ <COLOR>11.1675127</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>United Kingdom</ORIGIN>
+ <SUPPLIER>Crisp</SUPPLIER>
+ <NOTES>Munich malts are produced on a conventional kiln and provide golden through to orange hues
+
+</NOTES>
+ <COARSE_FINE_DIFF>1.5000000</COARSE_FINE_DIFF>
+ <MOISTURE>4.5000000</MOISTURE>
+ <DIASTATIC_POWER>55.0000000</DIASTATIC_POWER>
+ <PROTEIN>10.6000000</PROTEIN>
+ <MAX_IN_BATCH>100.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>FALSE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>0.45 kg</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 kg</INVENTORY>
+ <POTENTIAL>1.0363400</POTENTIAL>
+ <DISPLAY_COLOR>22.0 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE></EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+<FERMENTABLE>
+ <NAME>Wheat Malt (Crisp)</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>0.4500001</AMOUNT>
+ <YIELD>84.0000000</YIELD>
+ <COLOR>2.0812183</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>United Kingdom</ORIGIN>
+ <SUPPLIER>Crisp</SUPPLIER>
+ <NOTES>Even when used in small quantities will improve foam and head retention in all beers. Huskless grain - use rice hulls when using high percentages</NOTES>
+ <COARSE_FINE_DIFF>1.5000000</COARSE_FINE_DIFF>
+ <MOISTURE>6.5000000</MOISTURE>
+ <DIASTATIC_POWER>118.0000000</DIASTATIC_POWER>
+ <PROTEIN>10.0000000</PROTEIN>
+ <MAX_IN_BATCH>50.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>TRUE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>0.45 kg</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 kg</INVENTORY>
+ <POTENTIAL>1.0386400</POTENTIAL>
+ <DISPLAY_COLOR>4.1 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE></EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+</FERMENTABLES>
+
+ <MISCS>
+<MISC>
+ <NAME>Lactic Acid</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Water Agent</TYPE>
+ <USE>Mash</USE>
+ <AMOUNT>0.006323</AMOUNT>
+ <TIME>60.00</TIME>
+ <AMOUNT_IS_WEIGHT>FALSE</AMOUNT_IS_WEIGHT>
+ <USE_FOR>Mash pH</USE_FOR>
+ <NOTES>Used to lower the pH of the mash without altering the water profile.  Lower pH mashes generally improves head retention, increases extraction rate.</NOTES>
+ <DISPLAY_AMOUNT>6.32 ml</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 ml</INVENTORY>
+ <DISPLAY_TIME>60.0 mins</DISPLAY_TIME>
+ <BATCH_SIZE>18.93 L</BATCH_SIZE>
+</MISC>
+<MISC>
+ <NAME>Epsom Salt (MgSO4)</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Water Agent</TYPE>
+ <USE>Mash</USE>
+ <AMOUNT>0.005150</AMOUNT>
+ <TIME>60.00</TIME>
+ <AMOUNT_IS_WEIGHT>TRUE</AMOUNT_IS_WEIGHT>
+ <USE_FOR>Water Agent</USE_FOR>
+ <NOTES>Water agent used to modify water profile.  Use the BeerSmith Water Profile tool to determine amount to add.</NOTES>
+ <DISPLAY_AMOUNT>5.15 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>60.0 mins</DISPLAY_TIME>
+ <BATCH_SIZE>16.08 L</BATCH_SIZE>
+</MISC>
+<MISC>
+ <NAME>Salt</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Water Agent</TYPE>
+ <USE>Mash</USE>
+ <AMOUNT>0.000330</AMOUNT>
+ <TIME>60.00</TIME>
+ <AMOUNT_IS_WEIGHT>TRUE</AMOUNT_IS_WEIGHT>
+ <USE_FOR>Water Agent</USE_FOR>
+ <NOTES>Table Salt (NaCl) may be used as a water mineral to adjust brewing water for mashing.</NOTES>
+ <DISPLAY_AMOUNT>0.33 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>60.0 mins</DISPLAY_TIME>
+ <BATCH_SIZE>16.08 L</BATCH_SIZE>
+</MISC>
+<MISC>
+ <NAME>Lactic Acid</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Water Agent</TYPE>
+ <USE>Sparge</USE>
+ <AMOUNT>0.006665</AMOUNT>
+ <TIME>60.00</TIME>
+ <AMOUNT_IS_WEIGHT>FALSE</AMOUNT_IS_WEIGHT>
+ <USE_FOR>Mash pH</USE_FOR>
+ <NOTES>Used to lower the pH of the mash without altering the water profile.  Lower pH mashes generally improves head retention, increases extraction rate.</NOTES>
+ <DISPLAY_AMOUNT>6.67 ml</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 ml</INVENTORY>
+ <DISPLAY_TIME>60.0 mins</DISPLAY_TIME>
+ <BATCH_SIZE>18.93 L</BATCH_SIZE>
+</MISC>
+<MISC>
+ <NAME>Epsom Salt (MgSO4)</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Water Agent</TYPE>
+ <USE>Sparge</USE>
+ <AMOUNT>0.006009</AMOUNT>
+ <TIME>60.00</TIME>
+ <AMOUNT_IS_WEIGHT>TRUE</AMOUNT_IS_WEIGHT>
+ <USE_FOR>Water Agent</USE_FOR>
+ <NOTES>Water agent used to modify water profile.  Use the BeerSmith Water Profile tool to determine amount to add.</NOTES>
+ <DISPLAY_AMOUNT>6.01 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>60.0 mins</DISPLAY_TIME>
+ <BATCH_SIZE>18.77 L</BATCH_SIZE>
+</MISC>
+<MISC>
+ <NAME>Salt</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Water Agent</TYPE>
+ <USE>Sparge</USE>
+ <AMOUNT>0.000386</AMOUNT>
+ <TIME>60.00</TIME>
+ <AMOUNT_IS_WEIGHT>TRUE</AMOUNT_IS_WEIGHT>
+ <USE_FOR>Water Agent</USE_FOR>
+ <NOTES>Table Salt (NaCl) may be used as a water mineral to adjust brewing water for mashing.</NOTES>
+ <DISPLAY_AMOUNT>0.39 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>60.0 mins</DISPLAY_TIME>
+ <BATCH_SIZE>18.77 L</BATCH_SIZE>
+</MISC>
+<MISC>
+ <NAME>TMM ProMix</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Fining</TYPE>
+ <USE>Boil</USE>
+ <AMOUNT>1.000000</AMOUNT>
+ <TIME>15.00</TIME>
+ <AMOUNT_IS_WEIGHT>FALSE</AMOUNT_IS_WEIGHT>
+ <USE_FOR>Kettle Fining and Yeast Nutrient combination.</USE_FOR>
+ <NOTES>Ingredients:
+E407 semi-refined grade carrageenan
+Zinc enriched yeast &#8211; Saccharomyces cerevisiae
+
+Instructions: Add contents of sachet to the kettle 10 minutes before the end of boil.
+
+Recommended storage temperature is 10&#176;C &#8211; 15&#176;C</NOTES>
+ <DISPLAY_AMOUNT>1.00 Items</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 Items</INVENTORY>
+ <DISPLAY_TIME>15.0 mins</DISPLAY_TIME>
+ <BATCH_SIZE>21.00 L</BATCH_SIZE>
+</MISC>
+<MISC>
+ <NAME>NBS Clarity</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Fining</TYPE>
+ <USE>Primary</USE>
+ <AMOUNT>0.000525</AMOUNT>
+ <TIME>0.00</TIME>
+ <AMOUNT_IS_WEIGHT>FALSE</AMOUNT_IS_WEIGHT>
+ <USE_FOR>Significantly reduces gluten and chill haze.</USE_FOR>
+ <NOTES>NBS Clarity is added a at a rate of .5ml per 20-25 litre brew and is added at the same time as pitching yeast.
+
+The effect of NBS Clarity is reduce chill haze in the final product.
+
+Another great benefit of using NBS Clarity is that it significantly reduces gluten, usually resulting in a product testing under 20ppm.</NOTES>
+ <DISPLAY_AMOUNT>0.53 ml</DISPLAY_AMOUNT>
+ <INVENTORY>15.00 ml</INVENTORY>
+ <DISPLAY_TIME>0.0 mins</DISPLAY_TIME>
+ <BATCH_SIZE>20.00 L</BATCH_SIZE>
+</MISC>
+<MISC>
+ <NAME>ALDC</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Other</TYPE>
+ <USE>Primary</USE>
+ <AMOUNT>1.000000</AMOUNT>
+ <TIME>0.00</TIME>
+ <AMOUNT_IS_WEIGHT>FALSE</AMOUNT_IS_WEIGHT>
+ <USE_FOR>Bypass the formation of diacetyl by using ALDC. </USE_FOR>
+ <NOTES>Single dose ( 1ml )  suitable for up to 23 litres x 10. Supplied in a single 2ml vials.
+
+Bypass the formation of diacetyl by using ALDC. A simple addition to the fermenter makes it possible to consistently control a troublesome area of brewing, and prevent one of the most common flavour complaints. Diacetyl is expensive to measure and control, so by bypassing its formation altogether has become very popular with brewers, especially those brewing lagers and dry-hopped pale ales.
+
+ALDC (Alpha Acetolactate Decarboxylase) is an enzyme that reduces maturation times, increase efficiencies and increases production capacity.
+
+ALDC is produced from a submerged culture of Bacillus subtilis.
+
+ALDC causes the direct decarboxylation of alpha acetolactate to acetoin, thus avoids the production of Diacetyl.
+
+Benefits
+Reduces Diacetyl production
+Significantly reduces maturation times
+More efficient vessel utilisation
+Improves beer quality
+TMM ALDC is added a at a rate of 0.01g to 0.05g  per litre of wort, it is added at the same time as pitching yeast.
+
+This equates to 0.2g-1g per 20ltr of wort.</NOTES>
+ <DISPLAY_AMOUNT>1.00 Items</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 Items</INVENTORY>
+ <DISPLAY_TIME>0.0 mins</DISPLAY_TIME>
+ <BATCH_SIZE>21.00 L</BATCH_SIZE>
+</MISC>
+</MISCS>
+
+ <YEASTS>
+<YEAST>
+ <NAME>LAX Clean West Coast IPA Yeast</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Ale</TYPE>
+ <FORM>Dry</FORM>
+ <AMOUNT>0.3880136</AMOUNT>
+ <AMOUNT_IS_WEIGHT>FALSE</AMOUNT_IS_WEIGHT>
+ <LABORATORY>WHCLAB</LABORATORY>
+ <PRODUCT_ID>LAX Clean West Coast IPA</PRODUCT_ID>
+ <MIN_TEMPERATURE>17.7777778</MIN_TEMPERATURE>
+ <MAX_TEMPERATURE>22.2222222</MAX_TEMPERATURE>
+ <FLOCCULATION>Medium</FLOCCULATION>
+ <ATTENUATION>78.0000000</ATTENUATION>
+ <NOTES>LAX yeast is a clean and highly versatile and reliable yeast strain that was isolated from a famous West Coast brewery and has become a staple in the brewing industry. It is a top-fermenting yeast that is renowned for its clean and neutral flavor profile, making it an excellent choice for a wide range of beer styles. Whether you are brewing a classic American Pale Ale, a hop-forward IPA, high gravity brew or a stout , LAX yeast delivers consistent and exceptional results.
+
+The of the key reasons why breweries should consider selecting LAX yeast is its ability to accentuate the hop character in a beer. This yeast strain is known for its remarkable ability to showcase the aromatic qualities of hops, allowing the true essence of the chosen hop varieties to shine through by providing a clean base.
+
+The clean fermentation profile of LAX yeast ensures that the delicate hop flavors are not overshadowed by yeast-derived esters, resulting in a beer with a crisp and pronounced hop presence. Another notable advantage of using Lax yeast is its high ABV tolerance rates and, LAX yeast is known for its robust fermentation. LAX yeast is an indispensable tool in a brewer&#39;s arsenal. Its clean and neutral flavor profile, ability to accentuate hop character, and high attenuation rate make it an ideal choice for breweries of all sizes and expertise levels.
+
+By selecting LAX yeast, breweries can ensure the production of exceptional beers that captivate the taste buds of their customers, reinforcing their reputation for crafting high-quality brews.&#34; The of the key reasons why breweries should consider selecting LAX yeast is its ability to accentuate the hop character in a beer. This yeast strain is known for its remarkable ability to showcase the aromatic qualities of hops, allowing the true essence of the chosen hop varieties to shine through by providing a clean base. The clean fermentation profile of LAX yeast ensures that the delicate hop flavors are not overshadowed by yeast-derived esters, resulting in a beer with a crisp and pronounced hop presence.
+
+Another notable advantage of using Lax yeast is its high ABV tolerance rates and, LAX yeast is known for its robust fermentation. LAX yeast is an indispensable tool in a brewer&#8217;s arsenal. Its clean and neutral flavor profile, ability to accentuate hop character, and high attenuation rate make it an ideal choice for breweries of all sizes and expertise levels.
+
+By selecting LAX yeast, breweries can ensure the production of exceptional beers that captivate the taste buds of their customers, reinforcing their reputation for crafting high-quality brews.
+
+Beer Styles: Brown Ales, Imperial Stouts, Pale Ales, Red Ales, West Coast IPAs</NOTES>
+ <BEST_FOR>Brown Ales, Imperial Stouts, Pale Ales, Red Ales, West Coast IPAs</BEST_FOR>
+ <MAX_REUSE>0</MAX_REUSE>
+ <TIMES_CULTURED>0</TIMES_CULTURED>
+ <ADD_TO_SECONDARY>FALSE</ADD_TO_SECONDARY>
+ <DISPLAY_AMOUNT>0.39</DISPLAY_AMOUNT>
+ <DISP_MIN_TEMP>17.8 C</DISP_MIN_TEMP>
+ <DISP_MAX_TEMP>22.2 C</DISP_MAX_TEMP>
+ <INVENTORY>0.0 pkg</INVENTORY>
+ <CULTURE_DATE>2020-05-08</CULTURE_DATE>
+</YEAST>
+</YEASTS>
+
+ <WATERS>
+<WATER>
+ <NAME>Reading (Murphys Analysis, May 2025)</NAME>
+ <VERSION>1</VERSION>
+ <AMOUNT>34.8494897</AMOUNT>
+ <CALCIUM>111.0000000</CALCIUM>
+ <BICARBONATE>279.0000000</BICARBONATE>
+ <SULFATE>18.0000000</SULFATE>
+ <CHLORIDE>31.0000000</CHLORIDE>
+ <SODIUM>12.0000000</SODIUM>
+ <MAGNESIUM>2.0000000</MAGNESIUM>
+ <PH>7.9000000</PH>
+ <NOTES></NOTES>
+ <DISPLAY_AMOUNT>34.85 L</DISPLAY_AMOUNT>
+</WATER>
+</WATERS>
+
+ <STYLE>
+ <NAME>American Pale Ale</NAME>
+ <VERSION>1</VERSION>
+ <CATEGORY>Pale American Ale</CATEGORY>
+ <CATEGORY_NUMBER>18</CATEGORY_NUMBER>
+ <STYLE_LETTER>B</STYLE_LETTER>
+ <STYLE_GUIDE>BJCP 2021</STYLE_GUIDE>
+ <TYPE>Ale</TYPE>
+ <OG_MIN>1.0450000</OG_MIN>
+ <OG_MAX>1.0600000</OG_MAX>
+ <FG_MIN>1.0100000</FG_MIN>
+ <FG_MAX>1.0150000</FG_MAX>
+ <IBU_MIN>30.0000000</IBU_MIN>
+ <IBU_MAX>50.0000000</IBU_MAX>
+ <COLOR_MIN>9.8500000</COLOR_MIN>
+ <COLOR_MAX>19.7000000</COLOR_MAX>
+ <CARB_MIN>2.3000000</CARB_MIN>
+ <CARB_MAX>3.0000000</CARB_MAX>
+ <ABV_MAX>6.2000000</ABV_MAX>
+ <ABV_MIN>4.5000000</ABV_MIN>
+ <NOTES>An average-strength, hop-forward, pale American craft beer with sufficient supporting malt to make the beer balanced and drinkable. The clean hop presence can reflect classic or modern American or New World hop varieties with a wide range of characteristics.  Comments: Modern American versions are often just lower gravity IPAs. Traditionally was a style that allowed for experimentation with hop varieties and usage methods, which can now often be found as international adaptations in countries with an emerging craft beer market. Judges should allow for characteristics of modern American or New World hops as they are developed and released.
+History: A modern American craft beer era adaptation of English pale ale, reflecting indigenous ingredients. Sierra Nevada Pale Ale was first made in 1980 and helped popularize the style. Prior to the explosion in popularity of IPAs, this style was the most well-known and popular of American craft beers. Style Comparison: Typically lighter in color, cleaner in fermentation profile, and having fewer caramel flavors than English counterparts. There can be some overlap in color between American Pale Ale and American Amber Ale. The American Pale Ale will generally be cleaner, have a less caramelly malt profile, less body, and often more finishing hops. Less bitterness in the balance and alcohol strength than an American IPA. Maltier, more balanced and drinkable, and less intensely hop-focused and bitter than session-strength </NOTES>
+ <PROFILE>Aroma: Moderate to moderately-high hop aroma from American or New World hop varieties with a wide range of possible characteristics, including citrus, floral, pine, resin, spice, tropical fruit, stone fruit, berry, or melon. None of these specific characteristics are required, but a hoppy aroma should be apparent. Low to moderate neutral to grainy maltiness supports the hop presentation, and can show low amounts of specialty malt character (e.g., bread, toast, biscuit, caramel). Fruity esters optional, up to moderate in strength. Fresh dry-hop aroma optional.
+Appearance: Pale golden to amber. Moderately large white to off-white head with good retention. Generally quite clear.
+Flavor: Hop and malt character similar to aroma (same intensities and descriptors apply). Caramel flavors are often absent or fairly restrained, but are acceptable as long as they don&#8217;t clash with the hops. Moderate to high bitterness. Clean fermentation profile. Fruity yeast esters can be moderate to none, although many hop varieties are quite fruity. Medium to dry finish. The balance is typically towards the late hops and bitterness; the malt presence should be supportive, not distracting. Hop flavor and bitterness often linger into the finish, but the aftertaste should generally be clean and not harsh. Fresh dry-hop flavor optional.
+Mouthfeel: Medium-light to medium body. Moderate to high carbonation. Overall smooth finish without astringency or harshness.</PROFILE>
+ <INGREDIENTS>Neutral pale malt. American or New World hops. Neutral to lightly fruity American or English ale yeast. Small amounts of various specialty malts.</INGREDIENTS>
+ <EXAMPLES>Deschutes Mirror Pond Pale Ale, Half Acre Daisy Cutter Pale Ale, Great Lakes Burning River, La Cumbre Acclimated APA, Sierra Nevada Pale Ale, Stone Pale Ale 2.0</EXAMPLES>
+ <DISPLAY_OG_MIN>1.045 SG</DISPLAY_OG_MIN>
+ <DISPLAY_OG_MAX>1.060 SG</DISPLAY_OG_MAX>
+ <DISPLAY_FG_MIN>1.010 SG</DISPLAY_FG_MIN>
+ <DISPLAY_FG_MAX>1.015 SG</DISPLAY_FG_MAX>
+ <DISPLAY_COLOR_MIN>9.8 EBC</DISPLAY_COLOR_MIN>
+ <DISPLAY_COLOR_MAX>19.7 EBC</DISPLAY_COLOR_MAX>
+ <OG_RANGE>1.045-1.060 SG</OG_RANGE>
+ <FG_RANGE>1.010-1.015 SG</FG_RANGE>
+ <IBU_RANGE>30.0-50.0 IBUs</IBU_RANGE>
+ <CARB_RANGE>2.30-3.00 Vols</CARB_RANGE>
+ <COLOR_RANGE>9.8-19.7 EBC</COLOR_RANGE>
+ <ABV_RANGE>4.50-6.20 %</ABV_RANGE>
+</STYLE>
+
+ <EQUIPMENT>
+ <NAME>Bryan Fly Sparge 20l</NAME>
+ <VERSION>1</VERSION>
+ <BOIL_SIZE>29.0416667</BOIL_SIZE>
+ <BATCH_SIZE>21.0000000</BATCH_SIZE>
+ <TUN_VOLUME>44.9997407</TUN_VOLUME>
+ <TUN_WEIGHT>4.0823316</TUN_WEIGHT>
+ <TUN_SPECIFIC_HEAT>0.3000000</TUN_SPECIFIC_HEAT>
+ <TOP_UP_WATER>0.0000000</TOP_UP_WATER>
+ <TRUB_CHILLER_LOSS>4.0000000</TRUB_CHILLER_LOSS>
+ <EVAP_RATE>10.3299857</EVAP_RATE>
+ <BOIL_TIME>60.0000000</BOIL_TIME>
+ <CALC_BOIL_VOLUME>TRUE</CALC_BOIL_VOLUME>
+ <LAUTER_DEADSPACE>0.4000000</LAUTER_DEADSPACE>
+ <TOP_UP_KETTLE>0.0000000</TOP_UP_KETTLE>
+ <HOP_UTILIZATION>100.0000000</HOP_UTILIZATION>
+ <COOLING_LOSS_PCT>4.0000000</COOLING_LOSS_PCT>
+ <NOTES>Current 35l boiler</NOTES>
+ <DISPLAY_BOIL_SIZE>29.04 L</DISPLAY_BOIL_SIZE>
+ <DISPLAY_BATCH_SIZE>21.00 L</DISPLAY_BATCH_SIZE>
+ <DISPLAY_TUN_VOLUME>45.00 L</DISPLAY_TUN_VOLUME>
+ <DISPLAY_TUN_WEIGHT>4.08 kg</DISPLAY_TUN_WEIGHT>
+ <DISPLAY_TOP_UP_WATER>0.00 L</DISPLAY_TOP_UP_WATER>
+ <DISPLAY_TRUB_CHILLER_LOSS>4.00 L</DISPLAY_TRUB_CHILLER_LOSS>
+ <DISPLAY_LAUTER_DEADSPACE>0.40 L</DISPLAY_LAUTER_DEADSPACE>
+ <DISPLAY_TOP_UP_KETTLE>0.00 L</DISPLAY_TOP_UP_KETTLE>
+</EQUIPMENT>
+
+ <MASH>
+ <NAME>Single Infusion, Medium Body, No Mash Out</NAME>
+ <VERSION>1</VERSION>
+ <GRAIN_TEMP>22.2222222</GRAIN_TEMP>
+ <TUN_TEMP>22.2222222</TUN_TEMP>
+ <SPARGE_TEMP>76.0000000</SPARGE_TEMP>
+ <PH>$ph</PH>
+ <TUN_WEIGHT>144.0000000</TUN_WEIGHT>
+ <TUN_SPECIFIC_HEAT>0.3000000</TUN_SPECIFIC_HEAT>
+ <EQUIP_ADJUST>FALSE</EQUIP_ADJUST>
+ <NOTES>Simple single infusion mash for use with most modern well modified grains (about 95% of the time).</NOTES>
+ <DISPLAY_GRAIN_TEMP>22.2 C</DISPLAY_GRAIN_TEMP>
+ <DISPLAY_TUN_TEMP>22.2 C</DISPLAY_TUN_TEMP>
+ <DISPLAY_SPARGE_TEMP>76.0 C</DISPLAY_SPARGE_TEMP>
+ <DISPLAY_TUN_WEIGHT>4.08 kg</DISPLAY_TUN_WEIGHT>
+<MASH_STEPS>
+<MASH_STEP>
+ <NAME>Mash In</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Infusion</TYPE>
+ <INFUSE_AMOUNT>14.0828724</INFUSE_AMOUNT>
+ <STEP_TIME>60.0000000</STEP_TIME>
+ <STEP_TEMP>66.6666667</STEP_TEMP>
+ <RAMP_TIME>2.0000000</RAMP_TIME>
+ <END_TEMP>66.6666667</END_TEMP>
+ <DESCRIPTION>Add 16.48 L of water at 72.2 C</DESCRIPTION>
+ <WATER_GRAIN_RATIO>2.608 l/kg</WATER_GRAIN_RATIO>
+ <DECOCTION_AMT>0.00 L</DECOCTION_AMT>
+ <INFUSE_TEMP>72.2 C</INFUSE_TEMP>
+ <DISPLAY_STEP_TEMP>66.7 C</DISPLAY_STEP_TEMP>
+ <DISPLAY_INFUSE_AMT>16.48 L</DISPLAY_INFUSE_AMT>
+</MASH_STEP>
+</MASH_STEPS>
+
+</MASH>
+
+ <NOTES></NOTES>
+ <TASTE_NOTES></TASTE_NOTES>
+ <TASTE_RATING>30.0000000</TASTE_RATING>
+ <OG>1.0460000</OG>
+ <FG>1.0100000</FG>
+ <CARBONATION>4.5176600</CARBONATION>
+ <FERMENTATION_STAGES>2</FERMENTATION_STAGES>
+ <PRIMARY_AGE>4.0000000</PRIMARY_AGE>
+ <PRIMARY_TEMP>19.4444444</PRIMARY_TEMP>
+ <SECONDARY_AGE>10.0000000</SECONDARY_AGE>
+ <SECONDARY_TEMP>19.4444444</SECONDARY_TEMP>
+ <TERTIARY_AGE>7.0000000</TERTIARY_AGE>
+ <AGE>30.0000000</AGE>
+ <AGE_TEMP>18.3333333</AGE_TEMP>
+ <CARBONATION_USED>Keg with 12.54 PSI</CARBONATION_USED>
+ <FORCED_CARBONATION>TRUE</FORCED_CARBONATION>
+ <PRIMING_SUGAR_NAME>Forced Carbonation</PRIMING_SUGAR_NAME>
+ <PRIMING_SUGAR_EQUIV>1.0000000</PRIMING_SUGAR_EQUIV>
+ <KEG_PRIMING_FACTOR>0.5000000</KEG_PRIMING_FACTOR>
+ <CARBONATION_TEMP>7.2222222</CARBONATION_TEMP>
+ <DISPLAY_CARB_TEMP>7.2 C</DISPLAY_CARB_TEMP>
+ <DATE>2026-07-31 11:41:26</DATE>
+ <EST_OG>1.052 SG</EST_OG>
+ <EST_FG>1.011 SG</EST_FG>
+ <EST_COLOR>4.2393071</EST_COLOR>
+ <IBU>34.7 IBUs</IBU>
+ <IBU_METHOD>Tinseth</IBU_METHOD>
+ <EST_ABV>5.5 %</EST_ABV>
+ <ABV>4.7 %</ABV>
+ <ACTUAL_EFFICIENCY>51.5 %</ACTUAL_EFFICIENCY>
+ <CALORIES>151.5868530</CALORIES>
+ <DISPLAY_BATCH_SIZE>21.00 L</DISPLAY_BATCH_SIZE>
+ <DISPLAY_BOIL_SIZE>29.04 L</DISPLAY_BOIL_SIZE>
+ <DISPLAY_OG>1.046 SG</DISPLAY_OG>
+ <DISPLAY_FG>1.010 SG</DISPLAY_FG>
+ <DISPLAY_PRIMARY_TEMP>19.4 C</DISPLAY_PRIMARY_TEMP>
+ <DISPLAY_SECONDARY_TEMP>19.4 C</DISPLAY_SECONDARY_TEMP>
+ <DISPLAY_TERTIARY_TEMP>18.3 C</DISPLAY_TERTIARY_TEMP>
+ <DISPLAY_AGE_TEMP>18.3 C</DISPLAY_AGE_TEMP>
+</RECIPE>
+</RECIPES>
