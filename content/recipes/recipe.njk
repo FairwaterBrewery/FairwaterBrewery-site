@@ -71,8 +71,8 @@ permalink: "recipes/{{ pagination.items[0].file | slugify }}/index.html"
 			<th width="20%">Amount (g)</th>
 			<th width="10%">Time (mins)</th>
 		</tr>
-        {% set mashHops = recipe.hops[0].hop | hopfilter("use", "Mash") %}
-        {% for hop in mashHops %} 
+        {% set hopList = recipe.hops[0].hop | itemfilter("use", "Mash") %}
+        {% for hop in hopList %} 
         <tr>
             <td>{{ hop.name }}</td>
             <td>{{ hop.alpha | round(2)}}</td>
@@ -82,8 +82,8 @@ permalink: "recipes/{{ pagination.items[0].file | slugify }}/index.html"
         </tr>
         {% endfor -%}
 
-        {% set mashHops = recipe.hops[0].hop | hopfilter("use", "First Wort") %}
-        {% for hop in mashHops %} 
+        {% set hopList = recipe.hops[0].hop | itemfilter("use", "First Wort") %}
+        {% for hop in hopList %} 
         <tr>
             <td>{{ hop.name }}</td>
             <td>{{ hop.alpha | round(2)}}</td>
@@ -93,8 +93,8 @@ permalink: "recipes/{{ pagination.items[0].file | slugify }}/index.html"
         </tr>
         {% endfor -%}
 
-        {% set boilHops = recipe.hops[0].hop | hopfilter("use", "Boil") %}
-        {% for hop in boilHops %} 
+        {% set hopList = recipe.hops[0].hop | itemfilter("use", "Boil") %}
+        {% for hop in hopList %} 
         <tr>
             <td>{{ hop.name }}</td>
             <td>{{ hop.alpha | round(2)}}</td>
@@ -104,8 +104,8 @@ permalink: "recipes/{{ pagination.items[0].file | slugify }}/index.html"
         </tr>
         {% endfor -%}
 
-        {% set mashHops = recipe.hops[0].hop | hopfilter("use", "Aroma") %}
-        {% for hop in mashHops %} 
+        {% set hopList = recipe.hops[0].hop | itemfilter("use", "Aroma") %}
+        {% for hop in hopList %} 
         <tr>
             <td>{{ hop.name }}</td>
             <td>{{ hop.alpha | round(2)}}</td>
@@ -115,14 +115,46 @@ permalink: "recipes/{{ pagination.items[0].file | slugify }}/index.html"
         </tr>
         {% endfor -%}
 
-        {% set mashHops = recipe.hops[0].hop | hopfilter("use", "Dry Hop") %}
-        {% for hop in mashHops %} 
+        {% set hopList = recipe.hops[0].hop | itemfilter("use", "Dry Hop") %}
+        {% for hop in hopList %} 
         <tr>
             <td>{{ hop.name }}</td>
             <td>{{ hop.alpha | round(2)}}</td>
             <td>{{ hop.form }}</td>
             <td>{{ (hop.amount * 1000) | round(3) }}</td>
             <td>{{ hop.use }}</td>
+        </tr>
+        {% endfor -%}
+    </table>
+
+    <h3>Misc:</h3>
+    <table width="90%" class="misc">
+		<tr>
+			<th width="50%">Name</th>
+			<th width="10%">Type</th>
+			<th width="20%">Amount</th>
+            <th width="20%">Use</th>
+			<th width="10%">Time (mins)</th>
+		</tr>
+        {% set miscList = recipe.miscs[0].misc | itemfilter("type", ["Spice","Flavor"]) | itemfilter("use", "Boil") %}
+        {% for misc in miscList %} 
+        <tr>
+            <td>{{ misc.name }}</td>
+            <td>{{ misc.type }}</td>
+            <td>{{ misc.display_amount }}</td>
+            <td>{{ misc.use }}</td>
+            <td>{{ misc.time | round()}}</td>
+        </tr>
+        {% endfor -%}
+
+        {% set miscList = recipe.miscs[0].misc | itemfilter("type", ["Spice","Flavor"]) | itemfilter("use", "Whirlpool") %}
+        {% for misc in miscList %} 
+        <tr>
+            <td>{{ misc.name }}</td>
+            <td>{{ misc.type }}</td>
+            <td>{{ misc.display_amount }}</td>
+            <td>{{ misc.use }}</td>
+            <td>{{ misc.time | round()}}</td>
         </tr>
         {% endfor -%}
     </table>

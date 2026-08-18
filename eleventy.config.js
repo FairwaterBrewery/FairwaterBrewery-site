@@ -119,9 +119,10 @@ export default async function(eleventyConfig) {
 
 	eleventyConfig.addPlugin(EleventyRenderPlugin);
 
-	eleventyConfig.addFilter("hopfilter", function (arr=[], key="", value) {
-		let items = arr?.filter(item => item[key][0] === value);
-		return items;
+	eleventyConfig.addFilter("itemfilter", function (arr = [], key = "", values) {
+	const matchValues = Array.isArray(values) ? values : [values];
+
+	return arr.filter(item => matchValues.includes(item[key][0]));
 	});
 	
 	eleventyConfig.addPlugin(faviconsPlugin, {"outputDir": "./_site"});
