@@ -456,6 +456,59 @@ figcaption {
   max-width: 45%;
   height: auto;
   object-fit: contain;
+}
+
+#checklist ul {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+#checklist li {
+  margin: 0.4rem 0;
+}
+
+
+.check-section {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 0.4rem 0;
+  cursor: pointer;
+  color: #333;
+}
+
+details[open] .check-section {
+  color: #000;
+}
+
+.check-section::after {
+  content: "▸";
+  float: right;
+  transition: transform 0.2s ease;
+}
+
+details[open] .check-section::after {
+  transform: rotate(90deg);
+}
+
+.check-item {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  font-size: 1.2rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.check-item input {
+  width: 1.6rem;
+  height: 1.6rem;
+  margin-right: 1rem;
+}
+
+#reset {
+  margin-top: 2rem;
+  padding: 1rem;
+  font-size: 1.1rem;
 }</style>
 		
 	</head>
@@ -505,6 +558,8 @@ figcaption {
     <div class="recipe">
     <h1 id="sour-times">Sour Times</h1>
     BeerXml file: <a href="/beerxml/Sour-Times.xml" target="_blank">Sour-Times.xml</a>
+    <br>
+    <a href="/recipes/Sour-Times/checklist">Checklist</a>
     <h3 id="vital-statistics">Vital statistics:</h3>
     <ul>
         <li>Type: All Grain
@@ -648,7 +703,7 @@ figcaption {
 			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.1.6</a></em></p>
 		</footer>
 
-		<!-- This page `/recipes/sour-times/` was built on 2026-08-18T11:36:45.749Z -->
+		<!-- This page `/recipes/sour-times/` was built on 2026-08-28T17:00:52.010Z -->
 		<script type="module" src="/dist/cC8wS6ZjFU.js"></script>
 	</body>
 </html>
