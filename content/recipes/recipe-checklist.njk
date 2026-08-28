@@ -1,0 +1,33 @@
+---
+pagination:
+  data: recipes
+  size: 1
+permalink: "recipes/{{ pagination.items[0].file | slugify }}/checklist/index.html"
+---
+
+{% set sections = pagination.items[0].sections %}
+
+<h1>{{ pagination.items[0].model.recipes.recipe[0].name[0] }} — Brewday Checklist</h1>
+<a href="/recipes/{{ pagination.items[0].file }}/">Recipe</a>
+<br/>
+<div id="checklist">
+  {% for section in sections %}
+    <details>
+      <summary class="check-section">{{ section.title }}</summary>
+      <ul>
+        {% for item in section.items %}
+          <li>
+            <label class="check-item">
+              <input type="checkbox" data-step-id="{{ section.id }}-{{ loop.index }}">
+              {{ item }}
+            </label>
+          </li>
+        {% endfor %}
+      </ul>
+    </details>
+  {% endfor %}
+</div>
+
+<button id="reset">Reset Checklist</button>
+
+<script src="/js/checklist.js"></script>

@@ -10,6 +10,8 @@ permalink: "recipes/{{ pagination.items[0].file | slugify }}/index.html"
     <div class="recipe">
     <h1>{{ recipe.name[0] }}</h1>
     BeerXml file: <a href="/beerxml/{{ item.file }}.xml" target="_blank">{{ item.file }}.xml</a>
+    <br/>
+    <a href="/recipes/{{ item.file }}/checklist">Checklist</a>
     <h3>Vital statistics:</h3>
     <ul>
         <li>Type: {{ recipe.type[0] }}
