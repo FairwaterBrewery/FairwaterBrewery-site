@@ -2,7 +2,7 @@
 pagination:
   data: recipes
   size: 1
-permalink: "recipes/{{ pagination.items[0].file | slugify }}/index.html"  
+permalink: "recipes/{{ pagination.items[0].file | slugify | lower}}/index.html"  
 ---
 
 {%- for item in pagination.items %}

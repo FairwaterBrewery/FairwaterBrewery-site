@@ -11,7 +11,7 @@ The first version was based on my frequent "Facets" receipe, with Nelson Sauvin.
 
 To make a bit more of a day of it, we've invited a bunch of friends over as well. Should be a nice day of brewing, drinking, eating, and chatting!
 
-[Here's the recipe.](/recipes/2026-08-01-Over-The-Fence-2/)
+[Here's the recipe.](/recipes/2026-08-01-over-the-fence-2/)
 
 <div class="image-row">
 

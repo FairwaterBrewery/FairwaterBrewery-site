@@ -11,5 +11,5 @@ The first time I did it was based on [this recipe (I think!) from TMM](https://w
 
 Last time I was pleased with it, and I wanted something similar for the hot summer we're having. Slight changes to the hop schedule to last time, to use what I had in stock, but I stuck with traditional noble varieties.
 
-[Here's the recipe.](/recipes/2026-07-11-Czech-Lager/)
+[Here's the recipe.](/recipes/2026-07-11-czech-lager/)
 

@@ -11,7 +11,7 @@ The name "Photon" has a simple explanation - it's the littlest bit of something 
 
 The recipe was created through conversations with CoPilot, but it doesn't appear to have hallucinated too much, so with luck this will be a nice beer, even if not hugely accurate.
 
-[Here's the recipe.](/recipes/2026-08-07-Photon/)
+[Here's the recipe.](/recipes/2026-08-07-photon/)
 
 After fighting a bit with getting my numbers at the end of the boil, I slowed my sparge right down to where it used to be, and this one was spot on. Guess that'll teach me!
 

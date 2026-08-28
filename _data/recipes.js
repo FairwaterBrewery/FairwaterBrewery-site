@@ -24,7 +24,7 @@ export default async function() {
       const sections = buildCollapsibleSections(brewday);
 
       return {
-        file: file.split('.').slice(0, -1).join('.'),
+        file: file.split('.').slice(0, -1).join('.').toLowerCase(),
         model,
         brewday,
         sections
