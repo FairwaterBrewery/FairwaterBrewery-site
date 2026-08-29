@@ -147,45 +147,45 @@ only after fermentation and storage.</NOTES>
  <VERSION>1</VERSION>
  <TYPE>Water Agent</TYPE>
  <USE>Mash</USE>
- <AMOUNT>0.002602</AMOUNT>
+ <AMOUNT>0.001288</AMOUNT>
  <TIME>60.00</TIME>
  <AMOUNT_IS_WEIGHT>TRUE</AMOUNT_IS_WEIGHT>
  <USE_FOR>Water Agent</USE_FOR>
  <NOTES>Dry (Annhydrous version). Alters water profile and pH of mash.  Use the BeerSmith Water Profile tool to determine amount to add.</NOTES>
- <DISPLAY_AMOUNT>2.60 g</DISPLAY_AMOUNT>
+ <DISPLAY_AMOUNT>1.29 g</DISPLAY_AMOUNT>
  <INVENTORY>0.00 g</INVENTORY>
  <DISPLAY_TIME>60.0 mins</DISPLAY_TIME>
- <BATCH_SIZE>24.88 L</BATCH_SIZE>
+ <BATCH_SIZE>12.31 L</BATCH_SIZE>
 </MISC>
 <MISC>
  <NAME>Gypsum (Calcium Sulfate)</NAME>
  <VERSION>1</VERSION>
  <TYPE>Water Agent</TYPE>
  <USE>Mash</USE>
- <AMOUNT>0.001453</AMOUNT>
+ <AMOUNT>0.000719</AMOUNT>
  <TIME>60.00</TIME>
  <AMOUNT_IS_WEIGHT>TRUE</AMOUNT_IS_WEIGHT>
  <USE_FOR>Water Agent</USE_FOR>
  <NOTES>Reduces PH of water for mashing and sparging.   Alters water profile -- used to harden soft water.  Use the BeerSmith Water Profile tool to determine amount to add.</NOTES>
- <DISPLAY_AMOUNT>1.45 g</DISPLAY_AMOUNT>
+ <DISPLAY_AMOUNT>0.72 g</DISPLAY_AMOUNT>
  <INVENTORY>0.00 g</INVENTORY>
  <DISPLAY_TIME>60.0 mins</DISPLAY_TIME>
- <BATCH_SIZE>24.88 L</BATCH_SIZE>
+ <BATCH_SIZE>12.31 L</BATCH_SIZE>
 </MISC>
 <MISC>
  <NAME>Salt</NAME>
  <VERSION>1</VERSION>
  <TYPE>Water Agent</TYPE>
  <USE>Mash</USE>
- <AMOUNT>0.001036</AMOUNT>
+ <AMOUNT>0.000513</AMOUNT>
  <TIME>60.00</TIME>
  <AMOUNT_IS_WEIGHT>TRUE</AMOUNT_IS_WEIGHT>
  <USE_FOR>Water Agent</USE_FOR>
  <NOTES>Table Salt (NaCl) may be used as a water mineral to adjust brewing water for mashing.</NOTES>
- <DISPLAY_AMOUNT>1.04 g</DISPLAY_AMOUNT>
+ <DISPLAY_AMOUNT>0.51 g</DISPLAY_AMOUNT>
  <INVENTORY>0.00 g</INVENTORY>
  <DISPLAY_TIME>60.0 mins</DISPLAY_TIME>
- <BATCH_SIZE>24.88 L</BATCH_SIZE>
+ <BATCH_SIZE>12.31 L</BATCH_SIZE>
 </MISC>
 <MISC>
  <NAME>Lactic Acid</NAME>
@@ -207,105 +207,105 @@ only after fermentation and storage.</NOTES>
  <VERSION>1</VERSION>
  <TYPE>Water Agent</TYPE>
  <USE>Mash</USE>
- <AMOUNT>0.000251</AMOUNT>
+ <AMOUNT>0.000124</AMOUNT>
  <TIME>60.00</TIME>
  <AMOUNT_IS_WEIGHT>TRUE</AMOUNT_IS_WEIGHT>
  <USE_FOR>Water Agent</USE_FOR>
  <NOTES>Water agent used to modify water profile.  Use the BeerSmith Water Profile tool to determine amount to add.</NOTES>
- <DISPLAY_AMOUNT>0.25 g</DISPLAY_AMOUNT>
+ <DISPLAY_AMOUNT>0.12 g</DISPLAY_AMOUNT>
  <INVENTORY>0.00 g</INVENTORY>
  <DISPLAY_TIME>60.0 mins</DISPLAY_TIME>
- <BATCH_SIZE>24.88 L</BATCH_SIZE>
+ <BATCH_SIZE>12.31 L</BATCH_SIZE>
 </MISC>
 <MISC>
  <NAME>Baking Soda</NAME>
  <VERSION>1</VERSION>
  <TYPE>Water Agent</TYPE>
  <USE>Mash</USE>
- <AMOUNT>0.000041</AMOUNT>
+ <AMOUNT>0.000020</AMOUNT>
  <TIME>60.00</TIME>
  <AMOUNT_IS_WEIGHT>TRUE</AMOUNT_IS_WEIGHT>
  <USE_FOR>Water Agent</USE_FOR>
  <NOTES>Baking Soda (NaHCO3) may be used as a water mineral to adjust brewing water for mashing.</NOTES>
- <DISPLAY_AMOUNT>0.04 g</DISPLAY_AMOUNT>
+ <DISPLAY_AMOUNT>0.02 g</DISPLAY_AMOUNT>
  <INVENTORY>0.00 g</INVENTORY>
  <DISPLAY_TIME>60.0 mins</DISPLAY_TIME>
- <BATCH_SIZE>24.88 L</BATCH_SIZE>
+ <BATCH_SIZE>12.31 L</BATCH_SIZE>
 </MISC>
 <MISC>
  <NAME>Calcium Chloride</NAME>
  <VERSION>1</VERSION>
  <TYPE>Water Agent</TYPE>
  <USE>Sparge</USE>
- <AMOUNT>0.000876</AMOUNT>
+ <AMOUNT>0.002190</AMOUNT>
  <TIME>60.00</TIME>
  <AMOUNT_IS_WEIGHT>TRUE</AMOUNT_IS_WEIGHT>
  <USE_FOR>Water Agent</USE_FOR>
  <NOTES>Dry (Annhydrous version). Alters water profile and pH of mash.  Use the BeerSmith Water Profile tool to determine amount to add.</NOTES>
- <DISPLAY_AMOUNT>0.88 g</DISPLAY_AMOUNT>
+ <DISPLAY_AMOUNT>2.19 g</DISPLAY_AMOUNT>
  <INVENTORY>0.00 g</INVENTORY>
  <DISPLAY_TIME>60.0 mins</DISPLAY_TIME>
- <BATCH_SIZE>8.37 L</BATCH_SIZE>
+ <BATCH_SIZE>20.94 L</BATCH_SIZE>
 </MISC>
 <MISC>
  <NAME>Gypsum (Calcium Sulfate)</NAME>
  <VERSION>1</VERSION>
  <TYPE>Water Agent</TYPE>
  <USE>Sparge</USE>
- <AMOUNT>0.000489</AMOUNT>
+ <AMOUNT>0.001223</AMOUNT>
  <TIME>60.00</TIME>
  <AMOUNT_IS_WEIGHT>TRUE</AMOUNT_IS_WEIGHT>
  <USE_FOR>Water Agent</USE_FOR>
  <NOTES>Reduces PH of water for mashing and sparging.   Alters water profile -- used to harden soft water.  Use the BeerSmith Water Profile tool to determine amount to add.</NOTES>
- <DISPLAY_AMOUNT>0.49 g</DISPLAY_AMOUNT>
+ <DISPLAY_AMOUNT>1.22 g</DISPLAY_AMOUNT>
  <INVENTORY>0.00 g</INVENTORY>
  <DISPLAY_TIME>60.0 mins</DISPLAY_TIME>
- <BATCH_SIZE>8.37 L</BATCH_SIZE>
+ <BATCH_SIZE>20.94 L</BATCH_SIZE>
 </MISC>
 <MISC>
  <NAME>Salt</NAME>
  <VERSION>1</VERSION>
  <TYPE>Water Agent</TYPE>
  <USE>Sparge</USE>
- <AMOUNT>0.000349</AMOUNT>
+ <AMOUNT>0.000872</AMOUNT>
  <TIME>60.00</TIME>
  <AMOUNT_IS_WEIGHT>TRUE</AMOUNT_IS_WEIGHT>
  <USE_FOR>Water Agent</USE_FOR>
  <NOTES>Table Salt (NaCl) may be used as a water mineral to adjust brewing water for mashing.</NOTES>
- <DISPLAY_AMOUNT>0.35 g</DISPLAY_AMOUNT>
+ <DISPLAY_AMOUNT>0.87 g</DISPLAY_AMOUNT>
  <INVENTORY>0.00 g</INVENTORY>
  <DISPLAY_TIME>60.0 mins</DISPLAY_TIME>
- <BATCH_SIZE>8.37 L</BATCH_SIZE>
+ <BATCH_SIZE>20.94 L</BATCH_SIZE>
 </MISC>
 <MISC>
  <NAME>Epsom Salt (MgSO4)</NAME>
  <VERSION>1</VERSION>
  <TYPE>Water Agent</TYPE>
  <USE>Sparge</USE>
- <AMOUNT>0.000084</AMOUNT>
+ <AMOUNT>0.000211</AMOUNT>
  <TIME>60.00</TIME>
  <AMOUNT_IS_WEIGHT>TRUE</AMOUNT_IS_WEIGHT>
  <USE_FOR>Water Agent</USE_FOR>
  <NOTES>Water agent used to modify water profile.  Use the BeerSmith Water Profile tool to determine amount to add.</NOTES>
- <DISPLAY_AMOUNT>0.08 g</DISPLAY_AMOUNT>
+ <DISPLAY_AMOUNT>0.21 g</DISPLAY_AMOUNT>
  <INVENTORY>0.00 g</INVENTORY>
  <DISPLAY_TIME>60.0 mins</DISPLAY_TIME>
- <BATCH_SIZE>8.37 L</BATCH_SIZE>
+ <BATCH_SIZE>20.94 L</BATCH_SIZE>
 </MISC>
 <MISC>
  <NAME>Baking Soda</NAME>
  <VERSION>1</VERSION>
  <TYPE>Water Agent</TYPE>
  <USE>Sparge</USE>
- <AMOUNT>0.000014</AMOUNT>
+ <AMOUNT>0.000034</AMOUNT>
  <TIME>60.00</TIME>
  <AMOUNT_IS_WEIGHT>TRUE</AMOUNT_IS_WEIGHT>
  <USE_FOR>Water Agent</USE_FOR>
  <NOTES>Baking Soda (NaHCO3) may be used as a water mineral to adjust brewing water for mashing.</NOTES>
- <DISPLAY_AMOUNT>0.01 g</DISPLAY_AMOUNT>
+ <DISPLAY_AMOUNT>0.03 g</DISPLAY_AMOUNT>
  <INVENTORY>0.00 g</INVENTORY>
  <DISPLAY_TIME>60.0 mins</DISPLAY_TIME>
- <BATCH_SIZE>8.37 L</BATCH_SIZE>
+ <BATCH_SIZE>20.94 L</BATCH_SIZE>
 </MISC>
 <MISC>
  <NAME>TMM ProMix</NAME>
